@@ -17,7 +17,7 @@ LEXICON Demonstrative
 der+Pron+Dem+Msc+Sg+Nom:der # ;
 der+Pron+Dem+Msc+Sg+Acc:den # ;
 der+Pron+Dem+Msc+Sg+Gen:des # ;
-der+Pron+Dem+Msc+Sg+Dat:dem # ;
+der+Pron+Dem+Msc+Sg+Dat:dem # ;
 
 LEXICON Reflexive
 # ;
