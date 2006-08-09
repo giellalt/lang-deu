@@ -1,0 +1,287 @@
+LEXICON Noun 
+
+! Klassen laut Wikipedia, 
+! http://de.wikipedia.org/wiki/Deutsche_Deklination
+
+! s1
+!In der Deklinationsklasse S1 sind alle starken Maskulina und Neutra versammelt, die Umlaut (a > ä, au > äu, o > ö, u > ü) sowie Endungsmorphem -e im Plural aufweisen; Doppelvokale werden im Plural zu einfach umgelautetem Vokal gekürzt (z.B. Saal - Säle).
+
+Fall s1m ;
+Bach s1m ;
+Napf s1m ;
+Zahn s1m ;
+Hof s1m ;
+Floß s1n ;
+
+! s2
+! In der Deklinationsklasse S2 sind alle Maskulina und Neutra vertreten, die im Plural Umlaut (siehe S1) sowie Endungsmorphem -er aufweisen.
+
+Balg s2m ;
+Rand s2m ;
+Mund s2m ; 
+Wurm s2m ;
+Amt  s2n ;
+Maul s2n ;
+Loch s2n ;
+Wort s2n ;
+Brett s2n ;
+Feld s2n ;
+Geld s2n ;
+Kind s2n ;
+Rind s2n ;
+Schwert s2n ;
+
+! s3
+! In der Deklinationsklasse S3 sind alle Feminina versammelt, die im Plural Umlaut (siehe S1) sowie Endungsmorphem -e aufweisen; es handelt sich um eine relativ kleine Klasse mit 30 bis 40 Substantiven.
+
+Angst s3f ;
+Kraft s3f ;
+Faust s3f ;
+Nuss  s3f ;
+Kuh   s3f ;
+Kunst s3f ;
+Macht s3f ;
+Maus  s3f ;
+Stadt s3f ;
+Wand  s3f ;
+Hand  s3f ;
+Laus  s3f ;
+
+! s4
+! In der Deklinationsklasse S4 finden sich alle Maskulina und Neutra, die im Unterschied zu S1 im Plural keinen Umlaut zeigen, ansonsten aber wie S1 flektieren. Hierher gehören auch alle Substantive mit hellem Stammvokal -e-, -i-, -ei-, die ohnehin nicht umgelautet werden können.
+
+Berg  s4m ;
+Docht s4m ;
+Fisch s4m ;
+Gurt  s4m ;
+Bein  s4n ;
+Brot  s4n ;
+Kamel s4n ;
+Pferd s4n ;
+Pergament s4n ;
+Testament s4n ;
+
+
+! s5
+! Zu dieser Klasse gehören vor allem Maskulina auf -er,-el und -en sowie zwei Feminina auf -er:
+
+Boden   s5m ;
+Bogen   s5m ;
+Bruder  s5m ;
+Faden   s5m ;
+Hafen   s5m ;
+Mutter  s5f ;
+Tochter s5f ;
+Kloster s5n ;
+
+! s6
+! Zu dieser Klasse gehören vor allem Maskulina und Neutra auf -er und -el; sie zeigen im Genitiv Singular die Endung -s und der Dativ Plural erhält das obligatorische -n.
+
+Bürger	  s6m ;
+Gegner	  s6m ;
+Meister	  s6m ;
+Artikel	  s6m ;
+Bengel	  s6m ;
+Bäcker	  s6m ;
+Jäger	  s6m ;
+Afrikaner s6m ;
+Ukrainer  s6m ;
+Alter	  s6n ;
+Feuer	  s6n ;
+Becken	  s6n ;
+Fenster	  s6n ;
+Rudel	  s6n ;
+Segel	  s6n ;
+
+
+! w1
+
+Bär w1m ; 
+Mensch w1m ; 
+Bube w1m ; 
+Nomade w1m ; 
+Kannibale w1m ; 
+Rivale w1m ; 
+Wandale w1m ; 
+
+Kannibale w1m ; 
+Rivale w1m ; 
+Wandale w1m ; 
+Proband w1m ; 
+Demonstrant w1m ; 
+Gigant w1m ; 
+Informant w1m ; 
+Mandant w1m ; 
+Musikant w1m ; 
+Mutant w1m ; 
+Passant w1m ; 
+Protestant w1m ; 
+Sextant w1m ; 
+Trabant w1m ; 
+Anarch w1m ; 
+Monarch w1m ; 
+Oligarch w1m ; 
+Autokrat w1m ; 
+Demokrat w1m ; 
+Kastrat w1m ; 
+Magnat w1m ; 
+Pirat w1m ; 
+Prälat w1m ; 
+Primat w1m ; 
+Soldat w1m ; 
+Abiturient w1m ; 
+Dozent w1m ; 
+Klient w1m ; 
+Konkurrent w1m ; 
+Kontrahent w1m ; 
+Präsident w1m ; 
+Student w1m ; 
+Exeget w1m ; 
+Magnet w1m ; 
+Prophet w1m ; 
+Anarchist w1m ; 
+Artist w1m ; 
+Buddhist w1m ; 
+Katholik w1m ; 
+Alewit w1m ; 
+Eremit w1m ; 
+Jemenit w1m ; 
+Schiit w1m ; 
+Sunnit w1m ; 
+Wahabit w1m ; 
+Klingone w1m ; 
+Mormone w1m ; 
+Ottone w1m ; 
+Mentor w1m ; 
+Tutor w1m ; 
+Vagabund w1m ;
+Astrologe w1m ; 
+Biologe w1m ; 
+Geologe w1m ; 
+Neurologe w1m ; 
+Philologe w1m ; 
+Psychologe w1m ;
+Astronom w1m ; 
+Ökonom w1m ; 
+Taxonom w1m ; 
+Philosoph w1m ; 
+Theosoph w1m ; 
+Afghane w1m ; 
+Apache w1m ; 
+Brite w1m ; 
+Chinese w1m ; 
+Burmese w1m ; 
+Däne w1m ; 
+Este w1m ; 
+Finne w1m ;
+
+
+! w2 f
+!Dies ist eine der größten und produktivsten Gruppen. Auch hier muss zwischen Substantiven, die auf -e enden und daher keinen Endungsvokal benötigen, und solchen, die auf Konsonant enden und daher -e vor der Endung einfügen, unterschieden werden - jeweils ein Beispiel:
+
+Achse w2f ; 
+Akazie w2f ; 
+Alge w2f ; 
+Allee w2f ; 
+Ameise w2f ; 
+Art w2f ; 
+Bucht w2f ; 
+Fahrt w2f ; 
+Flur w2f ; 
+Frau w2f ; 
+Furt w2f ; 
+Geburt w2f ; 
+Gruft w2f ; 
+Kluft w2f ; 
+Kost w2f ; 
+Mast w2f ; 
+Mur w2f ; 
+Schau w2f ; 
+Schicht w2f ; 
+Schlacht w2f ; 
+Schlucht w2f ; 
+Stirn w2f ; 
+Tat w2f ; 
+Uhr w2f ; 
+Werft w2f ; 
+Ammer w2f ; 
+Aster w2f ; 
+Blatter w2f ; 
+Elster w2f ; 
+Flunder w2f ; 
+Karbonade w2f ; 
+Limonade w2f ; 
+Marmelade w2f ; 
+Maskerade w2f ; 
+Parade w2f ; 
+Rochade w2f ; 
+Schokolade w2f ; 
+Fontäne w2f ; 
+Moräne w2f ; 
+Muräne w2f ; 
+Machete w2f ; 
+Rakete w2f ; 
+Kassette w2f ; 
+Klarinette w2f ; 
+Manschette w2f ; 
+Marionette w2f ; 
+Pinzette w2f ; 
+Pipette w2f ; 
+Rosette w2f ; 
+Silhouette w2f ;
+Chauffeuse w2f ; 
+Friseuse w2f ; 
+Allergie w2f ; 
+Embolie w2f ; 
+Doline w2f ; 
+Gardine w2f ; 
+Kantine w2f ; 
+Kusine w2f ; 
+Lawine w2f ; 
+Maschine w2f ; 
+Praline w2f ; 
+Rosine w2f ; 
+Saline w2f ; 
+Slawine w2f ; 
+Turbine w2f ; 
+Mode w2f ; 
+Periode w2f ; 
+Konsole w2f ; 
+Parole w2f ; 
+Diagnose w2f ; 
+Neurose w2f ; 
+Psychose w2f ; 
+Thrombose w2f ; 
+Tuberkulose w2f ; 
+Zirrhose w2f ; 
+Allüre w2f ; 
+Broschüre w2f ; 
+Lektüre w2f ; 
+Maniküre w2f ; 
+Wahrheit w2f ; 
+Restauration w2f ; 
+Hoffnung w2f ; 
+
+! w3
+! Diese Kleinklasse zeigt im Genitiv Singular die eigentlich den starken Substantiven vorbehalte Endung -s; bei konsonantischem Stammauslaut wird vor die Endung ein -e- eingefügt.
+
+Schmerz w3m ;
+Auge w3n ;
+Pfau w3n ;
+Ohr w3n ;
+Staat w3n ;
+
+! w4
+! Auch diese Kleinklasse zeigt -s im Genitiv Singular, jedoch kombiniert mit der eigentlichen schwachen Endung -(e)n, die in allen anderen Fällen vorherrscht.
+
+Buchstabe w4m ; 
+Name w4m ; 
+Same w4m ; 
+Friede w4m ; 
+Glaube w4m ; 
+Wille w4m ; 
+Gedanke w4m ;
+Herz w4n ;
+
+
+

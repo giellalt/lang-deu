@@ -1,0 +1,56 @@
+
+!  This file is a script for the Xerox xfst interface.
+
+clear stack
+echo << THE DEFININTIONS >>
+
+echo << defining Vow >>
+
+define Vow [ a | ä | e | i | o | ö | u | ü | y
+           | A | Ä | E | I | O | Ö | U | Ü | Y
+	   | u2
+	   | U2
+           ];
+
+echo << defining Cns >>
+define Cns [ b | c | d | f | g | h | j | k | l | m | n
+           | p | q | r | s | t | v | w | x | z ];
+
+define Syll [ (Cns) (Cns) Vow (Cns) (Cns) ] ; 
+
+echo << defining Boundary >>
+define Boundary %> ;
+
+
+
+
+
+! Consonant alternations in certain pos
+! -------------------------------------
+
+
+
+! Vowel shifts
+! ------------
+
+echo << defining the rules >>
+
+define Umlaut [ u2 -> ü || _ ?* +Pl ;
+
+echo << defining cleanup rules >>
+
+define Cleanup u2 -> u ;
+
+define BoundaryDeletion [ %> -> 0 ] ;
+
+echo << composing different parts >>
+
+read regex [ 
+Umlaut
+.o.
+Cleanup
+.o.
+BoundaryDeletion
+] ;
+
+

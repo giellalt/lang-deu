@@ -1,0 +1,172 @@
+
+! Die Deklinationsklassen
+
+LEXICON s1m
++N+Msc: s1 ;
+
+LEXICON s1n
++N+Neu: s1 ;
+
+LEXICON s2m
++N+Msc: s2 ;
+
+LEXICON s2n
++N+Neu: s2 ;
+
+
+LEXICON s3f
++N+Fem: s3 ;
+
+
+LEXICON s4m
++N+Msc: s4 ;
+
+
+LEXICON s4n
++N+Neu: s4 ;
+
+LEXICON s5m
++N+Msc: s5 ;
+
+LEXICON s5f
++N+Fem: s5 ;
+
+
+LEXICON s5n
++N+Neu: s5 ;
+
+
+LEXICON s6m
++N+Msc: s6 ;
+
+LEXICON s6n
++N+Neu: s6 ;
+
+LEXICON w1m
++N+Msc: w1 ;
+
+
+LEXICON w2f
++N+Fem: w2 ;
+
+
+LEXICON w3m
++N+Msc: w3 ;
+
+
+LEXICON w3n
++N+Neu: w3 ;
+
+
+LEXICON w4m
++N+Msc: w4 ;
+
+
+LEXICON w4n
++N+Neu: w4 ;
+
+
+
+! Numerus
+
+LEXICON s1
++Sg: sSg ;
++Pl:X1 s-en-Pl ;
+
+LEXICON s2
++Sg: sSg ;
++Pl:X1 s-ern-Pl ;
+
+LEXICON s3
++Sg: NULL ;
++Pl:X1 s-en-Pl ;
+
+LEXICON s4
++Sg: sSg ;
++Pl: s-en-Pl ;
+
+LEXICON s5
++Sg: s-Sg ;
++Pl:X1 NULL ;
+
+LEXICON s6
++Sg: s-Sg ;
++Pl: s-n-Pl ;
+
+LEXICON w1
++Sg: wSg ;
++Pl: NULL ;
+
+LEXICON w2
++Sg: NULL ;
++Pl:  wPl ;
+
+LEXICON w3
++Sg: s-Sg ;
++Pl: wPl ;
+
+LEXICON w4
++Sg: w-ns-Sg ;
++Pl: wPl ;
+
+! Kasus
+
+LEXICON sSg
++Nom: # ;
++Gen:%>s # ;
++Gen:%>es # ;
++Dat: # ;
++Dat:%>e # ;
++Acc: # ;
+
+LEXICON s-en-Pl
++Nom:%>e # ;
++Gen:%>e # ;
++Dat:%>en # ;
++Acc:%>e # ;
+
+LEXICON s-ern-Pl
++Nom:%>e # ;
++Gen:%>e # ;
++Dat:%>ern # ;
++Acc:%>e # ;
+
+LEXICON NULL
++Nom: # ;
++Gen: # ;
++Dat: # ;
++Acc: # ;
+
+LEXICON s-Sg
++Nom: # ;
++Gen:%>s # ;
++Dat: # ;
++Acc: # ;
+
+LEXICON s-n-Pl
++Nom:%> # ;
++Gen:%> # ;
++Dat:%>n # ;
++Acc:%> # ;
+
+LEXICON wSg
++Nom:%> # ;
++Gen:%>en # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+LEXICON wPl
++Nom:%>en # ;
++Gen:%>en # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+
+LEXICON w-ns-Sg
++Nom:%>en # ;
++Gen:%>ens # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+
+

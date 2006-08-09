@@ -1,0 +1,50 @@
+Multichar_Symbols
+
+! POS
++N +V +A 
++Adv +CC +CS +Interj +Pron +Num
+
+! Verbal MSP
++Prs +Prt +Prf 
++Ind +Imp +Conj +Opt
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Inf
+
+
+! Nominal MSP
++Msc +Fem +Neu
++Sg +Pl +Def +Indef
++Nom +Acc +Gen +Dat
++Adc 
++Ord
+
++PUNCT +CLB +HYPH
+
+!Archi
+
+a2 A2 o2 O2 u2 U2
+
+! Other
+
+ X1 X2 X3 X4 X5 X6 X7 X8 X9
+ Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9
+ Y1 Y2 Y3 Y4 Y5 Y6 Y7 Y8 Y9 
+ Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9 
+
+
+
+! Key lexicon
+
+LEXICON Root
+
+Noun ;
+Verb ;
+Adjective ;
+Adverb ;
+Conjunction ;
+Subjunction ;
+Interjection ;
+Numeral ;
+Pronoun ;
+Postposition ;
+Punctuation ;
