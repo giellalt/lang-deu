@@ -65,7 +65,9 @@ LEXICON w4m
 LEXICON w4n
 +N+Neu: w4 ;
 
-
+LEXICON MUTTER
++N+Sg: NULL ;
++N+Pl:X1 s-n-Pl ;
 
 ! Numerus
 
@@ -95,7 +97,7 @@ LEXICON s6
 
 LEXICON w1
 +Sg: wSg ;
-+Pl: NULL ;
++Pl: wPl ;
 
 LEXICON w2
 +Sg: NULL ;
@@ -132,10 +134,10 @@ LEXICON s-ern-Pl
 +Acc:%>e # ;
 
 LEXICON NULL
-+Nom: # ;
-+Gen: # ;
-+Dat: # ;
-+Acc: # ;
++Nom:%> # ;
++Gen:%> # ;
++Dat:%> # ;
++Acc:%> # ;
 
 LEXICON s-Sg
 +Nom: # ;
@@ -144,10 +146,10 @@ LEXICON s-Sg
 +Acc: # ;
 
 LEXICON s-n-Pl
-+Nom:%> # ;
-+Gen:%> # ;
-+Dat:%>n # ;
-+Acc:%> # ;
++Nom:%>e # ;
++Gen:%>e # ;
++Dat:%>en # ;
++Acc:%>e # ;
 
 LEXICON wSg
 +Nom:%> # ;

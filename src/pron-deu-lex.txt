@@ -4,7 +4,7 @@ Demonstrative ;
 Reflexive ;
 
 LEXICON Personal
-erer+Pron+Pers+Msc+Sg+Nom:er # ;
+er+Pron+Pers+Msc+Sg+Nom:er # ;
 er+Pron+Pers+Msc+Sg+Acc:ihn # ;
 er+Pron+Pers+Msc+Sg+Gen:ihnen # ;
 er+Pron+Pers+Msc+Sg+Dat:ihm # ;

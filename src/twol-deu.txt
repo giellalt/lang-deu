@@ -5,7 +5,7 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
- u2:u o2:o a2:a
+
 
  %#:0 %>:0
 
@@ -27,10 +27,29 @@ Sets
 Rules
 
 "Umlaut"
- Vx:Vy <=> _ Cns:+ (Vow) X1: %>:  ;
+ Vx:Vy <=> _ Cns:+ ( e LNR ) X1: %>:  ;
     where Vx in (u o a U O A)
-          Vy in (ü  ö  ä Ü Ö Ä )
+          Vy in (ü ö ä Ü Ö Ä )
           matched ;
           
+!€ NapfX1%>e#
+!€ Näpf00e0
 
-          
+!€ BodenX1%>#
+!€ Böden000
+
+!$ NapfX1%>e#
+!$ Napf00e0
+
+!$ BodenX1%>#
+!$ Boden000
+
+"Weak e Deletion"
+ e:0 <=> Vow Cns:+ _ (Dummy:) %>: e ;
+
+!€ Nomade%>en#
+!€ Nomad00en0
+
+!$ Nomade%>en#
+!$ Nomade0en0
+           

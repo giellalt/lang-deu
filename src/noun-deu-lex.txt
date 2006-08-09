@@ -6,6 +6,8 @@ LEXICON Noun
 ! s1
 !In der Deklinationsklasse S1 sind alle starken Maskulina und Neutra versammelt, die Umlaut (a > ä, au > äu, o > ö, u > ü) sowie Endungsmorphem -e im Plural aufweisen; Doppelvokale werden im Plural zu einfach umgelautetem Vokal gekürzt (z.B. Saal - Säle).
 
+Baum s1m ; ! Bäume
+Saal s1m ; ! Säle
 Fall s1m ;
 Bach s1m ;
 Napf s1m ;
@@ -70,8 +72,8 @@ Bogen   s5m ;
 Bruder  s5m ;
 Faden   s5m ;
 Hafen   s5m ;
-Mutter  s5f ;
-Tochter s5f ;
+Mutter  MUTTER ;
+Tochter MUTTER ;
 Kloster s5n ;
 
 ! s6
