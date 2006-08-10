@@ -412,11 +412,21 @@ savefile:
 # TWOL-testing :
 #===============
 
+# TWOL-testing :
+# ==============
+
+# Usage:
+# make twol-test (extracts the test words from src/twol-deu.txt)
+# make twol-pos  (tests for the positive test pairs, prints output to twol-pos.out)
+# make twol-neg  (tests for the positive test pairs, prints output to twol-neg.out)
+# make twol-test FILE=filename.txt (test for pairs in filename.txt)
+# make twol      (when the rules themselves are changed, will recompile the binary)
+
 TWOLC = twolc -utf8
 TYPE = pos
-FILE =
 FILEPOS = twol-pos.in
 FILENEG = twol-neg.in
+FILE = $(FILEPOS)
 
 twol-extract: ../src/twol-deu.txt
 	@echo
@@ -435,6 +445,19 @@ twol-test: ../bin/twol-deu.bin twol-extract
 	$(TWOLC) < $(TEMP)/twol-test-script
 	@rm -f $(TEMP)/twol-test-script
 
+# convenience target: if one needs to recompile the twol (e.g. after rule changes),
+# just write make twol
+twol: ../src/twol-deu.txt
+	@echo
+	@echo "*** Building twol-deu.bin ***" ;
+	@echo
+	@printf "read-grammar $< \n\
+	compile \n\
+	save-binary $@ \n\
+	quit \n" > twol-script
+	$(TWOLC) < twol-script
+	@rm -f twol-script
+
 twol-pos: TYPE=pos
 twol-pos: FILE=$(FILEPOS)
 twol-pos: twol-test
@@ -443,4 +466,5 @@ twol-neg: TYPE=neg
 twol-neg: FILE=$(FILENEG)
 twol-neg: twol-test
 
+# This doesn't work, because both twol-pos and twol-neg call twol-test
 twol-both: twol-pos twol-neg
