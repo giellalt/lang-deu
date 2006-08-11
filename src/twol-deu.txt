@@ -15,8 +15,10 @@ Alphabet
  Z1:0 Z2:0 Z3:0 Z4:0 Z5:0 Z6:0 Z7:0 Z8:0 Z9:0 ;
 
 Sets
- Vow = a e i o u y æ ø å ä ö ü ;
- Cns = b c d f g h j k l m n p q r s t v w x z ß ;
+ Vow = a e i o u y æ ø å ä ö ü 
+       A E I O U Y Æ Ø Å Ä Ö Ü ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ß 
+       B C D F G H J K L M N P Q R S T V W X Z;
  LNR = l n r ;
  Dummy = X1 X2 X3 X4 X5 X6 X7 X8 X9
  Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9
@@ -27,7 +29,7 @@ Sets
 Rules
 
 "Umlaut"
- Vx:Vy <=> _ Cns:+ ( e LNR ) X1: %>:  ;
+ Vx:Vy <=>  Cns _ Cns:+ ( e LNR ) X1: %>:  ;
     where Vx in (u o a U O A)
           Vy in (ü ö ä Ü Ö Ä )
           matched ;
@@ -43,6 +45,24 @@ Rules
 
 !$ BodenX1%>#
 !$ Boden000
+
+          
+"Umlaut vor Vokal" 
+ Vx:Vy <=>  Cns _ [ u | a: ] Cns:+ ( e LNR ) X1: %>:  ;
+    where Vx in (a A)
+          Vy in (ä Ä)
+          matched ;         
+ 
+!€ BaumX1%>e#
+!€ Bäum00e0
+
+"Entfernung von a in aa Umlaut"
+a:0 <=> a: _ Cns:+ ( e LNR ) X1: %>:  ;
+
+!€ SaalX1%>e#
+!€ Sä0l00e0
+
+
 
 "Weak e Deletion"
  e:0 <=> Vow Cns:+ _ (Dummy:) %>: e ;
