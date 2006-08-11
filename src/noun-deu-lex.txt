@@ -74,8 +74,8 @@ Bogen   s5m ;
 Bruder  s5m ;
 Faden   s5m ;
 Hafen   s5m ;
-Mutter  MUTTER ;
-Tochter MUTTER ;
+Mutter  s5f ;
+Tochter s5f ;
 Kloster s5n ;
 
 ! s6
