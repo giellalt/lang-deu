@@ -28,10 +28,6 @@ LEXICON s4n
 LEXICON s5m
 +N+Msc: s5 ;
 
-LEXICON s5f
-+N+Fem: s5 ;
-
-
 LEXICON s5n
 +N+Neu: s5 ;
 
@@ -65,7 +61,7 @@ LEXICON w4m
 LEXICON w4n
 +N+Neu: w4 ;
 
-LEXICON MUTTER
+LEXICON s5f
 +N+Sg: NULL ;
 +N+Pl:X1 s-n-Pl ;
 
