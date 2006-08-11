@@ -15,6 +15,7 @@ Zahn s1m ;
 Hof s1m ;
 Floß s1n ;
 
+
 ! s2
 ! In der Deklinationsklasse S2 sind alle Maskulina und Neutra vertreten, die im Plural Umlaut (siehe S1) sowie Endungsmorphem -er aufweisen.
 
@@ -62,6 +63,7 @@ Kamel s4n ;
 Pferd s4n ;
 Pergament s4n ;
 Testament s4n ;
+Moor s4n ;
 
 
 ! s5
@@ -102,10 +104,6 @@ Bär w1m ;
 Mensch w1m ; 
 Bube w1m ; 
 Nomade w1m ; 
-Kannibale w1m ; 
-Rivale w1m ; 
-Wandale w1m ; 
-
 Kannibale w1m ; 
 Rivale w1m ; 
 Wandale w1m ; 
