@@ -1,2 +1,79 @@
+
+
+! Es kompiliert nicht.
+! Wir müssen flag diacritics brauchen, ich habe aber anderes
+! gemacht, und gehen jetzt schlafen.
+! Das problem ist also ge-
+
+! Die Verben
+
+! Irregulare
+! Starke
+! Schwache
+
+
+
 LEXICON Verb
-Verbm  ;
+
+
+!ge@P.ge.ON@ Starke ;
+ge@P.ge.ON@ Swache ;
+!Irregulare ;
+Prafixe ;
+
+!LEXICON Prafixe
+
+!ab AB- ;
+!be BE- ;
+!ein EIN- ;
+!nach NACH- ;
+!ver VER- ;
+!vor VOR- ;
+!zu ZU- ;
+
+!LEXICON AB-
+!LEXICON BE-
+
+!LEXICON EIN-
+!gehen irr-vii ;
+!setzen:setz SW ;
+
+!LEXICON NACH-
+!schlagen:schlag 
+!LEXICON VER-
+!LEXICON VOR-
+!LEXICON ZU-
+
+!LEXICON Irregularew
+
+! Irregulare Verben
+
+LEXICON Starke
+
+LEXICON Schwache
+
+winken:wink SW ;
+
+
+LEXICON SW
++V+Inf:%>en # ;
++V+Ind+Prs:%> Prs ;
++V+Ind+Prt:>t Prt ;
++V+Prf:%>t ENDLEX ;
+
+LEXICON Prs
++Sg1:e # ;
++Sg2:st # ;
++Sg3:t # ;
++Pl3:en # ;
++Pl3:t # ;
++Pl3:en # ;
+
+LEXICON Prt
++Sg1:e # ;
++Sg2:est # ;
++Sg3:e # ;
++Pl3:en # ;
++Pl3:et # ;
++Pl3:en # ;
+
