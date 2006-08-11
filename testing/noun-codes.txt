@@ -6,7 +6,6 @@
 +N+Msc+Pl+Gen
 +N+Msc+Pl+Dat
 +N+Msc+Pl+Acc
-
 +N+Fem+Sg+Nom
 +N+Fem+Sg+Gen
 +N+Fem+Sg+Dat
@@ -15,7 +14,6 @@
 +N+Fem+Pl+Gen
 +N+Fem+Pl+Dat
 +N+Fem+Pl+Acc
-
 +N+Neu+Sg+Nom
 +N+Neu+Sg+Gen
 +N+Neu+Sg+Dat
