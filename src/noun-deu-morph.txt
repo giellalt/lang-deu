@@ -131,7 +131,7 @@ LEXICON s-ern-Pl
 +Nom:%>e # ;
 +Gen:%>e # ;
 +Dat:%>ern # ;
-+Acc:%>e # ;
++Acc:%>er # ;
 
 LEXICON NULL
 +Nom:%> # ;
