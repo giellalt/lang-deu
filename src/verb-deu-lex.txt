@@ -16,14 +16,14 @@
 LEXICON Verb
 
 
-!ge@P.ge.ON@ Starke ;
-ge@P.ge.ON@ Swache ;
+!ge Starke ;
+ge:geX2 Swache ;
 !Irregulare ;
 Prafixe ;
 
-!LEXICON Prafixe
+LEXICON Prafixe
 
-!ab AB- ;
+ab AB- ;
 !be BE- ;
 !ein EIN- ;
 !nach NACH- ;
@@ -32,6 +32,7 @@ Prafixe ;
 !zu ZU- ;
 
 !LEXICON AB-
+winken:wink SW ;
 !LEXICON BE-
 
 !LEXICON EIN-
@@ -53,27 +54,4 @@ LEXICON Starke
 LEXICON Schwache
 
 winken:wink SW ;
-
-
-LEXICON SW
-+V+Inf:%>en # ;
-+V+Ind+Prs:%> Prs ;
-+V+Ind+Prt:>t Prt ;
-+V+Prf:%>t ENDLEX ;
-
-LEXICON Prs
-+Sg1:e # ;
-+Sg2:st # ;
-+Sg3:t # ;
-+Pl3:en # ;
-+Pl3:t # ;
-+Pl3:en # ;
-
-LEXICON Prt
-+Sg1:e # ;
-+Sg2:est # ;
-+Sg3:e # ;
-+Pl3:en # ;
-+Pl3:et # ;
-+Pl3:en # ;
 
