@@ -1,9 +1,9 @@
 
-LEXICON SW
-+V+Inf:%>en # ;
-+V+Ind+Prs:%> Prs ;
-+V+Ind+Prt:>t Prt ;
-+V+Prf:%>t ENDLEX ;
+LEXICON W
++V+Inf@D.PTC@:%>en@D.PTC@ # ;
++V+Prf@R.PTC.ON@:%>t@R.PTC.ON@ # ;
++V+Ind+Prs@D.PTC@:%>@D.PTC@ Prs ;
++V+Ind+Prt@D.PTC@:%>t@D.PTC@ Prt ;
 
 LEXICON Prs
 +Sg1:e # ;
@@ -20,4 +20,7 @@ LEXICON Prt
 +Pl3:en # ;
 +Pl3:et # ;
 +Pl3:en # ;
+
+
+
 

@@ -16,10 +16,11 @@
 LEXICON Verb
 
 
-!ge Starke ;
-ge:geX2 Swache ;
-!Irregulare ;
-Prafixe ;
+		          Prafixe ;
+	                ! Irregulare ;
+	                ! Starke ;
+ge@P.PTC.ON@   Schwache ; ! Ptc
+                          Schwache ; ! Andere
 
 LEXICON Prafixe
 
@@ -31,13 +32,13 @@ ab AB- ;
 !vor VOR- ;
 !zu ZU- ;
 
-!LEXICON AB-
-winken:wink SW ;
+LEXICON AB-
+winken:wink W ;
 !LEXICON BE-
 
 !LEXICON EIN-
 !gehen irr-vii ;
-!setzen:setz SW ;
+!setzen:setz W ;
 
 !LEXICON NACH-
 !schlagen:schlag 
@@ -49,9 +50,8 @@ winken:wink SW ;
 
 ! Irregulare Verben
 
-LEXICON Starke
+!LEXICON Starke
 
 LEXICON Schwache
-
-winken:wink SW ;
-
+winken:wink W ;
+reden:red W ;
