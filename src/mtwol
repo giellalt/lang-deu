@@ -1,15 +1,17 @@
-# This is a makefile that builds the XXX morphological parser
-# *****************************************************************
-# This is a dummy file. DEU refers to the name of the language, deu to the 
-# ISO code of the language, for use in file names.
+# ****************************************************************** #
+# This is a makefile that builds the morphological parser for German #
+# ****************************************************************** #
 
-# This is a preliminary file that builds a DEU parser based upon
-# xfst and not twolc.
+# The file builds a DEU parser based upon twolc.
+
+# This is the ultimate goal (for the initial goal, read from the bottom of the file).
 
 # Here we build the final generator , an inverted transducer of the analyzer.
-# It is dependent upon deu.save
-
-
+# It is dependent upon deu.save (and not upon deu.fst, we don't want to generate
+# Was, only was.
+# "invert net" means that all a:b are changed to b:a, which is what we want.
+# usage for the resulting file: lookup -flags mbTT -utf8 bin/ideu.fst
+# and then feed winken+V+Ind+Sg1 to get winke etc.
 
 ideu.fst: ../bin/ideu.fst
 ../bin/ideu.fst: ../bin/deu.fst
@@ -24,7 +26,8 @@ ideu.fst: ../bin/ideu.fst
 	@rm -f ../../tmp/ideu-fst-script
 
 
-# This goal is to build the final analyser. It depends on all the files.
+# This goal is to build the final analyser. It depends, indirectly, on all the files.
+# what we do is that we put the transducers after each other
 
 deu.fst: ../bin/deu.fst
 ../bin/deu.fst: ../bin/deu.save ../bin/caseconv.fst ../bin/tok.fst 
@@ -39,8 +42,8 @@ deu.fst: ../bin/deu.fst
 	@rm -f ../../tmp/deu-fst-script
 
 
-# The second goal is to build the caseconv.fst file
-# This goal depends on case.regex
+# This minor goal is to build the caseconv.fst file (for Was vs. was)
+# It depends on case.regex, and only upon that.
 
 caseconv.fst: ../bin/caseconv.fst
 ../bin/caseconv.fst: case.regex
@@ -54,7 +57,14 @@ caseconv.fst: ../bin/caseconv.fst
 	@rm -f ../../tmp/caseconv-script
 
 
-# Another goal is to build a preprocessor.This goal depends on tok.txt
+# Another goal is to build a preprocessor (also known as tokenizer).
+# This goal depends on tok.txt
+# We actually don't use tok.fst so much, we use preprocess, but tok.txt
+# is here, anyway, ready for use. Usage (standing in deu/):
+# cat text.txt | tokenize bin/tok.fst | lookup ...
+# Instead of
+# cat text.txt | preprocess --abbr=bin/abbr.txt| lookup ...
+# But then, we never made the german abbr list.
 
 tok.fst: ../bin/tok.fst
 ../bin/tok.fst: tok.txt
@@ -68,8 +78,9 @@ tok.fst: ../bin/tok.fst
 	@rm -f ../../tmp/tok-script
 
 
-# The first goal is to build deu-save
-# This goal depends on a bunch of lexicon files and upon twol
+# The next, or second, goal is to build deu.save
+# This goal depends on a bunch of lexicon files and upon the twol file from
+# the first goal below (twol-deu.bin, that is).
 
 deu.save: ../bin/deu.save
 ../bin/deu.save: ../bin/twol-deu.bin deu-lex.txt noun-deu-morph.txt noun-deu-lex.txt \
@@ -90,8 +101,8 @@ deu.save: ../bin/deu.save
 	@lexc -utf8 < ../../tmp/deu-lex-save-script
 	rm -f ../../tmp/deu-lex-save-script
 
-# The second goal is to build xfst-deu.bin
-# This goal depends on xfst-deu.txt
+# The initial goal is to build twol-deu.bin
+# This goal depends on twol-deu.txt
 
 
 twol-deu.bin: ../bin/twol.deu.bin
