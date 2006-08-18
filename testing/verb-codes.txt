@@ -11,5 +11,5 @@
 +V+Ind+Prt+Pl1
 +V+Ind+Prt+Pl2
 +V+Ind+Prt+Pl3
-+V+Ptc
++V+Prf
 
