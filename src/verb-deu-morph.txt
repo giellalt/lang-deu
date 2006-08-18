@@ -1,9 +1,16 @@
+! ======================== !
+! Deutsche Verbmorphologie !
+! ======================== !
+
+
+! Schwache Verben
+! ===============
 
 LEXICON W
-+V+Inf@D.PTC@:%>en@D.PTC@ # ;
-+V+Prf@R.PTC.ON@:%>t@R.PTC.ON@ # ;
-+V+Ind+Prs@D.PTC@:%>@D.PTC@ Prs ;
-+V+Ind+Prt@D.PTC@:%>t@D.PTC@ Prt ;
++V+Inf@D.PTC@:%>en@D.PTC@      # ;    ! Alle ge- formen wegnehmen.
++V+Prf@R.PTC.ON@:%>t@R.PTC.ON@ # ;    ! ge-formen akseptiert.
++V+Ind+Prs@D.PTC@:%>@D.PTC@    Prs ;
++V+Ind+Prt@D.PTC@:%>t@D.PTC@   Prt ;
 
 LEXICON Prs
 +Sg1:e # ;
