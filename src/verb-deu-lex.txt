@@ -27,6 +27,8 @@ LEXICON Verb
 @P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
                Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
 
+
+
 LEXICON Prafixe
 
 
@@ -57,3 +59,7 @@ holen:hol W ;
 LEXICON Schwache
 winken:wink W ;
 reden:red W ;
+bellen:bell W ;
+blinken:blink  W ;
+hinken:hink W ;
+schminken:schmink W ;
