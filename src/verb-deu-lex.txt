@@ -1,9 +1,7 @@
+! ===================== !
+! Deutsches Verblexicon !
+! ===================== !
 
-
-! Es kompiliert nicht.
-! Wir müssen flag diacritics brauchen, ich habe aber anderes
-! gemacht, und gehen jetzt schlafen.
-! Das problem ist also ge-
 
 ! Die Verben
 
@@ -11,40 +9,44 @@
 ! Starke
 ! Schwache
 
+! Strategie:
 
+! Das Lexicon Verb verteilt sich in Prafixe und in andere Lexica.
+! Die andere bekommen Duplikaten, mit und ohne ge-.
+! Die ge-Formen haben @P.PTC.ON@, heisst:
+! Ich muss mein P-feature gecheckt haben.
 
 LEXICON Verb
 
 
-		          Prafixe ;
-	                ! Irregulare ;
-	                ! Starke ;
-ge@P.PTC.ON@   Schwache ; ! Ptc
-                          Schwache ; ! Andere
+		       Prafixe ; ! Brauchen kein ge-
+!ge@P.PTC.ON@  Irregulare ;
+!	           Irregulare ;
+!ge@P.PTC.ON@  Starke ;
+!              Starke ;
+@P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
+               Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
 
 LEXICON Prafixe
 
-ab AB- ;
-!be BE- ;
-!ein EIN- ;
-!nach NACH- ;
-!ver VER- ;
-!vor VOR- ;
-!zu ZU- ;
 
-LEXICON AB-
-winken:wink W ;
+!be BE- ;
+!emp EMP- ;
+ent ENT- ;
+!er ER- ;
+!ge GE- ;
+!ver VER- ;
+wieder WIEDER- ;
+!zer ZER- ;
+
 !LEXICON BE-
 
-!LEXICON EIN-
-!gehen irr-vii ;
-!setzen:setz W ;
+LEXICON ENT-
+fernen:fern W ;
+fremden:fremd W ;
+LEXICON WIEDER-
+holen:hol W ;
 
-!LEXICON NACH-
-!schlagen:schlag 
-!LEXICON VER-
-!LEXICON VOR-
-!LEXICON ZU-
 
 !LEXICON Irregularew
 
