@@ -24,7 +24,10 @@ Multichar_Symbols
 
 a2 A2 o2 O2 u2 U2
 
-@P.PTC.ON@ @D.PTC@ @R.PTC.ON@
+! Flags dokumentiert in Kapitel 8 des Buches, s. 456 zB.
+@P.PTC.ON@ ! Positive (re)setting
+@D.PTC@ ! Disallow test 
+@R.PTC.ON@ ! Require test
 
 ! Other
 
