@@ -18,7 +18,7 @@ Multichar_Symbols
 +Adc 
 +Ord
 
-+PUNCT +CLB +HYPH
++PUNCT +CLB +HYPH +LEFT +RIGHT
 
 !Archi
 
