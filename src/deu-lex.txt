@@ -15,8 +15,8 @@ Multichar_Symbols
 +Msc +Fem +Neu
 +Sg +Pl +Def +Indef
 +Nom +Acc +Gen +Dat
-+Adc 
-+Ord
++Dem +Pers
++Adc +Ord
 
 +PUNCT +CLB +HYPH +LEFT +RIGHT
 
