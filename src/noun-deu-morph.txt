@@ -3,7 +3,7 @@
 
 LEXICON s1m
 +N+Msc: s1 ;
-
+s1m; ! remove this stupid line, testing only.
 LEXICON s1n
 +N+Neu: s1 ;
 
