@@ -19,13 +19,13 @@
 LEXICON Verb
 
 
-		       Prafixe ; ! Brauchen kein ge-
-!ge@P.PTC.ON@  Irregulare ;
-!	           Irregulare ;
-!ge@P.PTC.ON@  Starke ;
-!              Starke ;
+	                  Prafixe ; ! Brauchen kein ge-
+!ge@P.PTC.ON@             Irregulare ;
+!	                  Irregulare ;
+!ge@P.PTC.ON@             Starke ;
+!                         Starke ;
 @P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
-               Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
+                          Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
 
 
 
@@ -34,11 +34,11 @@ LEXICON Prafixe
 
 !be BE- ;
 !emp EMP- ;
-ent ENT- ;
+ ent ENT- ;
 !er ER- ;
 !ge GE- ;
 !ver VER- ;
-wieder WIEDER- ;
+ wieder WIEDER- ;
 !zer ZER- ;
 
 !LEXICON BE-
@@ -46,6 +46,7 @@ wieder WIEDER- ;
 LEXICON ENT-
 fernen:fern W ;
 fremden:fremd W ;
+
 LEXICON WIEDER-
 holen:hol W ;
 

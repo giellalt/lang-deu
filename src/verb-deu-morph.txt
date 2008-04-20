@@ -7,26 +7,36 @@
 ! ===============
 
 LEXICON W
-+V+Inf@D.PTC@:%>en@D.PTC@      # ;    ! Alle ge- formen wegnehmen.
-+V+Prf@R.PTC.ON@:%>t@R.PTC.ON@ # ;    ! ge-formen akseptiert.
-+V+Ind+Prs@D.PTC@:%>@D.PTC@    Prs ;
-+V+Ind+Prt@D.PTC@:%>t@D.PTC@   Prt ;
++V:         KeinPraf ;    ! Alle ge- formen wegnehmen.
++V+Prf:%>t  Praf ;    ! ge-formen akseptiert.
+
+
+LEXICON KeinPraf
+@D.PTC@     Inf ;
+@D.PTC@     Prs ;
+@D.PTC@     Prt ;
+
+LEXICON Praf
+@R.PTC.ON@     # ;
+
+LEXICON Inf
++Inf:%>en # ;
 
 LEXICON Prs
-+Sg1:e # ;
-+Sg2:st # ;
-+Sg3:t # ;
-+Pl3:en # ;
-+Pl3:t # ;
-+Pl3:en # ;
++Ind+Prs+Sg1:e  # ;
++Ind+Prs+Sg2:st # ;
++Ind+Prs+Sg3:t  # ;
++Ind+Prs+Pl3:en # ;
++Ind+Prs+Pl3:t  # ;
++Ind+Prs+Pl3:en # ;
 
 LEXICON Prt
-+Sg1:e # ;
-+Sg2:est # ;
-+Sg3:e # ;
-+Pl3:en # ;
-+Pl3:et # ;
-+Pl3:en # ;
++Ind+Prt+Sg1:te   # ;
++Ind+Prt+Sg2:test # ;
++Ind+Prt+Sg3:te   # ;
++Ind+Prt+Pl3:ten  # ;
++Ind+Prt+Pl3:tet  # ;
++Ind+Prt+Pl3:ten  # ;
 
 
 
