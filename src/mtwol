@@ -6,6 +6,20 @@
 
 # This is the ultimate goal (for the initial goal, read from the bottom of the file).
 
+
+XFST = xfst -utf8
+LEXC = lexc -utf8
+TWOLC = twolc -utf8
+
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+LEXC = /opt/sami/xerox/bin/lexc -utf8
+TWOLC = /opt/sami/xerox/bin/twolc -utf8
+endif
+
+
+
+
 # Here we build the final generator , an inverted transducer of the analyzer.
 # It is dependent upon deu.save (and not upon deu.fst, we don't want to generate
 # Was, only was.
@@ -22,7 +36,7 @@ ideu.fst: ../bin/ideu.fst
 	invert net \n\
 	save stack ../bin/ideu.fst \n\
 	quit \n" > ../../tmp/ideu-fst-script
-	@xfst -utf8 < ../../tmp/ideu-fst-script
+	$(XFST) < ../../tmp/ideu-fst-script
 	@rm -f ../../tmp/ideu-fst-script
 
 
@@ -38,7 +52,7 @@ deu.fst: ../bin/deu.fst
 	[@\"../bin/caseconv.fst\"]] ; \n\
 	save stack ../bin/deu.fst \n\
 	quit \n" > ../../tmp/deu-fst-script
-	@xfst -utf8 < ../../tmp/deu-fst-script
+	$(XFST) < ../../tmp/deu-fst-script
 	@rm -f ../../tmp/deu-fst-script
 
 
@@ -53,7 +67,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst -utf8 < ../../tmp/caseconv-script
+	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -74,7 +88,7 @@ tok.fst: ../bin/tok.fst
 	@printf "source tok.txt \n\
 	save stack ../bin/tok.fst \n\
 	quit \n" > ../../tmp/tok-script
-	@xfst -utf8 < ../../tmp/tok-script
+	$(XFST) < ../../tmp/tok-script
 	@rm -f ../../tmp/tok-script
 
 
@@ -98,7 +112,7 @@ deu.save: ../bin/deu.save
 	compose-result \n\
 	save-result ../bin/deu.save \n\
 	quit \n" > ../../tmp/deu-lex-save-script
-	@lexc -utf8 < ../../tmp/deu-lex-save-script
+	$(LEXC) < ../../tmp/deu-lex-save-script
 	rm -f ../../tmp/deu-lex-save-script
 
 # The initial goal is to build twol-deu.bin
@@ -114,7 +128,7 @@ twol-deu.bin: ../bin/twol.deu.bin
 	compile \n\
 	save-binary ../bin/twol-deu.bin \n\
 	quit \n" > /tmp/twol-deu-script
-	@twolc -utf8 < /tmp/twol-deu-script
+	$(TWOLC) < /tmp/twol-deu-script
 	@rm -f /tmp/twol-deu-script
 
 
