@@ -37,6 +37,8 @@ echo << defining the rules >>
 
 define Umlaut [ u2 -> ü || _ ?* +Pl ;
 
+define Epenthese [ [..] -> e || [d|t] %> _ t ]
+
 echo << defining cleanup rules >>
 
 define Cleanup u2 -> u ;
@@ -47,6 +49,8 @@ echo << composing different parts >>
 
 read regex [ 
 Umlaut
+.o.
+Epenthese
 .o.
 Cleanup
 .o.
