@@ -7,9 +7,9 @@
 # This is the ultimate goal (for the initial goal, read from the bottom of the file).
 
 
-XFST = xfst -utf8
-LEXC = lexc -utf8
-TWOLC = twolc -utf8
+XFST = xfst #-utf8
+LEXC = lexc #-utf8
+TWOLC = twolc #-utf8
 
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
