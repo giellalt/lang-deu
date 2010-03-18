@@ -44,31 +44,31 @@ ideu.fst: ../bin/ideu.fst
 # what we do is that we put the transducers after each other
 
 deu.fst: ../bin/deu.fst
-../bin/deu.fst: ../bin/deu.save ../bin/caseconv.fst ../bin/tok.fst 
+../bin/deu.fst: ../bin/deu.save ../bin/inituppercase.fst ../bin/tok.fst 
 	@echo
 	@echo "*** Building deu.fst ***" ;
 	@echo
 	@printf "read regex [[@\"../bin/deu.save\"] .o. \
-	[@\"../bin/caseconv.fst\"]] ; \n\
+	[@\"../bin/inituppercase.fst\"]] ; \n\
 	save stack ../bin/deu.fst \n\
 	quit \n" > ../../tmp/deu-fst-script
 	$(XFST) < ../../tmp/deu-fst-script
 	@rm -f ../../tmp/deu-fst-script
 
 
-# This minor goal is to build the caseconv.fst file (for Was vs. was)
-# It depends on case.regex, and only upon that.
+# This minor goal is to build the inituppercase.fst file (for Was vs. was)
+# It depends on  inituppercase.regex, and only upon that.
 
-caseconv.fst: ../bin/caseconv.fst
-../bin/caseconv.fst: case.regex
+inituppercase.fst: ../bin/inituppercase.fst
+../bin/inituppercase.fst:  inituppercase.regex
 	@echo
-	@echo "*** Building caseconv.fst ***" ;
+	@echo "*** Building inituppercase.fst ***" ;
 	@echo
-	@printf "read regex < case.regex \n\
-	save stack ../bin/caseconv.fst \n\
-	quit \n" > ../../tmp/caseconv-script
-	$(XFST) < ../../tmp/caseconv-script
-	@rm -f ../../tmp/caseconv-script
+	@printf "read regex <  inituppercase.regex \n\
+	save stack ../bin/inituppercase.fst \n\
+	quit \n" > ../../tmp/inituppercase-script
+	$(XFST) < ../../tmp/inituppercase-script
+	@rm -f ../../tmp/inituppercase-script
 
 
 # Another goal is to build a preprocessor (also known as tokenizer).
