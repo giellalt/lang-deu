@@ -1,5 +1,21 @@
 LEXICON PP ! These are the indeclieable ones 
-+Po: #;
++Pr: #;
 
-LEXICON Postposition
- PP ;
+LEXICON Preposition
+aus      PP ;
+bei      PP ;
+mit      PP ;
+nach     PP ;
+vor      PP ;
+zu       PP ;
+
+durch    PP ;
+für      PP ;
+gegen    PP ;
+ohne     PP ;
+um       PP ;
+
+unter    PP ;
+gegen    PP ;
+über     PP ;
+zwischen PP ;
