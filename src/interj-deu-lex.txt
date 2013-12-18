@@ -1,5 +1,0 @@
-LEXICON Interjection
-aj Interj ;
-
-LEXICON Interj
-+Interj: # ;

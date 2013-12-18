@@ -1,6 +1,0 @@
-LEXICON CStag 
-+CS: # ;
-
-
-LEXICON Subjunction
-daß CStag ;

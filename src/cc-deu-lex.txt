@@ -1,5 +1,0 @@
-LEXICON CCtag
-+CC: # ;
-
-LEXICON Conjunction
-und CCtag ;
