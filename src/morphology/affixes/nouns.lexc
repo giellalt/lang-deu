@@ -166,5 +166,9 @@ LEXICON w-ns-Sg
 +Dat:%>en # ;
 +Acc:%>en # ;
 
-
+LEXICON Cases
++Nom: # ;
++Gen: # ;
++Dat: # ;
++Acc: # ;
 
