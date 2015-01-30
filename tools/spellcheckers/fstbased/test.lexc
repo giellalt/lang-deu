@@ -1,0 +1,49 @@
+Multichar_Symbols
+
+! CmpFrst - ok
+! CmpPref - som Frst - ok
+! CmpLast - ok
+! CmpOnly - ?
+! CmpNone - ok
+
+ @U.CmpFrst.TRUE@
+ @P.CmpFrst.FALSE@
+ @D.CmpLast.TRUE@
+ @P.CmpLast.TRUE@
+ @U.CmpLast.TRUE@
+ @D.CmpNone.TRUE@
+ @U.CmpNone.FALSE@
+ @U.CmpNone.TRUE@
+ @R.CmpOnly.TRUE@
+ @P.CmpOnly.TRUE@
+ @P.CmpOnly.FALSE@
+ @D.CmpOnly.FALSE@
+
+LEXICON Root
+    Nouns ;
+
+LEXICON Nouns
+  @U.CmpFrst.TRUE@be   Infl ; ! First or alone
+                  gå   Infl ; ! Everywhere & alone
+  @P.CmpLast.TRUE@else Infl ; ! Last or alone
+  @U.CmpNone.TRUE@prat Infl ; ! Never part of a compound
+ @P.CmpOnly.FALSE@hend Infl ; ! CmpOnly - Never alone -> this to R
+  @R.CmpOnly.TRUE@hend Infl ; ! CmpOnly - Never alone -> this to EndLex
+
+LEXICON Infl
+  ing EndLex ;
+  ing R      ;
+      EndLex ;
+      R      ;
+
+LEXICON EndLex
+  @D.CmpOnly.FALSE@  # ;
+
+LEXICON R
+  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ Nouns ;
+
+
+! Root -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> slutt
+! Root -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> R -> D.midlstart.TRUE C.midlend
+! Root -> Noun ->                                 Xord -> R -> D.midlstart.TRUE C.midlend -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> slutt -> D.midlend.TRUE
+! Root -> Noun ->                                 Xord -> R -> D.midlstart.TRUE C.midlend -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> R -> D.midlstart.TRUE C.midlend
