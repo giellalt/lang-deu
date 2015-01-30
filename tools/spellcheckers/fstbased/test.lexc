@@ -1,10 +1,10 @@
 Multichar_Symbols
 
-! CmpFrst - ok
-! CmpPref - som Frst - ok
-! CmpLast - ok
-! CmpOnly - ?
-! CmpNone - ok
+! +CmpN/First     - ok - first part only, or alone
+! +CmpN/Last      - ok - last part only, or alone
+! +CmpN/None      - ok - Can not take part in compounds
+! +CmpN/Only      - ok - Can only be part of a compound (all positions), but not alone
+! +CmpN/Pref      - ?  - prefix only, never alone
 
  @U.CmpFrst.TRUE@
  @P.CmpFrst.FALSE@
@@ -18,6 +18,9 @@ Multichar_Symbols
  @P.CmpOnly.TRUE@
  @P.CmpOnly.FALSE@
  @D.CmpOnly.FALSE@
+ @U.CmpPref.TRUE@
+ @D.CmpPref.TRUE@
+ @P.CmpPref.FALSE@
 
 LEXICON Root
     Nouns ;
@@ -29,6 +32,7 @@ LEXICON Nouns
   @U.CmpNone.TRUE@prat Infl ; ! Never part of a compound
  @P.CmpOnly.FALSE@hend Infl ; ! CmpOnly - Never alone -> this to R
   @R.CmpOnly.TRUE@hend Infl ; ! CmpOnly - Never alone -> this to EndLex
+  @U.CmpPref.TRUE@an   Infl ; ! First only, never alone
 
 LEXICON Infl
   ing EndLex ;
@@ -37,10 +41,10 @@ LEXICON Infl
       R      ;
 
 LEXICON EndLex
-  @D.CmpOnly.FALSE@  # ;
+  @D.CmpOnly.FALSE@@D.CmpPref.TRUE@  # ;
 
 LEXICON R
-  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@ Nouns ;
+  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Nouns ;
 
 
 ! Root -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> slutt
