@@ -14,6 +14,10 @@ Multichar_Symbols
  @D.CmpNone.TRUE@
  @U.CmpNone.FALSE@
  @U.CmpNone.TRUE@
+ @D.CmpHyph.TRUE@
+ @U.CmpHyph.FALSE@
+ @U.CmpHyph.TRUE@
+ @C.CmpHyph@
  @R.CmpOnly.TRUE@
  @P.CmpOnly.TRUE@
  @P.CmpOnly.FALSE@
@@ -30,6 +34,7 @@ LEXICON Nouns
                   gå   Infl ; ! Everywhere & alone
   @P.CmpLast.TRUE@else Infl ; ! Last or alone
   @U.CmpNone.TRUE@prat Infl ; ! Never part of a compound
+  @U.CmpHyph.TRUE@prut Infl ; ! Only part of compounds with hyphens
  @P.CmpOnly.FALSE@hend Infl ; ! CmpOnly - Never alone -> this to R
   @R.CmpOnly.TRUE@hend Infl ; ! CmpOnly - Never alone -> this to EndLex
   @U.CmpPref.TRUE@an   Infl ; ! First only, never alone
@@ -37,15 +42,22 @@ LEXICON Nouns
 LEXICON Infl
   ing EndLex ;
   ing R      ;
+  ing Rhyph  ;
       EndLex ;
       R      ;
+      Rhyph  ;
 
 LEXICON EndLex
   @D.CmpOnly.FALSE@@D.CmpPref.TRUE@  # ;
 
 LEXICON R
-  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Nouns ;
+  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@D.CmpHyph.TRUE@@U.CmpHyph.FALSE@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Nouns ;
 
+LEXICON Rhyph
+  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@C.CmpHyph@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Hyph ;
+
+LEXICON Hyph 
+    %- Nouns;
 
 ! Root -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> slutt
 ! Root -> Noun -> P.midlstart.TRUE P.midlend.TRUE Mord -> R -> D.midlstart.TRUE C.midlend
