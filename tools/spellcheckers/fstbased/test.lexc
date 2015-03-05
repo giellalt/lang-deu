@@ -1,10 +1,11 @@
 Multichar_Symbols
 
 ! +CmpN/First     - ok - first part only, or alone
+! +CmpN/Pref      - ok - prefix only, never alone
 ! +CmpN/Last      - ok - last part only, or alone
+! +CmpN/Suff      - ok - suffix only, never alone
 ! +CmpN/None      - ok - Can not take part in compounds
 ! +CmpN/Only      - ok - Can only be part of a compound (all positions), but not alone
-! +CmpN/Pref      - ?  - prefix only, never alone
 
  @U.CmpFrst.TRUE@
  @P.CmpFrst.FALSE@
