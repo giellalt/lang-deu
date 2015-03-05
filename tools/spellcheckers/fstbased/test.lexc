@@ -25,6 +25,9 @@ Multichar_Symbols
  @U.CmpPref.TRUE@
  @D.CmpPref.TRUE@
  @P.CmpPref.FALSE@
+ @D.CmpSuff.TRUE@
+ @P.CmpSuff.TRUE@
+ @R.CmpSuff.TRUE@
 
 LEXICON Root
     Nouns ;
@@ -38,6 +41,7 @@ LEXICON Nouns
  @P.CmpOnly.FALSE@hend Infl ; ! CmpOnly - Never alone -> this to R
   @R.CmpOnly.TRUE@hend Infl ; ! CmpOnly - Never alone -> this to EndLex
   @U.CmpPref.TRUE@an   Infl ; ! First only, never alone
+  @R.CmpSuff.TRUE@olse Infl ; ! Last only, never alone
 
 LEXICON Infl
   ing EndLex ;
@@ -51,7 +55,7 @@ LEXICON EndLex
   @D.CmpOnly.FALSE@@D.CmpPref.TRUE@  # ;
 
 LEXICON R
-  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@D.CmpHyph.TRUE@@U.CmpHyph.FALSE@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Nouns ;
+  @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@D.CmpHyph.TRUE@@U.CmpHyph.FALSE@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@@D.CmpSuff.TRUE@@P.CmpSuff.TRUE@ Nouns ;
 
 LEXICON Rhyph
   @P.CmpFrst.FALSE@@D.CmpLast.TRUE@@D.CmpNone.TRUE@@U.CmpNone.FALSE@@C.CmpHyph@@P.CmpOnly.TRUE@@P.CmpPref.FALSE@ Hyph ;
