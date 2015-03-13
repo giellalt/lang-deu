@@ -8,7 +8,7 @@ test.xfst: test.lexc
 	        quit\n" \
 		| xfst
 
-test.%.out: test.%.txt
+test.%.out: test.%.txt test.xfst
 	cat $< | lookup test.xfst > $@
 
 clean:
