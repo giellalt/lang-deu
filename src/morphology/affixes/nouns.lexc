@@ -2234,7 +2234,7 @@ LEXICON Logo/s__n_m !!= * @CODE@ Logos:Logo
 LEXICON Mafios/o__n_m !!= * @CODE@ Mafioso:Mafios
 +N+Msc:i PL-ACC/DAT/GEN/NOM ;
 +N+Msc:o SG-ACC/DAT/GENs/NOM ;
-+N+Msc+Use/NG SG-GEN ;
++N+Msc+Use/NG: SG-GEN ;
 
 LEXICON Mark__n_f !!= * @CODE@ 
 !-- FIXME split meanings -->

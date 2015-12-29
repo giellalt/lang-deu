@@ -6,37 +6,101 @@
 ! Schwache Verben
 ! ===============
 
+LEXICON W_OHNE-GE
++V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
++V+Prf@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
+
+
 LEXICON W
-+V:         KeinPraf ;    ! Alle ge- formen wegnehmen.
-+V+Prf:%>t  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
++V+Prf@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
+
+LEXICON W_ACKERN
++V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
++V+Prf@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
+
 
 
 LEXICON KeinPraf
-@D.PTC@     Inf ;
-@D.PTC@     Prs ;
-@D.PTC@     Prt ;
+     Inf ;
+     IND-PRS ;
+     IND-PRT ;
+     SUBJ-PRS ;
+     SUBJ-PRT ;
+     IMPRT ;
 
 LEXICON Praf
-@R.PTC.ON@     # ;
+     # ;
+
+LEXICON KeinPraf_ACKERN
+     Inf_ACKERN ;
+     IND-PRS_ACKERN ;
+     IND-PRT ;
+     SUBJ-PRS_ACKERN ;
+     SUBJ-PRT ;
+     IMPRT ;
 
 LEXICON Inf
 +Inf:%>en # ;
++PrcPrf:%>end # ;
 
-LEXICON Prs
-+Ind+Prs+Sg1:e  # ;
-+Ind+Prs+Sg2:st # ;
-+Ind+Prs+Sg3:t  # ;
-+Ind+Prs+Pl3:en # ;
-+Ind+Prs+Pl3:t  # ;
-+Ind+Prs+Pl3:en # ;
+LEXICON Inf_ACKERN
++Inf:%>n # ;
++PrcPrf:%>nd # ;
 
-LEXICON Prt
-+Ind+Prt+Sg1:te   # ;
-+Ind+Prt+Sg2:test # ;
-+Ind+Prt+Sg3:te   # ;
-+Ind+Prt+Pl3:ten  # ;
-+Ind+Prt+Pl3:tet  # ;
-+Ind+Prt+Pl3:ten  # ;
+LEXICON IND-PRS
++Ind+Prs+Sg1:%^Pen%^RmVow%>e  # ; !!= * @CODE@ works with ackern
++Ind+Prs+Sg2:%>st # ;
++Ind+Prs+Sg3:%>t  # ;
++Ind+Prs+Pl1:%>en # ;
++Ind+Prs+Pl2:%>t  # ;
++Ind+Prs+Pl3:%>en # ;
+
+LEXICON IND-PRT
++Ind+Prt+Sg1:%>te   # ;
++Ind+Prt+Sg2:%>test # ;
++Ind+Prt+Sg3:%>te   # ;
++Ind+Prt+Pl1:%>ten  # ;
++Ind+Prt+Pl2:%>tet  # ;
++Ind+Prt+Pl3:%>ten  # ;
+
+LEXICON SUBJ-PRS
++Subj+Prs+Sg1:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Sg2:%>est # ;
++Subj+Prs+Sg3:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Pl1:%>en # ;
++Subj+Prs+Pl2:%>et  # ;
++Subj+Prs+Pl3:%>en # ;
+
+LEXICON SUBJ-PRT
++Subj+Prt+Sg1:%>te   # ;
++Subj+Prt+Sg2:%>test # ;
++Subj+Prt+Sg3:%>te   # ;
++Subj+Prt+Pl1:%>ten  # ;
++Subj+Prt+Pl2:%>tet  # ;
++Subj+Prt+Pl3:%>ten  # ;
+
+LEXICON IMPRT
++Imprt+Sg2:%> # ;
++Imprt+Pl2:%>t # ;
+
+
+LEXICON IND-PRS_ACKERN
++Ind+Prs+Sg1:%^Pen%^RmVow%>e  # ; !!= * @CODE@ works with ackern
++Ind+Prs+Sg2:%>st # ;
++Ind+Prs+Sg3:%>t  # ;
++Ind+Prs+Pl1:%>n # ;
++Ind+Prs+Pl2:%>t  # ;
++Ind+Prs+Pl3:%>n # ;
+
+LEXICON SUBJ-PRS_ACKERN
++Subj+Prs+Sg1:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Sg2:%>st # ;
++Subj+Prs+Sg3:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Pl1:%>n # ;
++Subj+Prs+Pl2:%>t  # ;
++Subj+Prs+Pl3:%>n # ;
+
 
 
 

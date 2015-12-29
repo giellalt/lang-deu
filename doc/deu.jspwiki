@@ -14,11 +14,23 @@ This is free and open source German morphology.
 
 
 
+Homonyms
+
+Derivation
 
 
 
 
 
+
+
+
+
+
+
+TRIGGER
+ * %^Pen	 penultimate syllable
+ * %^RmVow remove vowel
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
