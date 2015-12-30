@@ -1,6 +1,75 @@
 !! Adjective inflection
 !! --------------------
-!! The UNDEFINED language adjectives compare.
+!! The GERMAN language adjectives compare.
+
+LEXICON A_zweite__adj_ord
++A+Ord: # ;
+
+LEXICON A_nipt__adj
++A: #;
+
+LEXICON A_abendfüllend__adj
++A: #;
+
+LEXICON A_abenteuerlich__adj
++A: #;
+
+LEXICON A_abhold__adj
++A: #;
+
+LEXICON A_abgebrannt__adj
++A: #;
+
+LEXICON A_/europäisch__adj
++A: #;
+LEXICON A_/alt__adj
+!A_/oft__adj, A_/h/art__adj
++A: #;
+
+LEXICON A_/arg__adj
+!kl/ug__adj, kr/ank__adj, l/ang__adj, sch/arf__adj, st/ark__adj, A_/arm__adj, A_/fr/omm__adj
+! A_/j/ung__adj, A_/gr/ob__adj, schw/ach__adj
++A: #;
+
+
+LEXICON A_/viel__adj
++A: #;
+LEXICON A_/gut__adj
++A: #;
+LEXICON A_allerbest__adj
++A: #;
+
+LEXICON A_allerhand__adj
++A: #;
+
+LEXICON A_bass__adj
++A: #;
+LEXICON A_dröge__adj
++A: #;
+
+LEXICON A_teu/er__adj
+!A_/akzeptab/el__adj
++A: #;
+LEXICON A_gewiss__adj
++A: #;
+LEXICON A_gr/oß__adj
+!k/urz__adj, schw/arz__adj
++A: #;
+LEXICON A_h/och__adj
++A: #;
+LEXICON A_minde/r__adj
++A: #;
+LEXICON A_n/ah__adj
++A: #;
+LEXICON A_nämlich__adj
++A: #;
+LEXICON A_schm/al__adj
++A: #;
+
+LEXICON A_n/ass__adj
++A: #;
+
+
 
 LEXICON Comparisons
 +A+pos:0        Cases   ;
