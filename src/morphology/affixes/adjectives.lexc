@@ -12,24 +12,202 @@ LEXICON A_abendfüllend__adj
 +A: #;
 
 LEXICON A_abenteuerlich__adj
-+A: #;
++A+Pos: A_abenteuerlich__adj-positive ;
++A: A_abenteuerlich__adj-comp ;
++A: A_abenteuerlich__adj-sup ;
+LEXICON A_abenteuerlich__adj-positive
++Msc+Sg+Acc+St:%>en # ;!
++Msc+Sg+Acc+Sw:%>en # ;!
++Msc+Sg+Acc+Mix:%>en # ;!
++Msc+Sg+Dat+St:%>em # ;!st
++Msc+Sg+Dat+Sw:%>en # ;!sw
++Msc+Sg+Dat+Mix:%>en # ;!mix
++Msc+Sg+Gen+St:%>en # ;!
++Msc+Sg+Gen+Sw:%>en # ;!
++Msc+Sg+Gen+Mix:%>en # ;!
++Msc+Sg+Nom+St:%>er # ;!st
++Msc+Sg+Nom+Sw:%>e # ;!sw
++Msc+Sg+Nom+Mix:%>er # ;!mix
+
++Msc+Pl+Acc+St:%>e # ;!st
++Msc+Pl+Acc+Sw:%>en # ;!sw
++Msc+Pl+Acc+Mix:%>en # ;!mix
++Msc+Pl+Dat+St:%>en # ;!
++Msc+Pl+Dat+Sw:%>en # ;!
++Msc+Pl+Dat+Mix:%>en # ;!
++Msc+Pl+Gen+St:%>er # ;!st
++Msc+Pl+Gen+Sw:%>en # ;!sw
++Msc+Pl+Gen+Mix:%>en # ;!mix
++Msc+Pl+Nom+St:%>e # ;!st
++Msc+Pl+Nom+Sw:%>en # ;!sw
++Msc+Pl+Nom+Mix:%>en # ;!mix
+
++Neu+Sg+Acc+St:%>es # ;!st
++Neu+Sg+Acc+Sw:%>e # ;!sw
++Neu+Sg+Acc+Mix:%>es # ;!mix
++Neu+Sg+Dat+St:%>em # ;!st
++Neu+Sg+Dat+Sw:%>en # ;!sw
++Neu+Sg+Dat+Mix:%>en # ;!mix
++Neu+Sg+Gen+St:%>en # ;!
++Neu+Sg+Gen+Sw:%>en # ;!
++Neu+Sg+Gen+Mix:%>en # ;!
++Neu+Sg+Nom+St:%>es # ;!st
++Neu+Sg+Nom+Sw:%>e # ;!sw
++Neu+Sg+Nom+Mix:%>es # ;!mix
+
++Neu+Pl+Acc+St:%>e # ;!st
++Neu+Pl+Acc+Sw:%>en # ;!sw
++Neu+Pl+Acc+Mix:%>en # ;!mix
++Neu+Pl+Dat+St:%>en # ;!
++Neu+Pl+Dat+Sw:%>en # ;!
++Neu+Pl+Dat+Mix:%>en # ;!
++Neu+Pl+Gen+St:%>er # ;!st
++Neu+Pl+Gen+Sw:%>en # ;!sw
++Neu+Pl+Gen+Mix:%>en # ;!mix
++Neu+Pl+Nom+St:%>e # ;!st
++Neu+Pl+Nom+Sw:%>en # ;!sw
++Neu+Pl+Nom+Mix:%>en # ;!mix
+
++Fem+Sg+Acc+St:%>e # ;!
++Fem+Sg+Acc+Sw:%>e # ;!
++Fem+Sg+Acc+Mix:%>e # ;!
++Fem+Sg+Dat+St:%>er # ;!st
++Fem+Sg+Dat+Sw:%>en # ;!sw
++Fem+Sg+Dat+Mix:%>en # ;!mix
++Fem+Sg+Gen+St:%>er # ;!st
++Fem+Sg+Gen+Sw:%>en # ;!sw
++Fem+Sg+Gen+Mix:%>en # ;!mix
++Fem+Sg+Nom+St:%>e # ;!
++Fem+Sg+Nom+Sw:%>e # ;!
++Fem+Sg+Nom+Mix:%>e # ;!
+
++Fem+Pl+Acc+St:%>e # ;!st
++Fem+Pl+Acc+Sw:%>en # ;!sw
++Fem+Pl+Acc+Mix:%>en # ;!mix
++Fem+Pl+Dat+St:%>en # ;!
++Fem+Pl+Dat+Sw:%>en # ;!
++Fem+Pl+Dat+Mix:%>en # ;!
++Fem+Pl+Gen+St:%>er # ;!st
++Fem+Pl+Gen+Sw:%>en # ;!sw
++Fem+Pl+Gen+Mix:%>en # ;!mix
++Fem+Pl+Nom+St:%>e # ;!st
++Fem+Pl+Nom+Sw:%>en # ;!sw
++Fem+Pl+Nom+Mix:%>en # ;!mix
+
++Attr: # ;
++Pred: # ;
+
+
+LEXICON A_abenteuerlich__adj-comp
++Comp:%>er A_abenteuerlich__adj-positive ; ! -comp_01 not needed
+LEXICON A_abenteuerlich__adj-comp_01
++Attr:%> # ;!
++Pred:%> # ;!
++Msc+Sg+Acc:%>en # ;!Acc
++Msc+Sg+Dat+St:%>em # ;!
++Msc+Sg+Nom+Sw:%>e # ;!
++Msc+Sg+Nom+Mix:%>er # ;!
++Msc+Sg+Dat+Mix:%>en # ;!
++Msc+Sg+Gen:%>en # ;!Gen
+
++Msc+Pl+Acc+St:%>e # ;!
++Msc+Pl+Nom+St:%>e # ;!
++Msc+Pl+Acc+Mix:%>en # ;!
++Msc+Pl+Dat:%>en # ;!Dat
++Msc+Pl+Gen+Mix:%>en # ;!
++Msc+Pl+Nom+Mix:%>en # ;!
++Msc+Pl+Gen+St:%>er # ;!
+
++Fem+Sg:%>e # ;!Acc
++Fem+Sg:%>e # ;!Nom
++Fem+Pl+Acc+St:%>e # ;!
++Fem+Pl+Nom+St:%>e # ;!
++Neu+Sg+Acc+Sw:%>e # ;!
++Neu+Sg+Nom+Sw:%>e # ;!
++Neu+Sg+Dat+St:%>em # ;!
++Fem+Sg+Dat+Mix:%>en # ;!
++Fem+Sg+Gen+Mix:%>en # ;!
++Fem+Pl+Acc+Mix:%>en # ;!
++Fem+Pl+Dat:%>en # ;!Dat
++Fem+Pl+Gen+Mix:%>en # ;!
++Fem+Pl+Nom+Mix:%>en # ;!
++Neu+Sg+Dat+Mix:%>en # ;!
++Neu+Sg+Gen:%>en # ;!Gen
++Fem+Sg+Dat+St:%>er # ;!
++Fem+Sg+Gen+St:%>er # ;!
++Fem+Pl+Gen+St:%>er # ;!
++Neu+Sg+Acc+Mix:%>es # ;!
++Neu+Sg+Nom+Mix:%>es # ;!
+
+LEXICON A_abenteuerlich__adj-sup
++Superl:%>st A_abenteuerlich__adj-positive ;!-sup_01 not needed
+LEXICON A_abenteuerlich__adj-sup_01
++Pred:%>en # ;!
++Pred:%> # ;!
++Attr:%>en # ;!
++Msc+Sg+Dat+St:%>em # ;!
++Neu+Sg+Dat+St:%>em # ;!
++Fem+Sg+Dat+Mix:%>en # ;!
++Fem+Sg+Gen+Mix:%>en # ;!
++Msc+Pl+Acc+Mix:%>en # ;!
++Fem+Pl+Acc+Mix:%>en # ;!
++Msc+Pl+Dat:%>en # ;!Dat
++Fem+Pl+Dat:%>en # ;!Dat
++Msc+Pl+Gen+Mix:%>en # ;!
++Fem+Pl+Gen+Mix:%>en # ;!
++Msc+Pl+Nom+Mix:%>en # ;!
++Fem+Pl+Nom+Mix:%>en # ;!
++Msc+Sg+Acc:%>en # ;!Acc
++Msc+Sg+Dat+Mix:%>en # ;!
++Msc+Sg+Gen:%>en # ;!Gen
++Neu+Sg+Dat+Mix:%>en # ;!
++Neu+Sg+Gen:%>en # ;!Gen
++Fem+Sg+Dat+St:%>er # ;!
++Fem+Sg+Gen+St:%>er # ;!
++Msc+Pl+Gen+St:%>er # ;!
++Fem+Pl+Gen+St:%>er # ;!
++Msc+Sg+Nom+Mix:%>er # ;!
++Neu+Sg+Acc+Mix:%>es # ;!
++Neu+Sg+Nom+Mix:%>es # ;!
++Fem+Sg+Acc:%>e # ;!Acc
++Fem+Sg+Nom:%>e # ;!Nom
++Msc+Pl+Acc+St:%>e # ;!
++Fem+Pl+Acc+St:%>e # ;!
++Msc+Pl+Nom+St:%>e # ;!
++Fem+Pl+Nom+St:%>e # ;!
++Msc+Sg+Nom+Sw:%>e # ;!
++Neu+Sg+Acc+Sw:%>e # ;!
++Neu+Sg+Nom+Sw:%>e # ;!
+
 
 LEXICON A_abhold__adj
-+A: #;
++A+Pos: A_abenteuerlich__adj-positive ;
++A:  A_abenteuerlich__adj-comp ;
++A:  A_abenteuerlich__adj-sup ;
++A:%>e  A_abenteuerlich__adj-sup ;
+
 
 LEXICON A_abgebrannt__adj
-+A: #;
++A+Pos: A_abenteuerlich__adj-positive ;
++A:  A_abenteuerlich__adj-comp ;
++A:%>e  A_abenteuerlich__adj-sup ;
+
 
 LEXICON A_/europäisch__adj
-+A: #;
+A_abenteuerlich__adj ;
+
 LEXICON A_/alt__adj
 !A_/oft__adj, A_/h/art__adj
-+A: #;
++A+Pos: A_abenteuerlich__adj-positive ;
++A:X1  A_abenteuerlich__adj-comp ;
++A:X1%>e  A_abenteuerlich__adj-sup ;
 
 LEXICON A_/arg__adj
 !kl/ug__adj, kr/ank__adj, l/ang__adj, sch/arf__adj, st/ark__adj, A_/arm__adj, A_/fr/omm__adj
 ! A_/j/ung__adj, A_/gr/ob__adj, schw/ach__adj
-+A: #;
++A+Pos: A_abenteuerlich__adj-positive ;
++A:X1  A_abenteuerlich__adj-comp ;
++A:X1 A_abenteuerlich__adj-sup ;
 
 
 LEXICON A_/viel__adj
@@ -45,7 +223,7 @@ LEXICON A_allerhand__adj
 LEXICON A_bass__adj
 +A: #;
 LEXICON A_dröge__adj
-+A: #;
++A: A_abenteuerlich__adj ;
 
 LEXICON A_teu/er__adj
 !A_/akzeptab/el__adj
