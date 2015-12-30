@@ -1,7 +1,89 @@
 !! Proper noun inflection
 !! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
+!! The GERMAN language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
+
+LEXICON PROP_Afrika__np
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Neu+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Frankreich__np
++N+Prop: #;
+LEXICON PROP_Niederlande__np
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Neu+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Ostsee__np
++N+Prop+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON PROP_Schweiz__np
++N+Prop+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON PROP_Vereinte_Nationen__np
++N+Prop+Fem: PL-ACC/DAT/GEN/NOM ;
+
+LEXICON PROP_Wynand__np
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON PROP_Harry__np
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Msc+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Anrie__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON PROP_Maria__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Fem+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Beatrix__np
++N+Prop+Fem: SG-ACC/DAT/GEN/NOM ;
++N+Prop+Fem+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_van_der_Merwe__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ;!! FIXME
+LEXICON PROP_Botha__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Fem+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ; !! FIXME
++N+Prop+Msc+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Hughes__np
++N+Prop+Fem: SG-ACC/DAT/GEN/NOM ;
++N+Prop+Fem+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc: SG-ACC/DAT/GEN/NOM ; !! FIXME
++N+Prop+Msc+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Wikipedia__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Fem+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ; !! FIXME
++N+Prop+Msc+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Neu+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_Apertium__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ; !! FIXME
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON PROP_Linux__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Fem+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ; !! FIXME
++N+Prop+Msc+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Neu+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ
+
+LEXICON PROP_NATO__np
++N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Fem+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc: SG-ACC/DAT/GENs/NOM ; !! FIXME
++N+Prop+Msc+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Neu+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
+
 
 LEXICON ProperNounCases
 +N+Prop:%:   Cases  ;
