@@ -10,6 +10,9 @@ LEXICON W_OHNE-GE
 +V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
 +V+Prf@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
+LEXICON W_OHNE-GE_ACKERN
++V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
++V+Prf@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
 LEXICON W
 +V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
