@@ -19,6 +19,9 @@ German language
  * +Sw	 Schwach
  * +Mix	 gemischt
 
+ * +St	 Stark
+ * +Sw	 Schwach
+ * +Mix	 gemischt
 
 Homonyms
 
@@ -256,6 +259,13 @@ Derivation
 
 
 
+
+Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
+
+ * +%<acc%> case tags
+ * +%<dat%> case tags
+ * +%<gen%> case tags
+ * +%<nom%> case tags
 
 
 
