@@ -1,0 +1,2651 @@
+
+! Die Deklinationsklassen
+
+LEXICON s1m
++N+Msc: s1 ;
+s1m; ! remove this stupid line, testing only.
+LEXICON s1n
++N+Neu: s1 ;
+
+LEXICON s2m
++N+Msc: s2 ;
+
+LEXICON s2n
++N+Neu: s2 ;
+
+
+LEXICON s3f
++N+Fem: s3 ;
+
+
+LEXICON s4m
++N+Msc: s4 ;
+
+
+LEXICON s4n
++N+Neu: s4 ;
+
+LEXICON s5m
+!! Boden
++N+Msc: s5 ;
+
+LEXICON s5m_NOT-IN-N
+!! Bruder, Apfel
++N+Msc: s5_NOT-IN-N ;
+
+LEXICON s5n
++N+Neu: s5 ;
+
+LEXICON s5n_NOT-IN-N
++N+Neu: s5_NOT-IN-N ;
+
+
+LEXICON s6m
++N+Msc: s6 ;
+
+LEXICON s6m_NOT-IN-N
++N+Msc: s6_NOT-IN-N ;
+
+LEXICON s6n
++N+Neu: s6 ;
+
+LEXICON s6n_NOT-IN-N
++N+Neu: s6_NOT-IN-N ;
+
+LEXICON w1m
++N+Msc: w1 ;
+
+
+LEXICON w2f
++N+Fem: w2 ;
+
+
+LEXICON w3m
++N+Msc: w3 ;
+
+LEXICON w3m_BUMMEL
++N+Msc: w3_BUMMEL ;
+
+
+LEXICON w3n
++N+Neu: w3 ;
+
+
+LEXICON w4m
++N+Msc: w4 ;
+
+
+LEXICON w4n
++N+Neu: w4 ;
+
+LEXICON s5f
++N+Fem: s5_NOT-IN-N ;
+!+N+Sg: NULL ;
+!+N+Pl:X1 s-n-Pl ;
+
+! Numerus
+
+LEXICON s1
++Sg: sSg ;
++Pl:X1 s-en-Pl ;
+
+LEXICON s2
++Sg: sSg ;
++Pl:X1 s-ern-Pl ;
+
+LEXICON s3
++Sg: NULL ;
++Pl:X1 s-en-Pl ;
+
+LEXICON s4
++Sg: sSg ;
++Pl: s-en-Pl ;
+
+LEXICON s5
++Sg: s-Sg ;
++Pl:X1 NULL ;
+
+LEXICON s5_NOT-IN-N
++Sg: s-Sg ;
++Pl:X1 s-n-Pl ;
+
+LEXICON s6
++Sg: s-Sg ;
++Pl: s-en-Pl ; !! CHECKME
+
+LEXICON s6_NOT-IN-N
++Sg: s-Sg ;
++Pl: s-n-Pl ;
+
+LEXICON w1
++Sg: wSg ;
++Pl: wPl ;
+
+LEXICON w2
++Sg: NULL ;
++Pl:  wPl ;
+
+LEXICON w3
++Sg: s-Sg ;
++Pl: wPl ;
+
+LEXICON w3_BUMMEL
++Sg: s-Sg ;
++Pl: wPl_N ;
+
+LEXICON w4
++Sg: w-ns-Sg ;
++Pl: wPl ;
+
+! Kasus
+
+LEXICON sSg
++Nom: # ;
++Gen:%>s # ;
++Gen:%>es # ;
++Dat: # ;
++Dat:%>e # ;
++Acc: # ;
+
+LEXICON s-en-Pl
++Nom:%>e # ;
++Gen:%>e # ;
++Dat:%>en # ;
++Acc:%>e # ;
+
+LEXICON s-ern-Pl
++Nom:%>e # ;
++Gen:%>e # ;
++Dat:%>ern # ;
++Acc:%>er # ;
+
+LEXICON NULL
++Nom:%> # ;
++Gen:%> # ;
++Dat:%> # ;
++Acc:%> # ;
+
+LEXICON s-Sg
++Nom: # ;
++Gen:%>s # ;
++Dat: # ;
++Acc: # ;
+
+LEXICON s-n-Pl
++Nom:%> # ;
++Gen:%> # ;
++Dat:%>n # ;
++Acc:%> # ;
+
+LEXICON wSg
++Nom:%> # ;
++Gen:%>en # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+LEXICON wPl
++Nom:%>en # ;
++Gen:%>en # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+LEXICON wPl_N
++Nom:%>n # ;
++Gen:%>n # ;
++Dat:%>n # ;
++Acc:%>n # ;
+
+
+LEXICON w-ns-Sg
++Nom:%>en # ;
++Gen:%>ens # ;
++Dat:%>en # ;
++Acc:%>en # ;
+
+LEXICON Cases
++Nom: # ;
++Gen: # ;
++Dat: # ;
++Acc: # ;
+
+
+!! these are from Apertium
+LEXICON Aal__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON /Aas__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abc__n_nt 
++N+Neu: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Abdr/uck__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Abend__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abenteuer__n_nt 
++N+Neu: PL-ACC/DATn/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abenteurer__n_m 
++N+Msc: PL-ACC/DATn/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Aberglauben__n_m
+!--FIXME-->
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Abf/all__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Abfl/uss__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abfl/uß__n_m
+!-- ß = ss --><!-- ß = ss -->
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abfolge__n_f 
++N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abfuhr__n_f 
++N+Fem: PL-ACCen/DATen/GENen/NOMen ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Ahnung__n_f 
++N+Fem: PL-ACCen/DATen/GENen/NOMen ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Abgas__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abgr/und__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Abhilfe__n_f 
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abi__n_nt 
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abitur__n_nt 
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abiturient__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: SG-ACCen/DATen/GENen/NOM ;
++N: 0en-PL-CMP-L ;
+
+LEXICON Abkommen__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Abl/auf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Abl/uft__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abriss__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abri/ß__n_m
+!-- ß = ss --><!-- ß = ss -->
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abs/atz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Abschied__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Abspr/ung__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Abst/and__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON /Abt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Abteil__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abw/asser__n_nt 
++N+Neu: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Abw/urf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Abz/ug__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON /Acker__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Aderl/ass__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Aderl/aß__n_m
+!-- ß = ss --><!-- ß = ss -->
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Administrator__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Admir/al__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Adverb__n_nt 
++N+Neu: PL-ACCien/DATien/GENien/NOMien ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Affe__n_m 
++N+Msc: PL-ACCn/DATn/GENn/NOMn ;
++N+Msc: SG-ACCn/DATn/GENn/NOM ;
++N: 0n-SG-CMP-L ;
+
+LEXICON Affront__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Ag__n_f 
++N+Fem: PL-ACCs/DATs/GENs/NOMs ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Aggregat__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Aggressor__n_m
+!--FIXME-->
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Airbus__n_m 
++N+Msc: PL-ACCse/DATsen/GENse/NOMse ;
++N+Msc: SG-ACC/DAT/GENses/NOM ;
++N+Msc+Use/NG: SG-DATse ;
++N: SG-CMP-L ;
+
+LEXICON Alt/ar__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Altert/um__n_nt
+!--FIXME-->
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Amm/ann__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON /Amt__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Anbetracht__n_m 
++N+Msc: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON /Angst__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Annalen__n_f 
++N+Fem: PL-ACC/DAT/GEN/NOM ;
+
+LEXICON Anschl/ag__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Anst/oß__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Anst/urm__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Anw/alt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON /Apfel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Arbeits/amt__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Ärgernis__n_nt 
++N+Neu: PL-ACCse/DATsen/GENse/NOMse ;
++N+Neu: SG-ACC/DAT/GENses/NOM ;
++N+Neu+Use/NG: SG-DATse ;
+
+LEXICON Armut__n_f 
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: 0s-SG-CMP-L ;
+
+LEXICON /Arsch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON /Arzt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe/GENs ;
++N: SG-CMP-L ;
+
+LEXICON Ärztin__n_f 
++N+Fem: PL-ACCnen/DATnen/GENnen/NOMnen ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON /Ast__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe/GENs ;
++N: SG-CMP-L ;
+
+LEXICON Aufsichtsr/at__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Auge__n_nt 
++N+Neu: PL-ACCn/DATn/GENn/NOMn ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Aus__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Ausk/unft__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Australien__n_nt 
++N+Neu: SG-ACC/DAT/NOM ;
++N+Neu: SG-GEN ; !! mit Artikel 
++N+Neu: SG-GENs ; !! ohne Artikel 
++N: SG-CMP-L ;
+
+LEXICON Ausw/uchs__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON /Axt__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON B/ach__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON B/ad__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Ballon__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Bambini__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
+
+LEXICON B/and__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON B/art__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON B/auch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe/GENs ;
++N: SG-CMP-L ;
+
+LEXICON B/ausch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Bedrängnis__n_f 
++N+Fem: PL-ACCse/DATsen/GENse/NOMse ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Bel__n_nt 
++N+Neu: PL-ACC/DATn/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Besitz__n_m 
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Bett__n_nt 
++N+Neu: PL-ACCen/DATen/GENen/NOMen ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: 0en-PL-CMP-L ;
++N: SG-CMP-L ;
+
+LEXICON Bild__n_nt 
++N+Neu: PL-ACCer/DATern/GENer/NOMer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Bisch/of__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Bl/att__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Bl/och__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Bl/ock__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Blut__n_nt 
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON B/oden__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON B/ogen__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Böller__n_m 
++N+Msc: PL-ACC/DATn/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GEN/GENs/NOM ;
+
+LEXICON Br/aut__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Br/uch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Br/uder__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Br/unst__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Br/ust__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON B/uch__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
++N: Qer-PL-CMP-L ;
+
+LEXICON Buchstabe__n_m 
++N+Msc: PL-ACCn/DATn/GENn/NOMn ;
++N+Msc: SG-ACCn/DATn/GENns/NOM ;
++N: 0n-PL-CMP-L ;
+
+LEXICON B/ug__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Bummel__n_m 
++N+Msc: PL-ACCn/DATn/GENn/NOMn ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON B/usch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Busine/ß__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DATe/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON Causa__n_f 
++N+Fem: PL-ACCe/DATen/GENe/NOMe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Center__n_nt 
++N+Neu: PL-ACC/DATn/GEN/NOM ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Champion__n_m 
++N+Msc: PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Ch/or__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Chromosom__n_nt 
++N+Neu: PL-ACCen/DATen/GENen/NOMen ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: 0en-PL-CMP-L ;
+
+LEXICON Comic__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GEN/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Contest__n_m
+!--FIXME-->
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Cordh/ut__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Coupe__n_f 
++N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem: PL-ACCs/DATs/GENs/NOMs ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Coupe__n_m 
++N+Msc: PL-ACCn/DATn/GENn/NOMn ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON D/ach__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON D/amm__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON D/ampf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON D/arm__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Deka__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GEN/GENs/NOM ;
+
+LEXICON Denkm/al__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Diebst/ahl__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Ding__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCer/DATern/GENer/NOMer ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Ding__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCer/DATern/GENer/NOMer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON D/orf__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Dr/aht__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Dritten__n_m 
++N+Msc: PL-ACC/DAT/GEN/NOM ;
+
+LEXICON D/uft__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON D/unst__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Ecu__n_m 
++N+Msc: PL-ACC/DAT/GEN/NOM ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GEN/GENs/NOM ;
+
+LEXICON Eichh/orn__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON Ei__n_nt 
++N+Neu: PL-ACCer/DATern/GENer/NOMer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: 0er-PL-CMP-L ;
+
+LEXICON Einst/urz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Embryo__n_m 
++N+Msc: PL-ACCnen/DATnen/GENnen/NOMnen ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: 0nen-PL-CMP-L ;
+
+LEXICON Etwas__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: PL-ACCse/DATsen/GENse/NOMse ;
++N+Neu: SG-ACC/DAT/GENses/GEN/NOM ;
++N+Neu+Use/NG: SG-DATse ;
+
+LEXICON F/aden__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON F/ass__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON F/aß__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON F/aust__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Flederm/aus__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Fl/oh__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Fl/oß__n_nt 
++N+Neu: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Flugh/afen__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Forint__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GEN/GENs/NOM ;
+
+LEXICON Fr/ack__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Fratz__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Fremde__n_m 
++N+Msc: PL-ACCrn/DATrn/GENrn/NOMrn ;
++N+Msc: SG-ACCrn/DATrn/GENrn/NOMr ;
+
+LEXICON Fr/osch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Fr/ucht__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Fußb/all__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON F/uß__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON G/ang__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON G/ans__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: Qe-PL-CMP-L ;
+
+LEXICON G/arten__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Garteng/ott__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON G/ast__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Gatt__n_nt 
++N+Neu: PL-ACCen/DATen/GENen/NOMen ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON G/aul__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Gebärm/utter__n_f 
++N+Fem: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Gebi/ß__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Geh/alt__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Geist__n_m 
++N+Msc: PL-ACCer/DATern/GENer/NOMer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Generalst/ab__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Gen__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Geschm/ack__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Gest/ank__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Gewissen__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: 0s-SG-CMP-L ;
+
+LEXICON Gezeite__n_f 
++N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: 0n-PL-CMP-L ;
+
+LEXICON Giftz/ahn__n_nt 
++N+Neu: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Gl/as__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Gr/aben__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Gr/ab__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Großv/ater__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON G/ut__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON H/ahn__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON H/als__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON H/ammer__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON H/andel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: 0s-SG-CMP-L ;
+
+LEXICON H/and__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Hass__n_m 
++N+Msc: SG-ACC/DATse/DAT/GENses/NOM ;
++N: SG-CMP-L ;
+
+LEXICON H/aupt__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Hauptst/adt__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON H/aus__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Ha/ß__n_m
+!-- ß = ss --><!-- ß = ss -->
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Herz/og__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON H/olz__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Hörs/aal__n_m 
++N+Msc: PL-ACCQe/DATQe/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Hospit/al__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON H/ub__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON H/uhn__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: Qer-PL-CMP-L ;
+
+LEXICON Indiz__n_nt 
++N+Neu: PL-ACCien/DATien/GENien/NOMien ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
+
+LEXICON Innenr/and__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Innere__n_nt 
++N+Neu: SG-ACCn/DATn/GENn/NOM ;
+
+LEXICON Irrt/um__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON K/alb__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON K/amp__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Kapital__n_nt 
++N+Neu: PL-ACCien/DATien/GENien/NOMien ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kapl/an__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Karussell__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON K/asten__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Klee__n_m 
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kleinod__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCien/DATien/GENien/NOMien ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON Kl/oster__n_nt 
++N+Neu: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kl/otz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Knick__n_nt 
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
+
+LEXICON Kn/opf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON K/och__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Komma__n_nt 
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: PL-ACCta/DATta/GENta/NOMta ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON K/orb__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Kr/aft__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kr/agen__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kr/an__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N: SG-CMP-L ;
+
+LEXICON Kr/anz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Kr/aut__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON K/uh__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON L/amm__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Leis__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: PL-ACCe/DATe/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/GEN/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON L/och__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON L/ohn__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON M/acht__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
++N: Qe-PL-CMP-L ;
+
+LEXICON Machtw/ort__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON Mädel__n_nt 
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON M/agd__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Magnet__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCen/GENen/NOMen ;
++N+Msc: SG-ACCen/ACC/DATen/DAT/GENen/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON M/angel__n_f 
++N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem: PL-ACCQ/GENQ/NOMQ ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N+Fem+Use/NG: PL-DATQn ;
++N: SG-CMP-L ;
+
+LEXICON M/antel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON M/arkt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON M/arsch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Mast__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: PL-ACCen/GENen/NOMen ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON M/atz__n_m 
++N+Msc: PL-ACCQe/DATQen/DATQe/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON M/aul__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Mineral__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCien/DATien/GENien/NOMien ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Missst/and__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Mohr__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: SG-ACCen/ACC/DATen/DAT/GENen/GENs/NOM ;
+
+LEXICON Mosaik__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCen/GENen/NOMen ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON M/und__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Muni__n_m 
++N+Msc: PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON N/agel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON N/aht__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON N/ot__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON N/uss__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON N/uß__n_f
+!-- ß = ss --><!-- ß = ss -->
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON /Ofen__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON P/apst__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Partikel__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: PL-ACCn/DATn/GENn/NOMn ;
++N+Neu: SG-ACC/DAT/GEN/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Passw/ort__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Pick__n_nt 
++N+Neu: PL-ACC/DAT/GEN/NOM ;
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: SG-ACC/DAT/GEN/GENs/NOM ;
+
+LEXICON Pl/an__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Pot__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GEN/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON P/ott__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Rasse__n_f 
++N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
++N: 0n-PL-CMP-L ;
+
+LEXICON R/aum__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Real__n_m 
++N+Msc: PL-ACCes/DATes/GENes/NOMes ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Reis__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCer/DATern/GENer/NOMer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Ren__n_nt 
++N+Neu: PL-ACCs/DATs/GENs/NOMs ;
++N+Neu: PL-ACCe/DATe/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Ren__n_m 
++N+Msc: PL-ACCes/DATes/GENes/NOMes ;
+
+LEXICON R/ock__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Rollst/uhl__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Rückg/ang__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Rucks/ack__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON R/umpf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON S/aft__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Same__n_m 
++N+Msc: PL-ACCn/DATn/GENn/NOMn ;
++N+Msc: SG-ACCn/DATn/GENn/NOM ;
++N+Msc+Use/NG: SG-GENns ;
+
+LEXICON S/and__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Sandwich__n_nt 
++N+Neu: PL-ACCe/DATe/GENe/NOMe ;
++N+Neu: PL-ACCes/DATes/GENes/NOMes ;
++N+Neu: SG-ACC/DAT/GENes/GEN/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON S/arg__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON S/attel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON S/au__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Sch/acht__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schema__n_nt 
++N+Neu: PL-ACCta/DATta/GENta/NOMta ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Schi__n_m 
++N+Msc: PL-ACCer/DATern/GENer/NOMer ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Schl/oss__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schl/oß__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schl/ot__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schn/abel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Schn/aps__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schn/auz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Schnurrb/art__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Schn/ur__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Sch/oss__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Schott__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCen/GENen/NOMen ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe/GENes ;
+
+LEXICON Schw/ager__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Schw/ur__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Sergeant__n_m 
++N+Msc: PL-ACCen/DATen/GENen/NOMen ;
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACCen/ACC/DATen/DAT/GENen/GENs/NOM ;
+
+LEXICON Service__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Ski__n_m 
++N+Msc: PL-ACCer/DATer/GENer/NOMer ;
++N+Msc: SG-ACC/DAT/GENs/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Sp/aß__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON St/ahl__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Stewarde/ß__n_f
+!-- ß = ss --><!-- ß = ss -->
++N+Fem: PL-ACCen/DATen/GENen/NOMen ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON St/orch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Str/auch__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Str/auß__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Streith/ahn__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Str/om__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON St/uhl__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON St/umpf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON St/utz__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON S/ucht__n_f 
++N+Fem: PL-ACCen/DATen/GENen/NOMen ;
++N+Fem: PL-ACCQe/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N+Fem+Use/NG: PL-DATQen ;
++N: SG-CMP-L ;
+
+LEXICON Ten/or__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON T/ochter__n_f 
++N+Fem: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON T/on__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Tr/am__n_m 
++N+Msc: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Tr/umm__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Tr/unk__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON Unix__n_nt 
++N+Neu: PL-ACCe/DATe/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON V/ogel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON V/ogt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
+LEXICON V/olk__n_nt 
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Neu+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
++N: Qer-PL-CMP-L ;
+
+LEXICON Vorsch/ub__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Vorsp/ann__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON W/ald__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Werkst/att__n_f 
++N+Fem: PL-ACCQen/DATQen/GENQen/NOMQen ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON W/olf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: 0s-SG-CMP-L ;
+
+LEXICON W/unsch__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON W/urm__n_m 
++N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON W/urst__n_f 
++N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Zahn/arzt__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe/GENs ;
++N: SG-CMP-L ;
+
+LEXICON Zank/apfel__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Z/apf__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Z/aun__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Z/oll__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON Zuw/achs__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENes/NOM ;
++N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+LEXICON L/ager__n_nt 
++N+Neu: PL-ACC/DATn/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N+Neu+Use/NG: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N: SG-CMP-L ;
+
+LEXICON P/ark__n_m 
++N+Msc: PL-ACCs/DATs/GENs/NOMs ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: PL-ACCe/DATen/GENe/NOMe ;
++N+Msc+Use/NG: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N: SG-CMP-L ;
+
+LEXICON St/aub__n_m 
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-GENes ;
++N+Msc+Use/NG: PL-ACCe/DATen/GENe/NOMe ;
++N: SG-CMP-L ;
+
+LEXICON Absurd/um__n_nt !!= * @CODE@ Absurdum:Absurd
++N+Neu:a PL-ACC/DAT/GEN/NOM ;
++N+Neu:um SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Agend/a__n_f !!= * @CODE@ Agenda:Agend
++N+Fem:en PL-ACC/DAT/GEN/NOM ;
++N+Fem:a SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Alb/um__n_nt !!= * @CODE@ Album:Alb
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:um SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Algorithm/us__n_m !!= * @CODE@ Algorithmus:Algorithm
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
+
+LEXICON Allegr/o__n_nt !!= * @CODE@ Allegro:Allegr
++N+Neu:i PL-ACC/DAT/GEN/NOM ;
++N+Neu:os PL-ACC/DAT/GEN/NOM ;
++N+Neu:o SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Anan/as__n_f !!= * @CODE@ Ananas:Ananas
++N+Fem:sX1 PL-ACCe/DATen/GENe/NOMe ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Arabisch__n_nt !!= * @CODE@ Arabisch:Arabisch
++N+Neu: SG-ACC/DAT/GENs/GEN/NOM ;
++N+Neu: SG-ACCe/DATen/GENen/NOMe ;
++N: SG-CMP-L ;
+
+LEXICON Arom/a__n_nt !!= * @CODE@  Aroma: Arom
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Atla/s__n_m !!= * @CODE@ Atlas:Atla
++N+Msc:nten PL-ACC/DAT/GEN/NOM ;
++N+Msc:ss PL-ACCe/DATen/GENe/NOMe ;
++N+Msc:s SG-ACC/DAT/GEN/NOM ;
++N+Msc:s SG-DATse ;
++N+Msc:s SG-GENses ;
+
+LEXICON Ausdr/uck__n_m !!= * @CODE@ 
+!-- FIXME split meanings -->
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N+Msc+Use/NG: PL-ACCe/DATen/GENe/NOMe ;
+
+
+LEXICON Bab/y__n_nt !!= * @CODE@ Baby:Bab
++N+Neu:ys PL-ACC/DAT/GEN/NOM ;
++N+Neu+Use/NG:ies PL-ACC/DAT/GEN/NOM ;
++N+Neu:y SG-ACC/DAT/GENs/NOM ;
+
+!LEXICON B/ank__n_f !!= * @CODE@ 
+!-- FIXME split meanings --><e><p><l>Zen</l>     <r><s n="PL-ACC"/></r></p><par n="cmp-R"/></e><e><p><l>Zen</l>     <r><s n="PL-DAT"/></r></p><par n="cmp-R"/></e><e r="LR"><p><l>Qen</l>     <r><s n="PL-DAT"/></r></p><par n="cmp-R"/></e><e><p><l>Zen</l>     <r><s n="PL-GEN"/></r></p><par n="cmp-R"/></e><e><p><l>Zen</l>     <r><s n="PL-NOM"/></r></p><par n="cmp-R"/></e><e><p><l>Qe</l>      <r><s n="PL-ACC"/></r></p><par n="cmp-R"/></e><e><p><l>Qe</l>      <r><s n="PL-GEN"/></r></p><par n="cmp-R"/></e><e><p><l>Qe</l>      <r><s n="PL-NOM"/></r></p><par n="cmp-R"/></e><e><p><l>Z</l>       <r><s n="SG-ACC"/></r></p><par n="cmp-R"/></e><e><p><l>Z</l>       <r><s n="SG-DAT"/></r></p><par n="cmp-R"/></e><e><p><l>Z</l>       <r><s n="SG-GEN"/></r></p><par n="cmp-R"/></e><e><p><l>Z</l>       <r><s n="SG-NOM"/></r></p><par n="cmp-R"/></e> </pardef>
+LEXICON Bas/is__n_f !!= * @CODE@ Basis:Bas
++N+Fem:en PL-ACC/DAT/GEN/NOM ;
++N+Fem:is SG-ACC/DAT/GEN/NOM ;
++N:en PL-CMP-L ; 
++N:is SG-CMP-L ; 
+
+LEXICON Bass/o__n_m !!= * @CODE@ Basso:Bass
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:o SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Bau__n_m !!= * @CODE@ 
++N+Msc:ten PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
++N: SG-CMP-L ;
+
+LEXICON Bronchiti/s__n_f !!= * @CODE@ Bronchitis:Bronchiti
++N+Fem:den PL-ACC/DAT/GEN/NOM ;
++N+Fem:s SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Business__n_nt !!= * @CODE@ 
++N+Neu: SG-ACC/DAT/GEN/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Unverständnis__n_nt !!= * @CODE@ Kein Mehrzahl
++N+Neu: SG-ACC/DAT/GENses/NOM ;
++N+Neu+Use/NG: SG-DATse ;
+
+
+LEXICON Camp/us__n_m !!= * @CODE@ Campus:Camp
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
++N:us SG-CMP-L ;
+
+LEXICON Cell/o__n_nt !!= * @CODE@ Cello:Cell
++N+Neu:i PL-ACC/DAT/GEN/NOM ;
++N+Neu:o SG-ACC/DAT/GENs/NOM ;
++N:o SG-CMP-L ;
+
+LEXICON Cembal/o__n_nt !!= * @CODE@ Cembalo:Cembal
++N+Neu:i PL-ACC/DAT/GEN/NOM ;
++N+Neu:o SG-ACC/DAT/GEN/NOM ;
++N:o SG-CMP-L ;
+
+LEXICON Chairm/an__n_m !!= * @CODE@ Chairman:Chairm
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:an SG-ACC/DAT/GENs/NOM ;
++N:an SG-CMP-L ;
+
+LEXICON Charm/e__n_m !!= * @CODE@ Charme:Charm
++N+Msc:e SG-ACC/DAT/GEN/NOM ;
++N+Msc: SG-GENs ;
+
+LEXICON Cod/ex__n_m !!= * @CODE@ Codex:Cod
++N+Msc:e PL-ACC/DATn/GEN/NOM ;
++N+Msc:ices PL-ACC/DAT/GEN/NOM ;
++N+Msc:ex SG-ACC/DAT/GENes/GEN/NOM ;
++N:ex SG-CMP-L ;
+
+LEXICON Cont/e__n_m !!= * @CODE@ Conte:Cont
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:e SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Corp/us__n_nt !!= * @CODE@ Corpus:Corp
++N+Neu:ora PL-ACC/DAT/GEN/NOM ;
++N+Neu:us SG-ACC/DAT/GEN/NOM ;
++N:us SG-CMP-L ;
+
+LEXICON Cyberspac/e__n_m !!= * @CODE@ 
++N+Msc:es PL-ACC/DAT/GEN/NOM ;
++N+Msc:e SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-GENs ;
+
+LEXICON Dem/os__n_m !!= * @CODE@ Demos:Dem
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:os SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Disk/us__n_m !!= * @CODE@ Diskus:Disk
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:usse PL-ACC/DATn/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
++N+Msc:usse SG-DATe ;
++N:us SG-CMP-L ;
+
+LEXICON Donn/a__n_f !!= * @CODE@ Donna:Donn
++N+Fem:as PL-ACC/DAT/GEN/NOM ;
++N+Fem:en PL-ACC/DAT/GEN/NOM ;
++N+Fem:a SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Ep/os__n_nt !!= * @CODE@ Epos:Ep
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:os SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Espress/o__n_m !!= * @CODE@ Espresso:Espress
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:os PL-ACC/DAT/GEN/NOM ;
++N+Msc:o SG-ACC/DAT/GENs/NOM ;
++N:o SG-CMP-L ;
+
+LEXICON Exam/en__n_nt !!= * @CODE@ Examen:Exam
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:ina PL-ACC/DAT/GEN/NOM ;
++N+Neu:en SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Federvie/h__n_nt !!= * @CODE@ Federvieh:Federvie
++N+Neu:cher PL-ACC/DAT/GEN/NOM ;
++N+Neu:h SG-ACC/DAT/GENs/NOM ;
++N:h SG-CMP-L ;
+
+LEXICON Gefolgs/mann__n_m !!= * @CODE@ Gefolgsmann:GEfolgs
++N+Msc:leute  PL-ACC/DAT/GEN/NOM ;
++N+Msc:mann  SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG:mann SG-DATe ;
+
+LEXICON Gentlem/an__n_m !!= * @CODE@ Gentleman:Gentlem
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:an SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Hand/ling__n_nt !!= * @CODE@ Handling
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Hero/s__n_m !!= * @CODE@ Heros:Hero
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:s SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Herz__n_nt !!= * @CODE@ 
++N+Neu:  SG-ACC/DATen/GENens/NOM ;
+!!CHECKME
+
+LEXICON Johanniter__n_f !!= * @CODE@ 
+!-- FIXME gen -->
++N+Msc: PL-ACC/DATn/GEN/NOM ; !cmp-R
++N+Msc: SG-ACC/DAT/GENs/NOM ; !cmp-R
+
+
+LEXICON Kakt/us__n_m !!= * @CODE@ Kaktus:Kakt
++N+Msc:een PL-ACC/DAT/GEN/NOM ;
++N+Msc:usse PL-ACC/DATn/GEN/NOM ;
++N+Msc:us SG-ACC/DATse/GENses/GEN/NOM ;
+
+LEXICON Kauf/mann__n_m !!= * @CODE@ Kaufmann:Kauf
++N+Msc:leute PL-ACC/DAT/GEN/NOM ;
++N+Msc:mannX1%>er PL-ACC/DATn/GEN/NOM ;
++N+Msc:mann SG-ACC/DAT/GENes/GENs/NOM ;
++N+Msc+Use/NG:mann SG-DATe ;
+
+LEXICON Klima__n_nt !!= * @CODE@ 
++N+Neu:ta  PL-ACC/DAT/GEN/NOM ;
++N+Neu:te  PL-ACC/DAT/GEN/NOM ;
++N+Neu:  SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kod/ex__n_m !!= * @CODE@ Kodex:Kod
+!--FIXME-->
++N+Msc:e PL-ACC/DATn/GEN/NOM ;
++N+Msc:izes PL-ACC/DAT/GEN/NOM ;
++N+Msc:ex SG-ACC/DAT/GENes/GEN/NOM ;
++N+Msc+Use/NG:exe SG-DATe ;
++N:ex SG-CMP-L ;
+
+LEXICON Kont/o__n_nt !!= * @CODE@ Konto:Kont
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:i PL-ACC/DAT/GEN/NOM ;
++N+Neu:os PL-ACC/DAT/GEN/NOM ;
++N+Neu:o SG-ACC/DAT/GENs/NOM ;
++N:o SG-CMP-L ;
+
+LEXICON Kon/us__n_m !!= * @CODE@ Konus:Kon
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:usse PL-ACC/DATn/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
+
+LEXICON Korp/us__n_nt !!= * @CODE@ Korpus:Korp
++N+Neu:ora PL-ACC/DAT/GEN/NOM ;
++N+Neu:us SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Kurs/us__n_m !!= * @CODE@ Kursus:Kurs
++N+Msc:e PL-ACC/DAT/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Lad/y__n_f !!= * @CODE@ 
++N+Fem:ies PL-ACC/DAT/GEN/NOM ;
++N+Fem:ys PL-ACC/DAT/GEN/NOM ;
++N+Fem:y SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Laudatio__n_f !!= * @CODE@ 
++N+Fem:nen PL-ACC/DAT/GEN/NOM ;
++N+Fem:nes PL-ACC/DAT/GEN/NOM ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Le/u__n_m !!= * @CODE@ Leu:Le
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:uen PL-ACC/DAT/GEN/NOM ;
++N+Msc:u SG-ACC/DAT/GEN/NOM ;
++N+Msc:u SG-ACCen/DATen/GENen ;
+
+LEXICON Lexik/on__n_nt !!= * @CODE@ Lexikon:Lexik
++N+Neu:a PL-ACC/DAT/GEN/NOM ;
++N+Neu:on SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Le/x__n_f !!= * @CODE@ Lex:Le
++N+Fem:ges PL-ACC/DAT/GEN/NOM ;
++N+Fem:x SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Lim/es__n_f !!= * @CODE@ Limes:Lim
++N+Fem:iten PL-ACC/DAT/GEN/NOM ;
++N+Fem:ite SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Lir/a__n_f !!= * @CODE@ Lira:Lir
++N+Fem:a PL-ACC/DAT/GEN/NOM ;
++N+Fem:e PL-ACC/DAT/GEN/NOM ;
++N+Fem:a SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Logo/s__n_m !!= * @CODE@ Logos:Logo
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:s SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Mafios/o__n_m !!= * @CODE@ Mafioso:Mafios
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:o SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-GEN ;
+
+LEXICON Mark__n_f !!= * @CODE@ 
+!-- FIXME split meanings -->
++N+Fem: PL-ACC/DAT/GEN/NOM ;
++N+Fem:en PL-ACC/DAT/GEN/NOM ;
++N+Fem+Use/NG:X1%>er PL-ACC/DATn/GEN/NOM ; !scherzhaft
++N+Fem: SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Matri/x__n_f !!= * @CODE@ Matrix:Matri
++N+Fem:ces PL-ACC/DAT/GEN/NOM ;
++N+Fem:ze PL-ACC/DAT/GEN/NOM ;
++N+Fem:zes PL-ACC/DAT/GEN/NOM ;
++N+Fem:x SG-ACC/DAT/GEN/NOM ;
++N:x SG-CMP-L ;
+
+LEXICON M/utter__n_f !!= * @CODE@ 
++N+Fem: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Myth/os__n_m !!= * @CODE@ Mythos:Myth
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:os SG-ACC/DAT/GEN/NOM ;
++N+Msc:us SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Op/us__n_nt !!= * @CODE@ 
++N+Neu:era PL-ACC/DAT/GEN/NOM ;
++N+Neu:us SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Paradigm/a__n_nt !!= * @CODE@ 
++N+Neu:ta  PL-ACC/DAT/GEN/NOM ;
++N+Neu:en  PL-ACC/DAT/GEN/NOM ;
++N+Neu:  SG-ACC/DAT/GENs/NOM ;
++N:en PL-CMP-L ;
+
+LEXICON Pat/er__n_m !!= * @CODE@ Pater:Pat
++N+Msc:res PL-ACC/DAT/GEN/NOM ;
++N+Msc:er SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Pen/ny__n_m !!= * @CODE@ Penny:Pen
++N+Msc:ce  PL-ACC/DAT/GEN/NOM ;
++N+Msc:nys  PL-ACC/DAT/GEN/NOM ;
++N+Msc:ny SG-ACC/DAT/GENs/NOM ;
++N:ny SG-CMP-L ;
+
+LEXICON Phalan/x__n_f !!= * @CODE@ Phalanx:Phalan
++N+Fem:gen   PL-ACC/DAT/GEN/NOM ;
++N+Fem:x SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Piazz/a__n_f !!= * @CODE@ Piazza:Piazz
++N+Fem:e PL-ACC/DAT/GEN/NOM ;
++N+Fem:a SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Plas/tik__n_nt !!= * @CODE@ 
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Präs/es__n_m !!= * @CODE@ Präses:Präs
++N+Msc:iden PL-ACC/DAT/GEN/NOM ;
++N+Msc:ides PL-ACC/DAT/GEN/NOM ;
++N+Msc:es SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Requie/m__n_nt !!= * @CODE@ Requiem:Requie
++N+Neu:ms PL-ACC/DAT/GEN/NOM ;
++N+Neu:n PL-ACC/DAT/GEN/NOM ;
++N+Neu:m SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Re/x__n_m !!= * @CODE@ 
++N+Msc:ges PL-ACC/DAT/GEN/NOM ;
++N+Msc:xe PL-ACC/DAT/GEN/NOM ;
++N+Msc:x SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Ris/iko__n_nt !!= * @CODE@ Risiko:Ris
++N+Neu:iken PL-ACC/DAT/GEN/NOM ;
++N+Neu:ikos PL-ACC/DAT/GEN/NOM ;
++N+Neu:ken PL-ACC/DAT/GEN/NOM ;
++N+Neu:iko SG-ACC/DAT/GENs/NOM ;
++N+Neu:iko SG-CMP-L ;
+
+LEXICON Rowd/y__n_m !!= * @CODE@ Rowdy:Rowd
++N+Msc:ys PL-ACC/DAT/GEN/NOM ;
++N+Msc+Use/NG:ies PL-ACC/DAT/GEN/NOM ;
++N+Msc:y SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Sald/o__n_m !!= * @CODE@ 
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:i PL-ACC/DAT/GEN/NOM ;
++N+Msc:os PL-ACC/DAT/GEN/NOM ;
++N+Msc:o SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Spektr/um__n_nt !!= * @CODE@ Spektrum:Spektr
++N+Neu:a PL-ACC/DAT/GEN/NOM ;
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:um SG-ACC/DAT/GENs/NOM ;
+
+LEXICON Stadi/on__n_nt !!= * @CODE@ Stadion:Stadio
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:on SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Städteatla/s__n_m !!= * @CODE@ Städteatlas:Städteatla
++N+Msc:nten PL-ACC/DAT/GEN/NOM ;
++N+Msc:s SG-ACC/DAT/GENses/GEN/NOM ;
++N+Msc:s SG-DATse ;
+
+LEXICON Tr/opf__n_m !!= * @CODE@ 
+!-- FIXME -->
++N+Msc:en PL-ACC/DAT/GEN/NOM ;
++N+Msc:X1%>en PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACCen/DATen/GENen/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG:X1%>e PL-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON UFO__n_nt !!= * @CODE@ 
++N+Neu:%>S PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/NOM ;
++N+Neu:%>S SG-GEN ;
++N: SG-CMP-L ;
+
+LEXICON Vir/us__n_nt !!= * @CODE@ Virus:Vir
++N+Neu:en PL-ACC/DAT/GEN/NOM ;
++N+Neu:us SG-ACC/DAT/GEN/NOM ;
+
+LEXICON Volum/en__n_nt !!= * @CODE@ Volumen:Volum
++N+Neu:ina PL-ACC/DAT/GEN/NOM ;
++N+Neu:en SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Kirmes__n_f !!= * @CODE@ 
++N+Fem:sen PL-ACC/DAT/GEN/NOM ;
++N+Fem: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+
+
+!!
+LEXICON SG-CMP-L 
+#;
+LEXICON PL-CMP-L 
+#;
+LEXICON 0n-SG-CMP-L 
+:n SG-CMP-L ;
+LEXICON 0s-SG-CMP-L 
+:s SG-CMP-L ;
+
+LEXICON 0en-PL-CMP-L 
+:en PL-CMP-L ;
+LEXICON 0er-PL-CMP-L 
+:er PL-CMP-L ;
+LEXICON 0n-PL-CMP-L 
+:n PL-CMP-L ;
+LEXICON 0nen-PL-CMP-L 
+:nen PL-CMP-L ;
+LEXICON Qe-PL-CMP-L 
+:X1%>e PL-CMP-L ;
+LEXICON Qer-PL-CMP-L 
+:X1%>er PL-CMP-L ;
+
+LEXICON PL-ACC/DAT/GEN/NOM 
++Pl: NULL ;
+LEXICON PL-ACCe/DATe/GENe/NOMe 
++Pl:e NULL ;
+LEXICON PL-ACCen/DATen/GENen/NOMen 
++Pl:en NULL ;
+LEXICON PL-ACCQ/DATQ/GENQ/NOMQ 
++Pl:X1 NULL ;
+LEXICON PL-ACCQe/DATQe/GENQe/NOMQe 
++Pl:X1%>e NULL ;
+LEXICON PL-ACCQen/DATQen/GENQen/NOMQen 
++Pl:X1%>en NULL ;
+LEXICON PL-ACCer/DATer/GENer/NOMer 
++Pl:er NULL ;
+LEXICON PL-ACCes/DATes/GENes/NOMes 
++Pl:es NULL ;
+LEXICON PL-ACCien/DATien/GENien/NOMien 
++Pl:ien NULL ;
+LEXICON PL-ACCn/DATn/GENn/NOMn 
++Pl:n NULL ;
+LEXICON PL-ACCnen/DATnen/GENnen/NOMnen 
++Pl:nen NULL ;
+LEXICON PL-ACCrn/DATrn/GENrn/NOMrn 
++Pl:rn NULL ;
+LEXICON PL-ACCs/DATs/GENs/NOMs 
++Pl:s NULL ;
+LEXICON PL-ACCta/DATta/GENta/NOMta 
++Pl:ta NULL ;
+
+LEXICON PL-ACC/DATn/GEN/NOM 
++Pl: s-n-Pl ;
+LEXICON PL-ACCe/DATen/GENe/NOMe 
++Pl:e s-n-Pl ;
+LEXICON PL-ACCQ/DATQn/GENQ/NOMQ 
++Pl:X1 s-n-Pl ;
+LEXICON PL-ACCQe/DATQen/GENQe/NOMQe 
++Pl:X1%>e s-n-Pl ;
+LEXICON PL-ACCQer/DATQern/GENQer/NOMQer 
++Pl:X1%>er s-n-Pl ;
+LEXICON PL-ACCer/DATern/GENer/NOMer 
++Pl:er s-n-Pl ;
+LEXICON PL-ACCse/DATsen/GENse/NOMse 
++Pl:se s-n-Pl ;
+
+LEXICON PL-ACC/DATn/DAT/GEN/NOM 
++Pl: s-n-Pl ;
++Pl: DAT ;
+LEXICON PL-ACCQe/DATQen/DATQe/GENQe/NOMQe 
++Pl:X1%>e s-n-Pl ;
++Pl:X1%>e DAT ;
+
+LEXICON PL-ACCQ/GENQ/NOMQ 
++Pl:X1 ACC ;
++Pl:X1 GEN ;
++Pl:X1 NOM ;
+
+LEXICON PL-ACCQe/GENQe/NOMQe 
++Pl:X1%>e ACC ;
++Pl:X1%>e GEN ;
++Pl:X1%>e NOM ;
+
+LEXICON PL-ACCen/GENen/NOMen 
++Pl:en ACC/GEN/NOM ;
+
+LEXICON ACC/GEN/NOM
+ACC ;
+GEN ;
+NOM ;
+
+LEXICON PL-DATQen 
++Pl:X1%>en DAT ;
+
+LEXICON PL-DATQn 
++Pl:X1%>en DAT ;
+
+LEXICON SG-ACC/DAT/GEN/NOM 
++Sg: NULL ;
+
+LEXICON SG-ACC/DAT/GEN/GENs/NOM 
++Sg: NULL ;
+ SG-GENs ;
+
+LEXICON SG-ACC/DAT/GENes/GEN/GENs/NOM 
+SG-ACC/DAT/NOM ;
+SG-GENes/GENs/GEN ;
+
+LEXICON SG-ACC/DAT/GENes/GEN/NOM 
++Sg: NULL ;
+ SG-GENes ;
+
+LEXICON SG-ACC/DAT/GENes/GENs/NOM 
++Sg: SG-ACC/DAT/NOM ;
+SG-GENes/GENs ;
+
+LEXICON SG-ACC/DAT/GENes/NOM 
+ SG-ACC/DAT/NOM ;
+ SG-GENes ;
+
+LEXICON SG-GENes/GENs/GEN
+SG-GENes/GENs ;
++Sg: GEN ;
+
+LEXICON SG-GENes/GENs
+ SG-GENes ;
+ SG-GENs ;
+
+LEXICON SG-ACC/DAT/GENs/GEN/NOM 
++Sg: NULL ;
+ SG-GENs ;
+
+LEXICON SG-ACC/DAT/GENs/NOM 
+SG-ACC/DAT/NOM ;
+ SG-GENs ;
+
+LEXICON SG-ACC/DAT/GENses/GEN/NOM 
++Sg: NULL ;
+SG-GENses ;
+
+LEXICON SG-ACC/DAT/GENses/NOM 
+SG-ACC/DAT/NOM ;
+ SG-GENses ;
+
+LEXICON SG-ACC/DATen/GENens/NOM
+SG-ACC ;
+SG-NOM ;
+SG-DATen ;
+ SG-GENens ;
+
+LEXICON SG-ACC/DATe/DAT/GENes/NOM 
+SG-ACC/DAT/NOM ;
+SG-DATe ;
+ SG-GENes ;
+
+LEXICON SG-ACC/DATse/GENses/GEN/NOM
+SG-ACC ;
+SG-NOM ;
+SG-DATse ;
+ SG-GENses ;
+ SG-GEN ;
+
+LEXICON SG-ACC/DATse/DAT/GENses/NOM 
+SG-ACC/DAT/NOM ;
+SG-DATse ;
+ SG-GENses ;
+
+LEXICON SG-ACCen/ACC/DATen/DAT/GENen/GENes/GENs/NOM 
+SG-ACCen/ACC/DATen/DAT/GENen/GENs/NOM ;
+SG-GENes ;
+
+LEXICON SG-ACCen/ACC/DATen/DAT/GENen/GENs/NOM 
+SG-ACC/DAT/NOM ;
+SG-ACCen ;
+SG-DATen ;
+SG-GENs ;
+SG-GENen ;
+
+LEXICON SG-ACCe/DATen/GENen/NOMe !Arabisch
+:e SG-ACC ;
+:en SG-DAT ;
+:en SG-GEN ;
+:e SG-NOM ;
+
+LEXICON SG-ACCen/DATen/GENen/NOM 
+:e SG-ACCn/DATn/GENn ;
+:e SG-NOM ;
+
+LEXICON SG-ACCen/DATen/GENen
+:e SG-ACCn/DATn/GENn ;
+
+
+LEXICON SG-ACCn/DATn/GENn/NOM 
+SG-ACCn/DATn/GENn ;
+SG-NOM ;
+
+LEXICON SG-ACCn/DATn/GENns/NOM 
+SG-ACCn ;
+SG-DATn ;
+SG-GENns ;
+SG-NOM ;
+
+LEXICON SG-ACCrn/DATrn/GENrn/NOMr 
+:r SG-ACCn/DATn/GENn/NOM ;
+
+LEXICON SG-ACCn/DATn/GENn
+SG-ACCn ;
+SG-DATn ;
+SG-GENn ;
+
+
+LEXICON SG-ACC/DAT/NOM 
+SG-ACC ;
+SG-DAT ;
+SG-NOM ;
+
+LEXICON SG-ACC
++Sg: ACC ;
+LEXICON SG-DAT
++Sg: DAT ;
+
+
+LEXICON SG-DATe/GENes 
+SG-DATe ;
+SG-GENes ;
+LEXICON SG-DATe/GENs 
+SG-DATe ;
+SG-GENs ;
+
+LEXICON SG-ACCen
++Sg:en ACC ;
+LEXICON SG-ACCn
++Sg:n ACC ;
+
+LEXICON SG-DATen
++Sg:en DAT ;
+LEXICON SG-DATn
++Sg:n DAT ;
+LEXICON SG-DATe
++Sg:e DAT ;
+LEXICON SG-DATse
+:s SG-DATe ;
+
+LEXICON SG-GEN
++Sg: GEN ;
+LEXICON SG-GENen
++Sg:en GEN ;
+LEXICON SG-GENn
++Sg:n GEN ;
+LEXICON SG-GENes
++Sg:es GEN ;
+LEXICON SG-GENses
++Sg:ses GEN ;
+LEXICON SG-GENens
++Sg:ens GEN ;
+LEXICON SG-GENns
++Sg:ns GEN ;
+LEXICON SG-GENs
++Sg:s GEN ;
+
+LEXICON SG-NOM
++Sg: NOM ;
+LEXICON SG-NOMen
++Sg:en NOM ;
+LEXICON SG-NOMn
++Sg:n NOM ;
+
+LEXICON ACC
++Acc: # ;
+LEXICON DAT
++Dat: # ;
+LEXICON GEN
++Gen: # ;
+LEXICON NOM
++Nom: # ;
+
+

@@ -1,0 +1,92 @@
+Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+
+
+
+ %#:0 %>:0
+
+ X1:0 X2:0 X3:0 X4:0 X5:0 X6:0 X7:0 X8:0 X9:0
+ Q1:0 Q2:0 Q3:0 Q4:0 Q5:0 Q6:0 Q7:0 Q8:0 Q9:0
+ Y1:0 Y2:0 Y3:0 Y4:0 Y5:0 Y6:0 Y7:0 Y8:0 Y9:0 
+ Z1:0 Z2:0 Z3:0 Z4:0 Z5:0 Z6:0 Z7:0 Z8:0 Z9:0 
+
+!! TRIGGER
+%^Pen:0   !!≈ * @CODE@ penultimate syllable
+%^RmVow:0 !!≈ * @CODE@ remove vowel
+
+;
+
+
+Sets
+ Vow = a e i o u y æ ø å ä ö ü 
+       A E I O U Y Æ Ø Å Ä Ö Ü ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ß 
+       B C D F G H J K L M N P Q R S T V W X Z;
+ LNR = l n r ;
+ Dummy = X1 X2 X3 X4 X5 X6 X7 X8 X9 %^Pen %^RmVow
+ Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9
+ Y1 Y2 Y3 Y4 Y5 Y6 Y7 Y8 Y9 
+ Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9 ;  ! %+ 
+
+
+Rules
+
+"Umlaut"
+ Vx:Vy <=>  Cns _ Cns:+ ( e LNR ) X1: %>:  ;
+    where Vx in (u o U O)
+          Vy in (ü ö Ü Ö)
+          matched ;
+          
+!€ NapfX1%>e#
+!€ Näpf00e0
+
+!€ BodenX1%>#
+!€ Böden000
+
+!$ NapfX1%>e#
+!$ Napf00e0
+
+!$ BodenX1%>#
+!$ Boden000
+
+          
+"Umlaut vor Vokal" 
+ Vx:Vy <=>  Cns _ [ u | a: ] Cns:+ ( e LNR ) X1: %>:  ;
+            Cns _ Cns:+ ( e LNR ) X1: %>:  ;
+    where Vx in (a A)
+          Vy in (ä Ä)
+          matched ;         
+ 
+!€ BaumX1%>e#
+!€ Bäum00e0
+
+"Entfernung von a in aa Umlaut"
+a:0 <=> a: _ Cns:+ ( e LNR ) X1: %>:  ;
+
+!€ SaalX1%>e#
+!€ Sä0l00e0
+
+"Subsequent s Deletion"
+ s:0 <=> [s:+|ß|x|z] %> _ t ;
+!! aasen+V+Ind+Prs+Sg2
+!€ aas%>st
+!€ aas%>0t
+
+"Weak e Deletion"
+ e:0 <=> Vow Cns:+ _ (Dummy:+) %>: e ;
+!€ Nomade%>en#
+!€ Nomad00en0
+
+!$ Nomade%>en#
+!$ Nomade0en0
+     Cns: _ [l|r] %^Pen: %^RmVow:  ;
+!! ackern+V+Ind+Prs+Sg1
+!€ acker%^Pen%^RmVow%>e
+!€ ack0r00%>e
+           
+
+
