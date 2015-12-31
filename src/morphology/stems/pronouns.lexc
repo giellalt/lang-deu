@@ -2,6 +2,7 @@ LEXICON Pronoun
 Personal ;
 Demonstrative ;
 Reflexive ;
+Relative ;
 
 LEXICON Personal
 er+Pron+Pers+Msc+Sg+Nom:er # ;
@@ -14,10 +15,72 @@ sie+Pron+Pers+Fem+Sg+Gen:ihnen # ;
 sie+Pron+Pers+Fem+Sg+Dat:ihnen # ;
 
 LEXICON Demonstrative
-der+Pron+Dem+Msc+Sg+Nom:der # ;
-der+Pron+Dem+Msc+Sg+Acc:den # ;
-der+Pron+Dem+Msc+Sg+Gen:des # ;
-der+Pron+Dem+Msc+Sg+Dat:dem # ;
+der:d DEM_der ;
+
+LEXICON DEM_der
++Pron+Dem+Msc+Sg+Acc:en # ;
++Pron+Dem+Msc+Sg+Dat:em # ;
++Pron+Dem+Msc+Sg+Gen:es # ;
++Pron+Dem+Msc+Sg+Nom:er # ;
+
++Pron+Dem+Fem+Sg+Acc:ie # ;
++Pron+Dem+Fem+Sg+Dat:er # ;
++Pron+Dem+Fem+Sg+Gen:er # ;
++Pron+Dem+Fem+Sg+Nom:ie # ;
+
++Pron+Dem+Neu+Sg+Acc:as # ;
++Pron+Dem+Neu+Sg+Dat:em # ;
++Pron+Dem+Neu+Sg+Gen:es # ;
++Pron+Dem+Neu+Sg+Nom:as # ;
+
++Pron+Dem+Msc+Pl+Acc:ie # ;
++Pron+Dem+Msc+Pl+Dat:er # ;
++Pron+Dem+Msc+Pl+Gen:en # ;
++Pron+Dem+Msc+Pl+Nom:ie # ;
+
++Pron+Dem+Fem+Pl+Acc:ie # ;
++Pron+Dem+Fem+Pl+Dat:er # ;
++Pron+Dem+Fem+Pl+Gen:en # ;
++Pron+Dem+Fem+Pl+Nom:ie # ;
+
++Pron+Dem+Neu+Pl+Acc:ie # ;
++Pron+Dem+Neu+Pl+Dat:er # ;
++Pron+Dem+Neu+Pl+Gen:en # ;
++Pron+Dem+Neu+Pl+Nom:ie # ;
 
 LEXICON Reflexive
 # ;
+
+LEXICON Relative
++Pron+Rel: REL_d/er__rel ;
+
+LEXICON REL_d/er__rel
++Msc+Sg+Acc:en # ;
++Msc+Sg+Dat:em # ;
++Msc+Sg+Gen:essen # ;
++Msc+Sg+Nom:er # ;
+
++Fem+Sg+Acc:ie # ;
++Fem+Sg+Dat:er # ;
++Fem+Sg+Gen:eren # ;
++Fem+Sg+Nom:ie # ;
+
++Neu+Sg+Acc:as # ;
++Neu+Sg+Dat:em # ;
++Neu+Sg+Gen:essen # ;
++Neu+Sg+Nom:as # ;
+
++Msc+Pl+Acc:ie # ;
++Msc+Pl+Dat:enen # ;
++Msc+Pl+Gen:eren # ;
++Msc+Pl+Nom:ie # ;
+
++Fem+Pl+Acc:ie # ;
++Fem+Pl+Dat:enen # ;
++Fem+Pl+Gen:eren # ;
++Fem+Pl+Nom:ie # ;
+
++Neu+Pl+Acc:ie # ;
++Neu+Pl+Dat:enen # ;
++Neu+Pl+Gen:eren # ;
++Neu+Pl+Nom:ie # ;
