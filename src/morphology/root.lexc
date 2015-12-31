@@ -20,12 +20,18 @@ Multichar_Symbols
 +Dem +Pers
 +Adc +Ord
 
+! Adjective
++St	!!= * @CODE@ Stark
++Sw	!!= * @CODE@ Schwach
++Mix	!!= * @CODE@ gemischt
 
 +PUNCT +CLB +HYPH +LEFT +RIGHT
 
 !! Homonyms
 +Hom1
 +Hom2 
+
+
 
 !! !Semantic tags to help disambiguation & synt. analysis: (before POS)
 
