@@ -17,6 +17,12 @@
 ö (->) ø,
 Ö (->) Ø,
 Ö (->) Ø,
+ä (->) ä, # Precomposed and not decomposedin U+0308
+Ä (->) Ä, # Precomposed and not decomposedin U+0308
+ö (->) ö, # Precomposed and not decomposedin U+0308
+Ö (->) Ö, # Precomposed and not decomposedin U+0308
+ü (->) ü, # Precomposed and not decomposedin U+0308
+Ü (->) Ü, # Precomposed and not decomposedin U+0308
 ü (->) u, # Somali
 Ü (->) Ü, # Somali
 ï (->) i, # sma norm
