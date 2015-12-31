@@ -280,6 +280,13 @@ a2 A2 o2 O2 u2 U2
 @D.PTC@ ! Disallow test 
 @R.PTC.ON@ ! Require test
 
+!! Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
+
++%<acc%>                  !!≈ * @CODE@ case tags
++%<dat%>                  !!≈ * @CODE@ case tags
++%<gen%>                  !!≈ * @CODE@ case tags
++%<nom%>                  !!≈ * @CODE@ case tags
+
 
 ! Other
 
@@ -329,8 +336,9 @@ Nouns ;
 Verbs ;
 Adjectives ;
 Adverbs ;
-Conjunction ;
-Subjunction ;
+!Conjunction ;
+Determiners ;
+!Subjunction ;
 ! Interjection ;
 Numerals ;
 Pronoun ;

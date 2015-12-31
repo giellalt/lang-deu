@@ -1,0 +1,38 @@
+
+LEXICON Determiners
+der:d DET_d/er__det ;
+
+
+
+
+LEXICON DET_d/er__det
++Det+Def+Msc+Sg+Acc:en # ;
++Det+Def+Msc+Sg+Dat:em # ;
++Det+Def+Msc+Sg+Gen:es # ;
++Det+Def+Msc+Sg+Nom:er # ;
+
++Det+Def+Fem+Sg+Acc:ie # ;
++Det+Def+Fem+Sg+Dat:er # ;
++Det+Def+Fem+Sg+Gen:er # ;
++Det+Def+Fem+Sg+Nom:ie # ;
+
++Det+Def+Neu+Sg+Acc:as # ;
++Det+Def+Neu+Sg+Dat:em # ;
++Det+Def+Neu+Sg+Gen:es # ;
++Det+Def+Neu+Sg+Nom:as # ;
+
++Det+Def+Msc+Pl+Acc:ie # ;
++Det+Def+Msc+Pl+Dat:er # ;
++Det+Def+Msc+Pl+Gen:en # ;
++Det+Def+Msc+Pl+Nom:ie # ;
+
++Det+Def+Fem+Pl+Acc:ie # ;
++Det+Def+Fem+Pl+Dat:er # ;
++Det+Def+Fem+Pl+Gen:en # ;
++Det+Def+Fem+Pl+Nom:ie # ;
+
++Det+Def+Neu+Pl+Acc:ie # ;
++Det+Def+Neu+Pl+Dat:er # ;
++Det+Def+Neu+Pl+Gen:en # ;
++Det+Def+Neu+Pl+Nom:ie # ;
+

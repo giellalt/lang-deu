@@ -1,0 +1,48 @@
+!! Prepositions
+!! --------------------
+!! The GERMAN language prepositions
+
+
+LEXICON PR_ad__pr
++Pr+%<acc%>: # ;
+LEXICON PR_ab__pr
++Pr+%<dat%>: # ;
+LEXICON PR_abseits__pr
++Pr+%<gen%>: # ;
+LEXICON PR_als__pr
++Pr+%<nom%>: # ;
+LEXICON PR_an__pr
++Pr+%<acc%>: # ;
++Pr+%<dat%>: # ;
+LEXICON PR_trotz__pr
++Pr+%<dat%>: # ;
++Pr+%<gen%>: # ;
+LEXICON PR_exklusive__pprep
++Pr+%<acc%>: # ;
+LEXICON PR_alledem__pprep
++Pr+%<dat%>: # ;
+LEXICON PR_halber__pprep
++Pr+%<gen%>: # ;
+LEXICON PR_entlang__pprep
++Pr+%<acc%>: # ;
++Pr+%<dat%>: # ;
+
+
+
+!! Not definite
+an+Pr:an # ;
+auf+Pr:auf # ;
+bei+Pr:bei # ;
+hinter+Pr:hinter # ;
+in+Pr:in # ;
+über+Pr:über # ;
+unter+Pr:unter # ;
+von+Pr:von # ;
+vor+Pr:vor # ;
+zu+Pr:zu # ;
+
+
+
+
+! vim: set ft=xfst-lexc:
+
