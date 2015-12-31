@@ -1,8 +1,76 @@
 
-LEXICON cc
-+CC # ;
+LEXICON beziehungsweise__cnjcoo
++CC: # ;
+
+LEXICON anstatt__cnjsub
++CS: # ;
+
+LEXICON als__cnjadv
+! FIXME
++CS: # ;
 
 LEXICON Conjunction
 
-und cc ;
-oder cc ;
+
+aber:aber beziehungsweise__cnjcoo ;
+beziehungsweise:beziehungsweise beziehungsweise__cnjcoo ;
+desto:desto beziehungsweise__cnjcoo ;
+doch:doch beziehungsweise__cnjcoo ;
+entweder:entweder beziehungsweise__cnjcoo ;
+es% sei% denn:es% sei% denn beziehungsweise__cnjcoo ;
+indessen:indessen beziehungsweise__cnjcoo ;
+oder:oder beziehungsweise__cnjcoo ;
+sondern:sondern beziehungsweise__cnjcoo ;
+sowenig:sowenig beziehungsweise__cnjcoo ;
+sowie:sowie beziehungsweise__cnjcoo ;
+sowohl:sowohl beziehungsweise__cnjcoo ;
+und:und beziehungsweise__cnjcoo ;
+weder:weder beziehungsweise__cnjcoo ;
+als% ob:als% ob anstatt__cnjsub ;
+anstatt:anstatt anstatt__cnjsub ;
+ausgenommen:ausgenommen anstatt__cnjsub ;
+bevor:bevor anstatt__cnjsub ;
+bis:bis anstatt__cnjsub ;
+da:da anstatt__cnjsub ;
+damit:damit anstatt__cnjsub ;
+dass:dass anstatt__cnjsub ;
+daß:daß anstatt__cnjsub ;
+demzufolge:demzufolge anstatt__cnjsub ;
+ehe:ehe anstatt__cnjsub ;
+falls:falls anstatt__cnjsub ;
+indem:indem anstatt__cnjsub ;
+inwiefern:inwiefern anstatt__cnjsub ;
+nachdem:nachdem anstatt__cnjsub ;
+noch:noch anstatt__cnjsub ;!-- weder ... noch --
+ob:ob anstatt__cnjsub ;
+obgleich:obgleich anstatt__cnjsub ;
+obschon:obschon anstatt__cnjsub ;
+obwohl:obwohl anstatt__cnjsub ;
+ohne:ohne anstatt__cnjsub ;
+seit:seit anstatt__cnjsub ;
+seitdem:seitdem anstatt__cnjsub ;
+sobald:sobald anstatt__cnjsub ;
+sodass:sodass anstatt__cnjsub ;
+sofern:sofern anstatt__cnjsub ;
+solange:solange anstatt__cnjsub ;
+soweit:soweit anstatt__cnjsub ;
+statt:statt anstatt__cnjsub ;
+um:um anstatt__cnjsub ;
+wann:wann anstatt__cnjsub ;
+weil:weil anstatt__cnjsub ;
+wenn:wenn anstatt__cnjsub ;
+wenngleich:wenngleich anstatt__cnjsub ;
+wiewohl:wiewohl anstatt__cnjsub ;
+wo:wo anstatt__cnjsub ;
+wohin:wohin anstatt__cnjsub ;
+wohingegen:wohingegen anstatt__cnjsub ;
+worauf:worauf anstatt__cnjsub ;
+worin:worin anstatt__cnjsub ;
+als:als als__cnjadv ;
+als% ob:als% ob als__cnjadv ;
+denn:denn als__cnjadv ;
+jedoch:jedoch als__cnjadv ;
+nichtsdestoweniger:nichtsdestoweniger als__cnjadv ;
+während:während als__cnjadv ;
+wie:wie als__cnjadv ;
+womit:womit als__cnjadv ;
