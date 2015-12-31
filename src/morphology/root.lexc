@@ -3,15 +3,21 @@
 Multichar_Symbols
 
 ! POS
-+N +V +A 
-+Adv +CC +CS +Interj +Pron +Num
++N 
++V 
++A 
++Adv 
++CC 
++CS 
++Interj 
++Pron 
++Num
 
 ! Verbal MSP
 +Prs +Prt +Prf 
 +Ind +Imprt +Subj +Conj +Opt 
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf +Vt
-
 
 ! Nominal MSP
 +Msc +Fem +Neu
@@ -323,8 +329,8 @@ Nouns ;
 Verbs ;
 Adjectives ;
 Adverbs ;
-!Conjunction ;
-!Subjunction ;
+Conjunction ;
+Subjunction ;
 ! Interjection ;
 Numerals ;
 Pronoun ;
