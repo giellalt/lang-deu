@@ -18,6 +18,8 @@ Multichar_Symbols
 +Ind +Imprt +Subj +Conj +Opt 
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf +Vt
++PrfPrc
++PrsPrc
 
 ! Nominal MSP
 +Msc +Fem +Neu
