@@ -16,6 +16,7 @@ sie+Pron+Pers+Fem+Sg+Dat:ihnen # ;
 
 LEXICON Demonstrative
 der:d DEM_der ;
+dieser:dies PRON_dies/er__dem ;
 
 LEXICON DEM_der
 +Pron+Dem+Msc+Sg+Acc:en # ;
@@ -84,3 +85,35 @@ LEXICON REL_d/er__rel
 +Neu+Pl+Dat:enen # ;
 +Neu+Pl+Gen:eren # ;
 +Neu+Pl+Nom:ie # ;
+
+LEXICON PRON_dies/er__dem
++Pron+Dem+Msc+Sg+Acc:en # ;
++Pron+Dem+Msc+Sg+Dat:em # ;
++Pron+Dem+Msc+Sg+Gen:es # ;
++Pron+Dem+Msc+Sg+Nom:er # ;
+
++Pron+Dem+Fem+Sg+Acc:e # ;
++Pron+Dem+Fem+Sg+Dat:er # ;
++Pron+Dem+Fem+Sg+Gen:er # ;
++Pron+Dem+Fem+Sg+Nom:e # ;
+
++Pron+Dem+Neu+Sg+Acc:es # ;
++Pron+Dem+Neu+Sg+Dat:em # ;
++Pron+Dem+Neu+Sg+Gen:es # ;
++Pron+Dem+Neu+Sg+Nom:es # ;
+
++Pron+Dem+Msc+Pl+Acc:e # ;
++Pron+Dem+Msc+Pl+Dat:en # ;
++Pron+Dem+Msc+Pl+Gen:er # ;
++Pron+Dem+Msc+Pl+Nom:e # ;
+
++Pron+Dem+Fem+Pl+Acc:e # ;
++Pron+Dem+Fem+Pl+Dat:en # ;
++Pron+Dem+Fem+Pl+Gen:er # ;
++Pron+Dem+Fem+Pl+Nom:e # ;
+
++Pron+Dem+Neu+Pl+Acc:e # ;
++Pron+Dem+Neu+Pl+Dat:en # ;
++Pron+Dem+Neu+Pl+Gen:er # ;
++Pron+Dem+Neu+Pl+Nom:e # ;
+

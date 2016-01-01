@@ -2373,9 +2373,9 @@ LEXICON Kirmes__n_f !!= * @CODE@
 
 !!
 LEXICON SG-CMP-L 
-#;
+R ;
 LEXICON PL-CMP-L 
-#;
+R ;
 LEXICON 0n-SG-CMP-L 
 :n SG-CMP-L ;
 LEXICON 0s-SG-CMP-L 
@@ -2558,7 +2558,7 @@ LEXICON SG-ACCe/DATen/GENen/NOMe !Arabisch
 
 LEXICON SG-ACCen/DATen/GENen/NOM 
 :e SG-ACCn/DATn/GENn ;
-:e SG-NOM ;
+: SG-NOM ;
 
 LEXICON SG-ACCen/DATen/GENen
 :e SG-ACCn/DATn/GENn ;

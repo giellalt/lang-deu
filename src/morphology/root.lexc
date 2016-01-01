@@ -41,7 +41,7 @@ Multichar_Symbols
 
 
 
-!! !Semantic tags to help disambiguation & synt. analysis: (before POS)
+!! Semantic tags to help disambiguation & synt. analysis: (before POS)
 
  +Sem/Act         !!= * @CODE@ = Activity
  +Sem/Adr         !!= * @CODE@ = Webadr
@@ -138,7 +138,7 @@ Multichar_Symbols
  +Sem/Wthr        !!= * @CODE@ = The Weather or the state of ground
 
 
-!! !Multiple Semantic tags:
+!! Multiple Semantic tags:
 +Sem/Act_Group                                      !!≈ * @CODE@ Activity and Group
 +Sem/Act_Plc                                        !!≈ * @CODE@   A persons job is an activity, and a place as well
 +Sem/Act_Route                                      !!≈ * @CODE@ Activity and Route, ie johtolat
@@ -300,6 +300,10 @@ a2 A2 o2 O2 u2 U2
 !! TRIGGER
 %^Pen	!!≈ * @CODE@ penultimate syllable
 %^RmVow !!≈ * @CODE@ remove vowel
+
+!! COMPOUNDING
++Cmp !!≈ * @CODE@ compound
++Use/Circ !!≈ * @CODE@ FIXME, (where I am)
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
