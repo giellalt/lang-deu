@@ -20,7 +20,7 @@ LEXICON W
 
 LEXICON W_ACKERN
 +V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
-+V+Prf@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V0@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
 
 
 
@@ -33,7 +33,13 @@ LEXICON KeinPraf
      IMPRT ;
 
 LEXICON Praf
-     # ;
++Prf:     # ;
+!!A_abgebrannt__adj ;
++PrfPrc+Pos: A_abenteuerlich__adj-positive ;
++PrfPrc:  A_abenteuerlich__adj-comp ;
++PrfPrc:%>e  A_abenteuerlich__adj-sup ;
+
+
 
 LEXICON KeinPraf_ACKERN
      Inf_ACKERN ;
@@ -45,11 +51,17 @@ LEXICON KeinPraf_ACKERN
 
 LEXICON Inf
 +Inf:%>en # ;
-+PrcPrf:%>end # ;
++PrsPrc:%>end # ;
+!!A_abendfüllend__adj
+!! CHECKME, should there be +Comp and +Superl
++PrsPrf+Pos:%>end A_abenteuerlich__adj-positive ;
 
 LEXICON Inf_ACKERN
 +Inf:%>n # ;
-+PrcPrf:%>nd # ;
++PrsPrc:%>nd # ;
+!!A_abendfüllend__adj
+!! CHECKME, should there be +Comp and +Superl
++PrsPrc+Pos:%>nd A_abenteuerlich__adj-positive ;
 
 LEXICON IND-PRS
 +Ind+Prs+Sg1:%^Pen%^RmVow%>e  # ; !!= * @CODE@ works with ackern
