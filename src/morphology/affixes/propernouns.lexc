@@ -8,7 +8,8 @@ LEXICON PROP_Afrika__np
 +N+Prop+Neu+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
 
 LEXICON PROP_Frankreich__np
-+N+Prop: #;
++N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
+
 LEXICON PROP_Niederlande__np
 +N+Prop+Neu: SG-ACC/DAT/GENs/NOM ;
 +N+Prop+Neu+Use/NG:ʼ SG-GEN ; !! CHECKME ʼ

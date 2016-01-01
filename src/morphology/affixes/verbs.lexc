@@ -3,20 +3,21 @@
 ! ======================== !
 
 
+
 ! Schwache Verben
 ! ===============
 
 LEXICON W_OHNE-GE
 +V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
-+V+Prf@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
++V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
 LEXICON W_OHNE-GE_ACKERN
 +V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
-+V+Prf@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
++V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
 LEXICON W
 +V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
-+V+Prf@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V0@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
 
 LEXICON W_ACKERN
 +V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
@@ -38,6 +39,9 @@ LEXICON Praf
 +PrfPrc+Pos: A_abenteuerlich__adj-positive ;
 +PrfPrc:  A_abenteuerlich__adj-comp ;
 +PrfPrc:%>e  A_abenteuerlich__adj-sup ;
+
+LEXICON Praf_ST
++Prf:     # ;
 
 
 
@@ -64,7 +68,7 @@ LEXICON Inf_ACKERN
 +PrsPrc+Pos:%>nd A_abenteuerlich__adj-positive ;
 
 LEXICON IND-PRS
-+Ind+Prs+Sg1:%^Pen%^RmVow%>e  # ; !!= * @CODE@ works with ackern
++Ind+Prs+Sg1:%>e  # ;
 +Ind+Prs+Sg2:%>st # ;
 +Ind+Prs+Sg3:%>t  # ;
 +Ind+Prs+Pl1:%>en # ;
@@ -79,10 +83,26 @@ LEXICON IND-PRT
 +Ind+Prt+Pl2:%>tet  # ;
 +Ind+Prt+Pl3:%>ten  # ;
 
+LEXICON IND-PRT_SEIN
++Ind+Prt+Sg1:%>   # ;
++Ind+Prt+Sg2:%>st # ;
++Ind+Prt+Sg3:%>   # ;
++Ind+Prt+Pl1:%>en  # ;
++Ind+Prt+Pl2:%>t  # ;
++Ind+Prt+Pl3:%>en  # ;
+
 LEXICON SUBJ-PRS
-+Subj+Prs+Sg1:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Sg1:%>e  # ;
 +Subj+Prs+Sg2:%>est # ;
-+Subj+Prs+Sg3:%^Pen%^RmVow%>e  # ;
++Subj+Prs+Sg3:%>e  # ;
++Subj+Prs+Pl1:%>en # ;
++Subj+Prs+Pl2:%>et  # ;
++Subj+Prs+Pl3:%>en # ;
+
+LEXICON SUBJ-PRS_SEIN
++Subj+Prs+Sg1:%>  # ;
++Subj+Prs+Sg2:%>st # ;
++Subj+Prs+Sg3:%>  # ;
 +Subj+Prs+Pl1:%>en # ;
 +Subj+Prs+Pl2:%>et  # ;
 +Subj+Prs+Pl3:%>en # ;
@@ -94,6 +114,14 @@ LEXICON SUBJ-PRT
 +Subj+Prt+Pl1:%>ten  # ;
 +Subj+Prt+Pl2:%>tet  # ;
 +Subj+Prt+Pl3:%>ten  # ;
+
+LEXICON SUBJ-PRT_SEIN
++Subj+Prt+Sg1:%>e   # ;
++Subj+Prt+Sg2:%>est # ;
++Subj+Prt+Sg3:%>e   # ;
++Subj+Prt+Pl1:%>en  # ;
++Subj+Prt+Pl2:%>t  # ;
++Subj+Prt+Pl3:%>en  # ;
 
 LEXICON IMPRT
 +Imprt+Sg2:%> # ;
@@ -117,6 +145,51 @@ LEXICON SUBJ-PRS_ACKERN
 +Subj+Prs+Pl3:%>n # ;
 
 
+
+
+
+! Starke Verben
+! ===============
+
+LEXICON V_haben__vbhaver !!= * @CODE@ haben:ha
++V00@R.PTC.ON@:b%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_haben__vbhaver_01 ;
++V@D.PTC@:b@D.PTC@ Inf ;
+LEXICON V_haben__vbhaver_01
++Ind+Prs+Sg1:b%>e  # ;
++Ind+Prs+Sg2:%>st # ;
++Ind+Prs+Sg3:%>t  # ;
++Ind+Prs+Pl1:b%>en # ;
++Ind+Prs+Pl2:b%>t  # ;
++Ind+Prs+Pl3:b%>en # ;
+
+:t IND-PRT ;
+:b SUBJ-PRS ;
+:tX1 SUBJ-PRT ;
+
++Imprt+Sg2:b%>e # ;
++Imprt+Pl2:b%>t # ;
+
+LEXICON V_sein__vbser !!= * @CODE@ sein:
++V00@R.PTC.ON@:b%>t@R.PTC.ON@  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_sein__vbser_01 ;
++V+Inf00@D.PTC@:sein@D.PTC@ # ;
++V+PrsPrc+Pos000@D.PTC@:seiend@D.PTC@ A_abenteuerlich__adj-positive ;
+
+LEXICON V_sein__vbser_01
++Ind+Prs+Sg1:bin  # ;
++Ind+Prs+Sg2:bi%>st # ;
++Ind+Prs+Sg3:ist  # ;
++Ind+Prs+Pl1:sind # ;
++Ind+Prs+Pl2:seid  # ;
++Ind+Prs+Pl3:sind # ;
+
+:war IND-PRT_SEIN ;
+:sei SUBJ-PRS_SEIN ;
+
+:warX1 SUBJ-PRT ;
++Imprt+Sg2:sei # ;
++Imprt+Pl2:sei%>d # ;
 
 
 
