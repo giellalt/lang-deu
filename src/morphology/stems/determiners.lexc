@@ -1,9 +1,39 @@
 
 LEXICON Determiners
+alle:alle DET_jede__det ;
+andere:andere DET_jede__det ;
+beide:beide DET_jede__det ;
+jede:jede DET_jede__det ;
+solche:solche DET_jede__det ;
+verschiedene:verschiedene DET_jede__det ;
+manche:manche DET_manche__det ;
+mehrere:mehrere DET_manche__det ;
+viele:viele DET_manche__det ;
+genügend:genügend DET_genügend__det ;
+was:was DET_was__det ;
+
 der:d DET_d/er__det ;
+ein:ein DET_ein__det ;
+noch% ein:noch% ein DET_ein__det ;
+kein:kein DET_ein__det ; !CHECKME
+irgendein:irgendein DET_ein__det ; !CHECKME
+mein+Det+PxSg1:mein DET_dein__det_01 ; !CHECKME
+dein+Det+PxSg2:dein DET_dein__det_01 ; !CHECKME
+sein+Det+Msc+PxSg3:sein DET_dein__det_01 ; !CHECKME
+sein+Det+Neu+PxSg3:sein DET_dein__det_01 ; !CHECKME
+ihr+Det+Fem+PxSg3:ihr DET_dein__det_01 ; !CHECKME
+unser+Det+PxPl1:unser DET_dein__det_01 ; !CHECKME
+Ihr+Det+PxPl2:Ihr DET_dein__det_01 ; !CHECKME
+euer+Det+PxPl2:euer DET_dein__det_01 ; !CHECKME
+ihr+Det+PxPl3:ihr DET_dein__det_01 ; !CHECKME
+ander+Det:ander DET_dein__det_01 ; !CHECKME
+sämtlich+Det:sämtlich DET_dein__det_01 ; !CHECKME
+dieser:dies DET_dies/er__det ;
+jener:jen DET_dies/er__det ;
 
-
-
+LEXICON DET_was__det
++Det+Interr: # ;
++Pron+Interr: # ; !FIXME
 
 LEXICON DET_d/er__det
 +Det+Def+Msc+Sg+Acc:en # ;
@@ -35,4 +65,162 @@ LEXICON DET_d/er__det
 +Det+Def+Neu+Pl+Dat:er # ;
 +Det+Def+Neu+Pl+Gen:en # ;
 +Det+Def+Neu+Pl+Nom:ie # ;
+
+LEXICON DET_manche__det
++Det+Qnt: DET_jede__det_01 ;
+LEXICON DET_jede__det
++Det+Indef: DET_jede__det_01 ;
+LEXICON DET_jede__det_01
++Msc+Sg+Acc:%>n # ;
++Msc+Sg+Dat:%>m # ;
++Msc+Sg+Gen:%>s # ;
++Msc+Sg+Nom:%>r # ;
+
++Fem+Sg+Acc: # ;
++Fem+Sg+Dat:%>r # ;
++Fem+Sg+Gen:%>r # ;
++Fem+Sg+Nom: # ;
+
++Neu+Sg+Acc:%>s # ;
++Neu+Sg+Dat:%>m # ;
++Neu+Sg+Gen:%>s # ;
++Neu+Sg+Nom:%>s # ;
+
++Msc+Pl+Acc: # ;
++Msc+Pl+Dat:%>n # ;
++Msc+Pl+Gen:%>r # ;
++Msc+Pl+Nom: # ;
+
++Fem+Pl+Acc: # ;
++Fem+Pl+Dat:%>n # ;
++Fem+Pl+Gen:%>r # ;
++Fem+Pl+Nom: # ;
+
++Neu+Pl+Acc: # ;
++Neu+Pl+Dat:%>n # ;
++Neu+Pl+Gen:%>r # ;
++Neu+Pl+Nom: # ;
+
+LEXICON DET_genügend__det
++Det+Qnt: DET_genügend__det_01 ;
+LEXICON DET_genügend__det_01
+!!CHECKME, gender, number, case WITH ZERO morphology
++Msc+Sg+Acc: # ;
++Msc+Sg+Dat: # ;
++Msc+Sg+Gen: # ;
++Msc+Sg+Nom: # ;
+
++Fem+Sg+Acc: # ;
++Fem+Sg+Dat: # ;
++Fem+Sg+Gen: # ;
++Fem+Sg+Nom: # ;
+
++Neu+Sg+Acc: # ;
++Neu+Sg+Dat: # ;
++Neu+Sg+Gen: # ;
++Neu+Sg+Nom: # ;
+
++Msc+Pl+Acc: # ;
++Msc+Pl+Dat: # ;
++Msc+Pl+Gen: # ;
++Msc+Pl+Nom: # ;
+
++Fem+Pl+Acc: # ;
++Fem+Pl+Dat: # ;
++Fem+Pl+Gen: # ;
++Fem+Pl+Nom: # ;
+
++Neu+Pl+Acc: # ;
++Neu+Pl+Dat: # ;
++Neu+Pl+Gen: # ;
++Neu+Pl+Nom: # ;
+
+LEXICON DET_dies/er__det
++Det+Dem+Msc+Sg+Acc:en # ;
++Det+Dem+Msc+Sg+Dat:em # ;
++Det+Dem+Msc+Sg+Gen:es # ;
++Det+Dem+Msc+Sg+Nom:er # ;
+
++Det+Dem+Fem+Sg+Acc:e # ;
++Det+Dem+Fem+Sg+Dat:er # ;
++Det+Dem+Fem+Sg+Gen:er # ;
++Det+Dem+Fem+Sg+Nom:e # ;
+
++Det+Dem+Neu+Sg+Acc:es # ;
++Det+Dem+Neu+Sg+Dat:em # ;
++Det+Dem+Neu+Sg+Gen:es # ;
++Det+Dem+Neu+Sg+Nom:es # ;
+
++Det+Dem+Msc+Pl+Acc:e # ;
++Det+Dem+Msc+Pl+Dat:en # ;
++Det+Dem+Msc+Pl+Gen:er # ;
++Det+Dem+Msc+Pl+Nom:e # ;
+
++Det+Dem+Fem+Pl+Acc:e # ;
++Det+Dem+Fem+Pl+Dat:en # ;
++Det+Dem+Fem+Pl+Gen:er # ;
++Det+Dem+Fem+Pl+Nom:e # ;
+
++Det+Dem+Neu+Pl+Acc:e # ;
++Det+Dem+Neu+Pl+Dat:en # ;
++Det+Dem+Neu+Pl+Gen:er # ;
++Det+Dem+Neu+Pl+Nom:e # ;
+
+LEXICON DET_ein__det
+
++Det+Indef+Msc+Sg+Acc:%>en # ;
++Det+Indef+Msc+Sg+Dat:%>em # ;
++Det+Indef+Msc+Sg+Gen:%>es # ;
++Det+Indef+Msc+Sg+Nom:%> # ;
+
++Det+Indef+Neu+Sg+Acc+Sw:%> # ;
++Det+Indef+Neu+Sg+Dat:%>em # ;
++Det+Indef+Neu+Sg+Gen:%>es # ;
++Det+Indef+Neu+Sg+Nom:%> # ;
+
++Det+Indef+Fem+Sg+Acc:%>e # ;!
++Det+Indef+Fem+Sg+Dat:%>er # ;
++Det+Indef+Fem+Sg+Gen:%>er # ;
++Det+Indef+Fem+Sg+Nom:%>e # ;!
+
+LEXICON DET_dein__det
++Det: DET_dein__det_01 ;
+
+LEXICON DET_dein__det_01
++Msc+Sg+Acc:%>en # ;
++Msc+Sg+Dat:%>em # ;
++Msc+Sg+Gen:%>es # ;
++Msc+Sg+Nom:%> # ;
+
++Neu+Sg+Acc+Sw:%> # ;
++Neu+Sg+Dat:%>em # ;
++Neu+Sg+Gen:%>es # ;
++Neu+Sg+Nom:%> # ;
+
++Fem+Sg+Acc:%>e # ;!
++Fem+Sg+Dat:%>er # ;
++Fem+Sg+Gen:%>er # ;
++Fem+Sg+Nom:%>e # ;!
+
++Msc+Pl+Acc:%>e # ;!
++Msc+Pl+Dat:%>en # ;
++Msc+Pl+Gen:%>er # ;
++Msc+Pl+Nom:%>e # ;!
+
++Fem+Pl+Acc:%>e # ;!
++Fem+Pl+Dat:%>en # ;
++Fem+Pl+Gen:%>er # ;
++Fem+Pl+Nom:%>e # ;!
+
++Neu+Pl+Acc:%>e # ;!
++Neu+Pl+Dat:%>en # ;
++Neu+Pl+Gen:%>er # ;
++Neu+Pl+Nom:%>e # ;!
+
+
+
+
+
+
+
 

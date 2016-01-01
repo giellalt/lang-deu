@@ -13,7 +13,7 @@ Homonyms
 
 
 
-!Semantic tags to help disambiguation & synt. analysis: (before POS)
+Semantic tags to help disambiguation & synt. analysis: (before POS)
 
  *  +Sem/Act          = Activity
  *  +Sem/Adr          = Webadr
@@ -110,7 +110,7 @@ Homonyms
  *  +Sem/Wthr         = The Weather or the state of ground
 
 
-!Multiple Semantic tags:
+Multiple Semantic tags:
  * +Sem/Act_Group Activity and Group
  * +Sem/Act_Plc   A persons job is an activity, and a place as well
  * +Sem/Act_Route Activity and Route, ie johtolat
@@ -259,6 +259,10 @@ Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arg
 TRIGGER
  * %^Pen	 penultimate syllable
  * %^RmVow remove vowel
+
+COMPOUNDING
+ * +Cmp compound
+ * +Use/Circ FIXME, (where I am)
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following

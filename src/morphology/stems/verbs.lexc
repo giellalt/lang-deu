@@ -22,7 +22,7 @@ LEXICON Verbs
 	                  Prafixe ; ! Brauchen kein ge-
 !ge@P.PTC.ON@             Irregulare ;
 !	                  Irregulare ;
-!ge@P.PTC.ON@             Starke ;
+00@P.PTC.ON@:ge@P.PTC.ON@             Starke ;
 !                         Starke ;
 00@P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
                           Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
@@ -55,7 +55,9 @@ holen:hol W ;
 
 ! Irregulare Verben
 
-!LEXICON Starke
+LEXICON Starke
+haben:ha V_haben__vbhaver ;
+sein: V_sein__vbser ;
 
 LEXICON Schwache
 winken:wink W ;
