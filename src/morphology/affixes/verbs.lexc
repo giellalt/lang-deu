@@ -165,7 +165,7 @@ LEXICON V_haben__vbhaver_01
 
 :t IND-PRT ;
 :b SUBJ-PRS ;
-:tX1 SUBJ-PRT ;
+:t%^Umlaut SUBJ-PRT ;
 
 +Imprt+Sg2:b%>e # ;
 +Imprt+Pl2:b%>t # ;
@@ -187,7 +187,7 @@ LEXICON V_sein__vbser_01
 :war IND-PRT_SEIN ;
 :sei SUBJ-PRS_SEIN ;
 
-:warX1 SUBJ-PRT ;
+:war%^Umlaut SUBJ-PRT ;
 +Imprt+Sg2:sei # ;
 +Imprt+Pl2:sei%>d # ;
 
