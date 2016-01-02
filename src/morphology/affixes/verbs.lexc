@@ -170,26 +170,72 @@ LEXICON V_haben__vbhaver_01
 +Imprt+Sg2:b%>e # ;
 +Imprt+Pl2:b%>t # ;
 
-LEXICON V_sein__vbser !!= * @CODE@ sein:
-+V00@R.PTC.ON@:b%>t@R.PTC.ON@  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_sein__vbser_01 ;
-+V+Inf00@D.PTC@:sein@D.PTC@ # ;
-+V+PrsPrc+Pos000@D.PTC@:seiend@D.PTC@ A_abenteuerlich__adj-positive ;
+LEXICON V_/müssen__vbmod !!= * @CODE@ müssen:muss
++V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Mod@D.PTC@:00@D.PTC@ V_/müssen__vbmod_01 ;
++V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+LEXICON V_/müssen__vbmod_01
++Ind+Prs+Sg1:  # ;
++Ind+Prs+Sg2:%>st # ;
++Ind+Prs+Sg3:  # ;
++Ind+Prs+Pl1:%^Umlaut%>en # ;
++Ind+Prs+Pl2:%^Umlaut%>t  # ;
++Ind+Prs+Pl3:%^Umlaut%>en # ;
 
-LEXICON V_sein__vbser_01
-+Ind+Prs+Sg1:bin  # ;
-+Ind+Prs+Sg2:bi%>st # ;
-+Ind+Prs+Sg3:ist  # ;
-+Ind+Prs+Pl1:sind # ;
-+Ind+Prs+Pl2:seid  # ;
-+Ind+Prs+Pl3:sind # ;
+: IND-PRT ;
+:%^Umlaut SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT ;
 
-:war IND-PRT_SEIN ;
-:sei SUBJ-PRS_SEIN ;
+LEXICON V_/können__vbmod !!= * @CODE@ können:konn
++V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Mod@D.PTC@:00@D.PTC@ V_/können__vbmod_01 ;
++V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+LEXICON V_/können__vbmod_01
++Ind+Prs+Sg1:%^LowerVow  # ;
++Ind+Prs+Sg2:%^LowerVow%>st # ;
++Ind+Prs+Sg3:%^LowerVow  # ;
++Ind+Prs+Pl1:%^Umlaut%>en # ;
++Ind+Prs+Pl2:%^Umlaut%>t  # ;
++Ind+Prs+Pl3:%^Umlaut%>en # ;
 
-:war%^Umlaut SUBJ-PRT ;
-+Imprt+Sg2:sei # ;
-+Imprt+Pl2:sei%>d # ;
+: IND-PRT ;
+:%^Umlaut SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT ;
+
+LEXICON V_/mögen__vbmod !!= * @CODE@ mögen:mog
++V+Mod@R.PTC.ON@:%^DeV%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Mod@D.PTC@:00@D.PTC@ V_/mögen__vbmod_01 ;
++V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+LEXICON V_/mögen__vbmod_01
++Ind+Prs+Sg1:%^LowerVow  # ;
++Ind+Prs+Sg2:%^LowerVow%>st # ;
++Ind+Prs+Sg3:%^LowerVow  # ;
++Ind+Prs+Pl1:%^Umlaut%>en # ;
++Ind+Prs+Pl2:%^Umlaut%>t  # ;
++Ind+Prs+Pl3:%^Umlaut%>en # ;
+
+:%^DeV IND-PRT ;
+:%^Umlaut SUBJ-PRS ;
+:%^Umlaut%^DeV SUBJ-PRT ;
+
+LEXICON V_/sollen__vbmod !!= * @CODE@ sollen:soll
++V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Mod@D.PTC@:00@D.PTC@ V_/sollen__vbmod_01 ;
++V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+LEXICON V_/sollen__vbmod_01
++Ind+Prs+Sg1:  # ;
++Ind+Prs+Sg2:%>st # ;
++Ind+Prs+Sg3:  # ;
++Ind+Prs+Pl1:%>en # ;
++Ind+Prs+Pl2:%>t  # ;
++Ind+Prs+Pl3:%>en # ;
+
+: IND-PRT ;
+: SUBJ-PRS ;
+: SUBJ-PRT ;
+
+
+
 
 
 

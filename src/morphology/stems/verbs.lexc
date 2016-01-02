@@ -23,7 +23,7 @@ LEXICON Verbs
 !ge@P.PTC.ON@             Irregulare ;
 !	                  Irregulare ;
 00@P.PTC.ON@:ge@P.PTC.ON@             Starke ;
-!                         Starke ;
+                         Starke ;
 00@P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
                           Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
 
@@ -57,7 +57,10 @@ holen:hol W ;
 
 LEXICON Starke
 haben:ha V_haben__vbhaver ;
-sein: V_sein__vbser ;
+können:konn V_/können__vbmod ;
+mögen:mog V_/mögen__vbmod ;
+müssen:muss V_/müssen__vbmod ;
+sollen:soll V_/sollen__vbmod ;
 
 LEXICON Schwache
 winken:wink W ;

@@ -1,8 +1,103 @@
 !! Numerals
 !! --------
-!! Numerals in UNDEFINED language are numbers.
+!! Numerals in GERMAN language are numbers.
 
 LEXICON Numerals
-numeral    #   ;
+ 2_DIGITS ;
+ 3_DIGITS ;
+ 6_DIGITS_INTERUM ;
+Million:Million NUM_END ;
+
+LEXICON 6_DIGITS_INTERUM
+ 5_DIGITS ;
+hundert:hundert NUM_tens-or-not-thousands ;
+einhundert:einhundert NUM_tens-or-not-thousands ;
+zweihundert:zweihundert NUM_tens-or-not-thousands ;
+dreihundert:dreihundert NUM_tens-or-not-thousands ;
+vierhundert:vierhundert NUM_tens-or-not-thousands ;
+fünfhundert:fünfhundert NUM_tens-or-not-thousands ;
+sechshundert:sechshundert NUM_tens-or-not-thousands ;
+siebenhundert:siebenhundert NUM_tens-or-not-thousands ;
+achthundert:achthundert NUM_tens-or-not-thousands ;
+neunhundert:neunhundert NUM_tens-or-not-thousands ;
+
+LEXICON NUM_tens-or-not-thousands
+zehn:zehn NUM_tens-or-not ;
+ein:ein NUM_tens-or-not ;
+zwei:zwei NUM_tens-or-not ;
+drei:drei NUM_tens-or-not ;
+vier:vier NUM_tens-or-not ;
+fünf:fünf NUM_tens-or-not ;
+sechs:sechs NUM_tens-or-not ;
+sieben:sieben NUM_tens-or-not ;
+acht:acht NUM_tens-or-not ;
+neun:neun NUM_tens-or-not ;
+zwanzig:zwanzig 4_DIGITS ;
+dreißig:dreißig 4_DIGITS ;
+vierzig:vierzig 4_DIGITS ;
+fünfzig:fünfzig 4_DIGITS ;
+sechzig:sechzig 4_DIGITS ;
+ziebzig:ziebzig 4_DIGITS ;
+achzig:achzig 4_DIGITS ;
+neunzig:neunzig 4_DIGITS ;
+
+
+LEXICON 5_DIGITS
+3_DIGITS ;
+undzwanzig:undzwanzig 4_DIGITS ;
+unddreißig:unddreißig 4_DIGITS ;
+undvierzig:undvierzig 4_DIGITS ;
+undfünfzig:undfünfzig 4_DIGITS ;
+undsechzig:undsechzig 4_DIGITS ;
+undziebzig:undziebzig 4_DIGITS ;
+undachzig:undachzig 4_DIGITS ;
+undneunzig:undneunzig 4_DIGITS ;
+
+
+LEXICON 4_DIGITS
+tausend:tausend 2_DIGITS ;
+tausend:tausend 3_DIGITS ;
+NUM_END ;
+
+LEXICON 3_DIGITS
+hundert:hundert 2_DIGITS ;
+einhundert:einhundert 2_DIGITS ;
+zweihundert:zweihundert 2_DIGITS ;
+dreihundert:dreihundert 2_DIGITS ;
+vierhundert:vierhundert 2_DIGITS ;
+fünfhundert:fünfhundert 2_DIGITS ;
+sechshundert:sechshundert 2_DIGITS ;
+siebenhundert:siebenhundert 2_DIGITS ;
+achthundert:achthundert 2_DIGITS ;
+neunhundert:neunhundert 2_DIGITS ;
+
+
+LEXICON 2_DIGITS
+zehn:zehn NUM_END ;
+eins:eins NUM_END ;
+ein:ein NUM_tens-or-not ;
+zwei:zwei NUM_tens-or-not ;
+drei:drei NUM_tens-or-not ;
+vier:vier NUM_tens-or-not ;
+fünf:fünf NUM_tens-or-not ;
+sechs:sechs NUM_tens-or-not ;
+sieben:sieben NUM_tens-or-not ;
+acht:acht NUM_tens-or-not ;
+neun:neun NUM_tens-or-not ;
+
+LEXICON NUM_tens-or-not
+NUM_END ;
+undzwanzig:undzwanzig NUM_END ;
+unddreißig:unddreißig NUM_END ;
+undvierzig:undvierzig NUM_END ;
+undfünfzig:undfünfzig NUM_END ;
+undsechzig:undsechzig NUM_END ;
+undziebzig:undziebzig NUM_END ;
+undachzig:undachzig NUM_END ;
+undneunzig:undneunzig NUM_END ;
+
+
+LEXICON NUM_END
++Num: # ;
 
 ! vim: set ft=xfst-lexc:

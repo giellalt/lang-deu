@@ -259,6 +259,9 @@ Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arg
 TRIGGER
  * %^Pen	 penultimate syllable
  * %^RmVow remove vowel
+ * %^Umlaut umlaut a:ä, o:ö, u:ü
+ * %^LowerVow o:a
+ * %^DeV	 g0:ch
 
 COMPOUNDING
  * +Cmp compound
@@ -291,6 +294,7 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
 
 
 
