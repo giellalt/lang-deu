@@ -283,15 +283,15 @@ A_abenteuerlich__adj ;
 LEXICON A_/alt__adj
 !A_/oft__adj, A_/h/art__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
-+A:X1  A_abenteuerlich__adj-comp ;
-+A:X1%>e  A_abenteuerlich__adj-sup ;
++A:%^Umlaut  A_abenteuerlich__adj-comp ;
++A:%^Umlaut%>e  A_abenteuerlich__adj-sup ;
 
 LEXICON A_/arg__adj
 !kl/ug__adj, kr/ank__adj, l/ang__adj, sch/arf__adj, st/ark__adj, A_/arm__adj, A_/fr/omm__adj
 ! A_/j/ung__adj, A_/gr/ob__adj, schw/ach__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
-+A:X1  A_abenteuerlich__adj-comp ;
-+A:X1 A_abenteuerlich__adj-sup ;
++A:%^Umlaut  A_abenteuerlich__adj-comp ;
++A:%^Umlaut A_abenteuerlich__adj-sup ;
 
 
 LEXICON A_/viel__adj
@@ -406,8 +406,8 @@ LEXICON A_gewiss__adj
 LEXICON A_gr/oß__adj
 !k/urz__adj, schw/arz__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
-+A+Comp:X1%>er A_abenteuerlich__adj-positive ;
-+A+Superl:X1%>st A_abenteuerlich__adj-positive ;
++A+Comp:%^Umlaut%>er A_abenteuerlich__adj-positive ;
++A+Superl:%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
 LEXICON A_h/och__adj
 +A: #;
@@ -417,8 +417,8 @@ LEXICON A_minde/r__adj !!= * @CODE@ minder:minde
 
 LEXICON A_n/ah__adj !!= * @CODE@ nah:na
 +A+Pos: A_abenteuerlich__adj-positive ;
-+A+Comp:hX1%>er A_abenteuerlich__adj-positive ;
-+A+Superl:chX1%>st A_abenteuerlich__adj-positive ;
++A+Comp:h%^Umlaut%>er A_abenteuerlich__adj-positive ;
++A+Superl:ch%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
 LEXICON A_nämlich__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
@@ -426,14 +426,14 @@ LEXICON A_nämlich__adj
 LEXICON A_schm/al__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
 +A+Comp:%>er A_abenteuerlich__adj-positive ;
-+A+Comp:X1%>er A_abenteuerlich__adj-positive ;
++A+Comp:%^Umlaut%>er A_abenteuerlich__adj-positive ;
 +A+Superl:%>st A_abenteuerlich__adj-positive ;
-+A+Superl:X1%>st A_abenteuerlich__adj-positive ;
++A+Superl:%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
 LEXICON A_n/ass__adj
 +A+Pos: A_abenteuerlich__adj-positive ;
-+A+Comp:X1%>er A_abenteuerlich__adj-positive ;
-+A+Superl:X1%>st A_abenteuerlich__adj-positive ;
++A+Comp:%^Umlaut%>er A_abenteuerlich__adj-positive ;
++A+Superl:%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
 
 
