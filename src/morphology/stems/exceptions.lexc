@@ -1,0 +1,22 @@
+
+
+LEXICON Exceptions
+!! Verbs
+! V_sein__vbser !!= * @CODE@ sein:
+sein+V+Prf:gewesen # ;  
+sein+V+Inf00:sein # ;
+sein+V+PrsPrc+Pos:seiend A_abenteuerlich__adj-positive ;
+
+sein+V+Ind+Prs+Sg1:bin  # ;
+sein+V+Ind+Prs+Sg2:bi%>st # ;
+sein+V+Ind+Prs+Sg3:ist  # ;
+sein+V+Ind+Prs+Pl1:sind # ;
+sein+V+Ind+Prs+Pl2:seid  # ;
+sein+V+Ind+Prs+Pl3:sind # ;
+
+sein+V:war IND-PRT_SEIN ;
+sein+V:sei SUBJ-PRS_SEIN ;
+
+sein+V:war%^Umlaut SUBJ-PRT ;
+sein+V+Imprt+Sg2:sei # ;
+sein+V+Imprt+Pl2:sei%>d # ;
