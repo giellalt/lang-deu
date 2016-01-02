@@ -20,6 +20,8 @@ Multichar_Symbols
 +Inf +Vt
 +PrfPrc
 +PrsPrc
++Mod
++Aux
 
 ! Nominal MSP
 +Msc +Fem +Neu
@@ -292,7 +294,6 @@ a2 A2 o2 O2 u2 U2
 
 ! Other
 
- %^Umlaut
  X2 X3 X4 X5 X6 X7 X8 X9
  Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9
  Y1 Y2 Y3 Y4 Y5 Y6 Y7 Y8 Y9 
@@ -301,6 +302,9 @@ a2 A2 o2 O2 u2 U2
 !! TRIGGER
 %^Pen	!!≈ * @CODE@ penultimate syllable
 %^RmVow !!≈ * @CODE@ remove vowel
+ %^Umlaut !!≈ * @CODE@ umlaut a:ä, o:ö, u:ü
+ %^LowerVow !!≈ * @CODE@ o:a
+ %^DeV	    !!≈ * @CODE@ g0:ch
 
 !! COMPOUNDING
 +Cmp !!≈ * @CODE@ compound
@@ -352,3 +356,5 @@ Pronoun ;
 Propernoun ;
 Preposition ;
 Punctuation ;
+
+Exceptions ;
