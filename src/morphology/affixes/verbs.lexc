@@ -41,7 +41,8 @@ LEXICON Praf
 +PrfPrc:%>e  A_abenteuerlich__adj-sup ;
 
 LEXICON Praf_ST
-+Prf:     # ;
++Prf@R.PTC.ON@:0@R.PTC.ON@     # ;
++Prf@R.PTC.OFF@:0@R.PTC.OFF@     # ;
 
 
 
@@ -235,7 +236,74 @@ LEXICON V_/sollen__vbmod_01
 : SUBJ-PRT ;
 
 
+LEXICON V_/werden__vaux !!= * @CODE@ werden:w
++V+Aux@D.PTC@:orden@D.PTC@  Praf_ST ;    ! ge-formen nicht akseptiert.
++V+Aux@D.PTC@:00@D.PTC@ V_/werden__vaux_01 ;
++V+Aux0@D.PTC@:erd@D.PTC@ Inf ;
+LEXICON V_/werden__vaux_01
++Ind+Prs+Sg1:erde  # ;
++Ind+Prs+Sg2:ir%>st # ;
++Ind+Prs+Sg3:ird  # ;
++Ind+Prs+Pl1:erd%>en # ;
++Ind+Prs+Pl2:erd%>t  # ;
++Ind+Prs+Pl3:erd%>en # ;
+
+:urd IND-PRT ;
+:erd SUBJ-PRS ;
+:urd%^Umlaut SUBJ-PRT ;
+
+LEXICON V_/wollen__vaux !!= * @CODE@ wollen:w
++V+Aux@R.PTC.ON@:oll%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Aux@D.PTC@:00@D.PTC@ V_/wollen__vaux_01 ;
++V+Aux0@D.PTC@:oll@D.PTC@ Inf ;
+LEXICON V_/wollen__vaux_01
++Ind+Prs+Sg1:ill  # ;
++Ind+Prs+Sg2:ill%>st # ;
++Ind+Prs+Sg3:ill  # ;
++Ind+Prs+Pl1:oll%>en # ;
++Ind+Prs+Pl2:oll%>t  # ;
++Ind+Prs+Pl3:oll%>en # ;
+
+:oll IND-PRT ;
+:oll SUBJ-PRS ;
+:oll SUBJ-PRT ;
 
 
+
+LEXICON V_/werden__vblex !!= * @CODE@ werden:w
++V@R.PTC.ON@:orden@R.PTC.ON@  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:00@D.PTC@ V_/werden__vblex_01 ;
++V0@D.PTC@:erd@D.PTC@ Inf ;
+LEXICON V_/werden__vblex_01
++Ind+Prs+Sg1:erde  # ;
++Ind+Prs+Sg2:ir%>st # ;
++Ind+Prs+Sg3:ird  # ;
++Ind+Prs+Pl1:erd%>en # ;
++Ind+Prs+Pl2:erd%>t  # ;
++Ind+Prs+Pl3:erd%>en # ;
+
+:urd IND-PRT ;
+:erd SUBJ-PRS ;
+:urd%^Umlaut SUBJ-PRT ;
++Imprt+Sg2:erde # ;
++Imprt+Pl2:erdet # ;
+
+LEXICON V_/kommen__vblex !!= * @CODE@ kommen:k
++V:ommen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/kommen__vblex_01 ;
++V000@D.PTC@:omm@D.PTC@ Inf ;
+LEXICON V_/kommen__vblex_01
++Ind+Prs+Sg1:omme  # ;
++Ind+Prs+Sg2:omm%>st # ;
++Ind+Prs+Sg3:ommt  # ;
++Ind+Prs+Pl1:omm%>en # ;
++Ind+Prs+Pl2:omm%>t  # ;
++Ind+Prs+Pl3:omm%>en # ;
+
+:am IND-PRT_SEIN ;
+:omm SUBJ-PRS ;
+:am%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:omm # ;
++Imprt+Pl2:ommt # ;
 
 

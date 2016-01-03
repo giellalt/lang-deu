@@ -281,8 +281,10 @@ a2 A2 o2 O2 u2 U2
 
 ! Flags dokumentiert in Kapitel 8 des Buches, s. 456 zB.
 @P.PTC.ON@ ! Positive (re)setting
+@P.PTC.OFF@ ! Positive (re)setting
 @D.PTC@ ! Disallow test 
 @R.PTC.ON@ ! Require test
+@R.PTC.OFF@ ! Unification test
 
 !! Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
@@ -300,11 +302,12 @@ a2 A2 o2 O2 u2 U2
  Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9 
 
 !! TRIGGER
+ %^CC2C	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
+ %^DeV	    !!≈ * @CODE@ g0:ch
+ %^LowerVow !!≈ * @CODE@ o:a
 %^Pen	!!≈ * @CODE@ penultimate syllable
 %^RmVow !!≈ * @CODE@ remove vowel
  %^Umlaut !!≈ * @CODE@ umlaut a:ä, o:ö, u:ü
- %^LowerVow !!≈ * @CODE@ o:a
- %^DeV	    !!≈ * @CODE@ g0:ch
 
 !! COMPOUNDING
 +Cmp !!≈ * @CODE@ compound
