@@ -19,11 +19,12 @@
 LEXICON Verbs
 
 
-	                  Prafixe ; ! Brauchen kein ge-
+@P.PTC.OFF@                Prafixe ; ! Brauchen kein ge-
+                Prafixe ; ! Brauchen kein ge-
 !ge@P.PTC.ON@             Irregulare ;
 !	                  Irregulare ;
 00@P.PTC.ON@:ge@P.PTC.ON@             Starke ;
-                         Starke ;
+                                      Starke ;
 00@P.PTC.ON@:ge@P.PTC.ON@   Schwache ; ! Ptc-formen, muss Ptc-suff haben (sagt @P.PTC.ON@)
                           Schwache ; ! Andere formen, wollen kein Ptc-suff haben.
 
@@ -31,8 +32,16 @@ LEXICON Verbs
 
 LEXICON Prafixe
 
+!bekommen:bek V_/kommen__vblex ;
+herausbekommen:herausbek V_/kommen__vblex ;
+wegbekommen:wegbek V_/kommen__vblex ;
+wiederbekommen:wiederbek V_/kommen__vblex ;
+zurückbekommen:zurückbek V_/kommen__vblex ;
 
-!be BE- ;
+
+
+
+be BE- ;
 !emp EMP- ;
  ent ENT- ;
 !er ER- ;
@@ -41,7 +50,9 @@ LEXICON Prafixe
  wieder WIEDER- ;
 !zer ZER- ;
 
-!LEXICON BE-
+LEXICON BE-
+kommen:k V_/kommen__vblex ;
+
 
 LEXICON ENT-
 fernen:fern W ;
@@ -56,11 +67,76 @@ holen:hol W ;
 ! Irregulare Verben
 
 LEXICON Starke
-haben:ha V_haben__vbhaver ;
-können:konn V_/können__vbmod ;
-mögen:mog V_/mögen__vbmod ;
+!! auxillary and modal verbs
+haben:ha V_haben__vbhaver ; !a:-a:-a-ä-a
+können:konn V_/können__vbmod ; !ö-a-o-ö-o
+mögen:mog V_/mögen__vbmod ; !ö:-a:-o-ö-o
 müssen:muss V_/müssen__vbmod ;
 sollen:soll V_/sollen__vbmod ;
+werden:w V_/werden__vaux ; !e-i-a-ä-o
+wollen:w V_/wollen__vaux ; !o-i-o-o-o
+!! other verbs
+werden:w V_/werden__vblex ; !e-i-a-ä-o
+kommen:k V_/kommen__vblex ; !o-o-a-ä-o
+
+!g/ehen__vblex"/></e>
+!  10 <par n="z/iehen__vblex"/></e>
+!  10 <par n="befass/en__vblex"/></e>
+!   7 <par n="br/ingen__vblex"/></e>
+!   6 <par n="bel/assen__vblex"/></e>
+!   6 <par n="beh/alten__vblex"/></e>
+!   5 <par n="f/allen__vblex"/></e>
+!   5 <par n="beg/ehen__vblex"/></e>
+!   4 <par n="sch/ießen__vblex"/></e>
+!   4 <par n="g/eben__vblex"/></e>
+!   4 <par n="abonnier/en__vblex"/></e>
+!   3 <par n="tr/eten__vblex"/></e>
+!   3 <par n="l/aden__vblex"/></e>
+!   3 <par n="ben/ehmen__vblex"/></e>
+!   3 <par n="bel/aufen__vblex"/></e>
+!   2 <par n="tr/effen__vblex"/></e>
+!   2 <par n="r/eiten__vblex"/></e>
+!   2 <par n="k/ennen__vblex"/></e>
+!   2 <par n="erk/ennen__vblex"/></e>
+!   2 <par n="br/echen__vblex"/></e>
+!   2 <par n="bl/asen__vblex"/></e>
+!   2 <par n="bez/iehen__vblex"/></e>
+!   2 <par n="beschn/eiden__vblex"/></e>
+!   2 <par n="beg/eben__vblex"/></e>
+!   2 <par n="beflüg/eln__vblex"/></e>
+!   2 <par n="beachte/n__vblex"/></e>
+!   2 <par n="b/inden__vblex"/></e>
+!   2 <par n="/essen__vblex"/></e>
+!   1 <par n="übertr/eten__vblex"/></e>
+!   1 <par n="ärg/ern__vblex"/></e>
+!   1 <par n="verschl/afen__vblex"/></e>
+!   1 <par n="schl/eichen__vblex"/></e>
+!   1 <par n="sch/affen__vblex"/></e>
+!   1 <par n="gr/aben__vblex"/></e>
+!   1 <par n="geb/ieten__vblex"/></e>
+!   1 <par n="g/reifen__vblex"/></e>
+!   1 <par n="g/leiten__vblex"/></e>
+!   1 <par n="err/aten__vblex"/></e>
+!   1 <par n="erbr/ingen__vblex"/></e>
+!   1 <par n="br/ennen__vblex"/></e>
+!   1 <par n="bl/eiben__vblex"/></e>
+!   1 <par n="betr/inken__vblex"/></e>
+!   1 <par n="best/ehen__vblex"/></e>
+!   1 <par n="bespr/echen__vblex"/></e>
+!   1 <par n="bes/ingen__vblex"/></e>
+!   1 <par n="bes/ehen__vblex"/></e>
+!   1 <par n="beh/eben__vblex"/></e>
+!   1 <par n="beg/innen__vblex"/></e>
+!   1 <par n="bef/inden__vblex"/></e>
+!   1 <par n="ack/ern__vblex"/></e>
+!   1 <par n="aas/en__vblex"/></e>
+!   1 <par n="/werden__vblex"/></e>
+!   1 <par n="/wachsen__vblex"/></e>
+!   1 <par n="/sitzen__vblex"/></e>
+!   1 <par n="/leihen__vblex"/></e>
+!   1 <par n="/denken__vblex"/></e>
+
+
 
 LEXICON Schwache
 winken:wink W ;

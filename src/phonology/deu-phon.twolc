@@ -11,11 +11,12 @@ Alphabet
 
 
 !! TRIGGER
+ %^CC2C:0	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
+ %^DeV:0	    !!≈ * @CODE@ g0:ch
+ %^LowerVow:0 !!≈ * @CODE@ o:a 
 %^Pen:0   !!≈ * @CODE@ penultimate syllable
 %^RmVow:0 !!≈ * @CODE@ remove vowel
  %^Umlaut:0 !!≈ * @CODE@ umlaut a:ä, o:ö, u:ü
- %^LowerVow:0 !!≈ * @CODE@ o:a 
- %^DeV:0	    !!≈ * @CODE@ g0:ch
 ;
 
 
