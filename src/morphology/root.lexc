@@ -302,6 +302,11 @@ a2 A2 o2 O2 u2 U2
  Z1 Z2 Z3 Z4 Z5 Z6 Z7 Z8 Z9 
 
 !! TRIGGER
+ %^A2E		!!≈ * @CODE@ 
+ %^A2I		!!≈ * @CODE@ 
+ %^A2O		!!≈ * @CODE@ 
+ %^A2U		!!≈ * @CODE@ 
+ %^A2Ü		!!≈ * @CODE@ 
  %^CC2C	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
  %^DeV	    !!≈ * @CODE@ g0:ch
  %^LowerVow !!≈ * @CODE@ o:a

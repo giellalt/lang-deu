@@ -306,4 +306,58 @@ LEXICON V_/kommen__vblex_01
 +Imprt+Sg2:omm # ;
 +Imprt+Pl2:ommt # ;
 
+LEXICON V_g/eben__vblex !!= * @CODE@ geben:gab
++V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_g/eben__vblex_01 ;
++V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_g/eben__vblex_01
++Ind+Prs+Sg1:%^A2E%>e  # ;
++Ind+Prs+Sg2:%^A2I%>st # ;
++Ind+Prs+Sg3:%^A2It  # ;
++Ind+Prs+Pl1:%^A2E%>en # ;
++Ind+Prs+Pl2:%^A2E%>t  # ;
++Ind+Prs+Pl3:%^A2E%>en # ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I # ;
++Imprt+Pl2:%^A2Et # ;
+
+LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
++V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_schw/immen__vblex_01 ;
++V000@D.PTC@:%^A2I@D.PTC@ Inf ;
+LEXICON V_schw/immen__vblex_01
++Ind+Prs+Sg1:%^A2I%>e  # ;
++Ind+Prs+Sg2:%^A2I%>st # ;
++Ind+Prs+Sg3:%^A2It  # ;
++Ind+Prs+Pl1:%^A2I%>en # ;
++Ind+Prs+Pl2:%^A2I%>t  # ;
++Ind+Prs+Pl3:%^A2I%>en # ;
+
+: IND-PRT_SEIN ;
+:%^A2I SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I # ;
++Imprt+Pl2:%^A2It # ;
+
+LEXICON V_/fahren__vblex !!= * @CODE@ fahren:fahr
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/fahren__vblex_01 ;
++V@D.PTC@:0@D.PTC@ Inf ;
+LEXICON V_/fahren__vblex_01
++Ind+Prs+Sg1:%>e  # ;
++Ind+Prs+Sg2:%^Umlaut%>st # ;
++Ind+Prs+Sg3:%^Umlaut%>t  # ;
++Ind+Prs+Pl1:%>en # ;
++Ind+Prs+Pl2:%>t  # ;
++Ind+Prs+Pl3:%>en # ;
+
+:%^A2U IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^A2Ü SUBJ-PRT_SEIN ;
++Imprt+Sg2: # ;
++Imprt+Pl2:t # ;
+
 

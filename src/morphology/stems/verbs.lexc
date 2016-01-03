@@ -51,8 +51,10 @@ be BE- ;
 !zer ZER- ;
 
 LEXICON BE-
-kommen:k V_/kommen__vblex ;
 
+kommen:k V_/kommen__vblex ;
+geben:gab V_g/eben__vblex ;
+sprechen:sprach V_g/eben__vblex ; 
 
 LEXICON ENT-
 fernen:fern W ;
@@ -78,6 +80,10 @@ wollen:w V_/wollen__vaux ; !o-i-o-o-o
 !! other verbs
 werden:w V_/werden__vblex ; !e-i-a-ä-o
 kommen:k V_/kommen__vblex ; !o-o-a-ä-o
+geben:gab V_g/eben__vblex ; !e-i-a-ä-o
+sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
+schwimmen:schwamm V_schw/immen__vblex ; !i-i-a-ä-o
+fahren:fahr V_/fahren__vblex ; !a-a-u-ü-a
 
 !g/ehen__vblex"/></e>
 !  10 <par n="z/iehen__vblex"/></e>
