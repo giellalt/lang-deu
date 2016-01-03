@@ -257,6 +257,11 @@ Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arg
 
 
 TRIGGER
+ * %^A2E		 
+ * %^A2I		 
+ * %^A2O		 
+ * %^A2U		 
+ * %^A2Ü		 
  * %^CC2C	 mm:m0 kommen kommst kamst
  * %^DeV	 g0:ch
  * %^LowerVow o:a
