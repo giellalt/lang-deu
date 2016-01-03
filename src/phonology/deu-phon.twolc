@@ -11,6 +11,11 @@ Alphabet
 
 
 !! TRIGGER
+ %^A2E:0		!!≈ * @CODE@ 
+ %^A2I:0		!!≈ * @CODE@ 
+ %^A2O:0		!!≈ * @CODE@ 
+ %^A2U:0		!!≈ * @CODE@ 
+ %^A2Ü:0		!!≈ * @CODE@ 
  %^CC2C:0	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
  %^DeV:0	    !!≈ * @CODE@ g0:ch
  %^LowerVow:0 !!≈ * @CODE@ o:a 
@@ -69,6 +74,45 @@ Rules
  
 !€ Baum%^Umlaut%>e#
 !€ Bäum00e0
+
+"vowel change a:e "
+a:e <=>
+ Cns: _ Cns:+ %^A2E: ;
+
+!! geben+V+Ind+Prs+Sg1
+!€ gab%^A2E%>e
+!€ geb0%>e
+
+"vowel change a:i "
+a:i <=>
+ Cns: _ Cns:+ %^A2I: ;
+
+!! geben+V+Ind+Prs+Sg2
+!€ gab%^A2I%>st
+!€ gib0%>st
+
+"vowel change a:o "
+a:o <=>
+ Cns: _ Cns:+ %^A2O: ;
+
+!! schwimmen+V+Ind+Prs+Sg2
+!€ schwamm%^A2I%>st
+!€ schwimm0%>st
+
+"vowel change a:u "
+a:u <=>
+ Cns: _ Cns:+ %^A2U: ;
+
+!! fahren+V+Ind+Prt+Sg2
+!€ fahr%^A2U%>st
+!€ fuhr0%>st
+
+"vowel change a:ü "
+a:ü <=>
+ Cns: _ Cns:+ %^A2Ü: ;
+!! fahren+V+Ind+Prt+Sg2
+!€ fahr%^A2Ü%>st
+!€ führ0%>st
 
 "Entfernung von a in aa Umlaut"
 a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
