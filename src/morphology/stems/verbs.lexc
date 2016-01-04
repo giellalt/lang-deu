@@ -17,7 +17,85 @@
 ! Ich muss mein P-feature gecheckt haben.
 
 LEXICON Verbs
+@P.VPREFIX.ON@ VERBS_01 ;
 
+an@P.VPREFIX.ON@@P.FOR-PREFIX.An@:an@P.VPREFIX.ON@@P.FOR-PREFIX.An@ VERBS_01 ;
+an@P.FOR-PREFIX.An@:00@P.FOR-PREFIX.An@ VERBS_01 ;
+
+aus@P.VPREFIX.ON@@P.FOR-PREFIX.Aus@:aus@P.VPREFIX.ON@@P.FOR-PREFIX.Aus@ VERBS_01 ;
+aus@P.FOR-PREFIX.Aus@:00@P.FOR-PREFIX.Aus@ VERBS_01 ;
+
+auf@P.VPREFIX.ON@@P.FOR-PREFIX.Auf@:auf@P.VPREFIX.ON@@P.FOR-PREFIX.Auf@ VERBS_01 ;
+auf@P.FOR-PREFIX.Auf@:000@P.FOR-PREFIX.Auf@ VERBS_01 ;
+
+durch@P.VPREFIX.ON@@P.FOR-PREFIX.Durch@:durch@P.VPREFIX.ON@@P.FOR-PREFIX.Durch@ VERBS_01 ;
+durch@P.FOR-PREFIX.Durch@:00000@P.FOR-PREFIX.Durch@ VERBS_01 ;
+
+ein@P.VPREFIX.ON@@P.FOR-PREFIX.Ein@:ein@P.VPREFIX.ON@@P.FOR-PREFIX.Ein@ VERBS_01 ;
+ein@P.FOR-PREFIX.Ein@:000@P.FOR-PREFIX.Ein@ VERBS_01 ;
+
+fort@P.VPREFIX.ON@@P.FOR-PREFIX.Fort@:fort@P.VPREFIX.ON@@P.FOR-PREFIX.Fort@ VERBS_01 ;
+fort@P.FOR-PREFIX.Fort@:0000@P.FOR-PREFIX.Fort@ VERBS_01 ;
+
+hinauf@P.VPREFIX.ON@@P.FOR-PREFIX.Hinauf@:hinauf@P.VPREFIX.ON@@P.FOR-PREFIX.Hinauf@ VERBS_01 ;
+hinauf@P.FOR-PREFIX.Hinauf@:000000@P.FOR-PREFIX.Hinauf@ VERBS_01 ;
+
+hinaus@P.VPREFIX.ON@@P.FOR-PREFIX.Hinaus@:hinaus@P.VPREFIX.ON@@P.FOR-PREFIX.Hinaus@ VERBS_01 ;
+hinaus@P.FOR-PREFIX.Hinaus@:000000@P.FOR-PREFIX.Hinaus@ VERBS_01 ;
+
+hinein@P.VPREFIX.ON@@P.FOR-PREFIX.Hinein@:hinein@P.VPREFIX.ON@@P.FOR-PREFIX.Hinein@ VERBS_01 ;
+hinein@P.FOR-PREFIX.Hinein@:000000@P.FOR-PREFIX.Hinein@ VERBS_01 ;
+
+hin@P.VPREFIX.ON@@P.FOR-PREFIX.Hin@:hin@P.VPREFIX.ON@@P.FOR-PREFIX.Hin@ VERBS_01 ;
+hin@P.FOR-PREFIX.Hin@:000@P.FOR-PREFIX.Hin@ VERBS_01 ;
+
+hinüber@P.VPREFIX.ON@@P.FOR-PREFIX.Hinüber@:hinüber@P.VPREFIX.ON@@P.FOR-PREFIX.Hinüber@ VERBS_01 ;
+hinüber@P.FOR-PREFIX.Hinüber@:0000000@P.FOR-PREFIX.Hinüber@ VERBS_01 ;
+
+hinunter@P.VPREFIX.ON@@P.FOR-PREFIX.Hinunter@:hinunter@P.VPREFIX.ON@@P.FOR-PREFIX.Hinunter@ VERBS_01 ;
+hinunter@P.FOR-PREFIX.Hinunter@:00000000@P.FOR-PREFIX.Hinunter@ VERBS_01 ;
+
+hoch@P.VPREFIX.ON@@P.FOR-PREFIX.Hoch@:hoch@P.VPREFIX.ON@@P.FOR-PREFIX.Hoch@ VERBS_01 ;
+hoch@P.FOR-PREFIX.Hoch@:0000@P.FOR-PREFIX.Hoch@ VERBS_01 ;
+
+los@P.VPREFIX.ON@@P.FOR-PREFIX.Los@:los@P.VPREFIX.ON@@P.FOR-PREFIX.Los@ VERBS_01 ;
+los@P.FOR-PREFIX.Los@:000@P.FOR-PREFIX.Los@ VERBS_01 ;
+
+mit@P.VPREFIX.ON@@P.FOR-PREFIX.Mit@:mit@P.VPREFIX.ON@@P.FOR-PREFIX.Mit@ VERBS_01 ;
+mit@P.FOR-PREFIX.Mit@:000@P.FOR-PREFIX.Mit@ VERBS_01 ;
+
+nach@P.VPREFIX.ON@@P.FOR-PREFIX.Nach@:nach@P.VPREFIX.ON@@P.FOR-PREFIX.Nach@ VERBS_01 ;
+nach@P.FOR-PREFIX.Nach@:0000@P.FOR-PREFIX.Nach@ VERBS_01 ;
+
+unter@P.VPREFIX.ON@@P.FOR-PREFIX.Unter@:unter@P.VPREFIX.ON@@P.FOR-PREFIX.Unter@ VERBS_01 ;
+unter@P.FOR-PREFIX.Unter@:00000@P.FOR-PREFIX.Unter@ VERBS_01 ;
+
+voran@P.VPREFIX.ON@@P.FOR-PREFIX.Voran@:voran@P.VPREFIX.ON@@P.FOR-PREFIX.Voran@ VERBS_01 ;
+voran@P.FOR-PREFIX.Voran@:00000@P.FOR-PREFIX.Voran@ VERBS_01 ;
+
+voraus@P.VPREFIX.ON@@P.FOR-PREFIX.Voraus@:voraus@P.VPREFIX.ON@@P.FOR-PREFIX.Voraus@ VERBS_01 ;
+voraus@P.FOR-PREFIX.Voraus@:000000@P.FOR-PREFIX.Voraus@ VERBS_01 ;
+
+vorbei@P.VPREFIX.ON@@P.FOR-PREFIX.Vorbei@:vorbei@P.VPREFIX.ON@@P.FOR-PREFIX.Vorbei@ VERBS_01 ;
+vorbei@P.FOR-PREFIX.Vorbei@:000000@P.FOR-PREFIX.Vorbei@ VERBS_01 ;
+
+vor@P.VPREFIX.ON@@P.FOR-PREFIX.Vor@:vor@P.VPREFIX.ON@@P.FOR-PREFIX.Vor@ VERBS_01 ;
+vor@P.FOR-PREFIX.Vor@:000@P.FOR-PREFIX.Vor@ VERBS_01 ;
+
+weg@P.VPREFIX.ON@@P.FOR-PREFIX.Weg@:weg@P.VPREFIX.ON@@P.FOR-PREFIX.Weg@ VERBS_01 ;
+weg@P.FOR-PREFIX.Weg@:000@P.FOR-PREFIX.Weg@ VERBS_01 ;
+
+weiter@P.VPREFIX.ON@@P.FOR-PREFIX.Weiter@:weiter@P.VPREFIX.ON@@P.FOR-PREFIX.Weiter@ VERBS_01 ;
+weiter@P.FOR-PREFIX.Weiter@:000000@P.FOR-PREFIX.Weiter@ VERBS_01 ;
+
+zu@P.VPREFIX.ON@@P.FOR-PREFIX.Zu@:zu@P.VPREFIX.ON@@P.FOR-PREFIX.Zu@ VERBS_01 ;
+zu@P.FOR-PREFIX.Zu@:00@P.FOR-PREFIX.Zu@ VERBS_01 ;
+
+zurück@P.VPREFIX.ON@@P.FOR-PREFIX.Zurück@:zurück@P.VPREFIX.ON@@P.FOR-PREFIX.Zurück@ VERBS_01 ;
+zurück@P.FOR-PREFIX.Zurück@:000000@P.FOR-PREFIX.Zurück@ VERBS_01 ;
+
+
+LEXICON VERBS_01
 
 @P.PTC.OFF@                Prafixe ; ! Brauchen kein ge-
                 Prafixe ; ! Brauchen kein ge-
@@ -44,7 +122,7 @@ zurückbekommen:zurückbek V_/kommen__vblex ;
 be BE- ;
 !emp EMP- ;
  ent ENT- ;
-!er ER- ;
+ er ER- ;
 !ge GE- ;
 !ver VER- ;
  wieder WIEDER- ;
@@ -52,13 +130,21 @@ be BE- ;
 
 LEXICON BE-
 
-kommen:k V_/kommen__vblex ;
+dürfen:darf V_/dürfen__vblex ;
+finden:fand V_f/inden__vblex ; !i-i-a-ä-u
 geben:gab V_g/eben__vblex ;
+gehen:g V_g/ehen__vblex ;
+kommen:k V_/kommen__vblex ;
 sprechen:sprach V_g/eben__vblex ; 
+stehen:st V_st/ehen__vblex ;
 
 LEXICON ENT-
 fernen:fern W ;
 fremden:fremd W ;
+
+LEXICON ER-
+geben:gab V_g/eben__vblex ;
+stehen:st V_st/ehen__vblex ;
 
 LEXICON WIEDER-
 holen:hol W ;
@@ -74,16 +160,21 @@ haben:ha V_haben__vbhaver ; !a:-a:-a-ä-a
 können:konn V_/können__vbmod ; !ö-a-o-ö-o
 mögen:mog V_/mögen__vbmod ; !ö:-a:-o-ö-o
 müssen:muss V_/müssen__vbmod ;
+dürfen:darf V_/dürfen__vbmod ;
 sollen:soll V_/sollen__vbmod ;
 werden:w V_/werden__vaux ; !e-i-a-ä-o
 wollen:w V_/wollen__vaux ; !o-i-o-o-o
 !! other verbs
 werden:w V_/werden__vblex ; !e-i-a-ä-o
-kommen:k V_/kommen__vblex ; !o-o-a-ä-o
+kommen@P.PREFIX.AN-AUS@:k00000@P.PREFIX.AN-AUS@ V_/kommen__vblex ;
 geben:gab V_g/eben__vblex ; !e-i-a-ä-o
 sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
+gehen@P.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@:g0000@P.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@ V_g/ehen__vblex ; !e-e-i-i-a
+stehen:st V_st/ehen__vblex ; !e-e-a-ä-a
 schwimmen:schwamm V_schw/immen__vblex ; !i-i-a-ä-o
+finden:fand V_f/inden__vblex ; !i-i-a-ä-u
 fahren:fahr V_/fahren__vblex ; !a-a-u-ü-a
+
 
 !g/ehen__vblex"/></e>
 !  10 <par n="z/iehen__vblex"/></e>
