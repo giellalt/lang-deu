@@ -1195,7 +1195,7 @@ grünlich:grünlich A_abenteuerlich__adj ;
 gruselig:gruselig A_abenteuerlich__adj ;
 gültig:gültig A_abhold__adj ;
 günstig:günstig A_abhold__adj ;
-gut:gut A_/gut__adj ;
+gut: A_/gut__adj ;
 gutaussehend:gutaussehend A_abendfüllend__adj ;
 gütig:gütig A_abenteuerlich__adj ;
 gütlich:gütlich A_abendfüllend__adj ;
