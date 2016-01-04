@@ -5,14 +5,46 @@ Reflexive ;
 Relative ;
 
 LEXICON Personal
-er+Pron+Pers+Msc+Sg+Nom:er # ;
-er+Pron+Pers+Msc+Sg+Acc:ihn # ;
-er+Pron+Pers+Msc+Sg+Gen:ihnen # ;
-er+Pron+Pers+Msc+Sg+Dat:ihm # ;
-sie+Pron+Pers+Fem+Sg+Nom:sie # ;
-sie+Pron+Pers+Fem+Sg+Acc:sie # ;
-sie+Pron+Pers+Fem+Sg+Gen:ihnen # ;
-sie+Pron+Pers+Fem+Sg+Dat:ihnen # ;
+ich+Pron+Pers+Sg1+Nom:ich # ;
+ich+Pron+Pers+Sg1+Acc:mich # ;
+ich+Pron+Pers+Sg1+Gen:mein # ;
+ich+Pron+Pers+Sg1+Dat:mir # ;
+du+Pron+Pers+Sg2+Nom:du # ;
+du+Pron+Pers+Sg2+Acc:dich # ;
+du+Pron+Pers+Sg2+Gen:dein # ;
+du+Pron+Pers+Sg2+Dat:dir # ;
+er+Pron+Pers+Sg3+Msc+Sg+Nom:er # ;
+er+Pron+Pers+Sg3+Msc+Sg+Acc:ihn # ;
+er+Pron+Pers+Sg3+Msc+Sg+Gen:sein # ;
+er+Pron+Pers+Sg3+Msc+Sg+Dat:ihm # ;
+es+Pron+Pers+Sg3+Neu+Sg+Nom:es # ;
+es+Pron+Pers+Sg3+Neu+Sg+Acc:es # ;
+es+Pron+Pers+Sg3+Neu+Sg+Gen:sein # ;
+es+Pron+Pers+Sg3+Neu+Sg+Dat:ihm # ;
+sie+Pron+Pers+Sg3+Fem+Sg+Nom:sie # ;
+sie+Pron+Pers+Sg3+Fem+Sg+Acc:sie # ;
+sie+Pron+Pers+Sg3+Fem+Sg+Gen:ihr # ;
+sie+Pron+Pers+Sg3+Fem+Sg+Dat:ihr # ;
+
+wir+Pron+Pers+Pl1+Nom:wir # ;
+wir+Pron+Pers+Pl1+Acc:uns # ;
+wir+Pron+Pers+Pl1+Gen:unser # ;
+wir+Pron+Pers+Pl1+Dat:uns # ;
+ihr+Pron+Pers+Pl2+Nom:ihr # ;
+ihr+Pron+Pers+Pl2+Acc:euch # ;
+ihr+Pron+Pers+Pl2+Gen:euer # ;
+ihr+Pron+Pers+Pl2+Dat:euch # ;
+
+sie+Pron+Pers+Pl3+Nom:sie # ;
+sie+Pron+Pers+Pl3+Acc:sie # ;
+sie+Pron+Pers+Pl3+Gen:ihrer # ;
+sie+Pron+Pers+Pl3+Dat:ihnen # ;
+
+Sie+Pron+Pers+SP2+Nom:Sie # ;
+Sie+Pron+Pers+SP2+Acc:Sie # ;
+Sie+Pron+Pers+SP2+Gen:Ihrer # ;
+Sie+Pron+Pers+SP2+Dat:Ihnen # ;
+
 
 LEXICON Demonstrative
 der:d DEM_der ;
@@ -50,7 +82,11 @@ LEXICON DEM_der
 +Pron+Dem+Neu+Pl+Nom:ie # ;
 
 LEXICON Reflexive
-# ;
+ich+Pron+Refl+Sg1+Acc:mich # ;
+du+Pron+Refl+Sg2+Acc:dich # ;
+er+Pron+Refl+Sg3+Msc+Acc:sich # ;
+sie+Pron+Refl+Sg3+Fem+Acc:sich # ;
+es+Pron+Refl+Sg3+Neu+Acc:sich # ;
 
 LEXICON Relative
 +Pron+Rel: REL_d/er__rel ;

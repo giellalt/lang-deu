@@ -34,15 +34,15 @@ LEXICON KeinPraf
      IMPRT ;
 
 LEXICON Praf
-+Prf:     # ;
++Prf@R.VPREFIX.ON@:0@R.VPREFIX.ON@     POST-V_01 ;
 !!A_abgebrannt__adj ;
-+PrfPrc+Pos: A_abenteuerlich__adj-positive ;
-+PrfPrc:  A_abenteuerlich__adj-comp ;
-+PrfPrc:%>e  A_abenteuerlich__adj-sup ;
++PrfPrc+Pos@R.VPREFIX.ON@:00@R.VPREFIX.ON@ A_abenteuerlich__adj-positive ;
++PrfPrc@R.VPREFIX.ON@:0@R.VPREFIX.ON@  A_abenteuerlich__adj-comp ;
++PrfPrc0@R.VPREFIX.ON@:%>e@R.VPREFIX.ON@  A_abenteuerlich__adj-sup ;
 
 LEXICON Praf_ST
-+Prf@R.PTC.ON@:0@R.PTC.ON@     # ;
-+Prf@R.PTC.OFF@:0@R.PTC.OFF@     # ;
++Prf@R.PTC.ON@@R.VPREFIX.ON@:0@R.PTC.ON@@R.VPREFIX.ON@     POST-V_01 ;
++Prf@R.PTC.OFF@@R.VPREFIX.ON@:0@R.PTC.OFF@@R.VPREFIX.ON@     POST-V_01 ;
 
 
 
@@ -55,95 +55,95 @@ LEXICON KeinPraf_ACKERN
      IMPRT ;
 
 LEXICON Inf
-+Inf:%>en # ;
-+PrsPrc:%>end # ;
++Inf:%>en POST-V_01 ;
++PrsPrc:%>end POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
 +PrsPrf+Pos:%>end A_abenteuerlich__adj-positive ;
 
 LEXICON Inf_ACKERN
-+Inf:%>n # ;
-+PrsPrc:%>nd # ;
++Inf:%>n POST-V_01 ;
++PrsPrc:%>nd POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
 +PrsPrc+Pos:%>nd A_abenteuerlich__adj-positive ;
 
 LEXICON IND-PRS
-+Ind+Prs+Sg1:%>e  # ;
-+Ind+Prs+Sg2:%>st # ;
-+Ind+Prs+Sg3:%>t  # ;
-+Ind+Prs+Pl1:%>en # ;
-+Ind+Prs+Pl2:%>t  # ;
-+Ind+Prs+Pl3:%>en # ;
+IND-PRS-SG1 ;
+IND-PRS-SG2 ;
+IND-PRS-SG3 ;
+IND-PRS-PL1 ;
+IND-PRS-PL2 ;
+IND-PRS-PL3 ;
 
 LEXICON IND-PRT
-+Ind+Prt+Sg1:%>te   # ;
-+Ind+Prt+Sg2:%>test # ;
-+Ind+Prt+Sg3:%>te   # ;
-+Ind+Prt+Pl1:%>ten  # ;
-+Ind+Prt+Pl2:%>tet  # ;
-+Ind+Prt+Pl3:%>ten  # ;
++Ind+Prt+Sg1:%>te   POST-V_01 ;
++Ind+Prt+Sg2:%>test POST-V_01 ;
++Ind+Prt+Sg3:%>te   POST-V_01 ;
++Ind+Prt+Pl1:%>ten  POST-V_01 ;
++Ind+Prt+Pl2:%>tet  POST-V_01 ;
++Ind+Prt+Pl3:%>ten  POST-V_01 ;
 
 LEXICON IND-PRT_SEIN
-+Ind+Prt+Sg1:%>   # ;
-+Ind+Prt+Sg2:%>st # ;
-+Ind+Prt+Sg3:%>   # ;
-+Ind+Prt+Pl1:%>en  # ;
-+Ind+Prt+Pl2:%>t  # ;
-+Ind+Prt+Pl3:%>en  # ;
++Ind+Prt+Sg1:%>   POST-V_01 ;
++Ind+Prt+Sg2:%>st POST-V_01 ;
++Ind+Prt+Sg3:%>   POST-V_01 ;
++Ind+Prt+Pl1:%>en  POST-V_01 ;
++Ind+Prt+Pl2:%>t  POST-V_01 ;
++Ind+Prt+Pl3:%>en  POST-V_01 ;
 
 LEXICON SUBJ-PRS
-+Subj+Prs+Sg1:%>e  # ;
-+Subj+Prs+Sg2:%>est # ;
-+Subj+Prs+Sg3:%>e  # ;
-+Subj+Prs+Pl1:%>en # ;
-+Subj+Prs+Pl2:%>et  # ;
-+Subj+Prs+Pl3:%>en # ;
++Subj+Prs+Sg1:%>e  POST-V_01 ;
++Subj+Prs+Sg2:%>est POST-V_01 ;
++Subj+Prs+Sg3:%>e  POST-V_01 ;
++Subj+Prs+Pl1:%>en POST-V_01 ;
++Subj+Prs+Pl2:%>et  POST-V_01 ;
++Subj+Prs+Pl3:%>en POST-V_01 ;
 
 LEXICON SUBJ-PRS_SEIN
-+Subj+Prs+Sg1:%>  # ;
-+Subj+Prs+Sg2:%>st # ;
-+Subj+Prs+Sg3:%>  # ;
-+Subj+Prs+Pl1:%>en # ;
-+Subj+Prs+Pl2:%>et  # ;
-+Subj+Prs+Pl3:%>en # ;
++Subj+Prs+Sg1:%>  POST-V_01 ;
++Subj+Prs+Sg2:%>st POST-V_01 ;
++Subj+Prs+Sg3:%>  POST-V_01 ;
++Subj+Prs+Pl1:%>en POST-V_01 ;
++Subj+Prs+Pl2:%>et  POST-V_01 ;
++Subj+Prs+Pl3:%>en POST-V_01 ;
 
 LEXICON SUBJ-PRT
-+Subj+Prt+Sg1:%>te   # ;
-+Subj+Prt+Sg2:%>test # ;
-+Subj+Prt+Sg3:%>te   # ;
-+Subj+Prt+Pl1:%>ten  # ;
-+Subj+Prt+Pl2:%>tet  # ;
-+Subj+Prt+Pl3:%>ten  # ;
++Subj+Prt+Sg1:%>te   POST-V_01 ;
++Subj+Prt+Sg2:%>test POST-V_01 ;
++Subj+Prt+Sg3:%>te   POST-V_01 ;
++Subj+Prt+Pl1:%>ten  POST-V_01 ;
++Subj+Prt+Pl2:%>tet  POST-V_01 ;
++Subj+Prt+Pl3:%>ten  POST-V_01 ;
 
 LEXICON SUBJ-PRT_SEIN
-+Subj+Prt+Sg1:%>e   # ;
-+Subj+Prt+Sg2:%>est # ;
-+Subj+Prt+Sg3:%>e   # ;
-+Subj+Prt+Pl1:%>en  # ;
-+Subj+Prt+Pl2:%>t  # ;
-+Subj+Prt+Pl3:%>en  # ;
++Subj+Prt+Sg1:%>e   POST-V_01 ;
++Subj+Prt+Sg2:%>est POST-V_01 ;
++Subj+Prt+Sg3:%>e   POST-V_01 ;
++Subj+Prt+Pl1:%>en  POST-V_01 ;
++Subj+Prt+Pl2:%>t  POST-V_01 ;
++Subj+Prt+Pl3:%>en  POST-V_01 ;
 
 LEXICON IMPRT
-+Imprt+Sg2:%> # ;
-+Imprt+Pl2:%>t # ;
++Imprt+Sg2:%> POST-V_01 ;
++Imprt+Pl2:%>t POST-V_01 ;
 
 
 LEXICON IND-PRS_ACKERN
-+Ind+Prs+Sg1:%^Pen%^RmVow%>e  # ; !!= * @CODE@ works with ackern
-+Ind+Prs+Sg2:%>st # ;
-+Ind+Prs+Sg3:%>t  # ;
-+Ind+Prs+Pl1:%>n # ;
-+Ind+Prs+Pl2:%>t  # ;
-+Ind+Prs+Pl3:%>n # ;
++Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ; !!= * @CODE@ works with ackern
+IND-PRS-SG2 ;
+IND-PRS-SG3 ;
++Ind+Prs+Pl1:%>n POST-V_01 ;
+IND-PRS-PL2 ;
++Ind+Prs+Pl3:%>n POST-V_01 ;
 
 LEXICON SUBJ-PRS_ACKERN
-+Subj+Prs+Sg1:%^Pen%^RmVow%>e  # ;
-+Subj+Prs+Sg2:%>st # ;
-+Subj+Prs+Sg3:%^Pen%^RmVow%>e  # ;
-+Subj+Prs+Pl1:%>n # ;
-+Subj+Prs+Pl2:%>t  # ;
-+Subj+Prs+Pl3:%>n # ;
++Subj+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;
++Subj+Prs+Sg2:%>st POST-V_01 ;
++Subj+Prs+Sg3:%^Pen%^RmVow%>e  POST-V_01 ;
++Subj+Prs+Pl1:%>n POST-V_01 ;
++Subj+Prs+Pl2:%>t  POST-V_01 ;
++Subj+Prs+Pl3:%>n POST-V_01 ;
 
 
 
@@ -157,47 +157,63 @@ LEXICON V_haben__vbhaver !!= * @CODE@ haben:ha
 +V@D.PTC@:0@D.PTC@ V_haben__vbhaver_01 ;
 +V@D.PTC@:b@D.PTC@ Inf ;
 LEXICON V_haben__vbhaver_01
-+Ind+Prs+Sg1:b%>e  # ;
-+Ind+Prs+Sg2:%>st # ;
-+Ind+Prs+Sg3:%>t  # ;
-+Ind+Prs+Pl1:b%>en # ;
-+Ind+Prs+Pl2:b%>t  # ;
-+Ind+Prs+Pl3:b%>en # ;
++Ind+Prs+Sg1:b%>e  POST-V_01 ;
+IND-PRS-SG2 ;
+IND-PRS-SG3 ;
++Ind+Prs+Pl1:b%>en POST-V_01 ;
++Ind+Prs+Pl2:b%>t  POST-V_01 ;
++Ind+Prs+Pl3:b%>en POST-V_01 ;
 
 :t IND-PRT ;
 :b SUBJ-PRS ;
 :t%^Umlaut SUBJ-PRT ;
 
-+Imprt+Sg2:b%>e # ;
-+Imprt+Pl2:b%>t # ;
++Imprt+Sg2:b%>e POST-V_01 ;
++Imprt+Pl2:b%>t POST-V_01 ;
 
 LEXICON V_/müssen__vbmod !!= * @CODE@ müssen:muss
 +V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/müssen__vbmod_01 ;
++V+Mod@D.PTC@:00@D.PTC@ V_/müssen__vb_01 ;
 +V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
-LEXICON V_/müssen__vbmod_01
-+Ind+Prs+Sg1:  # ;
-+Ind+Prs+Sg2:%>st # ;
-+Ind+Prs+Sg3:  # ;
-+Ind+Prs+Pl1:%^Umlaut%>en # ;
-+Ind+Prs+Pl2:%^Umlaut%>t  # ;
-+Ind+Prs+Pl3:%^Umlaut%>en # ;
+LEXICON V_/müssen__vb_01
++Ind+Prs+Sg1:  POST-V_01 ;
+IND-PRS-SG2 ;
++Ind+Prs+Sg3:  POST-V_01 ;
++Ind+Prs+Pl1:%^Umlaut%>en POST-V_01 ;
++Ind+Prs+Pl2:%^Umlaut%>t  POST-V_01 ;
++Ind+Prs+Pl3:%^Umlaut%>en POST-V_01 ;
 
 : IND-PRT ;
 :%^Umlaut SUBJ-PRS ;
 :%^Umlaut SUBJ-PRT ;
 
+LEXICON V_/dürfen__vbmod !!= * @CODE@ dürfen:darf
++V+Mod@R.PTC.ON@:%^A2U%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V+Mod@D.PTC@:00@D.PTC@ V_/dürfen__vb_01 ;
++V+Mod@D.PTC@:%^A2Ü0@D.PTC@ Inf ;
+LEXICON V_/dürfen__vb_01
++Ind+Prs+Sg1:  POST-V_01 ;
+IND-PRS-SG2 ;
++Ind+Prs+Sg3:  POST-V_01 ;
++Ind+Prs+Pl1:%^A2Ü%>en POST-V_01 ;
++Ind+Prs+Pl2:%^A2Ü%>t  POST-V_01 ;
++Ind+Prs+Pl3:%^A2Ü%>en POST-V_01 ;
+
+:%^A2U IND-PRT ;
+:%^A2Ü SUBJ-PRS ;
+:%^A2Ü SUBJ-PRT ;
+
 LEXICON V_/können__vbmod !!= * @CODE@ können:konn
 +V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/können__vbmod_01 ;
++V+Mod@D.PTC@:00@D.PTC@ V_/können__vb_01 ;
 +V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
-LEXICON V_/können__vbmod_01
-+Ind+Prs+Sg1:%^LowerVow  # ;
-+Ind+Prs+Sg2:%^LowerVow%>st # ;
-+Ind+Prs+Sg3:%^LowerVow  # ;
-+Ind+Prs+Pl1:%^Umlaut%>en # ;
-+Ind+Prs+Pl2:%^Umlaut%>t  # ;
-+Ind+Prs+Pl3:%^Umlaut%>en # ;
+LEXICON V_/können__vb_01
++Ind+Prs+Sg1:%^LowerVow  POST-V_01 ;
++Ind+Prs+Sg2:%^LowerVow%>st POST-V_01 ;
++Ind+Prs+Sg3:%^LowerVow  POST-V_01 ;
++Ind+Prs+Pl1:%^Umlaut%>en POST-V_01 ;
++Ind+Prs+Pl2:%^Umlaut%>t  POST-V_01 ;
++Ind+Prs+Pl3:%^Umlaut%>en POST-V_01 ;
 
 : IND-PRT ;
 :%^Umlaut SUBJ-PRS ;
@@ -205,15 +221,15 @@ LEXICON V_/können__vbmod_01
 
 LEXICON V_/mögen__vbmod !!= * @CODE@ mögen:mog
 +V+Mod@R.PTC.ON@:%^DeV%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/mögen__vbmod_01 ;
++V+Mod@D.PTC@:00@D.PTC@ V_/mögen__vb_01 ;
 +V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
-LEXICON V_/mögen__vbmod_01
-+Ind+Prs+Sg1:%^LowerVow  # ;
-+Ind+Prs+Sg2:%^LowerVow%>st # ;
-+Ind+Prs+Sg3:%^LowerVow  # ;
-+Ind+Prs+Pl1:%^Umlaut%>en # ;
-+Ind+Prs+Pl2:%^Umlaut%>t  # ;
-+Ind+Prs+Pl3:%^Umlaut%>en # ;
+LEXICON V_/mögen__vb_01
++Ind+Prs+Sg1:%^LowerVow  POST-V_01 ;
++Ind+Prs+Sg2:%^LowerVow%>st POST-V_01 ;
++Ind+Prs+Sg3:%^LowerVow  POST-V_01 ;
++Ind+Prs+Pl1:%^Umlaut%>en POST-V_01 ;
++Ind+Prs+Pl2:%^Umlaut%>t  POST-V_01 ;
++Ind+Prs+Pl3:%^Umlaut%>en POST-V_01 ;
 
 :%^DeV IND-PRT ;
 :%^Umlaut SUBJ-PRS ;
@@ -221,15 +237,15 @@ LEXICON V_/mögen__vbmod_01
 
 LEXICON V_/sollen__vbmod !!= * @CODE@ sollen:soll
 +V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/sollen__vbmod_01 ;
++V+Mod@D.PTC@:00@D.PTC@ V_/sollen__vb_01 ;
 +V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
-LEXICON V_/sollen__vbmod_01
-+Ind+Prs+Sg1:  # ;
-+Ind+Prs+Sg2:%>st # ;
-+Ind+Prs+Sg3:  # ;
-+Ind+Prs+Pl1:%>en # ;
-+Ind+Prs+Pl2:%>t  # ;
-+Ind+Prs+Pl3:%>en # ;
+LEXICON V_/sollen__vb_01
++Ind+Prs+Sg1:  POST-V_01 ;
+IND-PRS-SG2 ;
++Ind+Prs+Sg3:  POST-V_01 ;
+IND-PRS-PL1 ;
+IND-PRS-PL2 ;
+IND-PRS-PL3 ;
 
 : IND-PRT ;
 : SUBJ-PRS ;
@@ -241,12 +257,12 @@ LEXICON V_/werden__vaux !!= * @CODE@ werden:w
 +V+Aux@D.PTC@:00@D.PTC@ V_/werden__vaux_01 ;
 +V+Aux0@D.PTC@:erd@D.PTC@ Inf ;
 LEXICON V_/werden__vaux_01
-+Ind+Prs+Sg1:erde  # ;
-+Ind+Prs+Sg2:ir%>st # ;
-+Ind+Prs+Sg3:ird  # ;
-+Ind+Prs+Pl1:erd%>en # ;
-+Ind+Prs+Pl2:erd%>t  # ;
-+Ind+Prs+Pl3:erd%>en # ;
++Ind+Prs+Sg1:erde  POST-V_01 ;
++Ind+Prs+Sg2:ir%>st POST-V_01 ;
++Ind+Prs+Sg3:ird  POST-V_01 ;
++Ind+Prs+Pl1:erd%>en POST-V_01 ;
++Ind+Prs+Pl2:erd%>t  POST-V_01 ;
++Ind+Prs+Pl3:erd%>en POST-V_01 ;
 
 :urd IND-PRT ;
 :erd SUBJ-PRS ;
@@ -257,12 +273,12 @@ LEXICON V_/wollen__vaux !!= * @CODE@ wollen:w
 +V+Aux@D.PTC@:00@D.PTC@ V_/wollen__vaux_01 ;
 +V+Aux0@D.PTC@:oll@D.PTC@ Inf ;
 LEXICON V_/wollen__vaux_01
-+Ind+Prs+Sg1:ill  # ;
-+Ind+Prs+Sg2:ill%>st # ;
-+Ind+Prs+Sg3:ill  # ;
-+Ind+Prs+Pl1:oll%>en # ;
-+Ind+Prs+Pl2:oll%>t  # ;
-+Ind+Prs+Pl3:oll%>en # ;
++Ind+Prs+Sg1:ill  POST-V_01 ;
++Ind+Prs+Sg2:ill%>st POST-V_01 ;
++Ind+Prs+Sg3:ill  POST-V_01 ;
++Ind+Prs+Pl1:oll%>en POST-V_01 ;
++Ind+Prs+Pl2:oll%>t  POST-V_01 ;
++Ind+Prs+Pl3:oll%>en POST-V_01 ;
 
 :oll IND-PRT ;
 :oll SUBJ-PRS ;
@@ -272,92 +288,211 @@ LEXICON V_/wollen__vaux_01
 
 LEXICON V_/werden__vblex !!= * @CODE@ werden:w
 +V@R.PTC.ON@:orden@R.PTC.ON@  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:00@D.PTC@ V_/werden__vblex_01 ;
++V@D.PTC@:00@D.PTC@ V_/werden__vb_01 ;
 +V0@D.PTC@:erd@D.PTC@ Inf ;
-LEXICON V_/werden__vblex_01
-+Ind+Prs+Sg1:erde  # ;
-+Ind+Prs+Sg2:ir%>st # ;
-+Ind+Prs+Sg3:ird  # ;
-+Ind+Prs+Pl1:erd%>en # ;
-+Ind+Prs+Pl2:erd%>t  # ;
-+Ind+Prs+Pl3:erd%>en # ;
+LEXICON V_/werden__vb_01
++Ind+Prs+Sg1:erde  POST-V_01 ;
++Ind+Prs+Sg2:ir%>st POST-V_01 ;
++Ind+Prs+Sg3:ird  POST-V_01 ;
++Ind+Prs+Pl1:erd%>en POST-V_01 ;
++Ind+Prs+Pl2:erd%>t  POST-V_01 ;
++Ind+Prs+Pl3:erd%>en POST-V_01 ;
 
 :urd IND-PRT ;
 :erd SUBJ-PRS ;
 :urd%^Umlaut SUBJ-PRT ;
-+Imprt+Sg2:erde # ;
-+Imprt+Pl2:erdet # ;
++Imprt+Sg2:erde POST-V_01 ;
++Imprt+Pl2:erdet POST-V_01 ;
 
 LEXICON V_/kommen__vblex !!= * @CODE@ kommen:k
 +V:ommen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/kommen__vblex_01 ;
++V@D.PTC@:0@D.PTC@ V_/kommen__vb_01 ;
 +V000@D.PTC@:omm@D.PTC@ Inf ;
-LEXICON V_/kommen__vblex_01
-+Ind+Prs+Sg1:omme  # ;
-+Ind+Prs+Sg2:omm%>st # ;
-+Ind+Prs+Sg3:ommt  # ;
-+Ind+Prs+Pl1:omm%>en # ;
-+Ind+Prs+Pl2:omm%>t  # ;
-+Ind+Prs+Pl3:omm%>en # ;
+LEXICON V_/kommen__vb_01
++Ind+Prs+Sg1:omme  POST-V_01 ;
++Ind+Prs+Sg2:omm%>st POST-V_01 ;
++Ind+Prs+Sg3:ommt  POST-V_01 ;
++Ind+Prs+Pl1:omm%>en POST-V_01 ;
++Ind+Prs+Pl2:omm%>t  POST-V_01 ;
++Ind+Prs+Pl3:omm%>en POST-V_01 ;
 
 :am IND-PRT_SEIN ;
 :omm SUBJ-PRS ;
 :am%^Umlaut SUBJ-PRT_SEIN ;
-+Imprt+Sg2:omm # ;
-+Imprt+Pl2:ommt # ;
++Imprt+Sg2:omm POST-V_01 ;
++Imprt+Pl2:ommt POST-V_01 ;
 
+!!
 LEXICON V_g/eben__vblex !!= * @CODE@ geben:gab
 +V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_g/eben__vblex_01 ;
++V@D.PTC@:0@D.PTC@ V_g/eben__vb_01 ;
 +V000@D.PTC@:%^A2E@D.PTC@ Inf ;
-LEXICON V_g/eben__vblex_01
-+Ind+Prs+Sg1:%^A2E%>e  # ;
-+Ind+Prs+Sg2:%^A2I%>st # ;
-+Ind+Prs+Sg3:%^A2It  # ;
-+Ind+Prs+Pl1:%^A2E%>en # ;
-+Ind+Prs+Pl2:%^A2E%>t  # ;
-+Ind+Prs+Pl3:%^A2E%>en # ;
+LEXICON V_g/eben__vb_01
++Ind+Prs+Sg1:%^A2E%>e  POST-V_01 ;
++Ind+Prs+Sg2:%^A2I%>st POST-V_01 ;
++Ind+Prs+Sg3:%^A2It  POST-V_01 ;
++Ind+Prs+Pl1:%^A2E%>en POST-V_01 ;
++Ind+Prs+Pl2:%^A2E%>t  POST-V_01 ;
++Ind+Prs+Pl3:%^A2E%>en POST-V_01 ;
 
 : IND-PRT_SEIN ;
 :%^A2E SUBJ-PRS ;
 :%^Umlaut SUBJ-PRT_SEIN ;
-+Imprt+Sg2:%^A2I # ;
-+Imprt+Pl2:%^A2Et # ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
 
+LEXICON V_g/ehen__vblex !!= * @CODE@ gehen:g
++V:angen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_g/ehen__vb_01 ;
++V000@D.PTC@:eh@D.PTC@ Inf ;
+LEXICON V_g/ehen__vb_01
++Ind+Prs+Sg1:eh%>e  POST-V_01 ;
++Ind+Prs+Sg2:eh%>st POST-V_01 ;
++Ind+Prs+Sg3:eht  POST-V_01 ;
++Ind+Prs+Pl1:eh%>en POST-V_01 ;
++Ind+Prs+Pl2:eh%>t  POST-V_01 ;
++Ind+Prs+Pl3:eh%>en POST-V_01 ;
+
+:ing IND-PRT_SEIN ;
+:eh SUBJ-PRS ;
+:ing SUBJ-PRT_SEIN ;
++Imprt+Sg2:eh POST-V_01 ;
++Imprt+Pl2:eh%>t POST-V_01 ;
+
+LEXICON V_st/ehen__vblex !!= * @CODE@ stehen:st
++V:anden  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_st/ehen__vb_01 ;
++V000@D.PTC@:eh@D.PTC@ Inf ;
+LEXICON V_st/ehen__vb_01
++Ind+Prs+Sg1:eh%>e  POST-V_01 ;
++Ind+Prs+Sg2:eh%>st POST-V_01 ;
++Ind+Prs+Sg3:eht  POST-V_01 ;
++Ind+Prs+Pl1:eh%>en POST-V_01 ;
++Ind+Prs+Pl2:eh%>t  POST-V_01 ;
++Ind+Prs+Pl3:eh%>en POST-V_01 ;
+
+:and IND-PRT_SEIN ;
+:eh SUBJ-PRS ;
+:and%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:eh POST-V_01 ;
++Imprt+Pl2:eh%>t POST-V_01 ;
+
+!!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_schw/immen__vblex_01 ;
++V@D.PTC@:0@D.PTC@ V_schw/immen__vb_01 ;
 +V000@D.PTC@:%^A2I@D.PTC@ Inf ;
-LEXICON V_schw/immen__vblex_01
-+Ind+Prs+Sg1:%^A2I%>e  # ;
-+Ind+Prs+Sg2:%^A2I%>st # ;
-+Ind+Prs+Sg3:%^A2It  # ;
-+Ind+Prs+Pl1:%^A2I%>en # ;
-+Ind+Prs+Pl2:%^A2I%>t  # ;
-+Ind+Prs+Pl3:%^A2I%>en # ;
+LEXICON V_schw/immen__vb_01
+:%^A2I  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2I IND-PRS-PL1 ;
+:%^A2I  IND-PRS-PL2 ;
+:%^A2I IND-PRS-PL3 ;
 
 : IND-PRT_SEIN ;
 :%^A2I SUBJ-PRS ;
 :%^Umlaut SUBJ-PRT_SEIN ;
-+Imprt+Sg2:%^A2I # ;
-+Imprt+Pl2:%^A2It # ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2It POST-V_01 ;
 
+LEXICON V_f/inden__vblex !!= * @CODE@ finden:fand
++V:%^A2Uen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_f/inden__vb_01 ;
++V000@D.PTC@:%^A2I@D.PTC@ Inf ;
+LEXICON V_f/inden__vb_01
+:%^A2I  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I%>e  IND-PRS-SG3 ;
+:%^A2I IND-PRS-PL1 ;
+:%^A2I%>e  IND-PRS-PL2 ;
+:%^A2I IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2I SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2It POST-V_01 ;
+
+!!
 LEXICON V_/fahren__vblex !!= * @CODE@ fahren:fahr
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/fahren__vblex_01 ;
++V@D.PTC@:0@D.PTC@ V_/fahren__vb_01 ;
 +V@D.PTC@:0@D.PTC@ Inf ;
-LEXICON V_/fahren__vblex_01
-+Ind+Prs+Sg1:%>e  # ;
-+Ind+Prs+Sg2:%^Umlaut%>st # ;
-+Ind+Prs+Sg3:%^Umlaut%>t  # ;
-+Ind+Prs+Pl1:%>en # ;
-+Ind+Prs+Pl2:%>t  # ;
-+Ind+Prs+Pl3:%>en # ;
+LEXICON V_/fahren__vb_01
+IND-PRS-SG1 ;
+:%^Umlaut IND-PRS-SG2 ;
+:%^Umlaut  IND-PRS-SG3 ;
+IND-PRS-PL1 ;
+IND-PRS-PL2 ;
+IND-PRS-PL3 ;
 
 :%^A2U IND-PRT_SEIN ;
 : SUBJ-PRS ;
 :%^A2Ü SUBJ-PRT_SEIN ;
-+Imprt+Sg2: # ;
-+Imprt+Pl2:t # ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:t POST-V_01 ;
+
+!!
+LEXICON V_/dürfen__vblex !!= * @CODE@ dürfen:darf
++V00@R.PTC.ON@:%^A2U%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/dürfen__vb_01 ;
++V@D.PTC@:%^A2Ü@D.PTC@ Inf ;
+
+!!
+LEXICON IND-PRS-SG1
++Ind+Prs+Sg1:%>e  POST-V_01 ;
+LEXICON IND-PRS-SG2
++Ind+Prs+Sg2:%>st POST-V_01 ;
+LEXICON IND-PRS-SG3
++Ind+Prs+Sg3:%>t  POST-V_01 ;
+LEXICON IND-PRS-PL1
++Ind+Prs+Pl1:%>en POST-V_01 ;
+LEXICON IND-PRS-PL2
++Ind+Prs+Pl2:%>t  POST-V_01 ;
+LEXICON IND-PRS-PL3
++Ind+Prs+Pl3:%>en POST-V_01 ;
 
 
+LEXICON POST-V_01
+@D.FOR-PREFIX@ POST-V_02 ;
+@R.PREFIX.AN-AUS@ PREFIX-AN/AUS ;
+ @R.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@ PREFIX-FOR-GEHEN ;
+
+
+LEXICON PREFIX-AN/AUS
+@R.FOR-PREFIX.An@ POST-V_02 ;
+@R.FOR-PREFIX.Aus@ POST-V_02 ;
+
+LEXICON PREFIX-FOR-GEHEN
+! THERE are limits to the length of continuation lexicon names
+! PREFIX-AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK
+@R.FOR-PREFIX.An@ POST-V_02 ;
+@R.FOR-PREFIX.Auf@ POST-V_02 ;
+@R.FOR-PREFIX.Aus@ POST-V_02 ;
+@R.FOR-PREFIX.Durch@ POST-V_02 ;
+@R.FOR-PREFIX.Ein@ POST-V_02 ;
+@R.FOR-PREFIX.Fort@ POST-V_02 ;
+@R.FOR-PREFIX.Hinauf@ POST-V_02 ;
+@R.FOR-PREFIX.Hinaus@ POST-V_02 ;
+@R.FOR-PREFIX.Hinein@ POST-V_02 ;
+@R.FOR-PREFIX.Hin@ POST-V_02 ;
+@R.FOR-PREFIX.Hinüber@ POST-V_02 ;
+@R.FOR-PREFIX.Hinunter@ POST-V_02 ;
+@R.FOR-PREFIX.Hoch@ POST-V_02 ;
+@R.FOR-PREFIX.Los@ POST-V_02 ;
+@R.FOR-PREFIX.Mit@ POST-V_02 ;
+@R.FOR-PREFIX.Nach@ POST-V_02 ;
+@R.FOR-PREFIX.Unter@ POST-V_02 ;
+@R.FOR-PREFIX.Voran@ POST-V_02 ;
+@R.FOR-PREFIX.Voraus@ POST-V_02 ;
+@R.FOR-PREFIX.Vorbei@ POST-V_02 ;
+@R.FOR-PREFIX.Vor@ POST-V_02 ;
+@R.FOR-PREFIX.Weg@ POST-V_02 ;
+@R.FOR-PREFIX.Weiter@ POST-V_02 ;
+@R.FOR-PREFIX.Zu@ POST-V_02 ;
+@R.FOR-PREFIX.Zurück@ POST-V_02 ;
+
+
+LEXICON POST-V_02
+#;
