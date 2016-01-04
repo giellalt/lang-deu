@@ -17,6 +17,7 @@ Multichar_Symbols
 +Prs +Prt +Prf 
 +Ind +Imprt +Subj +Conj +Opt 
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++SP2 	  !!= * @CODE@ singular or plural Formal
 +Inf +Vt
 +PrfPrc
 +PrsPrc
@@ -280,11 +281,83 @@ Multichar_Symbols
 a2 A2 o2 O2 u2 U2
 
 ! Flags dokumentiert in Kapitel 8 des Buches, s. 456 zB.
+! ge-
 @P.PTC.ON@ ! Positive (re)setting
-@P.PTC.OFF@ ! Positive (re)setting
 @D.PTC@ ! Disallow test 
 @R.PTC.ON@ ! Require test
-@R.PTC.OFF@ ! Unification test
+
+! verbs with separable prefixes
+@P.VPREFIX.ON@
+@R.VPREFIX.ON@
+@D.VPREFIX.ON@
+@U.VPREFIX.ON@
+@U.VPREFIX.OFF@
+
+@P.FOR-PREFIX.An@
+@R.FOR-PREFIX.An@
+
+@P.FOR-PREFIX.Aus@
+@R.FOR-PREFIX.Aus@
+@D.FOR-PREFIX@
+
+@R.FOR-PREFIX.Auf@
+@R.FOR-PREFIX.Durch@
+@R.FOR-PREFIX.Ein@
+@R.FOR-PREFIX.Fort@
+@R.FOR-PREFIX.Hinauf@
+@R.FOR-PREFIX.Hinaus@
+@R.FOR-PREFIX.Hinein@
+@R.FOR-PREFIX.Hin@
+@R.FOR-PREFIX.Hinüber@
+@R.FOR-PREFIX.Hinunter@
+@R.FOR-PREFIX.Hoch@
+@R.FOR-PREFIX.Los@
+@R.FOR-PREFIX.Mit@
+@R.FOR-PREFIX.Nach@
+@R.FOR-PREFIX.Unter@
+@R.FOR-PREFIX.Voran@
+@R.FOR-PREFIX.Voraus@
+@R.FOR-PREFIX.Vorbei@
+@R.FOR-PREFIX.Vor@
+@R.FOR-PREFIX.Weg@
+@R.FOR-PREFIX.Weiter@
+@R.FOR-PREFIX.Zu@
+@R.FOR-PREFIX.Zurück@
+
+@P.FOR-PREFIX.Auf@
+@P.FOR-PREFIX.Durch@
+@P.FOR-PREFIX.Ein@
+@P.FOR-PREFIX.Fort@
+@P.FOR-PREFIX.Hinauf@
+@P.FOR-PREFIX.Hinaus@
+@P.FOR-PREFIX.Hinein@
+@P.FOR-PREFIX.Hin@
+@P.FOR-PREFIX.Hinüber@
+@P.FOR-PREFIX.Hinunter@
+@P.FOR-PREFIX.Hoch@
+@P.FOR-PREFIX.Los@
+@P.FOR-PREFIX.Mit@
+@P.FOR-PREFIX.Nach@
+@P.FOR-PREFIX.Unter@
+@P.FOR-PREFIX.Voran@
+@P.FOR-PREFIX.Voraus@
+@P.FOR-PREFIX.Vorbei@
+@P.FOR-PREFIX.Vor@
+@P.FOR-PREFIX.Weg@
+@P.FOR-PREFIX.Weiter@
+@P.FOR-PREFIX.Zu@
+@P.FOR-PREFIX.Zurück@
+
+
+@P.PREFIX.AN-AUS@
+@R.PREFIX.AN-AUS@
+
+@P.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@
+@R.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@
+
+
+
+@D.PREFIX@
 
 !! Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
