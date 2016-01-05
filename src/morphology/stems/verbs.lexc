@@ -94,155 +94,155 @@ zu@P.FOR-PREFIX.Zu@:00@P.FOR-PREFIX.Zu@ VERBS_01 ;
 zurück@P.VPREFIX.ON@@P.FOR-PREFIX.Zurück@:zurück@P.VPREFIX.ON@@P.FOR-PREFIX.Zurück@ VERBS_01 ;
 zurück@P.FOR-PREFIX.Zurück@:000000@P.FOR-PREFIX.Zurück@ VERBS_01 ;
 !!!
-ab@P.FOR-PREFIX.ab@:ab@P.FOR-PREFIX.ab@ VERBS_01 ;
+ab@P.VPREFIX.ON@@P.FOR-PREFIX.ab@:ab@P.VPREFIX.ON@@P.FOR-PREFIX.ab@ VERBS_01 ;
 ab@P.FOR-PREFIX.ab@:00@P.FOR-PREFIX.ab@ VERBS_01 ;
-abhande@P.FOR-PREFIX.abhande@:abhande@P.FOR-PREFIX.abhande@ VERBS_01 ;
+abhande@P.VPREFIX.ON@@P.FOR-PREFIX.abhande@:abhande@P.VPREFIX.ON@@P.FOR-PREFIX.abhande@ VERBS_01 ;
 abhande@P.FOR-PREFIX.abhande@:0000000@P.FOR-PREFIX.abhande@ VERBS_01 ;
-auseinander@P.FOR-PREFIX.auseinander@:auseinander@P.FOR-PREFIX.auseinander@ VERBS_01 ;
+auseinander@P.VPREFIX.ON@@P.FOR-PREFIX.auseinander@:auseinander@P.VPREFIX.ON@@P.FOR-PREFIX.auseinander@ VERBS_01 ;
 auseinander@P.FOR-PREFIX.auseinander@:00000000000@P.FOR-PREFIX.auseinander@ VERBS_01 ;
-bei@P.FOR-PREFIX.bei@:bei@P.FOR-PREFIX.bei@ VERBS_01 ;
+bei@P.VPREFIX.ON@@P.FOR-PREFIX.bei@:bei@P.VPREFIX.ON@@P.FOR-PREFIX.bei@ VERBS_01 ;
 bei@P.FOR-PREFIX.bei@:000@P.FOR-PREFIX.bei@ VERBS_01 ;
-dabei@P.FOR-PREFIX.dabei@:dabei@P.FOR-PREFIX.dabei@ VERBS_01 ;
+dabei@P.VPREFIX.ON@@P.FOR-PREFIX.dabei@:dabei@P.VPREFIX.ON@@P.FOR-PREFIX.dabei@ VERBS_01 ;
 dabei@P.FOR-PREFIX.dabei@:00000@P.FOR-PREFIX.dabei@ VERBS_01 ;
-dahin@P.FOR-PREFIX.dahin@:dahin@P.FOR-PREFIX.dahin@ VERBS_01 ;
+dahin@P.VPREFIX.ON@@P.FOR-PREFIX.dahin@:dahin@P.VPREFIX.ON@@P.FOR-PREFIX.dahin@ VERBS_01 ;
 dahin@P.FOR-PREFIX.dahin@:00000@P.FOR-PREFIX.dahin@ VERBS_01 ;
-daran@P.FOR-PREFIX.daran@:daran@P.FOR-PREFIX.daran@ VERBS_01 ;
+daran@P.VPREFIX.ON@@P.FOR-PREFIX.daran@:daran@P.VPREFIX.ON@@P.FOR-PREFIX.daran@ VERBS_01 ;
 daran@P.FOR-PREFIX.daran@:00000@P.FOR-PREFIX.daran@ VERBS_01 ;
-darauf@P.FOR-PREFIX.darauf@:darauf@P.FOR-PREFIX.darauf@ VERBS_01 ;
+darauf@P.VPREFIX.ON@@P.FOR-PREFIX.darauf@:darauf@P.VPREFIX.ON@@P.FOR-PREFIX.darauf@ VERBS_01 ;
 darauf@P.FOR-PREFIX.darauf@:000000@P.FOR-PREFIX.darauf@ VERBS_01 ;
-drauf@P.FOR-PREFIX.drauf@:drauf@P.FOR-PREFIX.drauf@ VERBS_01 ;
+drauf@P.VPREFIX.ON@@P.FOR-PREFIX.drauf@:drauf@P.VPREFIX.ON@@P.FOR-PREFIX.drauf@ VERBS_01 ;
 drauf@P.FOR-PREFIX.drauf@:00000@P.FOR-PREFIX.drauf@ VERBS_01 ;
-daher@P.FOR-PREFIX.daher@:daher@P.FOR-PREFIX.daher@ VERBS_01 ;
+daher@P.VPREFIX.ON@@P.FOR-PREFIX.daher@:daher@P.VPREFIX.ON@@P.FOR-PREFIX.daher@ VERBS_01 ;
 daher@P.FOR-PREFIX.daher@:00000@P.FOR-PREFIX.daher@ VERBS_01 ;
-daneben@P.FOR-PREFIX.daneben@:daneben@P.FOR-PREFIX.daneben@ VERBS_01 ;
+daneben@P.VPREFIX.ON@@P.FOR-PREFIX.daneben@:daneben@P.VPREFIX.ON@@P.FOR-PREFIX.daneben@ VERBS_01 ;
 daneben@P.FOR-PREFIX.daneben@:0000000@P.FOR-PREFIX.daneben@ VERBS_01 ;
-dar@P.FOR-PREFIX.dar@:dar@P.FOR-PREFIX.dar@ VERBS_01 ;
+dar@P.VPREFIX.ON@@P.FOR-PREFIX.dar@:dar@P.VPREFIX.ON@@P.FOR-PREFIX.dar@ VERBS_01 ;
 dar@P.FOR-PREFIX.dar@:000@P.FOR-PREFIX.dar@ VERBS_01 ;
-davon@P.FOR-PREFIX.davon@:davon@P.FOR-PREFIX.davon@ VERBS_01 ;
+davon@P.VPREFIX.ON@@P.FOR-PREFIX.davon@:davon@P.VPREFIX.ON@@P.FOR-PREFIX.davon@ VERBS_01 ;
 davon@P.FOR-PREFIX.davon@:00000@P.FOR-PREFIX.davon@ VERBS_01 ;
-dazwischen@P.FOR-PREFIX.dazwischen@:dazwischen@P.FOR-PREFIX.dazwischen@ VERBS_01 ;
+dazwischen@P.VPREFIX.ON@@P.FOR-PREFIX.dazwischen@:dazwischen@P.VPREFIX.ON@@P.FOR-PREFIX.dazwischen@ VERBS_01 ;
 dazwischen@P.FOR-PREFIX.dazwischen@:0000000000@P.FOR-PREFIX.dazwischen@ VERBS_01 ;
-durcheinander@P.FOR-PREFIX.durcheinander@:durcheinander@P.FOR-PREFIX.durcheinander@ VERBS_01 ;
+durcheinander@P.VPREFIX.ON@@P.FOR-PREFIX.durcheinander@:durcheinander@P.VPREFIX.ON@@P.FOR-PREFIX.durcheinander@ VERBS_01 ;
 durcheinander@P.FOR-PREFIX.durcheinander@:0000000000000@P.FOR-PREFIX.durcheinander@ VERBS_01 ;
-einher@P.FOR-PREFIX.einher@:einher@P.FOR-PREFIX.einher@ VERBS_01 ;
+einher@P.VPREFIX.ON@@P.FOR-PREFIX.einher@:einher@P.VPREFIX.ON@@P.FOR-PREFIX.einher@ VERBS_01 ;
 einher@P.FOR-PREFIX.einher@:000000@P.FOR-PREFIX.einher@ VERBS_01 ;
-empor@P.FOR-PREFIX.empor@:empor@P.FOR-PREFIX.empor@ VERBS_01 ;
+empor@P.VPREFIX.ON@@P.FOR-PREFIX.empor@:empor@P.VPREFIX.ON@@P.FOR-PREFIX.empor@ VERBS_01 ;
 empor@P.FOR-PREFIX.empor@:00000@P.FOR-PREFIX.empor@ VERBS_01 ;
-entgegen@P.FOR-PREFIX.entgegen@:entgegen@P.FOR-PREFIX.entgegen@ VERBS_01 ;
+entgegen@P.VPREFIX.ON@@P.FOR-PREFIX.entgegen@:entgegen@P.VPREFIX.ON@@P.FOR-PREFIX.entgegen@ VERBS_01 ;
 entgegen@P.FOR-PREFIX.entgegen@:00000000@P.FOR-PREFIX.entgegen@ VERBS_01 ;
-entlang@P.FOR-PREFIX.entlang@:entlang@P.FOR-PREFIX.entlang@ VERBS_01 ;
+entlang@P.VPREFIX.ON@@P.FOR-PREFIX.entlang@:entlang@P.VPREFIX.ON@@P.FOR-PREFIX.entlang@ VERBS_01 ;
 entlang@P.FOR-PREFIX.entlang@:0000000@P.FOR-PREFIX.entlang@ VERBS_01 ;
-entzwei@P.FOR-PREFIX.entzwei@:entzwei@P.FOR-PREFIX.entzwei@ VERBS_01 ;
+entzwei@P.VPREFIX.ON@@P.FOR-PREFIX.entzwei@:entzwei@P.VPREFIX.ON@@P.FOR-PREFIX.entzwei@ VERBS_01 ;
 entzwei@P.FOR-PREFIX.entzwei@:0000000@P.FOR-PREFIX.entzwei@ VERBS_01 ;
-fehl@P.FOR-PREFIX.fehl@:fehl@P.FOR-PREFIX.fehl@ VERBS_01 ;
+fehl@P.VPREFIX.ON@@P.FOR-PREFIX.fehl@:fehl@P.VPREFIX.ON@@P.FOR-PREFIX.fehl@ VERBS_01 ;
 fehl@P.FOR-PREFIX.fehl@:0000@P.FOR-PREFIX.fehl@ VERBS_01 ;
-fertig@P.FOR-PREFIX.fertig@:fertig@P.FOR-PREFIX.fertig@ VERBS_01 ;
+fertig@P.VPREFIX.ON@@P.FOR-PREFIX.fertig@:fertig@P.VPREFIX.ON@@P.FOR-PREFIX.fertig@ VERBS_01 ;
 fertig@P.FOR-PREFIX.fertig@:000000@P.FOR-PREFIX.fertig@ VERBS_01 ;
-fremd@P.FOR-PREFIX.fremd@:fremd@P.FOR-PREFIX.fremd@ VERBS_01 ;
+fremd@P.VPREFIX.ON@@P.FOR-PREFIX.fremd@:fremd@P.VPREFIX.ON@@P.FOR-PREFIX.fremd@ VERBS_01 ;
 fremd@P.FOR-PREFIX.fremd@:00000@P.FOR-PREFIX.fremd@ VERBS_01 ;
-gut@P.FOR-PREFIX.gut@:gut@P.FOR-PREFIX.gut@ VERBS_01 ;
+gut@P.VPREFIX.ON@@P.FOR-PREFIX.gut@:gut@P.VPREFIX.ON@@P.FOR-PREFIX.gut@ VERBS_01 ;
 gut@P.FOR-PREFIX.gut@:000@P.FOR-PREFIX.gut@ VERBS_01 ;
-heim@P.FOR-PREFIX.heim@:heim@P.FOR-PREFIX.heim@ VERBS_01 ;
+heim@P.VPREFIX.ON@@P.FOR-PREFIX.heim@:heim@P.VPREFIX.ON@@P.FOR-PREFIX.heim@ VERBS_01 ;
 heim@P.FOR-PREFIX.heim@:0000@P.FOR-PREFIX.heim@ VERBS_01 ;
-herab@P.FOR-PREFIX.herab@:herab@P.FOR-PREFIX.herab@ VERBS_01 ;
+herab@P.VPREFIX.ON@@P.FOR-PREFIX.herab@:herab@P.VPREFIX.ON@@P.FOR-PREFIX.herab@ VERBS_01 ;
 herab@P.FOR-PREFIX.herab@:00000@P.FOR-PREFIX.herab@ VERBS_01 ;
-heran@P.FOR-PREFIX.heran@:heran@P.FOR-PREFIX.heran@ VERBS_01 ;
+heran@P.VPREFIX.ON@@P.FOR-PREFIX.heran@:heran@P.VPREFIX.ON@@P.FOR-PREFIX.heran@ VERBS_01 ;
 heran@P.FOR-PREFIX.heran@:00000@P.FOR-PREFIX.heran@ VERBS_01 ;
-herauf@P.FOR-PREFIX.herauf@:herauf@P.FOR-PREFIX.herauf@ VERBS_01 ;
+herauf@P.VPREFIX.ON@@P.FOR-PREFIX.herauf@:herauf@P.VPREFIX.ON@@P.FOR-PREFIX.herauf@ VERBS_01 ;
 herauf@P.FOR-PREFIX.herauf@:000000@P.FOR-PREFIX.herauf@ VERBS_01 ;
-heraus@P.FOR-PREFIX.heraus@:heraus@P.FOR-PREFIX.heraus@ VERBS_01 ;
+heraus@P.VPREFIX.ON@@P.FOR-PREFIX.heraus@:heraus@P.VPREFIX.ON@@P.FOR-PREFIX.heraus@ VERBS_01 ;
 heraus@P.FOR-PREFIX.heraus@:000000@P.FOR-PREFIX.heraus@ VERBS_01 ;
-herbei@P.FOR-PREFIX.herbei@:herbei@P.FOR-PREFIX.herbei@ VERBS_01 ;
+herbei@P.VPREFIX.ON@@P.FOR-PREFIX.herbei@:herbei@P.VPREFIX.ON@@P.FOR-PREFIX.herbei@ VERBS_01 ;
 herbei@P.FOR-PREFIX.herbei@:000000@P.FOR-PREFIX.herbei@ VERBS_01 ;
-herein@P.FOR-PREFIX.herein@:herein@P.FOR-PREFIX.herein@ VERBS_01 ;
+herein@P.VPREFIX.ON@@P.FOR-PREFIX.herein@:herein@P.VPREFIX.ON@@P.FOR-PREFIX.herein@ VERBS_01 ;
 herein@P.FOR-PREFIX.herein@:000000@P.FOR-PREFIX.herein@ VERBS_01 ;
-her@P.FOR-PREFIX.her@:her@P.FOR-PREFIX.her@ VERBS_01 ;
+her@P.VPREFIX.ON@@P.FOR-PREFIX.her@:her@P.VPREFIX.ON@@P.FOR-PREFIX.her@ VERBS_01 ;
 her@P.FOR-PREFIX.her@:000@P.FOR-PREFIX.her@ VERBS_01 ;
-hernieder@P.FOR-PREFIX.hernieder@:hernieder@P.FOR-PREFIX.hernieder@ VERBS_01 ;
+hernieder@P.VPREFIX.ON@@P.FOR-PREFIX.hernieder@:hernieder@P.VPREFIX.ON@@P.FOR-PREFIX.hernieder@ VERBS_01 ;
 hernieder@P.FOR-PREFIX.hernieder@:000000000@P.FOR-PREFIX.hernieder@ VERBS_01 ;
-herüber@P.FOR-PREFIX.herüber@:herüber@P.FOR-PREFIX.herüber@ VERBS_01 ;
+herüber@P.VPREFIX.ON@@P.FOR-PREFIX.herüber@:herüber@P.VPREFIX.ON@@P.FOR-PREFIX.herüber@ VERBS_01 ;
 herüber@P.FOR-PREFIX.herüber@:0000000@P.FOR-PREFIX.herüber@ VERBS_01 ;
-herum@P.FOR-PREFIX.herum@:herum@P.FOR-PREFIX.herum@ VERBS_01 ;
+herum@P.VPREFIX.ON@@P.FOR-PREFIX.herum@:herum@P.VPREFIX.ON@@P.FOR-PREFIX.herum@ VERBS_01 ;
 herum@P.FOR-PREFIX.herum@:00000@P.FOR-PREFIX.herum@ VERBS_01 ;
-herunter@P.FOR-PREFIX.herunter@:herunter@P.FOR-PREFIX.herunter@ VERBS_01 ;
+herunter@P.VPREFIX.ON@@P.FOR-PREFIX.herunter@:herunter@P.VPREFIX.ON@@P.FOR-PREFIX.herunter@ VERBS_01 ;
 herunter@P.FOR-PREFIX.herunter@:00000000@P.FOR-PREFIX.herunter@ VERBS_01 ;
-hervor@P.FOR-PREFIX.hervor@:hervor@P.FOR-PREFIX.hervor@ VERBS_01 ;
+hervor@P.VPREFIX.ON@@P.FOR-PREFIX.hervor@:hervor@P.VPREFIX.ON@@P.FOR-PREFIX.hervor@ VERBS_01 ;
 hervor@P.FOR-PREFIX.hervor@:000000@P.FOR-PREFIX.hervor@ VERBS_01 ;
-herzu@P.FOR-PREFIX.herzu@:herzu@P.FOR-PREFIX.herzu@ VERBS_01 ;
+herzu@P.VPREFIX.ON@@P.FOR-PREFIX.herzu@:herzu@P.VPREFIX.ON@@P.FOR-PREFIX.herzu@ VERBS_01 ;
 herzu@P.FOR-PREFIX.herzu@:00000@P.FOR-PREFIX.herzu@ VERBS_01 ;
-hinan@P.FOR-PREFIX.hinan@:hinan@P.FOR-PREFIX.hinan@ VERBS_01 ;
+hinan@P.VPREFIX.ON@@P.FOR-PREFIX.hinan@:hinan@P.VPREFIX.ON@@P.FOR-PREFIX.hinan@ VERBS_01 ;
 hinan@P.FOR-PREFIX.hinan@:00000@P.FOR-PREFIX.hinan@ VERBS_01 ;
-hinab@P.FOR-PREFIX.hinab@:hinab@P.FOR-PREFIX.hinab@ VERBS_01 ;
+hinab@P.VPREFIX.ON@@P.FOR-PREFIX.hinab@:hinab@P.VPREFIX.ON@@P.FOR-PREFIX.hinab@ VERBS_01 ;
 hinab@P.FOR-PREFIX.hinab@:00000@P.FOR-PREFIX.hinab@ VERBS_01 ;
-hinfort@P.FOR-PREFIX.hinfort@:hinfort@P.FOR-PREFIX.hinfort@ VERBS_01 ;
+hinfort@P.VPREFIX.ON@@P.FOR-PREFIX.hinfort@:hinfort@P.VPREFIX.ON@@P.FOR-PREFIX.hinfort@ VERBS_01 ;
 hinfort@P.FOR-PREFIX.hinfort@:0000000@P.FOR-PREFIX.hinfort@ VERBS_01 ;
-hinter@P.FOR-PREFIX.hinter@:hinter@P.FOR-PREFIX.hinter@ VERBS_01 ;
+hinter@P.VPREFIX.ON@@P.FOR-PREFIX.hinter@:hinter@P.VPREFIX.ON@@P.FOR-PREFIX.hinter@ VERBS_01 ;
 hinter@P.FOR-PREFIX.hinter@:000000@P.FOR-PREFIX.hinter@ VERBS_01 ;
-hinweg@P.FOR-PREFIX.hinweg@:hinweg@P.FOR-PREFIX.hinweg@ VERBS_01 ;
+hinweg@P.VPREFIX.ON@@P.FOR-PREFIX.hinweg@:hinweg@P.VPREFIX.ON@@P.FOR-PREFIX.hinweg@ VERBS_01 ;
 hinweg@P.FOR-PREFIX.hinweg@:000000@P.FOR-PREFIX.hinweg@ VERBS_01 ;
-hinzu@P.FOR-PREFIX.hinzu@:hinzu@P.FOR-PREFIX.hinzu@ VERBS_01 ;
+hinzu@P.VPREFIX.ON@@P.FOR-PREFIX.hinzu@:hinzu@P.VPREFIX.ON@@P.FOR-PREFIX.hinzu@ VERBS_01 ;
 hinzu@P.FOR-PREFIX.hinzu@:00000@P.FOR-PREFIX.hinzu@ VERBS_01 ;
-irr@P.FOR-PREFIX.irr@:irr@P.FOR-PREFIX.irr@ VERBS_01 ;
+irr@P.VPREFIX.ON@@P.FOR-PREFIX.irr@:irr@P.VPREFIX.ON@@P.FOR-PREFIX.irr@ VERBS_01 ;
 irr@P.FOR-PREFIX.irr@:000@P.FOR-PREFIX.irr@ VERBS_01 ;
-kaputt@P.FOR-PREFIX.kaputt@:kaputt@P.FOR-PREFIX.kaputt@ VERBS_01 ;
+kaputt@P.VPREFIX.ON@@P.FOR-PREFIX.kaputt@:kaputt@P.VPREFIX.ON@@P.FOR-PREFIX.kaputt@ VERBS_01 ;
 kaputt@P.FOR-PREFIX.kaputt@:000000@P.FOR-PREFIX.kaputt@ VERBS_01 ;
-klar@P.FOR-PREFIX.klar@:klar@P.FOR-PREFIX.klar@ VERBS_01 ;
+klar@P.VPREFIX.ON@@P.FOR-PREFIX.klar@:klar@P.VPREFIX.ON@@P.FOR-PREFIX.klar@ VERBS_01 ;
 klar@P.FOR-PREFIX.klar@:0000@P.FOR-PREFIX.klar@ VERBS_01 ;
-lang@P.FOR-PREFIX.lang@:lang@P.FOR-PREFIX.lang@ VERBS_01 ;
+lang@P.VPREFIX.ON@@P.FOR-PREFIX.lang@:lang@P.VPREFIX.ON@@P.FOR-PREFIX.lang@ VERBS_01 ;
 lang@P.FOR-PREFIX.lang@:0000@P.FOR-PREFIX.lang@ VERBS_01 ;
-längs@P.FOR-PREFIX.längs@:längs@P.FOR-PREFIX.längs@ VERBS_01 ;
+längs@P.VPREFIX.ON@@P.FOR-PREFIX.längs@:längs@P.VPREFIX.ON@@P.FOR-PREFIX.längs@ VERBS_01 ;
 längs@P.FOR-PREFIX.längs@:00000@P.FOR-PREFIX.längs@ VERBS_01 ;
-nahe@P.FOR-PREFIX.nahe@:nahe@P.FOR-PREFIX.nahe@ VERBS_01 ;
+nahe@P.VPREFIX.ON@@P.FOR-PREFIX.nahe@:nahe@P.VPREFIX.ON@@P.FOR-PREFIX.nahe@ VERBS_01 ;
 nahe@P.FOR-PREFIX.nahe@:0000@P.FOR-PREFIX.nahe@ VERBS_01 ;
-näher@P.FOR-PREFIX.näher@:näher@P.FOR-PREFIX.näher@ VERBS_01 ;
+näher@P.VPREFIX.ON@@P.FOR-PREFIX.näher@:näher@P.VPREFIX.ON@@P.FOR-PREFIX.näher@ VERBS_01 ;
 näher@P.FOR-PREFIX.näher@:00000@P.FOR-PREFIX.näher@ VERBS_01 ;
-nieder@P.FOR-PREFIX.nieder@:nieder@P.FOR-PREFIX.nieder@ VERBS_01 ;
+nieder@P.VPREFIX.ON@@P.FOR-PREFIX.nieder@:nieder@P.VPREFIX.ON@@P.FOR-PREFIX.nieder@ VERBS_01 ;
 nieder@P.FOR-PREFIX.nieder@:000000@P.FOR-PREFIX.nieder@ VERBS_01 ;
-ran@P.FOR-PREFIX.ran@:ran@P.FOR-PREFIX.ran@ VERBS_01 ;
+ran@P.VPREFIX.ON@@P.FOR-PREFIX.ran@:ran@P.VPREFIX.ON@@P.FOR-PREFIX.ran@ VERBS_01 ;
 ran@P.FOR-PREFIX.ran@:000@P.FOR-PREFIX.ran@ VERBS_01 ;
-rauf@P.FOR-PREFIX.rauf@:rauf@P.FOR-PREFIX.rauf@ VERBS_01 ;
+rauf@P.VPREFIX.ON@@P.FOR-PREFIX.rauf@:rauf@P.VPREFIX.ON@@P.FOR-PREFIX.rauf@ VERBS_01 ;
 rauf@P.FOR-PREFIX.rauf@:0000@P.FOR-PREFIX.rauf@ VERBS_01 ;
-raus@P.FOR-PREFIX.raus@:raus@P.FOR-PREFIX.raus@ VERBS_01 ;
+raus@P.VPREFIX.ON@@P.FOR-PREFIX.raus@:raus@P.VPREFIX.ON@@P.FOR-PREFIX.raus@ VERBS_01 ;
 raus@P.FOR-PREFIX.raus@:0000@P.FOR-PREFIX.raus@ VERBS_01 ;
-rein@P.FOR-PREFIX.rein@:rein@P.FOR-PREFIX.rein@ VERBS_01 ;
+rein@P.VPREFIX.ON@@P.FOR-PREFIX.rein@:rein@P.VPREFIX.ON@@P.FOR-PREFIX.rein@ VERBS_01 ;
 rein@P.FOR-PREFIX.rein@:0000@P.FOR-PREFIX.rein@ VERBS_01 ;
-rüber@P.FOR-PREFIX.rüber@:rüber@P.FOR-PREFIX.rüber@ VERBS_01 ;
+rüber@P.VPREFIX.ON@@P.FOR-PREFIX.rüber@:rüber@P.VPREFIX.ON@@P.FOR-PREFIX.rüber@ VERBS_01 ;
 rüber@P.FOR-PREFIX.rüber@:00000@P.FOR-PREFIX.rüber@ VERBS_01 ;
-rum@P.FOR-PREFIX.rum@:rum@P.FOR-PREFIX.rum@ VERBS_01 ;
+rum@P.VPREFIX.ON@@P.FOR-PREFIX.rum@:rum@P.VPREFIX.ON@@P.FOR-PREFIX.rum@ VERBS_01 ;
 rum@P.FOR-PREFIX.rum@:000@P.FOR-PREFIX.rum@ VERBS_01 ;
-runter@P.FOR-PREFIX.runter@:runter@P.FOR-PREFIX.runter@ VERBS_01 ;
+runter@P.VPREFIX.ON@@P.FOR-PREFIX.runter@:runter@P.VPREFIX.ON@@P.FOR-PREFIX.runter@ VERBS_01 ;
 runter@P.FOR-PREFIX.runter@:000000@P.FOR-PREFIX.runter@ VERBS_01 ;
-schief@P.FOR-PREFIX.schief@:schief@P.FOR-PREFIX.schief@ VERBS_01 ;
+schief@P.VPREFIX.ON@@P.FOR-PREFIX.schief@:schief@P.VPREFIX.ON@@P.FOR-PREFIX.schief@ VERBS_01 ;
 schief@P.FOR-PREFIX.schief@:000000@P.FOR-PREFIX.schief@ VERBS_01 ;
-tot@P.FOR-PREFIX.tot@:tot@P.FOR-PREFIX.tot@ VERBS_01 ;
+tot@P.VPREFIX.ON@@P.FOR-PREFIX.tot@:tot@P.VPREFIX.ON@@P.FOR-PREFIX.tot@ VERBS_01 ;
 tot@P.FOR-PREFIX.tot@:000@P.FOR-PREFIX.tot@ VERBS_01 ;
-über@P.FOR-PREFIX.über@:über@P.FOR-PREFIX.über@ VERBS_01 ;
+über@P.VPREFIX.ON@@P.FOR-PREFIX.über@:über@P.VPREFIX.ON@@P.FOR-PREFIX.über@ VERBS_01 ;
 über@P.FOR-PREFIX.über@:0000@P.FOR-PREFIX.über@ VERBS_01 ;
-überein@P.FOR-PREFIX.überein@:überein@P.FOR-PREFIX.überein@ VERBS_01 ;
+überein@P.VPREFIX.ON@@P.FOR-PREFIX.überein@:überein@P.VPREFIX.ON@@P.FOR-PREFIX.überein@ VERBS_01 ;
 überein@P.FOR-PREFIX.überein@:0000000@P.FOR-PREFIX.überein@ VERBS_01 ;
-um@P.FOR-PREFIX.um@:um@P.FOR-PREFIX.um@ VERBS_01 ;
+um@P.VPREFIX.ON@@P.FOR-PREFIX.um@:um@P.VPREFIX.ON@@P.FOR-PREFIX.um@ VERBS_01 ;
 um@P.FOR-PREFIX.um@:00@P.FOR-PREFIX.um@ VERBS_01 ;
-voll@P.FOR-PREFIX.voll@:voll@P.FOR-PREFIX.voll@ VERBS_01 ;
+voll@P.VPREFIX.ON@@P.FOR-PREFIX.voll@:voll@P.VPREFIX.ON@@P.FOR-PREFIX.voll@ VERBS_01 ;
 voll@P.FOR-PREFIX.voll@:0000@P.FOR-PREFIX.voll@ VERBS_01 ;
-vonstatten@P.FOR-PREFIX.vonstatten@:vonstatten@P.FOR-PREFIX.vonstatten@ VERBS_01 ;
+vonstatten@P.VPREFIX.ON@@P.FOR-PREFIX.vonstatten@:vonstatten@P.VPREFIX.ON@@P.FOR-PREFIX.vonstatten@ VERBS_01 ;
 vonstatten@P.FOR-PREFIX.vonstatten@:0000000000@P.FOR-PREFIX.vonstatten@ VERBS_01 ;
-vorüber@P.FOR-PREFIX.vorüber@:vorüber@P.FOR-PREFIX.vorüber@ VERBS_01 ;
+vorüber@P.VPREFIX.ON@@P.FOR-PREFIX.vorüber@:vorüber@P.VPREFIX.ON@@P.FOR-PREFIX.vorüber@ VERBS_01 ;
 vorüber@P.FOR-PREFIX.vorüber@:0000000@P.FOR-PREFIX.vorüber@ VERBS_01 ;
-vorwärts@P.FOR-PREFIX.vorwärts@:vorwärts@P.FOR-PREFIX.vorwärts@ VERBS_01 ;
+vorwärts@P.VPREFIX.ON@@P.FOR-PREFIX.vorwärts@:vorwärts@P.VPREFIX.ON@@P.FOR-PREFIX.vorwärts@ VERBS_01 ;
 vorwärts@P.FOR-PREFIX.vorwärts@:00000000@P.FOR-PREFIX.vorwärts@ VERBS_01 ;
 !! wiederherangekommen
-wieder@P.FOR-PREFIX.wieder@:wieder@P.FOR-PREFIX.wieder@ VERBS_01 ;
+wieder@P.VPREFIX.ON@@P.FOR-PREFIX.wieder@:wieder@P.VPREFIX.ON@@P.FOR-PREFIX.wieder@ VERBS_01 ;
 wieder@P.FOR-PREFIX.wieder@:000000@P.FOR-PREFIX.wieder@ VERBS_01 ;
 
-zugrunde@P.FOR-PREFIX.zugrunde@:zugrunde@P.FOR-PREFIX.zugrunde@ VERBS_01 ;
+zugrunde@P.VPREFIX.ON@@P.FOR-PREFIX.zugrunde@:zugrunde@P.VPREFIX.ON@@P.FOR-PREFIX.zugrunde@ VERBS_01 ;
 zugrunde@P.FOR-PREFIX.zugrunde@:00000000@P.FOR-PREFIX.zugrunde@ VERBS_01 ;
-zusammen@P.FOR-PREFIX.zusammen@:zusammen@P.FOR-PREFIX.zusammen@ VERBS_01 ;
+zusammen@P.VPREFIX.ON@@P.FOR-PREFIX.zusammen@:zusammen@P.VPREFIX.ON@@P.FOR-PREFIX.zusammen@ VERBS_01 ;
 zusammen@P.FOR-PREFIX.zusammen@:00000000@P.FOR-PREFIX.zusammen@ VERBS_01 ;
-zurecht@P.FOR-PREFIX.zurecht@:zurecht@P.FOR-PREFIX.zurecht@ VERBS_01 ;
+zurecht@P.VPREFIX.ON@@P.FOR-PREFIX.zurecht@:zurecht@P.VPREFIX.ON@@P.FOR-PREFIX.zurecht@ VERBS_01 ;
 zurecht@P.FOR-PREFIX.zurecht@:0000000@P.FOR-PREFIX.zurecht@ VERBS_01 ;
-zustande@P.FOR-PREFIX.zustande@:zustande@P.FOR-PREFIX.zustande@ VERBS_01 ;
+zustande@P.VPREFIX.ON@@P.FOR-PREFIX.zustande@:zustande@P.VPREFIX.ON@@P.FOR-PREFIX.zustande@ VERBS_01 ;
 zustande@P.FOR-PREFIX.zustande@:00000000@P.FOR-PREFIX.zustande@ VERBS_01 ;
-zuvor@P.FOR-PREFIX.zuvor@:zuvor@P.FOR-PREFIX.zuvor@ VERBS_01 ;
+zuvor@P.VPREFIX.ON@@P.FOR-PREFIX.zuvor@:zuvor@P.VPREFIX.ON@@P.FOR-PREFIX.zuvor@ VERBS_01 ;
 zuvor@P.FOR-PREFIX.zuvor@:00000@P.FOR-PREFIX.zuvor@ VERBS_01 ;
 
 
@@ -288,34 +288,48 @@ LEXICON BE-
 
 dürfen:darf V_/dürfen__vblex ;
 finden:fand V_f/inden__vblex ; !i-i-a-ä-u
+fliegen:fl V_/fliegen__vblex ;
 geben:gab V_g/eben__vblex ;
 gehen:g V_g/ehen__vblex ;
+halten:h V_/halten__vblex ;
 kommen:k V_/kommen__vblex ;
+laufen:l V_/kommen__vblex ;
 sprechen:sprach V_g/eben__vblex ; 
 stehen:st V_st/ehen__vblex ;
 
 LEXICON ENT-
 fernen:fern W ;
+fliegen:fl V_/fliegen__vblex ;
 fremden:fremd W ;
 gehen:g V_g/ehen__vblex ;
+halten:h V_/halten__vblex ;
 kommen:k V_/kommen__vblex ;
+laufen:l V_/kommen__vblex ;
 
 LEXICON ER-
+fliegen:fl V_/fliegen__vblex ;
 geben:gab V_g/eben__vblex ;
 gehen:g V_g/ehen__vblex ;
+halten:h V_/halten__vblex ;
 kommen:k V_/kommen__vblex ;
 stehen:st V_st/ehen__vblex ;
 
 LEXICON VER-
-kommen:k V_/kommen__vblex ;
+fliegen:fl V_/fliegen__vblex ;
+geben:gab V_g/eben__vblex ;
 gehen:g V_g/ehen__vblex ;
+halten:h V_/halten__vblex ;
+kommen:k V_/kommen__vblex ;
+laufen:l V_/kommen__vblex ;
 
 LEXICON WIEDER-
 holen:hol W ;
 
 LEXICON ZER-
-kommen:k V_/kommen__vblex ;
+fliegen:fl V_/fliegen__vblex ;
 gehen:g V_g/ehen__vblex ;
+kommen:k V_/kommen__vblex ;
+laufen:l V_/kommen__vblex ;
 
 !LEXICON Irregularew
 
@@ -333,7 +347,6 @@ werden:w V_/werden__vaux ; !e-i-a-ä-o
 wollen:w V_/wollen__vaux ; !o-i-o-o-o
 !! other verbs
 werden:w V_/werden__vblex ; !e-i-a-ä-o
-geben:gab V_g/eben__vblex ; !e-i-a-ä-o
 sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
 stehen:st V_st/ehen__vblex ; !e-e-a-ä-a
 finden:fand V_f/inden__vblex ; !i-i-a-ä-u
@@ -342,9 +355,15 @@ finden:fand V_f/inden__vblex ; !i-i-a-ä-u
 
 LEXICON MOTION-VERBS
 fahren:fahr V_/fahren__vblex ; !a-a-u-ü-a
+fliegen:fl V_/fliegen__vblex ;
+geben:gab V_g/eben__vblex ; !e-i-a-ä-o
 gehen:g V_g/ehen__vblex ; !e-e-i-i-a
 kommen:k V_/kommen__vblex ;
+laufen:l V_/laufen__vblex ;
 schwimmen:schwamm V_schw/immen__vblex ; !i-i-a-ä-o
+!!
+halten:h V_/halten__vblex ;
+
 
 !g/ehen__vblex"/></e>
 !  10 <par n="z/iehen__vblex"/></e>
