@@ -3,6 +3,7 @@ Personal ;
 Demonstrative ;
 Reflexive ;
 Relative ;
+Interrogative ;
 
 LEXICON Personal
 ich+Pron+Pers+Sg1+Nom:ich # ;
@@ -80,6 +81,30 @@ LEXICON DEM_der
 +Pron+Dem+Neu+Pl+Dat:er # ;
 +Pron+Dem+Neu+Pl+Gen:en # ;
 +Pron+Dem+Neu+Pl+Nom:ie # ;
+
+LEXICON Interrogative
+welcher:welch INTERR_welcher ;
+LEXICON INTERR_welcher
++Det+Msc+Sg+Acc:en # ;
++Det+Msc+Sg+Dat:em # ;
++Det+Msc+Sg+Gen:es # ;
++Det+Msc+Sg+Nom:er # ;
+
++Det+Fem+Sg+Acc:e # ;
++Det+Fem+Sg+Dat:er # ;
++Det+Fem+Sg+Gen:er # ;
++Det+Fem+Sg+Nom:e # ;
+
++Det+Neu+Sg+Acc:es # ;
++Det+Neu+Sg+Dat:em # ;
++Det+Neu+Sg+Gen:es # ;
++Det+Neu+Sg+Nom:es # ;
+
++Det+Pl+Acc:e # ;
++Det+Pl+Dat:en # ;
++Det+Pl+Gen:er # ;
++Det+Pl+Nom:e # ;
+
 
 LEXICON Reflexive
 ich+Pron+Refl+Sg1+Acc:mich # ;
