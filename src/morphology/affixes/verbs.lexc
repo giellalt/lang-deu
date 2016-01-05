@@ -27,6 +27,7 @@ LEXICON W_ACKERN
 
 LEXICON KeinPraf
      Inf ;
+     Sup ;
      IND-PRS ;
      IND-PRT ;
      SUBJ-PRS ;
@@ -34,6 +35,8 @@ LEXICON KeinPraf
      IMPRT ;
 
 LEXICON Praf
+ PRAF_01 ;
+LEXICON PRAF_01
 +Prf@R.VPREFIX.ON@:0@R.VPREFIX.ON@     POST-V_01 ;
 !!A_abgebrannt__adj ;
 +PrfPrc+Pos@R.VPREFIX.ON@:00@R.VPREFIX.ON@ A_abenteuerlich__adj-positive ;
@@ -41,6 +44,8 @@ LEXICON Praf
 +PrfPrc0@R.VPREFIX.ON@:%>e@R.VPREFIX.ON@  A_abenteuerlich__adj-sup ;
 
 LEXICON Praf_ST
+ PRAF_ST_01 ;
+LEXICON PRAF_ST_01
 +Prf@R.PTC.ON@@R.VPREFIX.ON@:0@R.PTC.ON@@R.VPREFIX.ON@     POST-V_01 ;
 +Prf@R.PTC.OFF@@R.VPREFIX.ON@:0@R.PTC.OFF@@R.VPREFIX.ON@     POST-V_01 ;
 
@@ -56,17 +61,23 @@ LEXICON KeinPraf_ACKERN
 
 LEXICON Inf
 +Inf:%>en POST-V_01 ;
-+PrsPrc:%>end POST-V_01 ;
++Sup:%>en Sup ;
++PrsPrc000:%>end POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrf+Pos:%>end A_abenteuerlich__adj-positive ;
++PrsPrf+Pos00:%>end A_abenteuerlich__adj-positive ;
 
 LEXICON Inf_ACKERN
 +Inf:%>n POST-V_01 ;
-+PrsPrc:%>nd POST-V_01 ;
++Sup:%>n Sup ;
++PrsPrc00:%>nd POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrc+Pos:%>nd A_abenteuerlich__adj-positive ;
++PrsPrc+Pos0:%>nd A_abenteuerlich__adj-positive ;
+
+LEXICON Sup
+@R.SUP.ON@ POST-V_02 ;
+
 
 LEXICON IND-PRS
 IND-PRS-SG1 ;
@@ -455,44 +466,124 @@ LEXICON IND-PRS-PL3
 
 
 LEXICON POST-V_01
-@D.FOR-PREFIX@ POST-V_02 ;
+@D.SUP@ POST-V_02 ;
+LEXICON POST-V_02
+
+@D.FOR-PREFIX@ POST-V_03 ;
 @R.PREFIX.AN-AUS@ PREFIX-AN/AUS ;
- @R.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@ PREFIX-FOR-GEHEN ;
+ @R.PREFIX.FOR-MOTION-VERBS@ PREFIX-FOR-MOTION-VERBS ;
 
 
 LEXICON PREFIX-AN/AUS
-@R.FOR-PREFIX.An@ POST-V_02 ;
-@R.FOR-PREFIX.Aus@ POST-V_02 ;
+@R.FOR-PREFIX.An@ POST-V_03 ;
+@R.FOR-PREFIX.Aus@ POST-V_03 ;
 
-LEXICON PREFIX-FOR-GEHEN
+LEXICON PREFIX-FOR-MOTION-VERBS
 ! THERE are limits to the length of continuation lexicon names
 ! PREFIX-AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK
-@R.FOR-PREFIX.An@ POST-V_02 ;
-@R.FOR-PREFIX.Auf@ POST-V_02 ;
-@R.FOR-PREFIX.Aus@ POST-V_02 ;
-@R.FOR-PREFIX.Durch@ POST-V_02 ;
-@R.FOR-PREFIX.Ein@ POST-V_02 ;
-@R.FOR-PREFIX.Fort@ POST-V_02 ;
-@R.FOR-PREFIX.Hinauf@ POST-V_02 ;
-@R.FOR-PREFIX.Hinaus@ POST-V_02 ;
-@R.FOR-PREFIX.Hinein@ POST-V_02 ;
-@R.FOR-PREFIX.Hin@ POST-V_02 ;
-@R.FOR-PREFIX.Hinüber@ POST-V_02 ;
-@R.FOR-PREFIX.Hinunter@ POST-V_02 ;
-@R.FOR-PREFIX.Hoch@ POST-V_02 ;
-@R.FOR-PREFIX.Los@ POST-V_02 ;
-@R.FOR-PREFIX.Mit@ POST-V_02 ;
-@R.FOR-PREFIX.Nach@ POST-V_02 ;
-@R.FOR-PREFIX.Unter@ POST-V_02 ;
-@R.FOR-PREFIX.Voran@ POST-V_02 ;
-@R.FOR-PREFIX.Voraus@ POST-V_02 ;
-@R.FOR-PREFIX.Vorbei@ POST-V_02 ;
-@R.FOR-PREFIX.Vor@ POST-V_02 ;
-@R.FOR-PREFIX.Weg@ POST-V_02 ;
-@R.FOR-PREFIX.Weiter@ POST-V_02 ;
-@R.FOR-PREFIX.Zu@ POST-V_02 ;
-@R.FOR-PREFIX.Zurück@ POST-V_02 ;
+@R.FOR-PREFIX.An@ POST-V_03 ;
+@R.FOR-PREFIX.Auf@ POST-V_03 ;
+@R.FOR-PREFIX.Aus@ POST-V_03 ;
+@R.FOR-PREFIX.Durch@ POST-V_03 ;
+@R.FOR-PREFIX.Ein@ POST-V_03 ;
+@R.FOR-PREFIX.Fort@ POST-V_03 ;
+@R.FOR-PREFIX.Hinauf@ POST-V_03 ;
+@R.FOR-PREFIX.Hinaus@ POST-V_03 ;
+@R.FOR-PREFIX.Hinein@ POST-V_03 ;
+@R.FOR-PREFIX.Hin@ POST-V_03 ;
+@R.FOR-PREFIX.Hinüber@ POST-V_03 ;
+@R.FOR-PREFIX.Hinunter@ POST-V_03 ;
+@R.FOR-PREFIX.Hoch@ POST-V_03 ;
+@R.FOR-PREFIX.Los@ POST-V_03 ;
+@R.FOR-PREFIX.Mit@ POST-V_03 ;
+@R.FOR-PREFIX.Nach@ POST-V_03 ;
+@R.FOR-PREFIX.Unter@ POST-V_03 ;
+@R.FOR-PREFIX.Voran@ POST-V_03 ;
+@R.FOR-PREFIX.Voraus@ POST-V_03 ;
+@R.FOR-PREFIX.Vorbei@ POST-V_03 ;
+@R.FOR-PREFIX.Vor@ POST-V_03 ;
+@R.FOR-PREFIX.Weg@ POST-V_03 ;
+@R.FOR-PREFIX.Weiter@ POST-V_03 ;
+@R.FOR-PREFIX.Zu@ POST-V_03 ;
+@R.FOR-PREFIX.Zurück@ POST-V_03 ;
+@R.FOR-PREFIX.ab@ POST-V_03 ;
+@R.FOR-PREFIX.abhande@ POST-V_03 ;
+@R.FOR-PREFIX.auseinander@ POST-V_03 ;
+@R.FOR-PREFIX.bei@ POST-V_03 ;
+@R.FOR-PREFIX.dabei@ POST-V_03 ;
+@R.FOR-PREFIX.dahin@ POST-V_03 ;
+@R.FOR-PREFIX.daran@ POST-V_03 ;
+@R.FOR-PREFIX.darauf@ POST-V_03 ;
+@R.FOR-PREFIX.drauf@ POST-V_03 ;
+@R.FOR-PREFIX.daher@ POST-V_03 ;
+@R.FOR-PREFIX.daneben@ POST-V_03 ;
+@R.FOR-PREFIX.dar@ POST-V_03 ;
+@R.FOR-PREFIX.davon@ POST-V_03 ;
+@R.FOR-PREFIX.dazwischen@ POST-V_03 ;
+@R.FOR-PREFIX.durcheinander@ POST-V_03 ;
+@R.FOR-PREFIX.einher@ POST-V_03 ;
+@R.FOR-PREFIX.empor@ POST-V_03 ;
+@R.FOR-PREFIX.entgegen@ POST-V_03 ;
+@R.FOR-PREFIX.entlang@ POST-V_03 ;
+@R.FOR-PREFIX.entzwei@ POST-V_03 ;
+@R.FOR-PREFIX.fehl@ POST-V_03 ;
+@R.FOR-PREFIX.fertig@ POST-V_03 ;
+@R.FOR-PREFIX.fremd@ POST-V_03 ;
+@R.FOR-PREFIX.gut@ POST-V_03 ;
+@R.FOR-PREFIX.heim@ POST-V_03 ;
+@R.FOR-PREFIX.herab@ POST-V_03 ;
+@R.FOR-PREFIX.heran@ POST-V_03 ;
+@R.FOR-PREFIX.herauf@ POST-V_03 ;
+@R.FOR-PREFIX.heraus@ POST-V_03 ;
+@R.FOR-PREFIX.herbei@ POST-V_03 ;
+@R.FOR-PREFIX.herein@ POST-V_03 ;
+@R.FOR-PREFIX.her@ POST-V_03 ;
+@R.FOR-PREFIX.hernieder@ POST-V_03 ;
+@R.FOR-PREFIX.herüber@ POST-V_03 ;
+@R.FOR-PREFIX.herum@ POST-V_03 ;
+@R.FOR-PREFIX.herunter@ POST-V_03 ;
+@R.FOR-PREFIX.hervor@ POST-V_03 ;
+@R.FOR-PREFIX.herzu@ POST-V_03 ;
+@R.FOR-PREFIX.hinan@ POST-V_03 ;
+@R.FOR-PREFIX.hinab@ POST-V_03 ;
+@R.FOR-PREFIX.hinfort@ POST-V_03 ;
+@R.FOR-PREFIX.hinter@ POST-V_03 ;
+@R.FOR-PREFIX.hinweg@ POST-V_03 ;
+@R.FOR-PREFIX.hinzu@ POST-V_03 ;
+@R.FOR-PREFIX.irr@ POST-V_03 ;
+@R.FOR-PREFIX.kaputt@ POST-V_03 ;
+@R.FOR-PREFIX.klar@ POST-V_03 ;
+@R.FOR-PREFIX.lang@ POST-V_03 ;
+@R.FOR-PREFIX.längs@ POST-V_03 ;
+@R.FOR-PREFIX.nahe@ POST-V_03 ;
+@R.FOR-PREFIX.näher@ POST-V_03 ;
+@R.FOR-PREFIX.nieder@ POST-V_03 ;
+@R.FOR-PREFIX.ran@ POST-V_03 ;
+@R.FOR-PREFIX.rauf@ POST-V_03 ;
+@R.FOR-PREFIX.raus@ POST-V_03 ;
+@R.FOR-PREFIX.rein@ POST-V_03 ;
+@R.FOR-PREFIX.rüber@ POST-V_03 ;
+@R.FOR-PREFIX.rum@ POST-V_03 ;
+@R.FOR-PREFIX.runter@ POST-V_03 ;
+@R.FOR-PREFIX.schief@ POST-V_03 ;
+@R.FOR-PREFIX.tot@ POST-V_03 ;
+@R.FOR-PREFIX.über@ POST-V_03 ;
+@R.FOR-PREFIX.überein@ POST-V_03 ;
+@R.FOR-PREFIX.um@ POST-V_03 ;
+@R.FOR-PREFIX.voll@ POST-V_03 ;
+@R.FOR-PREFIX.vonstatten@ POST-V_03 ;
+@R.FOR-PREFIX.vorüber@ POST-V_03 ;
+@R.FOR-PREFIX.vorwärts@ POST-V_03 ;
+@R.FOR-PREFIX.wieder@ POST-V_03 ;
+@R.FOR-PREFIX.zugrunde@ POST-V_03 ;
+@R.FOR-PREFIX.zusammen@ POST-V_03 ;
+@R.FOR-PREFIX.zurecht@ POST-V_03 ;
+@R.FOR-PREFIX.zustande@ POST-V_03 ;
+@R.FOR-PREFIX.zuvor@ POST-V_03 ;
 
 
-LEXICON POST-V_02
+LEXICON POST-V_03
+ POST-V_04 ;
+
+LEXICON POST-V_04
 #;

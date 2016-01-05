@@ -285,6 +285,12 @@ a2 A2 o2 O2 u2 U2
 @P.PTC.ON@ ! Positive (re)setting
 @D.PTC@ ! Disallow test 
 @R.PTC.ON@ ! Require test
+! zu-
+@P.SUP.ON@ ! Positive (re)setting
+@D.SUP@ ! Disallow test
+@R.SUP.ON@ ! Require test
+
+
 
 ! verbs with separable prefixes
 @P.VPREFIX.ON@
@@ -348,12 +354,162 @@ a2 A2 o2 O2 u2 U2
 @P.FOR-PREFIX.Zu@
 @P.FOR-PREFIX.Zurück@
 
+@P.FOR-PREFIX.ab@
+@R.FOR-PREFIX.ab@
+@P.FOR-PREFIX.abhande@
+@R.FOR-PREFIX.abhande@
+@P.FOR-PREFIX.auseinander@
+@R.FOR-PREFIX.auseinander@
+@P.FOR-PREFIX.bei@
+@R.FOR-PREFIX.bei@
+@P.FOR-PREFIX.dabei@
+@R.FOR-PREFIX.dabei@
+@P.FOR-PREFIX.dahin@
+@R.FOR-PREFIX.dahin@
+@P.FOR-PREFIX.daran@
+@R.FOR-PREFIX.daran@
+@P.FOR-PREFIX.darauf@
+@R.FOR-PREFIX.darauf@
+@P.FOR-PREFIX.drauf@
+@R.FOR-PREFIX.drauf@
+@P.FOR-PREFIX.daher@
+@R.FOR-PREFIX.daher@
+@P.FOR-PREFIX.daneben@
+@R.FOR-PREFIX.daneben@
+@P.FOR-PREFIX.dar@
+@R.FOR-PREFIX.dar@
+@P.FOR-PREFIX.davon@
+@R.FOR-PREFIX.davon@
+@P.FOR-PREFIX.dazwischen@
+@R.FOR-PREFIX.dazwischen@
+@P.FOR-PREFIX.durcheinander@
+@R.FOR-PREFIX.durcheinander@
+@P.FOR-PREFIX.einher@
+@R.FOR-PREFIX.einher@
+@P.FOR-PREFIX.empor@
+@R.FOR-PREFIX.empor@
+@P.FOR-PREFIX.entgegen@
+@R.FOR-PREFIX.entgegen@
+@P.FOR-PREFIX.entlang@
+@R.FOR-PREFIX.entlang@
+@P.FOR-PREFIX.entzwei@
+@R.FOR-PREFIX.entzwei@
+@P.FOR-PREFIX.fehl@
+@R.FOR-PREFIX.fehl@
+@P.FOR-PREFIX.fertig@
+@R.FOR-PREFIX.fertig@
+@P.FOR-PREFIX.fremd@
+@R.FOR-PREFIX.fremd@
+@P.FOR-PREFIX.gut@
+@R.FOR-PREFIX.gut@
+@P.FOR-PREFIX.heim@
+@R.FOR-PREFIX.heim@
+@P.FOR-PREFIX.herab@
+@R.FOR-PREFIX.herab@
+@P.FOR-PREFIX.heran@
+@R.FOR-PREFIX.heran@
+@P.FOR-PREFIX.herauf@
+@R.FOR-PREFIX.herauf@
+@P.FOR-PREFIX.heraus@
+@R.FOR-PREFIX.heraus@
+@P.FOR-PREFIX.herbei@
+@R.FOR-PREFIX.herbei@
+@P.FOR-PREFIX.herein@
+@R.FOR-PREFIX.herein@
+@P.FOR-PREFIX.her@
+@R.FOR-PREFIX.her@
+@P.FOR-PREFIX.hernieder@
+@R.FOR-PREFIX.hernieder@
+@P.FOR-PREFIX.herüber@
+@R.FOR-PREFIX.herüber@
+@P.FOR-PREFIX.herum@
+@R.FOR-PREFIX.herum@
+@P.FOR-PREFIX.herunter@
+@R.FOR-PREFIX.herunter@
+@P.FOR-PREFIX.hervor@
+@R.FOR-PREFIX.hervor@
+@P.FOR-PREFIX.herzu@
+@R.FOR-PREFIX.herzu@
+@P.FOR-PREFIX.hinan@
+@R.FOR-PREFIX.hinan@
+@P.FOR-PREFIX.hinab@
+@R.FOR-PREFIX.hinab@
+@P.FOR-PREFIX.hinfort@
+@R.FOR-PREFIX.hinfort@
+@P.FOR-PREFIX.hinter@
+@R.FOR-PREFIX.hinter@
+@P.FOR-PREFIX.hinweg@
+@R.FOR-PREFIX.hinweg@
+@P.FOR-PREFIX.hinzu@
+@R.FOR-PREFIX.hinzu@
+@P.FOR-PREFIX.irr@
+@R.FOR-PREFIX.irr@
+@P.FOR-PREFIX.kaputt@
+@R.FOR-PREFIX.kaputt@
+@P.FOR-PREFIX.klar@
+@R.FOR-PREFIX.klar@
+@P.FOR-PREFIX.lang@
+@R.FOR-PREFIX.lang@
+@P.FOR-PREFIX.längs@
+@R.FOR-PREFIX.längs@
+@P.FOR-PREFIX.nahe@
+@R.FOR-PREFIX.nahe@
+@P.FOR-PREFIX.näher@
+@R.FOR-PREFIX.näher@
+@P.FOR-PREFIX.nieder@
+@R.FOR-PREFIX.nieder@
+@P.FOR-PREFIX.ran@
+@R.FOR-PREFIX.ran@
+@P.FOR-PREFIX.rauf@
+@R.FOR-PREFIX.rauf@
+@P.FOR-PREFIX.raus@
+@R.FOR-PREFIX.raus@
+@P.FOR-PREFIX.rein@
+@R.FOR-PREFIX.rein@
+@P.FOR-PREFIX.rüber@
+@R.FOR-PREFIX.rüber@
+@P.FOR-PREFIX.rum@
+@R.FOR-PREFIX.rum@
+@P.FOR-PREFIX.runter@
+@R.FOR-PREFIX.runter@
+@P.FOR-PREFIX.schief@
+@R.FOR-PREFIX.schief@
+@P.FOR-PREFIX.tot@
+@R.FOR-PREFIX.tot@
+@P.FOR-PREFIX.über@
+@R.FOR-PREFIX.über@
+@P.FOR-PREFIX.überein@
+@R.FOR-PREFIX.überein@
+@P.FOR-PREFIX.um@
+@R.FOR-PREFIX.um@
+@P.FOR-PREFIX.voll@
+@R.FOR-PREFIX.voll@
+@P.FOR-PREFIX.vonstatten@
+@R.FOR-PREFIX.vonstatten@
+@P.FOR-PREFIX.vorüber@
+@R.FOR-PREFIX.vorüber@
+@P.FOR-PREFIX.vorwärts@
+@R.FOR-PREFIX.vorwärts@
+@P.FOR-PREFIX.wieder@
+@R.FOR-PREFIX.wieder@
+@P.FOR-PREFIX.zugrunde@
+@R.FOR-PREFIX.zugrunde@
+@P.FOR-PREFIX.zusammen@
+@R.FOR-PREFIX.zusammen@
+@P.FOR-PREFIX.zurecht@
+@R.FOR-PREFIX.zurecht@
+@P.FOR-PREFIX.zustande@
+@R.FOR-PREFIX.zustande@
+@P.FOR-PREFIX.zuvor@
+@R.FOR-PREFIX.zuvor@
+
 
 @P.PREFIX.AN-AUS@
 @R.PREFIX.AN-AUS@
 
-@P.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@
-@R.PREFIX.AN-AUF-AUS-DURCH-EIN-FORT-HINAUF-HINAUS-HINEIN-HIN-HINÜBER-HINUNTER-HOCH-LOS-MIT-NACH-UNTER-VORAN-VORAUS-VORBEI-VOR-WEG-WEITER-ZU-ZURÜCK@
+@P.PREFIX.FOR-MOTION-VERBS@
+@R.PREFIX.FOR-MOTION-VERBS@
+!ab, abhande, auseinander, bei, dabei, dahin, daran, darauf, drauf, daher, daneben, dar, davon, dazwischen, durcheinander, einher, empor, entgegen, entlang, entzwei, fehl, fertig, fremd, gut, heim, herab, heran, herauf, heraus, herbei, herein, her, hernieder, herüber, herum, herunter, hervor, herzu, hinan, hinab, hinfort, hinter, hinweg, hinzu, irr, kaputt, klar, lang, längs, nahe, näher, nieder, ran, rauf, raus, rein, rüber, rum, runter, schief, tot, über, überein, um, voll, vonstatten, vorüber, vorwärts, wieder, zugrunde, zusammen, zurecht, zustande, zuvor, 
 
 
 
