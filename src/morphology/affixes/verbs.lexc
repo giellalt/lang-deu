@@ -60,20 +60,20 @@ LEXICON KeinPraf_ACKERN
      IMPRT ;
 
 LEXICON Inf
-+Inf:%>en POST-V_01 ;
-+Sup:%>en Sup ;
-+PrsPrc000:%>end POST-V_01 ;
++Inf00@R.VPREFIX.ON@:%>en@R.VPREFIX.ON@ POST-V_01 ;
++Sup00@R.VPREFIX.ON@:%>en@R.VPREFIX.ON@ Sup ;
++PrsPrc000@R.VPREFIX.ON@:%>end@R.VPREFIX.ON@ POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrf+Pos00:%>end A_abenteuerlich__adj-positive ;
++PrsPrf+Pos00@R.VPREFIX.ON@:%>end@R.VPREFIX.ON@ A_abenteuerlich__adj-positive ;
 
 LEXICON Inf_ACKERN
-+Inf:%>n POST-V_01 ;
-+Sup:%>n Sup ;
-+PrsPrc00:%>nd POST-V_01 ;
++Inf0@R.VPREFIX.ON@:%>n@R.VPREFIX.ON@ POST-V_01 ;
++Sup0@R.VPREFIX.ON@:%>n@R.VPREFIX.ON@ Sup ;
++PrsPrc00@R.VPREFIX.ON@:%>nd@R.VPREFIX.ON@ POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrc+Pos0:%>nd A_abenteuerlich__adj-positive ;
++PrsPrc+Pos0@R.VPREFIX.ON@:%>nd@R.VPREFIX.ON@ A_abenteuerlich__adj-positive ;
 
 LEXICON Sup
 @R.SUP.ON@ POST-V_02 ;
@@ -389,6 +389,43 @@ LEXICON V_st/ehen__vb_01
 +Imprt+Pl2:eh%>t POST-V_01 ;
 
 !!
+LEXICON V_/laufen__vblex !!= * @CODE@ laufen:l
++V:aufen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/laufen__vb_01 ;
++V000@D.PTC@:lauf@D.PTC@ Inf ;
+LEXICON V_/laufen__vb_01
+:auf  IND-PRS-SG1 ;
+:auf%^Umlaut IND-PRS-SG2 ;
+:auf%^Umlaut IND-PRS-SG3 ;
+:auf IND-PRS-PL1 ;
+:auf  IND-PRS-PL2 ;
+:auf IND-PRS-PL3 ;
+
+:ief IND-PRT_SEIN ;
+:auf SUBJ-PRS ;
+:ief SUBJ-PRT_SEIN ;
++Imprt+Sg2:auf POST-V_01 ;
++Imprt+Pl2:auf%>t POST-V_01 ;
+
+LEXICON V_/halten__vblex !!= * @CODE@ halten:h
++V:aufen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/halten__vb_01 ;
++V000@D.PTC@:halt@D.PTC@ Inf ;
+LEXICON V_/halten__vb_01
+:alt  IND-PRS-SG1 ;
+:alt%^Umlaut IND-PRS-SG2 ;
+:alt%^Umlaut IND-PRS-SG3 ;
+:alt IND-PRS-PL1 ;
+:alt  IND-PRS-PL2 ;
+:alt IND-PRS-PL3 ;
+
+:ielt IND-PRT_SEIN ;
+:alt SUBJ-PRS ;
+:ielt SUBJ-PRT_SEIN ;
++Imprt+Sg2:alt POST-V_01 ;
++Imprt+Pl2:alt%>t POST-V_01 ;
+
+!!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_schw/immen__vb_01 ;
@@ -451,6 +488,25 @@ LEXICON V_/dürfen__vblex !!= * @CODE@ dürfen:darf
 +V@D.PTC@:%^A2Ü@D.PTC@ Inf ;
 
 !!
+LEXICON V_/fliegen__vblex !!= * @CODE@ fliegen:fl
++V:ogen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/fliegen__vb_01 ;
++V000@D.PTC@:ieg@D.PTC@ Inf ;
+LEXICON V_/fliegen__vb_01
+:ieg  IND-PRS-SG1 ;
+:ieg%^Umlaut IND-PRS-SG2 ;
+:ieg%^Umlaut IND-PRS-SG3 ;
+:ieg IND-PRS-PL1 ;
+:ieg  IND-PRS-PL2 ;
+:ieg IND-PRS-PL3 ;
+
+:og IND-PRT_SEIN ;
+:ieg SUBJ-PRS ;
+:og%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:ieg POST-V_01 ;
++Imprt+Pl2:ieg%>t POST-V_01 ;
+
+!!
 LEXICON IND-PRS-SG1
 +Ind+Prs+Sg1:%>e  POST-V_01 ;
 LEXICON IND-PRS-SG2
@@ -467,6 +523,7 @@ LEXICON IND-PRS-PL3
 
 LEXICON POST-V_01
 @D.SUP@ POST-V_02 ;
+
 LEXICON POST-V_02
 
 @D.FOR-PREFIX@ POST-V_03 ;
