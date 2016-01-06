@@ -355,9 +355,11 @@ wollen:w V_/wollen__vaux ; !o-i-o-o-o
 !! other verbs
 werden:w V_/werden__vblex ; !e-i-a-ä-o
 sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
+pflegen:pfl V_pfl/egen__vblex ; !e-e-o-ö-o
 stehen:st V_st/ehen__vblex ; !e-e-a-ä-a
 finden:fand V_f/inden__vblex ; !i-i-a-ä-u
 beginnen:begann V_schw/immen__vblex ; !i-i-a-ä-o
+lassen:l V_l/assen__vblex ; !a-a-ie-ie-a
 
 @P.PREFIX.FOR-MOTION-VERBS@ MOTION-VERBS ;
 

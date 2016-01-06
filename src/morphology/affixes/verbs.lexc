@@ -450,7 +450,7 @@ LEXICON V_/laufen__vb_01
 +Imprt+Pl2:auf%>t POST-V_01 ;
 
 LEXICON V_/halten__vblex !!= * @CODE@ halten:h
-+V:aufen  Praf_ST ;    ! ge-formen akseptiert.
++V:alten  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_/halten__vb_01 ;
 +V000@D.PTC@:halt@D.PTC@ Inf ;
 LEXICON V_/halten__vb_01
@@ -466,6 +466,24 @@ LEXICON V_/halten__vb_01
 :ielt SUBJ-PRT_SEIN ;
 +Imprt+Sg2:alt POST-V_01 ;
 +Imprt+Pl2:alt%>t POST-V_01 ;
+
+LEXICON V_l/assen__vblex !!= * @CODE@ lassen:l
++V:assen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_l/assen__vb_01 ;
++V000@D.PTC@:lass@D.PTC@ Inf ;
+LEXICON V_l/assen__vb_01
+:ass  IND-PRS-SG1 ;
+:ass%^Umlaut IND-PRS-SG2 ;
+:ass%^Umlaut IND-PRS-SG3 ;
+:ass IND-PRS-PL1 ;
+:ass  IND-PRS-PL2 ;
+:ass IND-PRS-PL3 ;
+
+:ieß IND-PRT_SEIN ;
+:ass SUBJ-PRS ;
+:ieß SUBJ-PRT_SEIN ;
++Imprt+Sg2:ass POST-V_01 ;
++Imprt+Pl2:ass%>t POST-V_01 ;
 
 !!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
@@ -542,6 +560,14 @@ LEXICON V_bew/egen__vb_01
 :og%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:eg POST-V_01 ;
 +Imprt+Pl2:egt POST-V_01 ;
+
+!!
+LEXICON V_pfl/egen__vblex !!= * @CODE@ pflegen:pfl
+V_bew/egen__vblex ;
++V@D.PTC@:0@D.PTC@ V_pfl/egen__vb_01 ;
+LEXICON V_pfl/egen__vb_01
+:eg IND-PRT ;
+:eg SUBJ-PRT ;
 
 !!
 LEXICON V_z/iehen__vblex !!= * @CODE@ ziehen:z
