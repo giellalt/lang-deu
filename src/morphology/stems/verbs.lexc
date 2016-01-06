@@ -267,6 +267,7 @@ LEXICON VERBS_01
 LEXICON Prafixe
 
 bewegen:bew V_bew/egen__vblex ; !e-e-o-ö-e
+beziehen:bez V_z/iehen__vblex ; !ie-ie-o-ö-o
 !bekommen:bek V_/kommen__vblex ;
 herausbekommen:herausbek V_/kommen__vblex ;
 wegbekommen:wegbek V_/kommen__vblex ;
@@ -362,7 +363,7 @@ beginnen:begann V_schw/immen__vblex ; !i-i-a-ä-o
 
 LEXICON MOTION-VERBS
 bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
-fahren:fahr V_/fahren__vblex ; !a-a-u-ü-a
+fahren:fahr V_f/ahren__vblex ; !a-a-u-ü-a
 fliegen:fl V_/fliegen__vblex ;
 geben:gab V_g/eben__vblex ; !e-i-a-ä-o
 gehen:g V_g/ehen__vblex ; !e-e-i-i-a
@@ -371,6 +372,8 @@ laufen:l V_/laufen__vblex ;
 nehmen:n V_/nehmen__vblex ;
 schwimmen:schwamm V_schw/immen__vblex ; !i-i-a-ä-o
 senden:sand V_s/enden__vblex ;
+tragen:trag V_f/ahren__vblex ;
+ziehen:z V_z/iehen__vblex ; !ie-ie-o-ö-o
 !!
 halten:h V_/halten__vblex ;
 
