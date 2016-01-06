@@ -48,6 +48,10 @@ LEXICON Praf_ST
 LEXICON PRAF_ST_01
 +Prf@R.PTC.ON@@R.VPREFIX.ON@:0@R.PTC.ON@@R.VPREFIX.ON@     POST-V_01 ;
 +Prf@R.PTC.OFF@@R.VPREFIX.ON@:0@R.PTC.OFF@@R.VPREFIX.ON@     POST-V_01 ;
+!!A_abendfüllend__adj ;
++PrfPrc+Pos@R.VPREFIX.ON@:00@R.VPREFIX.ON@ A_abenteuerlich__adj-positive ;
++PrfPrc@R.VPREFIX.ON@:0@R.VPREFIX.ON@  A_abenteuerlich__adj-comp ;
++PrfPrc0@R.VPREFIX.ON@:%>e@R.VPREFIX.ON@  A_abenteuerlich__adj-sup ;
 
 
 
@@ -375,18 +379,56 @@ LEXICON V_st/ehen__vblex !!= * @CODE@ stehen:st
 +V@D.PTC@:0@D.PTC@ V_st/ehen__vb_01 ;
 +V000@D.PTC@:eh@D.PTC@ Inf ;
 LEXICON V_st/ehen__vb_01
-+Ind+Prs+Sg1:eh%>e  POST-V_01 ;
-+Ind+Prs+Sg2:eh%>st POST-V_01 ;
-+Ind+Prs+Sg3:eht  POST-V_01 ;
-+Ind+Prs+Pl1:eh%>en POST-V_01 ;
-+Ind+Prs+Pl2:eh%>t  POST-V_01 ;
-+Ind+Prs+Pl3:eh%>en POST-V_01 ;
+:eh  IND-PRS-SG1 ;
+:eh IND-PRS-SG2 ;
+:eh  IND-PRS-SG3 ;
+:eh IND-PRS-PL1 ;
+:eh  IND-PRS-PL2 ;
+:eh IND-PRS-PL3 ;
 
 :and IND-PRT_SEIN ;
 :eh SUBJ-PRS ;
 :and%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:eh POST-V_01 ;
 +Imprt+Pl2:eh%>t POST-V_01 ;
+
+!!
+LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:%^A2E@D.PTC@ V_s/enden__vb_01 ;
++V@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_s/enden__vb_01
+:  IND-PRS-SG1 ;
+: IND-PRS-SG2 ;
+:  IND-PRS-SG3 ;
+: IND-PRS-PL1 ;
+:  IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
+
+: IND-PRT ;
+: SUBJ-PRS ;
+: SUBJ-PRT ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:e%>t POST-V_01 ;
+
+!!
+LEXICON V_/nehmen__vblex !!= * @CODE@ nehmen:n
++V:ommen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_/nehmen__vb_01 ;
++V000@D.PTC@:ehm@D.PTC@ Inf ;
+LEXICON V_/nehmen__vb_01
+:ehm  IND-PRS-SG1 ;
+:imm IND-PRS-SG2 ;
+:imm  IND-PRS-SG3 ;
+:ehm IND-PRS-PL1 ;
+:ehm  IND-PRS-PL2 ;
+:ehm IND-PRS-PL3 ;
+
+:ahm IND-PRT_SEIN ;
+:ehm SUBJ-PRS ;
+:ahm%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:ehm POST-V_01 ;
++Imprt+Pl2:ehm%>t POST-V_01 ;
 
 !!
 LEXICON V_/laufen__vblex !!= * @CODE@ laufen:l
@@ -414,7 +456,7 @@ LEXICON V_/halten__vblex !!= * @CODE@ halten:h
 LEXICON V_/halten__vb_01
 :alt  IND-PRS-SG1 ;
 :alt%^Umlaut IND-PRS-SG2 ;
-:alt%^Umlaut IND-PRS-SG3 ;
++Ind+Prs+Sg3:alt%^Umlaut POST-V_01 ;
 :alt IND-PRS-PL1 ;
 :alt  IND-PRS-PL2 ;
 :alt IND-PRS-PL3 ;
@@ -444,6 +486,26 @@ LEXICON V_schw/immen__vb_01
 +Imprt+Sg2:%^A2I POST-V_01 ;
 +Imprt+Pl2:%^A2It POST-V_01 ;
 
+!!
+LEXICON V_br/ingen__vblex !!= * @CODE@ bringen:br
++V:acht  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_br/ingen__vb_01 ;
++V00@D.PTC@:ing@D.PTC@ Inf ;
+LEXICON V_br/ingen__vb_01
+:ing  IND-PRS-SG1 ;
+:ing IND-PRS-SG2 ;
+:ing  IND-PRS-SG3 ;
+:ing IND-PRS-PL1 ;
+:ing  IND-PRS-PL2 ;
+:ing IND-PRS-PL3 ;
+
+:acht IND-PRT ;
+:ing SUBJ-PRS ;
+:acht%^Umlaut SUBJ-PRT ;
++Imprt+Sg2:ing POST-V_01 ;
++Imprt+Pl2:ing%>t POST-V_01 ;
+
+!!
 LEXICON V_f/inden__vblex !!= * @CODE@ finden:fand
 +V:%^A2Uen  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_f/inden__vb_01 ;
@@ -461,6 +523,25 @@ LEXICON V_f/inden__vb_01
 :%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:%^A2I POST-V_01 ;
 +Imprt+Pl2:%^A2It POST-V_01 ;
+
+!!
+LEXICON V_bew/egen__vblex !!= * @CODE@ bewegen:bew
++V:egt  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_bew/egen__vb_01 ;
++V000@D.PTC@:eg@D.PTC@ Inf ;
+LEXICON V_bew/egen__vb_01
+:eg  IND-PRS-SG1 ;
+:eg IND-PRS-SG2 ;
+:eg  IND-PRS-SG3 ;
+:eg IND-PRS-PL1 ;
+:eg  IND-PRS-PL2 ;
+:eg IND-PRS-PL3 ;
+
+:og IND-PRT_SEIN ;
+:eg SUBJ-PRS ;
+:og%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:eg POST-V_01 ;
++Imprt+Pl2:egt POST-V_01 ;
 
 !!
 LEXICON V_/fahren__vblex !!= * @CODE@ fahren:fahr
