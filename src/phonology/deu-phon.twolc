@@ -43,14 +43,8 @@ Rules
           Vy in (ü ö Ü Ö)
           matched ;
           
-!€ Napf%^Umlaut%>e#
-!€ Näpf00e0
-
 !€ Boden%^Umlaut%>#
 !€ Böden000
-
-!$ Napf%^Umlaut%>e#
-!$ Napf00e0
 
 !$ Boden%^Umlaut%>#
 !$ Boden000
@@ -74,6 +68,14 @@ Rules
  
 !€ Baum%^Umlaut%>e#
 !€ Bäum00e0
+
+!€ Napf%^Umlaut%>e#
+!€ Näpf00e0
+
+!$ Napf%^Umlaut%>e#
+!$ Napf00e0
+
+
 
 "vowel change a:e "
 a:e <=>
