@@ -1,9 +1,10 @@
 LEXICON Pronoun 
 Personal ;
 Demonstrative ;
+Indefinite ;
+Interrogative ;
 Reflexive ;
 Relative ;
-Interrogative ;
 
 LEXICON Personal
 ich+Pron+Pers+Sg1+Nom:ich # ;
@@ -82,8 +83,19 @@ LEXICON DEM_der
 +Pron+Dem+Neu+Pl+Gen:en # ;
 +Pron+Dem+Neu+Pl+Nom:ie # ;
 
+LEXICON Indefinite
+man+Pron+Indef+Msc+Sg+Nom:man # ;
+man+Pron+Indef+Fem+Sg+Nom:man # ;
+
 LEXICON Interrogative
 welcher:welch INTERR_welcher ;
+was+Pron+Interr+Acc:was # ;
+was+Pron+Interr+Nom:was # ;
+wer+Pron+Interr+Acc:wen # ;
+wer+Pron+Interr+Dat:wem # ;
+wer+Pron+Interr+Gen:wessen # ;
+wer+Pron+Interr+Nom:wer # ;
+
 LEXICON INTERR_welcher
 +Det+Msc+Sg+Acc:en # ;
 +Det+Msc+Sg+Dat:em # ;
@@ -112,9 +124,13 @@ du+Pron+Refl+Sg2+Acc:dich # ;
 er+Pron+Refl+Sg3+Msc+Acc:sich # ;
 sie+Pron+Refl+Sg3+Fem+Acc:sich # ;
 es+Pron+Refl+Sg3+Neu+Acc:sich # ;
+er+Pron+Refl+Sg3+Msc+Dat:sich # ;
+sie+Pron+Refl+Sg3+Fem+Dat:sich # ;
+es+Pron+Refl+Sg3+Neu+Dat:sich # ;
 
 LEXICON Relative
-+Pron+Rel: REL_d/er__rel ;
+der+Pron+Rel:d REL_d/er__rel ;
+welcher+Pron+Rel:welch REL_welch/er__rel ;
 
 LEXICON REL_d/er__rel
 +Msc+Sg+Acc:en # ;
@@ -132,20 +148,28 @@ LEXICON REL_d/er__rel
 +Neu+Sg+Gen:essen # ;
 +Neu+Sg+Nom:as # ;
 
-+Msc+Pl+Acc:ie # ;
-+Msc+Pl+Dat:enen # ;
-+Msc+Pl+Gen:eren # ;
-+Msc+Pl+Nom:ie # ;
++Pl+Acc:ie # ;
++Pl+Dat:enen # ;
++Pl+Gen:eren # ;
++Pl+Nom:ie # ;
 
-+Fem+Pl+Acc:ie # ;
-+Fem+Pl+Dat:enen # ;
-+Fem+Pl+Gen:eren # ;
-+Fem+Pl+Nom:ie # ;
+LEXICON REL_welch/er__rel
++Msc+Sg+Acc:en # ;
++Msc+Sg+Dat:em # ;
++Msc+Sg+Nom:er # ;
 
-+Neu+Pl+Acc:ie # ;
-+Neu+Pl+Dat:enen # ;
-+Neu+Pl+Gen:eren # ;
-+Neu+Pl+Nom:ie # ;
++Fem+Sg+Acc:e # ;
++Fem+Sg+Dat:er # ;
++Fem+Sg+Nom:e # ;
+
++Neu+Sg+Acc:es # ;
++Neu+Sg+Dat:em # ;
++Neu+Sg+Nom:es # ;
+
++Pl+Acc:e # ;
++Pl+Dat:en # ;
++Pl+Nom:e # ;
+
 
 LEXICON PRON_dies/er__dem
 +Pron+Dem+Msc+Sg+Acc:en # ;
