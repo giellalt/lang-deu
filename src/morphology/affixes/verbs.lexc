@@ -544,11 +544,30 @@ LEXICON V_bew/egen__vb_01
 +Imprt+Pl2:egt POST-V_01 ;
 
 !!
-LEXICON V_/fahren__vblex !!= * @CODE@ fahren:fahr
+LEXICON V_z/iehen__vblex !!= * @CODE@ ziehen:z
++V:ogen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_z/iehen__vb_01 ;
++V000@D.PTC@:ieh@D.PTC@ Inf ;
+LEXICON V_z/iehen__vb_01
+:ieh  IND-PRS-SG1 ;
+:ieh IND-PRS-SG2 ;
+:ieh  IND-PRS-SG3 ;
+:ieh IND-PRS-PL1 ;
+:ieh  IND-PRS-PL2 ;
+:ieh IND-PRS-PL3 ;
+
+:og IND-PRT_SEIN ;
+:ieh SUBJ-PRS ;
+:og%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:ieh POST-V_01 ;
++Imprt+Pl2:ieht POST-V_01 ;
+
+!!
+LEXICON V_f/ahren__vblex !!= * @CODE@ fahren:fahr
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/fahren__vb_01 ;
++V@D.PTC@:0@D.PTC@ V_f/ahren__vb_01 ;
 +V@D.PTC@:0@D.PTC@ Inf ;
-LEXICON V_/fahren__vb_01
+LEXICON V_f/ahren__vb_01
 IND-PRS-SG1 ;
 :%^Umlaut IND-PRS-SG2 ;
 :%^Umlaut  IND-PRS-SG3 ;
