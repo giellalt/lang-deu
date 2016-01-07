@@ -343,12 +343,12 @@ LEXICON V_g/eben__vblex !!= * @CODE@ geben:gab
 +V@D.PTC@:0@D.PTC@ V_g/eben__vb_01 ;
 +V000@D.PTC@:%^A2E@D.PTC@ Inf ;
 LEXICON V_g/eben__vb_01
-+Ind+Prs+Sg1:%^A2E%>e  POST-V_01 ;
-+Ind+Prs+Sg2:%^A2I%>st POST-V_01 ;
-+Ind+Prs+Sg3:%^A2It  POST-V_01 ;
-+Ind+Prs+Pl1:%^A2E%>en POST-V_01 ;
-+Ind+Prs+Pl2:%^A2E%>t  POST-V_01 ;
-+Ind+Prs+Pl3:%^A2E%>en POST-V_01 ;
+:%^A2E  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
 
 : IND-PRT_SEIN ;
 :%^A2E SUBJ-PRS ;
@@ -392,6 +392,43 @@ LEXICON V_st/ehen__vb_01
 +Imprt+Sg2:eh POST-V_01 ;
 +Imprt+Pl2:eh%>t POST-V_01 ;
 
+!!
+LEXICON V_schr/ecken__vblex !!= * @CODE@ schrecken:schrack
++V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_schr/ecken__vb_01 ;
++V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_schr/ecken__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+:%^CC2C IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^Umlaut%^CC2C SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
+
+!!
+LEXICON V_w/erfen__vblex !!= * @CODE@ werfen:warf
++V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_w/erfen__vb_01 ;
++V@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_w/erfen__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^A2Ü SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
 !!
 LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
@@ -449,41 +486,98 @@ LEXICON V_/laufen__vb_01
 +Imprt+Sg2:auf POST-V_01 ;
 +Imprt+Pl2:auf%>t POST-V_01 ;
 
-LEXICON V_/halten__vblex !!= * @CODE@ halten:h
-+V:alten  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/halten__vb_01 ;
-+V000@D.PTC@:halt@D.PTC@ Inf ;
-LEXICON V_/halten__vb_01
-:alt  IND-PRS-SG1 ;
-:alt%^Umlaut IND-PRS-SG2 ;
-+Ind+Prs+Sg3:alt%^Umlaut POST-V_01 ;
-:alt IND-PRS-PL1 ;
-:alt  IND-PRS-PL2 ;
-:alt IND-PRS-PL3 ;
+LEXICON V_h/alten__vblex !!= * @CODE@ halten:halt
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_h/alten__vb_01 ;
++V000@D.PTC@:@D.PTC@ Inf ;
+LEXICON V_h/alten__vb_01
+:  IND-PRS-SG1 ;
+:%^Umlaut IND-PRS-SG2 ;
++Ind+Prs+Sg3:%^Umlaut POST-V_01 ;
+: IND-PRS-PL1 ;
+:  IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
 
-:ielt IND-PRT_SEIN ;
-:alt SUBJ-PRS ;
-:ielt SUBJ-PRT_SEIN ;
-+Imprt+Sg2:alt POST-V_01 ;
-+Imprt+Pl2:alt%>t POST-V_01 ;
+:%^A2IE IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^A2IE SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:e%>t POST-V_01 ;
 
 LEXICON V_l/assen__vblex !!= * @CODE@ lassen:l
-+V:assen  Praf_ST ;    ! ge-formen akseptiert.
++V:en  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_l/assen__vb_01 ;
-+V000@D.PTC@:lass@D.PTC@ Inf ;
++V000@D.PTC@:@D.PTC@ Inf ;
 LEXICON V_l/assen__vb_01
-:ass  IND-PRS-SG1 ;
-:ass%^Umlaut IND-PRS-SG2 ;
-:ass%^Umlaut IND-PRS-SG3 ;
-:ass IND-PRS-PL1 ;
-:ass  IND-PRS-PL2 ;
-:ass IND-PRS-PL3 ;
+:  IND-PRS-SG1 ;
+:%^Umlaut IND-PRS-SG2 ;
+:%^Umlaut IND-PRS-SG3 ;
+: IND-PRS-PL1 ;
+:  IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
 
-:ieß IND-PRT_SEIN ;
-:ass SUBJ-PRS ;
-:ieß SUBJ-PRT_SEIN ;
-+Imprt+Sg2:ass POST-V_01 ;
-+Imprt+Pl2:ass%>t POST-V_01 ;
+:%^A2IE%^CC2C IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^A2IE%^CC2C SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:%>t POST-V_01 ;
+
+!!
+LEXICON V_st/oßen__vblex !!= * @CODE@ stoßen:stoß
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_st/oßen__vb_01 ;
++V000@D.PTC@:@D.PTC@ Inf ;
+LEXICON V_st/oßen__vb_01
+:  IND-PRS-SG1 ;
+:%^Umlaut%>e IND-PRS-SG2 ;
+:%^Umlaut%>e IND-PRS-SG3 ;
+: IND-PRS-PL1 ;
+:%>e IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
+
+:%^O2IE IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^O2IE SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:e%>t POST-V_01 ;
+
+!!
+LEXICON V_bl/eiben__vblex !!= * @CODE@ bleiben:bleib
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_bl/eiben__vb_01 ;
++V000@D.PTC@:@D.PTC@ Inf ;
+LEXICON V_bl/eiben__vb_01
+:  IND-PRS-SG1 ;
+: IND-PRS-SG2 ;
+: IND-PRS-SG3 ;
+: IND-PRS-PL1 ;
+: IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
+
+:%^EI2IE IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^EI2IE SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:%>t POST-V_01 ;
+
+!!
+LEXICON V_r/eißen__vblex !!= * @CODE@ reißen:reiss
++V:%^EI2Ien  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_r/eißen__vb_01 ;
++V@D.PTC@:%^CC2C@D.PTC@ Inf ;
+LEXICON V_r/eißen__vb_01
+:%^CC2C  IND-PRS-SG1 ;
+:%^CC2C%>e IND-PRS-SG2 ;
+:%^CC2C IND-PRS-SG3 ;
+:%^CC2C IND-PRS-PL1 ;
+:%^CC2C IND-PRS-PL2 ;
+:%^CC2C IND-PRS-PL3 ;
+
+:%^EI2I IND-PRT_SEIN ;
+:%^CC2C SUBJ-PRS ;
+:%^EI2I SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^CC2C POST-V_01 ;
++Imprt+Pl2:%^CC2C%>e%>t POST-V_01 ;
 
 !!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
@@ -589,6 +683,25 @@ LEXICON V_z/iehen__vb_01
 +Imprt+Pl2:ieht POST-V_01 ;
 
 !!
+LEXICON V_fr/ieren__vblex !!= * @CODE@ frieren:fror
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_fr/ieren__vb_01 ;
++V000@D.PTC@:%^O2IE@D.PTC@ Inf ;
+LEXICON V_fr/ieren__vb_01
+:%^O2IE  IND-PRS-SG1 ;
+:%^O2IE IND-PRS-SG2 ;
+:%^O2IE  IND-PRS-SG3 ;
+:%^O2IE IND-PRS-PL1 ;
+:%^O2IE  IND-PRS-PL2 ;
+:%^O2IE IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:ieh SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^O2IE POST-V_01 ;
++Imprt+Pl2:%^O2IE%>t POST-V_01 ;
+
+!!
 LEXICON V_f/ahren__vblex !!= * @CODE@ fahren:fahr
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_f/ahren__vb_01 ;
@@ -604,6 +717,25 @@ IND-PRS-PL3 ;
 :%^A2U IND-PRT_SEIN ;
 : SUBJ-PRS ;
 :%^A2Ü SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:t POST-V_01 ;
+
+!!
+LEXICON V_f/angen__vblex !!= * @CODE@ fangen:fang
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_f/angen__vb_01 ;
++V@D.PTC@:0@D.PTC@ Inf ;
+LEXICON V_f/angen__vb_01
+IND-PRS-SG1 ;
+:%^Umlaut IND-PRS-SG2 ;
+:%^Umlaut  IND-PRS-SG3 ;
+IND-PRS-PL1 ;
+IND-PRS-PL2 ;
+IND-PRS-PL3 ;
+
+:%^A2I IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^A2I SUBJ-PRT_SEIN ;
 +Imprt+Sg2: POST-V_01 ;
 +Imprt+Pl2:t POST-V_01 ;
 
