@@ -16,6 +16,10 @@ Alphabet
  %^A2O:0		!!≈ * @CODE@ 
  %^A2U:0		!!≈ * @CODE@ 
  %^A2Ü:0		!!≈ * @CODE@ 
+ %^A2IE:0		!!≈ * @CODE@ 
+ %^O2IE:0		!!≈ * @CODE@ 
+ %^EI2IE:0		!!≈ * @CODE@ 
+ %^EI2I:0		!!≈ * @CODE@ 
  %^CC2C:0	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
  %^DeV:0	    !!≈ * @CODE@ g0:ch
  %^LowerVow:0 !!≈ * @CODE@ o:a 
@@ -31,7 +35,7 @@ Sets
  Cns = b c d f g h j k l m n p q r s t v w x z ß 
        B C D F G H J K L M N P Q R S T V W X Z;
  LNR = l n r ;
- Dummy = %^Umlaut %^LowerVow %^DeV %^Pen %^RmVow
+ Dummy = %^Umlaut %^LowerVow %^DeV %^Pen %^RmVow %^A2IE
  ;  ! %+ 
 
 
@@ -88,10 +92,17 @@ a:e <=>
 "vowel change a:i "
 a:i <=>
  Cns: _ Cns:+ %^A2I: ;
-
 !! geben+V+Ind+Prs+Sg2
 !€ gab%^A2I%>st
 !€ gib0%>st
+ Cns: _ 0: (u:) Cns:+ %^A2IE: ;
+!! halten+V+Ind+Prt+Sg2
+!€ ha0lt%^A2IE%>e%>st
+!€ hielt0%>e%>st
+!! fallen+V+Ind+Prt+Pl1
+!€ fa0ll%^A2IE%^CC2C%>en
+!€ fiel00%>en
+
 
 "vowel change a:o "
 a:o <=>
@@ -116,17 +127,56 @@ a:ü <=>
 !€ fahr%^A2Ü%>st
 !€ führ0%>st
 
+"vowel change o:i "
+o:i <=>
+ Cns: _ 0: Cns:+ %^O2IE: ;
+!! stoßen+V+Ind+Prt+Sg2
+!€ sto0ß%^O2IE%>e%>st
+!€ stieß0%>e%>st
+
+
 "Entfernung von a in aa Umlaut"
 a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
 
 !€ Saal%^Umlaut%>e#
 !€ Sä0l00e0
 
+"ss2ß"
+s:ß <=>
+ [Vow:|:Vow] s: _ (Dummy:) %^CC2C: ;
+!! reißen
+!€ reiss%^CC2C%>en
+!€ rei0ß0%>en
+
+"Subsequent f Deletion"
+ f:0 <=> Vow: _ f (Dummy:) %^CC2C: ;
+!! treffen+V+Subj+Prt+Pl1
+!€ traff%^Umlaut%^CC2C%>en
+!€ trä0f00%>en
+
+
 "Subsequent s Deletion"
  s:0 <=> [s:+|ß|x|z] %> _ t ;
 !! aasen+V+Ind+Prs+Sg2
 !€ aas%>st
 !€ aas%>0t
+ [Vow:|:Vow] _ s: (Dummy:) %^CC2C: ;
+!! reißen
+!€ reiss%^CC2C%>en
+!€ rei0ß0%>en
+
+"Subsequent l Deletion"
+ l:0 <=> [Vow:|:Vow] _ l (Dummy:) %^CC2C: ;
+!! fallen+V+Ind+Prt+Pl1
+!€ fa0ll%^A2IE%^CC2C%>en
+!€ fie0l0%>en
+
+"Subsequent c Deletion"
+ c:0 <=> Vow: _ k (Dummy:) %^CC2C: ;
+!! schrecken+V+Subj+Prt+Pl1
+!€ schrack%^Umlaut%^CC2C%>en
+!€ schrä0k00%>en
+
 
 "Weak e Deletion"
  e:0 <=> Vow Cns:+ _ (Dummy:+) %>: e ;
@@ -139,6 +189,14 @@ a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
 !! ackern+V+Ind+Prs+Sg1
 !€ acker%^Pen%^RmVow%>e
 !€ ack0r00%>e
+    Cns: _ i 0: Cns:+ %^EI2IE: ;
+!! bleiben+V+Ind+Prt+Sg1
+!€ blei0b%^EI2IE
+!€ bl0ieb0
+ Cns: _ i Cns:+ (Dummy:) %^EI2I: ;
+!! reißen
+!€ reiss%^EI2I
+!€ r0iss0
 
 "Devoicing of g"
  g:c <=> 
@@ -155,3 +213,18 @@ a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
 !! mögen+V+Mod+Ind+Prt+Sg1
 !€ mog0%^DeV%>te
 !€ moch0%>te
+
+"Zero to e with o to ie "
+0:e <=>
+ Cns: o: _ Cns:+ %^O2IE: ;
+!! stoßen+V+Ind+Prt+Sg2
+!€ sto0ß%^O2IE%>e%>st
+!€ stieß0%>e%>st
+ Cns: a: _ (u:) Cns:+ %^A2IE: ;
+!! halten+V+Ind+Prt+Sg2
+!€ ha0lt%^A2IE%>e%>st
+!€ hielt0%>e%>st
+    Cns: e: i _ Cns:+ %^EI2IE: ;
+!! bleiben+V+Ind+Prt+Sg1
+!€ blei0b%^EI2IE
+!€ bl0ieb0

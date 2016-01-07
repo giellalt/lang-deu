@@ -1086,6 +1086,10 @@ LEXICON Gest/ank__n_m
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe/GENes ;
 
+LEXICON Geweih__n_nt
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
+
 LEXICON Gewissen__n_nt 
 +N+Neu: PL-ACC/DAT/GEN/NOM ;
 +N+Neu: SG-ACC/DAT/GENs/NOM ;

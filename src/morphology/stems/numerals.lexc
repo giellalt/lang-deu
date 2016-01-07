@@ -23,6 +23,8 @@ neunhundert:neunhundert NUM_tens-or-not-thousands ;
 
 LEXICON NUM_tens-or-not-thousands
 zehn:zehn NUM_tens-or-not ;
+zwölf:zwölf NUM_tens-or-not ;
+elf:elf NUM_tens-or-not ;
 ein:ein NUM_tens-or-not ;
 zwei:zwei NUM_tens-or-not ;
 drei:drei NUM_tens-or-not ;
@@ -38,7 +40,7 @@ vierzig:vierzig 4_DIGITS ;
 fünfzig:fünfzig 4_DIGITS ;
 sechzig:sechzig 4_DIGITS ;
 ziebzig:ziebzig 4_DIGITS ;
-achzig:achzig 4_DIGITS ;
+achtzig:achtzig 4_DIGITS ;
 neunzig:neunzig 4_DIGITS ;
 
 
@@ -50,7 +52,7 @@ undvierzig:undvierzig 4_DIGITS ;
 undfünfzig:undfünfzig 4_DIGITS ;
 undsechzig:undsechzig 4_DIGITS ;
 undziebzig:undziebzig 4_DIGITS ;
-undachzig:undachzig 4_DIGITS ;
+undachtzig:undachtzig 4_DIGITS ;
 undneunzig:undneunzig 4_DIGITS ;
 
 
@@ -74,6 +76,8 @@ neunhundert:neunhundert 2_DIGITS ;
 
 LEXICON 2_DIGITS
 zehn:zehn NUM_END ;
+zwölf:zwölf NUM_END ;
+elf:elf NUM_END ;
 eins:eins NUM_END ;
 ein:ein NUM_tens-or-not ;
 zwei:zwei NUM_tens-or-not ;
@@ -84,6 +88,15 @@ sechs:sechs NUM_tens-or-not ;
 sieben:sieben NUM_tens-or-not ;
 acht:acht NUM_tens-or-not ;
 neun:neun NUM_tens-or-not ;
+zwanzig:zwanzig NUM_END ;
+dreißig:dreißig NUM_END ;
+vierzig:vierzig NUM_END ;
+fünfzig:fünfzig NUM_END ;
+sechzig:sechzig NUM_END ;
+ziebzig:ziebzig NUM_END ;
+achtzig:achtzig NUM_END ;
+neunzig:neunzig NUM_END ;
+
 
 LEXICON NUM_tens-or-not
 NUM_END ;
@@ -93,7 +106,7 @@ undvierzig:undvierzig NUM_END ;
 undfünfzig:undfünfzig NUM_END ;
 undsechzig:undsechzig NUM_END ;
 undziebzig:undziebzig NUM_END ;
-undachzig:undachzig NUM_END ;
+undachtzig:undachtzig NUM_END ;
 undneunzig:undneunzig NUM_END ;
 
 
