@@ -536,6 +536,10 @@ a2 A2 o2 O2 u2 U2
  %^A2O		!!≈ * @CODE@ 
  %^A2U		!!≈ * @CODE@ 
  %^A2Ü		!!≈ * @CODE@ 
+ %^A2IE		!!≈ * @CODE@ 
+ %^O2IE		!!≈ * @CODE@ 
+ %^EI2IE	!!≈ * @CODE@ 
+ %^EI2I		!!≈ * @CODE@ 
  %^CC2C	    !!≈ * @CODE@ mm:m0 kommen kommst kamst
  %^DeV	    !!≈ * @CODE@ g0:ch
  %^LowerVow !!≈ * @CODE@ o:a
