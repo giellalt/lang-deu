@@ -393,6 +393,24 @@ LEXICON V_st/ehen__vb_01
 +Imprt+Pl2:eh%>t POST-V_01 ;
 
 !!
+LEXICON V_s/ehen__vblex !!= * @CODE@ sehen:sah
++V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_s/ehen__vb_01 ;
++V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_s/ehen__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2IE IND-PRS-SG2 ;
+:%^A2IE  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2IE POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
+!!
 LEXICON V_schr/ecken__vblex !!= * @CODE@ schrecken:schrack
 +V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_schr/ecken__vb_01 ;
