@@ -16,9 +16,9 @@ German language
  * +SP2 	   singular or plural Formal
 
 
- * +St	 Stark
- * +Sw	 Schwach
- * +Mix	 gemischt
+ *  +NoArt	 Stark accompanied preceding Indef
+Schwach Def
+gemischt Indef
 
 
 Homonyms
@@ -303,6 +303,7 @@ COMPOUNDING
  * +Cmp compound
  * +Use/Circ FIXME, (where I am)
 
+
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -330,6 +331,7 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
 
 
 
