@@ -32,9 +32,9 @@ Multichar_Symbols
 +Adc +Ord
 
 ! Adjective
-+St	!!= * @CODE@ Stark
-+Sw	!!= * @CODE@ Schwach
-+Mix	!!= * @CODE@ gemischt
+ +NoArt	!!= * @CODE@ Stark accompanied preceding Indef
+ !! Schwach Def
+ !! gemischt Indef
 
 +PUNCT +CLB +HYPH +LEFT +RIGHT
 
@@ -550,6 +550,9 @@ a2 A2 o2 O2 u2 U2
 !! COMPOUNDING
 +Cmp !!≈ * @CODE@ compound
 +Use/Circ !!≈ * @CODE@ FIXME, (where I am)
++Cmp/Sg
++Cmp/Pl
+
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -599,3 +602,4 @@ Preposition ;
 Punctuation ;
 
 Exceptions ;
+

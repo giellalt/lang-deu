@@ -2377,9 +2377,10 @@ LEXICON Kirmes__n_f !!= * @CODE@
 
 !!
 LEXICON SG-CMP-L 
-R ;
++Cmp/Sg: R ;
 LEXICON PL-CMP-L 
-R ;
++Cmp/Pl: R ;
+
 LEXICON 0n-SG-CMP-L 
 :n SG-CMP-L ;
 LEXICON 0s-SG-CMP-L 
