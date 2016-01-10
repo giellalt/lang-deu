@@ -23,12 +23,27 @@ LEXICON PROP_Schweiz__np
 LEXICON PROP_Vereinte_Nationen__np
 +N+Prop+Fem: PL-ACC/DAT/GEN/NOM ;
 
+LEXICON PROP-SUR_van_der_Merwe__np
++N+Prop+Sem/Sur+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Sem/Sur+Msc: SG-ACC/DAT/GENs/NOM ;
+LEXICON PROP-SUR_Botha__np
++N+Prop+Sem/Sur+Fem: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Sem/Sur+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Prop+Sem/Sur+Fem: SG-GENʼs ;
++N+Prop+Sem/Sur+Msc: SG-GENʼs ;
+LEXICON PROP-SUR_Hughes__np
++N+Prop+Sem/Sur+Fem: SG-ACC/DAT/GEN/NOM ;
++N+Prop+Sem/Sur+Msc: SG-ACC/DAT/GEN/NOM ;
++Use/NG+N+Prop+Sem/Sur+Fem: SG-GENʼ ;
++Use/NG+N+Prop+Sem/Sur+Msc: SG-GENʼ ;
+
+
 LEXICON PROP_Wynand__np
 +N+Prop+Msc: SG-ACC/DAT/GENs/NOM ;
 
 LEXICON PROP_Harry__np
 +N+Prop+Msc: SG-ACC/DAT/GENs/NOM ;
-+N+Prop+Msc+Use/NG:ʼs SG-GEN ; !! CHECKME ʼ
++N+Prop+Msc+Use/NG: SG-GENʼs ;
 
 LEXICON PROP_Anrie__np
 +N+Prop+Fem: SG-ACC/DAT/GENs/NOM ;

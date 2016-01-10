@@ -594,12 +594,13 @@ Adverbs ;
 Conjunction ;
 Determiners ;
 !Subjunction ;
-! Interjection ;
+ Interjection ;
 Numerals ;
 Pronoun ;
 Propernoun ;
 Preposition ;
 Punctuation ;
 
+Abbreviation ;
 Exceptions ;
 
