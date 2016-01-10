@@ -265,12 +265,14 @@ LEXICON VERBS_01
 
 
 LEXICON Prafixe
-
+befahren:befahr V_f/ahren__vblex ;
+befallen:befall V_l/assen__vblex ; 
 beschlagen:beschlag V_f/ahren__vblex ;
 betreffen:betraff V_schr/ecken__vblex ;
 betreiben:betreib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 bewegen:bew V_bew/egen__vblex ; !e-e-o-ö-e
 beziehen:bez V_z/iehen__vblex ; !ie-ie-o-ö-o
+
 entreißen:entreiss V_r/eißen__vblex ;
 erfrieren:erfror V_fr/ieren__vblex ; !ie-ie-o-ö-o
 erschrecken:erschrack V_schr/ecken__vblex ; !e-i-a:-ä:-e
@@ -302,60 +304,65 @@ ver VER- ;
 zer ZER- ;
 
 LEXICON BE-
-
+ BE/ENT/ER/VER/ZER ;
 dürfen:darf V_/dürfen__vblex ;
 finden:fand V_f/inden__vblex ; !i-i-a-ä-u
-fliegen:fl V_/fliegen__vblex ;
-geben:gab V_g/eben__vblex ;
-gehen:g V_g/ehen__vblex ;
-halten:halt V_h/alten__vblex ;
-kommen:k V_/kommen__vblex ;
-laufen:l V_/laufen__vblex ;
-sprechen:sprach V_g/eben__vblex ; 
-stehen:st V_st/ehen__vblex ;
 
 LEXICON ENT-
+ BE/ENT/ER/VER/ZER ;
 fernen:fern W ;
-fliegen:fl V_/fliegen__vblex ;
 fremden:fremd W ;
-gehen:g V_g/ehen__vblex ;
-halten:halt V_h/alten__vblex ;
-kommen:k V_/kommen__vblex ;
-laufen:l V_/laufen__vblex ;
-senden:sand V_s/enden__vblex ;
-sprechen:sprach V_g/eben__vblex ;
+
+
+
+
 
 LEXICON ER-
-fliegen:fl V_/fliegen__vblex ;
-geben:gab V_g/eben__vblex ;
-gehen:g V_g/ehen__vblex ;
-halten:halt V_h/alten__vblex ;
-kommen:k V_/kommen__vblex ;
-stehen:st V_st/ehen__vblex ;
-tragen:trag V_f/ahren__vblex ;
+ BE/ENT/ER/VER/ZER ;
+
 
 LEXICON VER-
-bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
-fliegen:fl V_/fliegen__vblex ;
-geben:gab V_g/eben__vblex ;
-gehen:g V_g/ehen__vblex ;
-halten:halt V_h/alten__vblex ;
-kommen:k V_/kommen__vblex ;
-lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
-laufen:l V_/laufen__vblex ;
-senden:sand V_s/enden__vblex ;
-sprechen:sprach V_g/eben__vblex ;
-stehen:st V_st/ehen__vblex ;
+ BE/ENT/ER/VER/ZER ;
 
 LEXICON WIEDER-
 holen:hol W ;
 
 LEXICON ZER-
+ BE/ENT/ER/VER/ZER ;
+
+
+LEXICON  BE/ENT/ER/VER/ZER
+brechen:brach V_g/eben__vblex ;
+bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
+fahren:fahr V_f/ahren__vblex ;
+fallen:fall V_l/assen__vblex ;
+fangen:fang V_f/angen__vblex ;
+finden:fand V_f/inden__vblex ;
 fliegen:fl V_/fliegen__vblex ;
+geben:gab V_g/eben__vblex ;
 gehen:g V_g/ehen__vblex ;
+halten:halt V_h/alten__vblex ;
 kommen:k V_/kommen__vblex ;
+gehen:g V_g/ehen__vblex ;
+halten:halt V_h/alten__vblex ;
+kommen:k V_/kommen__vblex ;
+lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
 laufen:l V_/laufen__vblex ;
+nehmen:n V_/nehmen__vblex ;
+raten:rat V_h/alten__vblex ;
+reißen:reiss V_r/eißen__vblex ;
+schreiben:schreib V_bl/eiben__vblex ;
+schwimmen:schwamm V_schw/immen__vblex ;
+senden:sand V_s/enden__vblex ;
+sprechen:sprach V_g/eben__vblex ;
+springen:sprang V_f/inden__vblex ;
+stehen:st V_st/ehen__vblex ;
 stoßen:stoß V_st/oßen__vblex ;
+tragen:trag V_f/ahren__vblex ;
+treffen:traff V_schr/ecken__vblex ;
+treiben:treib V_bl/eiben__vblex ;
+werfen:warf V_w/erfen__vblex ;
+ziehen:z V_z/iehen__vblex ;
 
 !LEXICON Irregularew
 
