@@ -461,7 +461,7 @@ LEXICON Alt/ar__n_m
 +N+Msc+Use/NG: SG-DATe/GENes ;
 +N: SG-CMP-L ;
 
-LEXICON Altert/um__n_nt
+LEXICON Altert/um__n_nt 
 !--FIXME-->
 +N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
@@ -1993,8 +1993,8 @@ LEXICON Arabisch__n_nt !!= * @CODE@ Arabisch:Arabisch
 
 LEXICON Arom/a__n_nt !!= * @CODE@  Aroma: Arom
 +N+Neu:en PL-ACC/DAT/GEN/NOM ;
-+N+Neu: SG-ACC/DAT/GENs/NOM ;
-+N: SG-CMP-L ;
++N+Neu:a SG-ACC/DAT/GENs/NOM ;
++N:a SG-CMP-L ;
 
 LEXICON Atla/s__n_m !!= * @CODE@ Atlas:Atla
 +N+Msc:nten PL-ACC/DAT/GEN/NOM ;
@@ -2198,7 +2198,7 @@ LEXICON Kurs/us__n_m !!= * @CODE@ Kursus:Kurs
 +N+Msc:e PL-ACC/DAT/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Lad/y__n_f !!= * @CODE@ 
+LEXICON Lad/y__n_f !!= * @CODE@ Lady:Lad
 +N+Fem:ies PL-ACC/DAT/GEN/NOM ;
 +N+Fem:ys PL-ACC/DAT/GEN/NOM ;
 +N+Fem:y SG-ACC/DAT/GENs/NOM ;
@@ -2274,9 +2274,9 @@ LEXICON Paradigm/a__n_nt !!= * @CODE@
 +N+Neu:  SG-ACC/DAT/GENs/NOM ;
 +N:en PL-CMP-L ;
 
-LEXICON Pat/er__n_m !!= * @CODE@ Pater:Pat
-+N+Msc:res PL-ACC/DAT/GEN/NOM ;
-+N+Msc:er SG-ACC/DAT/GENs/NOM ;
+LEXICON Pat/er__n_m !!= * @CODE@ Pater:Pater
++N+Msc:%^Pen%^RmVow%>es PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
 
 LEXICON Pen/ny__n_m !!= * @CODE@ Penny:Pen
 +N+Msc:ce  PL-ACC/DAT/GEN/NOM ;
