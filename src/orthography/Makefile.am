@@ -13,7 +13,8 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
-		downcase-derived_proper-strings.xfscript
+		downcase-derived_proper-strings.xfscript	\
+		upcase-initial-noun_compound-noun-strings.xfstscript
 
 # General build rules included from here:
 include $(top_srcdir)/am-shared/src-orthography-dir-include.am
