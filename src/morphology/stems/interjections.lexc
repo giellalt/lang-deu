@@ -1,35 +1,43 @@
+LEXICON INTERJ_
++Interj: # ;
 
 LEXICON Interjection
-eh ij ;
-eeh ij ;
-eee ij ;
-jah ij ;
-ah ij ;
-ei ij ;
-mhm ij ;
-æh ij ;
-hm ij ;
-mmm ij ;
-ooog ij ;
-jaha ij ;
-eeem ij ;
-okei ij ;
-em ij ;
-mm ij ;
-deee ij ;
-aaah ij ;
-jaaa ij ;
-uuu ij ;
-eeeh ij ;
-uff ij ;
-ptro ij ;
-oi ij ;
-oi-oi ij ;
-ko-ko ij ;
+!! FROM APERTIUM
+ach:ach INTERJ_ ;
+ah:ah INTERJ_ ;
+äh:äh INTERJ_ ;
+aha:aha INTERJ_ ;
+ähm:ähm INTERJ_ ;
+au:au INTERJ_ ;
+aua:aua INTERJ_ ;
+autsch:autsch INTERJ_ ;
+bum:bum INTERJ_ ;
+Donnerwetter:Donnerwetter INTERJ_ ;
+ha:ha INTERJ_ ;
+hallo:hallo INTERJ_ ;
+he:he INTERJ_ ;
+hm:hm INTERJ_ ;
+hoppla:hoppla INTERJ_ ;
+hurra:hurra INTERJ_ ;
+naja:naja INTERJ_ ;
+oh:oh INTERJ_ ;
+OK:OK INTERJ_ ;
+okay:okay INTERJ_ ;
+pfui:pfui INTERJ_ ;
+prost:prost INTERJ_ ;
+pst:pst INTERJ_ ;
+puh:puh INTERJ_ ;
+tja:tja INTERJ_ ;
+tschüs:tschüs INTERJ_ ;
+tschüss:tschüss INTERJ_ ;
+Wau:Wau INTERJ_ ;
+wau-wau:wau-wau INTERJ_ ;
 
-
-LEXICON ij
- +Interj: # ;
-
-
-
+!!MWE
+auf% Wiedersehen:auf% Wiedersehen INTERJ_ ;
+bitte% schön:bitte% schön INTERJ_ ;
+guten% Morgen:guten% Morgen INTERJ_ ;
+in% Ordnung:in% Ordnung INTERJ_ ;
+nicht% wahr:nicht% wahr INTERJ_ ;
+vielen% Dank:vielen% Dank INTERJ_ ;
+zum% Wohl:zum% Wohl INTERJ_ ;

@@ -68,20 +68,20 @@ LEXICON DEM_der
 +Pron+Dem+Neu+Sg+Gen:es # ;
 +Pron+Dem+Neu+Sg+Nom:as # ;
 
-+Pron+Dem+Msc+Pl+Acc:ie # ;
-+Pron+Dem+Msc+Pl+Dat:er # ;
-+Pron+Dem+Msc+Pl+Gen:en # ;
-+Pron+Dem+Msc+Pl+Nom:ie # ;
++Pron+Dem+Pl+Acc:ie # ;
++Pron+Dem+Pl+Dat:er # ;
++Pron+Dem+Pl+Gen:en # ;
++Pron+Dem+Pl+Nom:ie # ;
 
-+Pron+Dem+Fem+Pl+Acc:ie # ;
-+Pron+Dem+Fem+Pl+Dat:er # ;
-+Pron+Dem+Fem+Pl+Gen:en # ;
-+Pron+Dem+Fem+Pl+Nom:ie # ;
+!+Pron+Dem+Fem+Pl+Acc:ie # ;
+!+Pron+Dem+Fem+Pl+Dat:er # ;
+!+Pron+Dem+Fem+Pl+Gen:en # ;
+!+Pron+Dem+Fem+Pl+Nom:ie # ;
 
-+Pron+Dem+Neu+Pl+Acc:ie # ;
-+Pron+Dem+Neu+Pl+Dat:er # ;
-+Pron+Dem+Neu+Pl+Gen:en # ;
-+Pron+Dem+Neu+Pl+Nom:ie # ;
+!+Pron+Dem+Neu+Pl+Acc:ie # ;
+!+Pron+Dem+Neu+Pl+Dat:er # ;
+!+Pron+Dem+Neu+Pl+Gen:en # ;
+!+Pron+Dem+Neu+Pl+Nom:ie # ;
 
 LEXICON Indefinite
 man+Pron+Indef+Msc+Sg+Nom:man # ;
@@ -187,18 +187,18 @@ LEXICON PRON_dies/er__dem
 +Pron+Dem+Neu+Sg+Gen:es # ;
 +Pron+Dem+Neu+Sg+Nom:es # ;
 
-+Pron+Dem+Msc+Pl+Acc:e # ;
-+Pron+Dem+Msc+Pl+Dat:en # ;
-+Pron+Dem+Msc+Pl+Gen:er # ;
-+Pron+Dem+Msc+Pl+Nom:e # ;
++Pron+Dem+Pl+Acc:e # ;
++Pron+Dem+Pl+Dat:en # ;
++Pron+Dem+Pl+Gen:er # ;
++Pron+Dem+Pl+Nom:e # ;
 
-+Pron+Dem+Fem+Pl+Acc:e # ;
-+Pron+Dem+Fem+Pl+Dat:en # ;
-+Pron+Dem+Fem+Pl+Gen:er # ;
-+Pron+Dem+Fem+Pl+Nom:e # ;
+!+Pron+Dem+Fem+Pl+Acc:e # ;
+!+Pron+Dem+Fem+Pl+Dat:en # ;
+!+Pron+Dem+Fem+Pl+Gen:er # ;
+!+Pron+Dem+Fem+Pl+Nom:e # ;
 
-+Pron+Dem+Neu+Pl+Acc:e # ;
-+Pron+Dem+Neu+Pl+Dat:en # ;
-+Pron+Dem+Neu+Pl+Gen:er # ;
-+Pron+Dem+Neu+Pl+Nom:e # ;
+!+Pron+Dem+Neu+Pl+Acc:e # ;
+!+Pron+Dem+Neu+Pl+Dat:en # ;
+!+Pron+Dem+Neu+Pl+Gen:er # ;
+!+Pron+Dem+Neu+Pl+Nom:e # ;
 
