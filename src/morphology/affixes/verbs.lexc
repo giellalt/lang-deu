@@ -561,7 +561,7 @@ LEXICON V_st/oßen__vb_01
 
 !!
 LEXICON V_bl/eiben__vblex !!= * @CODE@ bleiben:bleib
-+V:en  Praf_ST ;    ! ge-formen akseptiert.
++V:%^EI2IE%>en  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_bl/eiben__vb_01 ;
 +V000@D.PTC@:@D.PTC@ Inf ;
 LEXICON V_bl/eiben__vb_01
@@ -714,10 +714,28 @@ LEXICON V_fr/ieren__vb_01
 :%^O2IE IND-PRS-PL3 ;
 
 : IND-PRT_SEIN ;
-:ieh SUBJ-PRS ;
+:%^O2IE SUBJ-PRS ;
 :%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:%^O2IE POST-V_01 ;
 +Imprt+Pl2:%^O2IE%>t POST-V_01 ;
+
+LEXICON V_sch/ießen__vblex !!= * @CODE@ schießen:schoss
++V:en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_sch/ießen__vb_01 ;
++V000@D.PTC@:%^O2IE%^CC2C@D.PTC@ Inf ;
+LEXICON V_sch/ießen__vb_01
+:%^O2IE%^CC2C  IND-PRS-SG1 ;
+:%^O2IE%^CC2C IND-PRS-SG2 ;
+:%^O2IE%^CC2C  IND-PRS-SG3 ;
+:%^O2IE%^CC2C IND-PRS-PL1 ;
+:%^O2IE%^CC2C  IND-PRS-PL2 ;
+:%^O2IE%^CC2C IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^O2IE%^CC2C SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^O2IE%^CC2C POST-V_01 ;
++Imprt+Pl2:%^O2IE%^CC2C%>t POST-V_01 ;
 
 !!
 LEXICON V_f/ahren__vblex !!= * @CODE@ fahren:fahr
@@ -764,23 +782,23 @@ LEXICON V_/dürfen__vblex !!= * @CODE@ dürfen:darf
 +V@D.PTC@:%^A2Ü@D.PTC@ Inf ;
 
 !!
-LEXICON V_/fliegen__vblex !!= * @CODE@ fliegen:fl
-+V:ogen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/fliegen__vb_01 ;
-+V000@D.PTC@:ieg@D.PTC@ Inf ;
-LEXICON V_/fliegen__vb_01
-:ieg  IND-PRS-SG1 ;
-:ieg%^Umlaut IND-PRS-SG2 ;
-:ieg%^Umlaut IND-PRS-SG3 ;
-:ieg IND-PRS-PL1 ;
-:ieg  IND-PRS-PL2 ;
-:ieg IND-PRS-PL3 ;
+LEXICON V_l/iegen__vblex !!= * @CODE@ liegen:lag
++V:%^A2E%>en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_l/iegen__vb_01 ;
++V000@D.PTC@:%^A2IE@D.PTC@ Inf ;
+LEXICON V_l/iegen__vb_01
+:%^A2IE  IND-PRS-SG1 ;
+:%^A2IE IND-PRS-SG2 ;
+:%^A2IE IND-PRS-SG3 ;
+:%^A2IE IND-PRS-PL1 ;
+:%^A2IE  IND-PRS-PL2 ;
+:%^A2IE IND-PRS-PL3 ;
 
-:og IND-PRT_SEIN ;
-:ieg SUBJ-PRS ;
-:og%^Umlaut SUBJ-PRT_SEIN ;
-+Imprt+Sg2:ieg POST-V_01 ;
-+Imprt+Pl2:ieg%>t POST-V_01 ;
+: IND-PRT_SEIN ;
+:%^A2IE SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2IE POST-V_01 ;
++Imprt+Pl2:%^A2IE%>t POST-V_01 ;
 
 !!
 LEXICON IND-PRS-SG1

@@ -52,7 +52,7 @@ z -> Z,
 š -> Š,
 ŧ -> Ŧ,
 ž -> Ž
-|| .#. FLAG ( HYPHFLAG ) _ ,
+|| .#. FLAG ( HYPHFLAG ) _ 
 ## || .#. HYPMINFLAG FLAG ( HYPHFLAG ) _ ,
 #|| .#. FLAG ( HYPHFLAG ) _ ,
 #                  FLAG ( HYPHFLAG ) ?* %- _
