@@ -433,30 +433,15 @@ raten:rat V_h/alten__vblex ;
 reißen:reiss V_r/eißen__vblex ; ! ei-ei-i-i-i
 
 
-!g/ehen__vblex"/></e>
-!  10 <par n="z/iehen__vblex"/></e>
-!  10 <par n="befass/en__vblex"/></e>
-!   7 <par n="br/ingen__vblex"/></e>
-!   6 <par n="bel/assen__vblex"/></e>
-!   6 <par n="beh/alten__vblex"/></e>
-!   5 <par n="f/allen__vblex"/></e>
-!   5 <par n="beg/ehen__vblex"/></e>
 !   4 <par n="sch/ießen__vblex"/></e>
-!   4 <par n="g/eben__vblex"/></e>
-!   4 <par n="abonnier/en__vblex"/></e>
 !   3 <par n="tr/eten__vblex"/></e>
 !   3 <par n="l/aden__vblex"/></e>
 !   3 <par n="ben/ehmen__vblex"/></e>
-!   3 <par n="bel/aufen__vblex"/></e>
-!   2 <par n="tr/effen__vblex"/></e>
 !   2 <par n="r/eiten__vblex"/></e>
 !   2 <par n="k/ennen__vblex"/></e>
 !   2 <par n="erk/ennen__vblex"/></e>
-!   2 <par n="br/echen__vblex"/></e>
 !   2 <par n="bl/asen__vblex"/></e>
-!   2 <par n="bez/iehen__vblex"/></e>
 !   2 <par n="beschn/eiden__vblex"/></e>
-!   2 <par n="beg/eben__vblex"/></e>
 !   2 <par n="beflüg/eln__vblex"/></e>
 !   2 <par n="beachte/n__vblex"/></e>
 !   2 <par n="b/inden__vblex"/></e>
@@ -471,7 +456,6 @@ reißen:reiss V_r/eißen__vblex ; ! ei-ei-i-i-i
 !   1 <par n="g/reifen__vblex"/></e>
 !   1 <par n="g/leiten__vblex"/></e>
 !   1 <par n="err/aten__vblex"/></e>
-!   1 <par n="erbr/ingen__vblex"/></e>
 !   1 <par n="br/ennen__vblex"/></e>
 !   1 <par n="bl/eiben__vblex"/></e>
 !   1 <par n="betr/inken__vblex"/></e>
