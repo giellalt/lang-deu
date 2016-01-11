@@ -348,6 +348,7 @@ halten:halt V_h/alten__vblex ;
 kommen:k V_/kommen__vblex ;
 lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
 laufen:l V_/laufen__vblex ;
+melden:melde W ;
 nehmen:n V_/nehmen__vblex ;
 raten:rat V_h/alten__vblex ;
 reißen:reiss V_r/eißen__vblex ;
