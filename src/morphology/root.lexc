@@ -587,7 +587,7 @@ a2 A2 o2 O2 u2 U2
 
 LEXICON Root
 
-Nouns ;
+@U.Cap.Obl@ Nouns ; !!= * @CODE@ This is stated once since R also leads directly to Nouns
 Verbs ;
 Adjectives ;
 Adverbs ;
