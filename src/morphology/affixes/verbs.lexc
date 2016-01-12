@@ -357,8 +357,47 @@ LEXICON V_g/eben__vb_01
 +Imprt+Pl2:%^A2Et POST-V_01 ;
 
 !!
+LEXICON V_spr/echen__vblex !!= * @CODE@ geben:gab
++V:%^A2O%>en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_spr/echen__vb_01 ;
++V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_spr/echen__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2E%>t POST-V_01 ;
+
+!!
+LEXICON V_g/elten__vblex !!= * @CODE@ gelten:galt
++V:%^A2O%>en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_g/elten__vb_01 ;
++V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_g/elten__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
++Ind+Prs+Sg3:%^A2I  POST-V_01 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
+:%^A2Ö SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
+
+!!
 LEXICON V_tr/eten__vblex !!= * @CODE@ treten:tratt
-+V:%^A2E%^CC2Cen  Praf_ST ;    ! ge-formen akseptiert.
++V:%^A2E%^CC2C%>en  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_tr/eten__vb_01 ;
 +V000@D.PTC@:%^A2E%^CC2C@D.PTC@ Inf ;
 LEXICON V_tr/eten__vb_01
@@ -508,18 +547,19 @@ LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
 +V@D.PTC@:%^A2E@D.PTC@ V_s/enden__vb_01 ;
 +V@D.PTC@:%^A2E@D.PTC@ Inf ;
 LEXICON V_s/enden__vb_01
-:  IND-PRS-SG1 ;
-: IND-PRS-SG2 ;
-:  IND-PRS-SG3 ;
-: IND-PRS-PL1 ;
-:  IND-PRS-PL2 ;
-: IND-PRS-PL3 ;
+:%^A2E  IND-PRS-SG1 ;
+:%^A2E IND-PRS-SG2 ;
+:%^A2E  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
 
-: IND-PRT ;
-: SUBJ-PRS ;
-: SUBJ-PRT ;
-+Imprt+Sg2: POST-V_01 ;
-+Imprt+Pl2:e%>t POST-V_01 ;
+: IND-PRT_SEIN ;
+:%^A2E IND-PRT ;
+:%^A2E SUBJ-PRS ;
+:%^A2E SUBJ-PRT ;
++Imprt+Sg2:%^A2E POST-V_01 ;
++Imprt+Pl2:%^A2E%>e%>t POST-V_01 ;
 
 !!
 LEXICON V_/nehmen__vblex !!= * @CODE@ nehmen:n

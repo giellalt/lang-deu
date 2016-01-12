@@ -307,12 +307,21 @@ LEXICON A_/arg__adj
 +A:%^Umlaut A_abenteuerlich__adj-sup ;
 
 
-LEXICON A_/viel__adj
-+A: #;
+LEXICON A_/viel__adj !!= * @CODE@ viel:
++A+Pos:viel A_abenteuerlich__adj-positive ;
++A+Comp:mehrer A_abenteuerlich__adj-positive ;
++A+Superl:meist A_abenteuerlich__adj-positive ;
++A+Pos+Pred:viel # ;
++A+Comp+Pred:mehrer # ;
++A+Superl+Pred:meist # ;
+
 LEXICON A_/gut__adj
 +A+Pos:gut A_abenteuerlich__adj-positive ;
 +A+Comp:besser A_abenteuerlich__adj-positive ;
 +A+Superl:best A_abenteuerlich__adj-positive ;
++A+Pos+Pred:gut # ;
++A+Comp+Pred:besser # ;
++A+Superl+Pred:best # ;
 
 LEXICON A_allerbest__adj
 +A:  A_abenteuerlich__adj-sup ;
