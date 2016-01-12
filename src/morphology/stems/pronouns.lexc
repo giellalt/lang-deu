@@ -183,6 +183,7 @@ LEXICON PRON_dies/er__dem
 +Pron+Dem+Fem+Sg+Nom:e # ;
 
 +Pron+Dem+Neu+Sg+Acc:es # ;
++Pron+Dem+Neu+Sg+Acc: # ;
 +Pron+Dem+Neu+Sg+Dat:em # ;
 +Pron+Dem+Neu+Sg+Gen:es # ;
 +Pron+Dem+Neu+Sg+Nom:es # ;
