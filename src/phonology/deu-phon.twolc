@@ -14,6 +14,7 @@ Alphabet
  %^A2E:0		!!≈ * @CODE@ 
  %^A2I:0		!!≈ * @CODE@ 
  %^A2O:0		!!≈ * @CODE@ 
+ %^A2Ö:0		!!≈ * @CODE@ 
  %^A2U:0		!!≈ * @CODE@ 
  %^A2Ü:0		!!≈ * @CODE@ 
  %^A2IE:0		!!≈ * @CODE@ 
@@ -131,11 +132,18 @@ a:u <=>
 !€ fuhr0%>st
 
 "vowel change a:ü "
-a:ü <=>
+ a:ü <=>
  Cns: _ Cns:+ %^A2Ü: ;
 !! fahren+V+Ind+Prt+Sg2
 !€ fahr%^A2Ü%>st
 !€ führ0%>st
+
+"vowel change a:ö "
+ a:ö <=>
+ Cns: _ Cns:+ %^A2Ö: ;
+!! gelten+V+Subj+Prt+Sg1
+!€ galt%^A2Ö%>e
+!€ gölt0%>e
 
 "vowel change o:i "
 o:i <=>
@@ -167,18 +175,25 @@ s:ß <=>
 !€ reiss%^CC2C%>en
 !€ rei0ß0%>en
 
-"Subsequent f Deletion"
- f:0 <=> Vow: _ f (Dummy:) %^CC2C: ;
+"first of same consonant Deletion"
+ Cx:0 <=> Vow: _ Cx (Dummy:) %^CC2C: ;
+        where Cx in (f F t T) ;
 !! treffen+V+Subj+Prt+Pl1
 !€ traff%^Umlaut%^CC2C%>en
 !€ trä0f00%>en
 
 
+
+
 "Subsequent s Deletion"
- s:0 <=> [s:+|ß|x|z] %> _ t ;
+ s:0 <=> [s:+|ß|x|z] (Dummy:) %> _ t ;
 !! aasen+V+Ind+Prs+Sg2
 !€ aas%>st
 !€ aas%>0t
+!! groß+A+Superl+Fem+Sg+Acc+Def
+!€ groß%^Umlaut%>st%>e
+!€ größ0%>0t%>e
+
  [Vow:|:Vow] _ s: (Dummy:) %^CC2C: ;
 !! reißen
 !€ reiss%^CC2C%>en

@@ -345,6 +345,7 @@ fangen:fang V_f/angen__vblex ;
 finden:fand V_f/inden__vblex ;
 fliegen:flog V_fr/ieren__vblex ;
 geben:gab V_g/eben__vblex ;
+gelten:galt V_g/elten__vblex ; !e-i-a-ä/ö-o
 gehen:g V_g/ehen__vblex ;
 gleichen:gleich V_gl/eichen__vblex ; ! ei-ei-i-i-i
 halten:halt V_h/alten__vblex ;
@@ -375,7 +376,7 @@ sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
 senden:sand V_s/enden__vblex ;
 singen:sang V_f/inden__vblex ; !i-i-a-ä-u
 sinken:sank V_f/inden__vblex ;
-sprechen:sprach V_g/eben__vblex ;
+sprechen:sprach V_spr/echen__vblex ;
 springen:sprang V_f/inden__vblex ;
 stehen:st V_st/ehen__vblex ;
 stoßen:stoß V_st/oßen__vblex ;
@@ -386,6 +387,7 @@ treiben:treib V_bl/eiben__vblex ;
 treten:tratt V_tr/eten__vblex ;
 trinken:trank V_f/inden__vblex ;
 weichen:weich V_gl/eichen__vblex ;
+wenden:wand V_s/enden__vblex ; !e-e-a/e-e-a/e
 werfen:warf V_w/erfen__vblex ;
 ziehen:z V_z/iehen__vblex ;
 zwingen:zwang V_f/inden__vblex ; !i-i-a-ä-u
@@ -409,14 +411,15 @@ wollen:w V_/wollen__vaux ; !o-i-o-o-o
 bleiben:bleib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 schreiben:schreib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 beißen:beiss V_r/eißen__vblex ;
+gelten:galt V_g/elten__vblex ; !e-i-a-ä/ö-o
 helfen:half V_w/erfen__vblex ;
 kennen:kann V_k/ennen__vblex ; !e-e-a-e-a
 nennen:nann V_k/ennen__vblex ;
 sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
 werden:w V_/werden__vblex ; !e-i-a-ä-o
 schrecken:schrack V_schr/ecken__vblex ; !e-i-a:-ä:-e
-sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
-sterben:starb V_g/eben__vblex ; !e-i-a-ä-o
+sprechen:sprach V_spr/echen__vblex ; !e-i-a-ä-o
+sterben:starb V_spr/echen__vblex ; !e-i-a-ä-o
 pflegen:pfl V_pfl/egen__vblex ; !e-e-o-ö-o
 dreschen:drosch V_dr/eschen__vblex ; !e-i-o-ö-o
 schlagen:schlag V_f/ahren__vblex ;

@@ -3294,7 +3294,7 @@ verziert:verziert A_abgebrannt__adj ;
 verzweifelt:verzweifelt A_abhold__adj ;
 verzweigt:verzweigt A_abgebrannt__adj ;
 verzwickt:verzwickt A_abgebrannt__adj ;
-viel:viel A_/viel__adj ;
+viel: A_/viel__adj ;
 vieldeutig:vieldeutig A_abendfüllend__adj ;
 vielfach:vielfach A_abendfüllend__adj ;
 vielfältig:vielfältig A_abenteuerlich__adj ;
