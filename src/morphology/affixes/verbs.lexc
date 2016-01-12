@@ -356,6 +356,25 @@ LEXICON V_g/eben__vb_01
 +Imprt+Sg2:%^A2I POST-V_01 ;
 +Imprt+Pl2:%^A2Et POST-V_01 ;
 
+!!
+LEXICON V_tr/eten__vblex !!= * @CODE@ treten:tratt
++V:%^A2E%^CC2Cen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_tr/eten__vb_01 ;
++V000@D.PTC@:%^A2E%^CC2C@D.PTC@ Inf ;
+LEXICON V_tr/eten__vb_01
+:%^A2E%^CC2C  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E%^CC2C IND-PRS-PL1 ;
+:%^A2E%^CC2C  IND-PRS-PL2 ;
+:%^A2E%^CC2C IND-PRS-PL3 ;
+
+:%^CC2C IND-PRT_SEIN ;
+:%^A2E%^CC2C SUBJ-PRS ;
+:%^Umlaut%^CC2C SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2E%^CC2C%>et POST-V_01 ;
+
 LEXICON V_g/ehen__vblex !!= * @CODE@ gehen:g
 +V:angen  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_g/ehen__vb_01 ;
@@ -448,6 +467,42 @@ LEXICON V_w/erfen__vb_01
 +Imprt+Sg2:%^A2I POST-V_01 ;
 +Imprt+Pl2:%^A2Et POST-V_01 ;
 !!
+LEXICON V_b/ersten__vblex !!= * @CODE@ bersten:barst
++V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_b/ersten__vb_01 ;
++V@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_b/ersten__vb_01
+:%^A2E  IND-PRS-SG1 ;
++Ind+Prs+Sg2:%^A2I POST-V_01 ; !! birst
+:%^A2I  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E%>e  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2E SUBJ-PRS ;
+:%^A2Ü SUBJ-PRT_SEIN ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2Et POST-V_01 ;
+!!
+LEXICON V_k/ennen__vblex !!= * @CODE@ kennen:kann
++V:%>t  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_k/ennen__vb_01 ;
++V@D.PTC@:%^A2E@D.PTC@ Inf ;
+LEXICON V_k/ennen__vb_01
+:%^A2E  IND-PRS-SG1 ;
+:%^A2E IND-PRS-SG2 ;
+:%^A2E  IND-PRS-SG3 ;
+:%^A2E IND-PRS-PL1 ;
+:%^A2E  IND-PRS-PL2 ;
+:%^A2E IND-PRS-PL3 ;
+
+: IND-PRT ;
+:%^A2E SUBJ-PRS ;
+:%^A2E SUBJ-PRT ;
++Imprt+Sg2:%^A2E POST-V_01 ;
++Imprt+Pl2:%^A2E%>t POST-V_01 ;
+!!
 LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:%^A2E@D.PTC@ V_s/enden__vb_01 ;
@@ -484,6 +539,30 @@ LEXICON V_/nehmen__vb_01
 :ahm%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:ehm POST-V_01 ;
 +Imprt+Pl2:ehm%>t POST-V_01 ;
+
+!!
+LEXICON V_dr/eschen__vblex !!= * @CODE@ dreschen:drosch
++V:%^O2E%>en  Praf_ST ;    ! ge-formen akseptiert.
++V:%^O2E%>t  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_dr/eschen__vb_01 ;
++V000@D.PTC@:%^O2E@D.PTC@ Inf ;
+LEXICON V_dr/eschen__vb_01
+:%^O2E  IND-PRS-SG1 ;
+:%^O2I IND-PRS-SG2 ;
+:%^O2E IND-PRS-SG2 ;
++Ind+Prs+Sg2:%^O2I POST-V_01 ;
+:%^O2I  IND-PRS-SG3 ;
+:%^O2E IND-PRS-PL1 ;
+:%^O2E  IND-PRS-PL2 ;
+:%^O2E IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^O2E IND-PRT ;
+:%^O2E SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT_SEIN ;
+:%^O2E SUBJ-PRT ;
++Imprt+Sg2:%^O2I POST-V_01 ;
++Imprt+Pl2:%^O2E%>t POST-V_01 ;
 
 !!
 LEXICON V_/laufen__vblex !!= * @CODE@ laufen:l
@@ -598,6 +677,25 @@ LEXICON V_r/eißen__vb_01
 +Imprt+Pl2:%^CC2C%>e%>t POST-V_01 ;
 
 !!
+LEXICON V_gl/eichen__vblex !!= * @CODE@ gleichen:gleich
++V:%^EI2Ien  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_gl/eichen__vb_01 ;
++V@D.PTC@:@D.PTC@ Inf ;
+LEXICON V_gl/eichen__vb_01
+:  IND-PRS-SG1 ;
+:%>e IND-PRS-SG2 ;
+: IND-PRS-SG3 ;
+: IND-PRS-PL1 ;
+: IND-PRS-PL2 ;
+: IND-PRS-PL3 ;
+
+:%^EI2I IND-PRT_SEIN ;
+: SUBJ-PRS ;
+:%^EI2I SUBJ-PRT_SEIN ;
++Imprt+Sg2: POST-V_01 ;
++Imprt+Pl2:%>t POST-V_01 ;
+
+!!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_schw/immen__vb_01 ;
@@ -634,6 +732,26 @@ LEXICON V_br/ingen__vb_01
 :acht%^Umlaut SUBJ-PRT ;
 +Imprt+Sg2:ing POST-V_01 ;
 +Imprt+Pl2:ing%>t POST-V_01 ;
+
+!!
+LEXICON V_d/ingen__vblex !!= * @CODE@ dingen:dang
++V:%>t  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_d/ingen__vb_01 ;
++V00@D.PTC@:%^A2I@D.PTC@ Inf ;
+LEXICON V_d/ingen__vb_01
+:%^A2I  IND-PRS-SG1 ;
+:%^A2I IND-PRS-SG2 ;
+:%^A2I  IND-PRS-SG3 ;
+:%^A2I IND-PRS-PL1 ;
+:%^A2I  IND-PRS-PL2 ;
+:%^A2I IND-PRS-PL3 ;
+
+: IND-PRT_SEIN ;
+:%^A2I SUBJ-PRS ;
+:%^Umlaut SUBJ-PRT ;
+:%^A2I SUBJ-PRT ;
++Imprt+Sg2:%^A2I POST-V_01 ;
++Imprt+Pl2:%^A2I%>t POST-V_01 ;
 
 !!
 LEXICON V_f/inden__vblex !!= * @CODE@ finden:fand

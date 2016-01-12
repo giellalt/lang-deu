@@ -1253,7 +1253,7 @@ LEXICON Kapital__n_nt
 +N+Neu: SG-ACC/DAT/GENs/NOM ;
 +N: SG-CMP-L ;
 
-LEXICON Kapl/an__n_m 
+LEXICON Kapl/an__n_m !!= * @CODE@ Kaplan:kaplan
 +N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 
@@ -1976,10 +1976,10 @@ LEXICON Algorithm/us__n_m !!= * @CODE@ Algorithmus:Algorithm
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
 
-LEXICON Allegr/o__n_nt !!= * @CODE@ Allegro:Allegr
-+N+Neu:i PL-ACC/DAT/GEN/NOM ;
-+N+Neu:os PL-ACC/DAT/GEN/NOM ;
-+N+Neu:o SG-ACC/DAT/GENs/NOM ;
+LEXICON Allegr/o__n_nt !!= * @CODE@ Allegro:Allegro
++N+Neu:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Neu:s PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
 
 LEXICON Anan/as__n_f !!= * @CODE@ Ananas:Ananas
 +N+Fem:s%^Umlaut PL-ACCe/DATen/GENe/NOMe ;
@@ -2024,9 +2024,9 @@ LEXICON Bas/is__n_f !!= * @CODE@ Basis:Bas
 +N:en PL-CMP-L ; 
 +N:is SG-CMP-L ; 
 
-LEXICON Bass/o__n_m !!= * @CODE@ Basso:Bass
-+N+Msc:i PL-ACC/DAT/GEN/NOM ;
-+N+Msc:o SG-ACC/DAT/GEN/NOM ;
+LEXICON Bass/o__n_m !!= * @CODE@ Basso:Basso
++N+Msc:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GEN/NOM ;
 
 LEXICON Bau__n_m !!= * @CODE@ 
 +N+Msc:ten PL-ACC/DAT/GEN/NOM ;
@@ -2052,20 +2052,20 @@ LEXICON Camp/us__n_m !!= * @CODE@ Campus:Camp
 +N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
 +N:us SG-CMP-L ;
 
-LEXICON Cell/o__n_nt !!= * @CODE@ Cello:Cell
-+N+Neu:i PL-ACC/DAT/GEN/NOM ;
-+N+Neu:o SG-ACC/DAT/GENs/NOM ;
-+N:o SG-CMP-L ;
+LEXICON Cell/o__n_nt !!= * @CODE@ Cello:Cello
++N+Neu:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
 
-LEXICON Cembal/o__n_nt !!= * @CODE@ Cembalo:Cembal
-+N+Neu:i PL-ACC/DAT/GEN/NOM ;
-+N+Neu:o SG-ACC/DAT/GEN/NOM ;
-+N:o SG-CMP-L ;
+LEXICON Cembal/o__n_nt !!= * @CODE@ Cembalo:Cembalo
++N+Neu:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
 
-LEXICON Chairm/an__n_m !!= * @CODE@ Chairman:Chairm
-+N+Msc:en PL-ACC/DAT/GEN/NOM ;
-+N+Msc:an SG-ACC/DAT/GENs/NOM ;
-+N:an SG-CMP-L ;
+LEXICON Chairm/an__n_m !!= * @CODE@ Chairman:Chairman
++N+Msc:%^A2E PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
 
 LEXICON Charm/e__n_m !!= * @CODE@ Charme:Charm
 +N+Msc:e SG-ACC/DAT/GEN/NOM ;
@@ -2077,47 +2077,47 @@ LEXICON Cod/ex__n_m !!= * @CODE@ Codex:Cod
 +N+Msc:ex SG-ACC/DAT/GENes/GEN/NOM ;
 +N:ex SG-CMP-L ;
 
-LEXICON Cont/e__n_m !!= * @CODE@ Conte:Cont
+LEXICON Cont/e__n_m !!= * @CODE@ Conte:cont
 +N+Msc:i PL-ACC/DAT/GEN/NOM ;
 +N+Msc:e SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Corp/us__n_nt !!= * @CODE@ Corpus:Corp
+LEXICON Corp/us__n_nt !!= * @CODE@ Corpus:corp
 +N+Neu:ora PL-ACC/DAT/GEN/NOM ;
 +N+Neu:us SG-ACC/DAT/GEN/NOM ;
 +N:us SG-CMP-L ;
 
-LEXICON Cyberspac/e__n_m !!= * @CODE@ 
+LEXICON Cyberspac/e__n_m !!= * @CODE@ Cyberspace:cyberspac
 +N+Msc:es PL-ACC/DAT/GEN/NOM ;
 +N+Msc:e SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-GENs ;
 
-LEXICON Dem/os__n_m !!= * @CODE@ Demos:Dem
+LEXICON Dem/os__n_m !!= * @CODE@ Demos:dem
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
 +N+Msc:os SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Disk/us__n_m !!= * @CODE@ Diskus:Disk
+LEXICON Disk/us__n_m !!= * @CODE@ Diskus:disk
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
 +N+Msc:usse PL-ACC/DATn/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
 +N+Msc:usse SG-DATe ;
 +N:us SG-CMP-L ;
 
-LEXICON Donn/a__n_f !!= * @CODE@ Donna:Donn
+LEXICON Donn/a__n_f !!= * @CODE@ Donna:donn
 +N+Fem:as PL-ACC/DAT/GEN/NOM ;
 +N+Fem:en PL-ACC/DAT/GEN/NOM ;
 +N+Fem:a SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Ep/os__n_nt !!= * @CODE@ Epos:Ep
+LEXICON Ep/os__n_nt !!= * @CODE@ Epos:ep
 +N+Neu:en PL-ACC/DAT/GEN/NOM ;
 +N+Neu:os SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Espress/o__n_m !!= * @CODE@ Espresso:Espress
-+N+Msc:i PL-ACC/DAT/GEN/NOM ;
-+N+Msc:os PL-ACC/DAT/GEN/NOM ;
-+N+Msc:o SG-ACC/DAT/GENs/NOM ;
-+N:o SG-CMP-L ;
+LEXICON Espress/o__n_m !!= * @CODE@ Espresso:espresso
++N+Msc:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Msc:s PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
 
-LEXICON Exam/en__n_nt !!= * @CODE@ Examen:Exam
+LEXICON Exam/en__n_nt !!= * @CODE@ Examen:exam
 +N+Neu:en PL-ACC/DAT/GEN/NOM ;
 +N+Neu:ina PL-ACC/DAT/GEN/NOM ;
 +N+Neu:en SG-ACC/DAT/GENs/NOM ;
@@ -2132,9 +2132,9 @@ LEXICON Gefolgs/mann__n_m !!= * @CODE@ Gefolgsmann:GEfolgs
 +N+Msc:mann  SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Msc+Use/NG:mann SG-DATe ;
 
-LEXICON Gentlem/an__n_m !!= * @CODE@ Gentleman:Gentlem
-+N+Msc:en PL-ACC/DAT/GEN/NOM ;
-+N+Msc:an SG-ACC/DAT/GENs/NOM ;
+LEXICON Gentlem/an__n_m !!= * @CODE@ Gentleman:Gentleman
++N+Msc:%^A2E PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
 
 LEXICON Hand/ling__n_nt !!= * @CODE@ Handling
 +N+Neu: SG-ACC/DAT/GENs/NOM ;
@@ -2178,27 +2178,27 @@ LEXICON Kod/ex__n_m !!= * @CODE@ Kodex:Kod
 +N+Msc+Use/NG:exe SG-DATe ;
 +N:ex SG-CMP-L ;
 
-LEXICON Kont/o__n_nt !!= * @CODE@ Konto:Kont
+LEXICON Kont/o__n_nt !!= * @CODE@ Konto:kont
 +N+Neu:en PL-ACC/DAT/GEN/NOM ;
 +N+Neu:i PL-ACC/DAT/GEN/NOM ;
 +N+Neu:os PL-ACC/DAT/GEN/NOM ;
 +N+Neu:o SG-ACC/DAT/GENs/NOM ;
 +N:o SG-CMP-L ;
 
-LEXICON Kon/us__n_m !!= * @CODE@ Konus:Kon
+LEXICON Kon/us__n_m !!= * @CODE@ Konus:kon
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
 +N+Msc:usse PL-ACC/DATn/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GENses/GEN/NOM ;
 
-LEXICON Korp/us__n_nt !!= * @CODE@ Korpus:Korp
+LEXICON Korp/us__n_nt !!= * @CODE@ Korpus:korp
 +N+Neu:ora PL-ACC/DAT/GEN/NOM ;
 +N+Neu:us SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Kurs/us__n_m !!= * @CODE@ Kursus:Kurs
+LEXICON Kurs/us__n_m !!= * @CODE@ Kursus:kurs
 +N+Msc:e PL-ACC/DAT/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Lad/y__n_f !!= * @CODE@ Lady:Lad
+LEXICON Lad/y__n_f !!= * @CODE@ Lady:lad
 +N+Fem:ies PL-ACC/DAT/GEN/NOM ;
 +N+Fem:ys PL-ACC/DAT/GEN/NOM ;
 +N+Fem:y SG-ACC/DAT/GENs/NOM ;
@@ -2208,17 +2208,17 @@ LEXICON Laudatio__n_f !!= * @CODE@
 +N+Fem:nes PL-ACC/DAT/GEN/NOM ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Le/u__n_m !!= * @CODE@ Leu:Le
+LEXICON Le/u__n_m !!= * @CODE@ Leu:le
 +N+Msc:i PL-ACC/DAT/GEN/NOM ;
 +N+Msc:uen PL-ACC/DAT/GEN/NOM ;
 +N+Msc:u SG-ACC/DAT/GEN/NOM ;
 +N+Msc:u SG-ACCen/DATen/GENen ;
 
-LEXICON Lexik/on__n_nt !!= * @CODE@ Lexikon:Lexik
+LEXICON Lexik/on__n_nt !!= * @CODE@ Lexikon:lexik
 +N+Neu:a PL-ACC/DAT/GEN/NOM ;
 +N+Neu:on SG-ACC/DAT/GENs/NOM ;
 
-LEXICON Le/x__n_f !!= * @CODE@ Lex:Le
+LEXICON Le/x__n_f !!= * @CODE@ Lex:le
 +N+Fem:ges PL-ACC/DAT/GEN/NOM ;
 +N+Fem:x SG-ACC/DAT/GEN/NOM ;
 
@@ -2235,10 +2235,10 @@ LEXICON Logo/s__n_m !!= * @CODE@ Logos:Logo
 +N+Msc:i PL-ACC/DAT/GEN/NOM ;
 +N+Msc:s SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Mafios/o__n_m !!= * @CODE@ Mafioso:Mafios
-+N+Msc:i PL-ACC/DAT/GEN/NOM ;
-+N+Msc:o SG-ACC/DAT/GENs/NOM ;
-+N+Msc+Use/NG: SG-GEN ;
+LEXICON Mafios/o__n_m !!= * @CODE@ Mafioso:Mafioso
++N+Msc:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG:%^RmVow SG-GEN ;
 
 LEXICON Mark__n_f !!= * @CODE@ 
 !-- FIXME split meanings -->
@@ -2259,12 +2259,12 @@ LEXICON M/utter__n_f !!= * @CODE@
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
-LEXICON Myth/os__n_m !!= * @CODE@ Mythos:Myth
+LEXICON Myth/os__n_m !!= * @CODE@ Mythos:myth
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
 +N+Msc:os SG-ACC/DAT/GEN/NOM ;
 +N+Msc:us SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Op/us__n_nt !!= * @CODE@ 
+LEXICON Op/us__n_nt !!= * @CODE@ Opus:op
 +N+Neu:era PL-ACC/DAT/GEN/NOM ;
 +N+Neu:us SG-ACC/DAT/GEN/NOM ;
 
@@ -2274,7 +2274,7 @@ LEXICON Paradigm/a__n_nt !!= * @CODE@
 +N+Neu:  SG-ACC/DAT/GENs/NOM ;
 +N:en PL-CMP-L ;
 
-LEXICON Pat/er__n_m !!= * @CODE@ Pater:Pater
+LEXICON Pat/er__n_m !!= * @CODE@ Pater:pater
 +N+Msc:%^Pen%^RmVow%>es PL-ACC/DAT/GEN/NOM ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 
@@ -2306,7 +2306,7 @@ LEXICON Requie/m__n_nt !!= * @CODE@ Requiem:Requie
 +N+Neu:n PL-ACC/DAT/GEN/NOM ;
 +N+Neu:m SG-ACC/DAT/GENs/NOM ;
 
-LEXICON Re/x__n_m !!= * @CODE@ 
+LEXICON Re/x__n_m !!= * @CODE@ Rex:re
 +N+Msc:ges PL-ACC/DAT/GEN/NOM ;
 +N+Msc:xe PL-ACC/DAT/GEN/NOM ;
 +N+Msc:x SG-ACC/DAT/GEN/NOM ;
@@ -2323,11 +2323,11 @@ LEXICON Rowd/y__n_m !!= * @CODE@ Rowdy:Rowd
 +N+Msc+Use/NG:ies PL-ACC/DAT/GEN/NOM ;
 +N+Msc:y SG-ACC/DAT/GENs/NOM ;
 
-LEXICON Sald/o__n_m !!= * @CODE@ 
-+N+Msc:en PL-ACC/DAT/GEN/NOM ;
-+N+Msc:i PL-ACC/DAT/GEN/NOM ;
-+N+Msc:os PL-ACC/DAT/GEN/NOM ;
-+N+Msc:o SG-ACC/DAT/GENs/NOM ;
+LEXICON Sald/o__n_m !!= * @CODE@ Saldo:saldo
++N+Msc:%^O2E%>n PL-ACC/DAT/GEN/NOM ;
++N+Msc:%^O2I PL-ACC/DAT/GEN/NOM ;
++N+Msc:s PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
 
 LEXICON Spektr/um__n_nt !!= * @CODE@ Spektrum:Spektr
 +N+Neu:a PL-ACC/DAT/GEN/NOM ;
