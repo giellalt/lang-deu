@@ -17,6 +17,8 @@ Alphabet
  %^A2U:0		!!≈ * @CODE@ 
  %^A2Ü:0		!!≈ * @CODE@ 
  %^A2IE:0		!!≈ * @CODE@ 
+ %^O2E:0		!!≈ * @CODE@ 
+ %^O2I:0		!!≈ * @CODE@ 
  %^O2IE:0		!!≈ * @CODE@ 
  %^EI2IE:0		!!≈ * @CODE@ 
  %^EI2I:0		!!≈ * @CODE@ 
@@ -80,6 +82,14 @@ Rules
 !$ Napf00e0
 
 
+"vowel change o:e "
+o:e <=>
+ Cns: _ Cns:* %^O2E: ;
+
+!! dreschen+V+Ind+Prs+Pl1
+!€ drosch%^O2E%>en
+!€ dresch0%>en
+
 
 "vowel change a:e "
 a:e <=>
@@ -133,13 +143,22 @@ o:i <=>
 !! stoßen+V+Ind+Prt+Sg2
 !€ sto0ß%^O2IE%>e%>st
 !€ stieß0%>e%>st
-
+ Cns: _ Cns:* %^O2I: ;
+!! dreschen+V+Ind+Prs+Sg3
+!€ drosch%^O2I%>t
+!€ drisch0%>t
 
 "Entfernung von a in aa Umlaut"
 a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
 
 !€ Saal%^Umlaut%>e#
 !€ Sä0l00e0
+
+"Word-final o to zero"
+o:0 <=> Cns: _ %^RmVow: ;
+!! Salto
+!€ Salto%^RmVow
+!€ Salt00
 
 "ss2ß"
 s:ß <=>

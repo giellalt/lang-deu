@@ -291,6 +291,7 @@ wegbekommen:wegbek V_/kommen__vblex ;
 wiederbekommen:wiederbek V_/kommen__vblex ;
 zurückbekommen:zurückbek V_/kommen__vblex ;
 obliegen:oblag V_l/iegen__vblex ;
+gelingen:gelang V_f/inden__vblex ; !i-i-a-ä-u
 
 
 
@@ -334,7 +335,9 @@ LEXICON ZER-
 
 LEXICON  BE/ENT/ER/VER/ZER
 brechen:brach V_g/eben__vblex ;
+brennen:brann V_k/ennen__vblex ; 
 bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
+dingen:dang V_f/inden__vblex ; !i-i-a-ä/i-i
 enden:ende W ;
 fahren:fahr V_f/ahren__vblex ;
 fallen:fall V_l/assen__vblex ;
@@ -343,31 +346,49 @@ finden:fand V_f/inden__vblex ;
 fliegen:flog V_fr/ieren__vblex ;
 geben:gab V_g/eben__vblex ;
 gehen:g V_g/ehen__vblex ;
+gleichen:gleich V_gl/eichen__vblex ; ! ei-ei-i-i-i
 halten:halt V_h/alten__vblex ;
+helfen:half V_w/erfen__vblex ;
+kennen:kann V_k/ennen__vblex ;
 kommen:k V_/kommen__vblex ;
 gehen:g V_g/ehen__vblex ;
 halten:halt V_h/alten__vblex ;
+klingen:klang V_f/inden__vblex ; !i-i-a-ä-u
 kommen:k V_/kommen__vblex ;
+laden:lad V_f/ahren__vblex ;
 lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
 laufen:l V_/laufen__vblex ;
 liegen:lag V_l/iegen__vblex ;
+lingen:lang V_f/inden__vblex ; !i-i-a-ä-u
 melden:melde W ;
 nehmen:n V_/nehmen__vblex ;
+nennen:nann V_k/ennen__vblex ;
 raten:rat V_h/alten__vblex ;
 reißen:reiss V_r/eißen__vblex ;
+ringen:rang V_f/inden__vblex ; !i-i-a-ä-u
+schaffen:schaff W_OHNE-GE ;
+schleichen:schleich V_gl/eichen__vblex ;
 schließen:schloss V_sch/ießen__vblex ;
 schreiben:schreib V_bl/eiben__vblex ;
 schwimmen:schwamm V_schw/immen__vblex ;
+sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
 senden:sand V_s/enden__vblex ;
+singen:sang V_f/inden__vblex ; !i-i-a-ä-u
+sinken:sank V_f/inden__vblex ;
 sprechen:sprach V_g/eben__vblex ;
 springen:sprang V_f/inden__vblex ;
 stehen:st V_st/ehen__vblex ;
 stoßen:stoß V_st/oßen__vblex ;
+streichen:streich V_gl/eichen__vblex ;
 tragen:trag V_f/ahren__vblex ;
 treffen:traff V_schr/ecken__vblex ;
 treiben:treib V_bl/eiben__vblex ;
+treten:tratt V_tr/eten__vblex ;
+trinken:trank V_f/inden__vblex ;
+weichen:weich V_gl/eichen__vblex ;
 werfen:warf V_w/erfen__vblex ;
 ziehen:z V_z/iehen__vblex ;
+zwingen:zwang V_f/inden__vblex ; !i-i-a-ä-u
 
 !LEXICON Irregularew
 
@@ -382,17 +403,22 @@ müssen:muss V_/müssen__vbmod ;
 dürfen:darf V_/dürfen__vbmod ;
 sollen:soll V_/sollen__vbmod ;
 werden:w V_/werden__vaux ; !e-i-a-ä-o
+bersten:barst V_b/ersten__vblex ; !e-i-a-ä-o
 wollen:w V_/wollen__vaux ; !o-i-o-o-o
 !! other verbs
 bleiben:bleib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 schreiben:schreib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 beißen:beiss V_r/eißen__vblex ;
+helfen:half V_w/erfen__vblex ;
+kennen:kann V_k/ennen__vblex ; !e-e-a-e-a
+nennen:nann V_k/ennen__vblex ;
 sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
 werden:w V_/werden__vblex ; !e-i-a-ä-o
 schrecken:schrack V_schr/ecken__vblex ; !e-i-a:-ä:-e
 sprechen:sprach V_g/eben__vblex ; !e-i-a-ä-o
 sterben:starb V_g/eben__vblex ; !e-i-a-ä-o
 pflegen:pfl V_pfl/egen__vblex ; !e-e-o-ö-o
+dreschen:drosch V_dr/eschen__vblex ; !e-i-o-ö-o
 schlagen:schlag V_f/ahren__vblex ;
 waschen:wasch V_f/ahren__vblex ; !a-ä-u-ü-a
 stehen:st V_st/ehen__vblex ; !e-e-a-ä-a
@@ -409,24 +435,30 @@ genießen:genoss V_sch/ießen__vblex ;
 LEXICON MOTION-VERBS
 biegen:bog V_fr/ieren__vblex ;
 bieten:bot V_fr/ieren__vblex ;
+brennen:brann V_k/ennen__vblex ; 
+bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
 fliegen:flog V_fr/ieren__vblex ;
 fliehen:floh V_fr/ieren__vblex ;
-liegen:lag V_l/iegen__vblex ;
-schieben:schob V_fr/ieren__vblex ;
-bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
 fahren:fahr V_f/ahren__vblex ; !a-ä-u-ü-a
 geben:gab V_g/eben__vblex ; !e-i-a-ä-e
 gehen:g V_g/ehen__vblex ; !e-e-i-i-a
 kommen:k V_/kommen__vblex ;
+laden:lad V_f/ahren__vblex ;
+liegen:lag V_l/iegen__vblex ;
 lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
 fallen:fall V_l/assen__vblex ; !a-a-ie-ie-a
 laufen:l V_/laufen__vblex ;
 nehmen:n V_/nehmen__vblex ;
+schieben:schob V_fr/ieren__vblex ;
 schwimmen:schwamm V_schw/immen__vblex ; !i-i-a-ä-o
 senden:sand V_s/enden__vblex ;
+sinken:sank V_f/inden__vblex ;
+springen:sprang V_f/inden__vblex ; !i-i-a-ä-u
 tragen:trag V_f/ahren__vblex ;
 treffen:traff V_schr/ecken__vblex ; !e-i-a:-ä:-e
 treiben:treib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
+treten:tratt V_tr/eten__vblex ; !e-i-a-ä-e
+weichen:weich V_gl/eichen__vblex ;
 werfen:warf V_w/erfen__vblex ; ! e-i-a-ü-o
 frieren:fror V_fr/ieren__vblex ; !ie-ie-o-ö-o
 ziehen:z V_z/iehen__vblex ; !ie-ie-o-ö-o
@@ -437,6 +469,7 @@ halten:halt V_h/alten__vblex ;
 raten:rat V_h/alten__vblex ;
 reißen:reiss V_r/eißen__vblex ; ! ei-ei-i-i-i
 melden:melde W ;
+streichen:streich V_gl/eichen__vblex ;
 weisen:weis V_bl/eiben__vblex ; ! ei-ei-ie-ie-ie
 
 
