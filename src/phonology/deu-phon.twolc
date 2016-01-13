@@ -50,11 +50,11 @@ Rules
           Vy in (ü ö Ü Ö)
           matched ;
           
-!€ Boden%^Umlaut%>#
-!€ Böden000
+!!€ Boden%^Umlaut%>#
+!!€ Böden000
 
-!$ Boden%^Umlaut%>#
-!$ Boden000
+!!$ Boden%^Umlaut%>#
+!!$ Boden000
 
 "Vowel lowering"
  Vx:Vy <=>  
@@ -62,8 +62,8 @@ Rules
           where Vx in (o O)
                 Vy in (a A)
           matched ;
-!€ konn%^LowerVow
-!€ kann0
+!!€ konn%^LowerVow
+!!€ kann0
 
 
 "Umlaut vor Vokal" 
@@ -73,17 +73,17 @@ Rules
           Vy in (ä Ä)
           matched ;         
  
-!€ Baum%^Umlaut%>e#
-!€ Bäum00e0
+!!€ Baum%^Umlaut%>e#
+!!€ Bäum00e0
 
-!€ Apfel%^Umlaut
-!€ Äpfel0
+!!€ Apfel%^Umlaut
+!!€ Äpfel0
 
-!€ Napf%^Umlaut%>e#
-!€ Näpf00e0
+!!€ Napf%^Umlaut%>e#
+!!€ Näpf00e0
 
-!$ Napf%^Umlaut%>e#
-!$ Napf00e0
+!!$ Napf%^Umlaut%>e#
+!!$ Napf00e0
 
 
 "vowel change o:e "
@@ -91,8 +91,8 @@ o:e <=>
  Cns: _ Cns:* %^O2E: ;
 
 !! dreschen+V+Ind+Prs+Pl1
-!€ drosch%^O2E%>en
-!€ dresch0%>en
+!!€ drosch%^O2E%>en
+!!€ dresch0%>en
 
 
 "vowel change a:e "
@@ -100,22 +100,22 @@ a:e <=>
  Cns: _ Cns:+ %^A2E: ;
 
 !! geben+V+Ind+Prs+Sg1
-!€ gab%^A2E%>e
-!€ geb0%>e
+!!€ gab%^A2E%>e
+!!€ geb0%>e
 
 "vowel change a:i "
 a:i <=>
  Cns: _ Cns:+ %^A2I: ;
 !! geben+V+Ind+Prs+Sg2
-!€ gab%^A2I%>st
-!€ gib0%>st
+!!€ gab%^A2I%>st
+!!€ gib0%>st
  Cns: _ 0: (u:) Cns:+ %^A2IE: ;
 !! halten+V+Ind+Prt+Sg2
-!€ ha0lt%^A2IE%>e%>st
-!€ hielt0%>e%>st
+!!€ ha0lt%^A2IE%>e%>st
+!!€ hielt0%>e%>st
 !! fallen+V+Ind+Prt+Pl1
-!€ fa0ll%^A2IE%^CC2C%>en
-!€ fiel00%>en
+!!€ fa0ll%^A2IE%^CC2C%>en
+!!€ fiel00%>en
 
 
 "vowel change a:o "
@@ -123,67 +123,67 @@ a:o <=>
  Cns: _ Cns:+ %^A2O: ;
 
 !! schwimmen+V+Ind+Prs+Sg2
-!€ schwamm%^A2I%>st
-!€ schwimm0%>st
+!!€ schwamm%^A2I%>st
+!!€ schwimm0%>st
 
 "vowel change a:u "
 a:u <=>
  Cns: _ Cns:+ %^A2U: ;
 
 !! fahren+V+Ind+Prt+Sg2
-!€ fahr%^A2U%>st
-!€ fuhr0%>st
+!!€ fahr%^A2U%>st
+!!€ fuhr0%>st
 
 "vowel change a:ü "
  a:ü <=>
  Cns: _ Cns:+ %^A2Ü: ;
 !! fahren+V+Ind+Prt+Sg2
-!€ fahr%^A2Ü%>st
-!€ führ0%>st
+!!€ fahr%^A2Ü%>st
+!!€ führ0%>st
 
 "vowel change a:ö "
  a:ö <=>
  Cns: _ Cns:+ %^A2Ö: ;
 !! gelten+V+Subj+Prt+Sg1
-!€ galt%^A2Ö%>e
-!€ gölt0%>e
+!!€ galt%^A2Ö%>e
+!!€ gölt0%>e
 
 "vowel change o:i "
 o:i <=>
  Cns: _ 0: Cns:+ %^O2IE: ;
 !! stoßen+V+Ind+Prt+Sg2
-!€ sto0ß%^O2IE%>e%>st
-!€ stieß0%>e%>st
+!!€ sto0ß%^O2IE%>e%>st
+!!€ stieß0%>e%>st
  Cns: _ Cns:* %^O2I: ;
 !! dreschen+V+Ind+Prs+Sg3
-!€ drosch%^O2I%>t
-!€ drisch0%>t
+!!€ drosch%^O2I%>t
+!!€ drisch0%>t
 
 "Entfernung von a in aa Umlaut"
 a:0 <=> a: _ Cns:+ ( e LNR ) %^Umlaut:   ;
 
-!€ Saal%^Umlaut%>e#
-!€ Sä0l00e0
+!!€ Saal%^Umlaut%>e#
+!!€ Sä0l00e0
 
 "Word-final o to zero"
 o:0 <=> Cns: _ %^RmVow: ;
 !! Salto
-!€ Salto%^RmVow
-!€ Salt00
+!!€ Salto%^RmVow
+!!€ Salt00
 
 "ss2ß"
 s:ß <=>
  [Vow:|:Vow] s: _ (Dummy:) %^CC2C: ;
 !! reißen
-!€ reiss%^CC2C%>en
-!€ rei0ß0%>en
+!!€ reiss%^CC2C%>en
+!!€ rei0ß0%>en
 
 "first of same consonant Deletion"
  Cx:0 <=> Vow: _ Cx (Dummy:) %^CC2C: ;
         where Cx in (f F t T) ;
 !! treffen+V+Subj+Prt+Pl1
-!€ traff%^Umlaut%^CC2C%>en
-!€ trä0f00%>en
+!!€ traff%^Umlaut%^CC2C%>en
+!!€ trä0f00%>en
 
 
 
@@ -191,77 +191,77 @@ s:ß <=>
 "Subsequent s Deletion"
  s:0 <=> [s:+|ß|x|z] (Dummy:) %> _ t ;
 !! aasen+V+Ind+Prs+Sg2
-!€ aas%>st
-!€ aas%>0t
+!!€ aas%>st
+!!€ aas%>0t
 !! groß+A+Superl+Fem+Sg+Acc+Def
-!€ groß%^Umlaut%>st%>e
-!€ größ0%>0t%>e
+!!€ groß%^Umlaut%>st%>e
+!!€ größ0%>0t%>e
 
  [Vow:|:Vow] _ s: (Dummy:) %^CC2C: ;
 !! reißen
-!€ reiss%^CC2C%>en
-!€ rei0ß0%>en
+!!€ reiss%^CC2C%>en
+!!€ rei0ß0%>en
 
 "Subsequent l Deletion"
  l:0 <=> [Vow:|:Vow] _ l (Dummy:) %^CC2C: ;
 !! fallen+V+Ind+Prt+Pl1
-!€ fa0ll%^A2IE%^CC2C%>en
-!€ fie0l0%>en
+!!€ fa0ll%^A2IE%^CC2C%>en
+!!€ fie0l0%>en
 
 "Subsequent c Deletion"
  c:0 <=> Vow: _ k (Dummy:) %^CC2C: ;
 !! schrecken+V+Subj+Prt+Pl1
-!€ schrack%^Umlaut%^CC2C%>en
-!€ schrä0k00%>en
+!!€ schrack%^Umlaut%^CC2C%>en
+!!€ schrä0k00%>en
 
 
 "Weak e Deletion"
  e:0 <=> Vow Cns:+ _ (Dummy:+) %>: e ;
-!€ Nomade%>en#
-!€ Nomad00en0
+!!€ Nomade%>en#
+!!€ Nomad00en0
 
-!$ Nomade%>en#
-!$ Nomade0en0
+!!$ Nomade%>en#
+!!$ Nomade0en0
      Cns: _ [l|r] %^Pen: %^RmVow:  ;
 !! ackern+V+Ind+Prs+Sg1
-!€ acker%^Pen%^RmVow%>e
-!€ ack0r00%>e
+!!€ acker%^Pen%^RmVow%>e
+!!€ ack0r00%>e
     Cns: _ i 0: Cns:+ %^EI2IE: ;
 !! bleiben+V+Ind+Prt+Sg1
-!€ blei0b%^EI2IE
-!€ bl0ieb0
+!!€ blei0b%^EI2IE
+!!€ bl0ieb0
  Cns: _ i Cns:+ (Dummy:) %^EI2I: ;
 !! reißen
-!€ reiss%^EI2I
-!€ r0iss0
+!!€ reiss%^EI2I
+!!€ r0iss0
 
 "Devoicing of g"
  g:c <=> 
  Vow _ 0:* (Dummy:0) %^DeV: ;
 
 !! mögen+V+Mod+Ind+Prt+Sg1
-!€ mog0%^DeV%>te
-!€ moch0%>te
+!!€ mog0%^DeV%>te
+!!€ moch0%>te
 
 "Zero to h with Devoicing"
  0:h <=> 
  Vow g: _ (Dummy:0) %^DeV: ;
 
 !! mögen+V+Mod+Ind+Prt+Sg1
-!€ mog0%^DeV%>te
-!€ moch0%>te
+!!€ mog0%^DeV%>te
+!!€ moch0%>te
 
 "Zero to e with o to ie "
 0:e <=>
  Cns: o: _ Cns:+ %^O2IE: ;
 !! stoßen+V+Ind+Prt+Sg2
-!€ sto0ß%^O2IE%>e%>st
-!€ stieß0%>e%>st
+!!€ sto0ß%^O2IE%>e%>st
+!!€ stieß0%>e%>st
  Cns: a: _ (u:) Cns:+ %^A2IE: ;
 !! halten+V+Ind+Prt+Sg2
-!€ ha0lt%^A2IE%>e%>st
-!€ hielt0%>e%>st
+!!€ ha0lt%^A2IE%>e%>st
+!!€ hielt0%>e%>st
     Cns: e: i _ Cns:+ %^EI2IE: ;
 !! bleiben+V+Ind+Prt+Sg1
-!€ blei0b%^EI2IE
-!€ bl0ieb0
+!!€ blei0b%^EI2IE
+!!€ bl0ieb0
