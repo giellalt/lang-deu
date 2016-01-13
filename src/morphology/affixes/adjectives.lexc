@@ -207,13 +207,13 @@ LEXICON A_abenteuerlich__adj-comp_01
 +Msc+Sg+Dat+Indef:%>en # ;!
 +Msc+Sg+Gen:%>en # ;!Gen
 
-+Msc+Pl+Acc+Indef+NoArt:%>e # ;!
-+Msc+Pl+Nom+Indef+NoArt:%>e # ;!
-+Msc+Pl+Acc+Indef:%>en # ;!
-+Msc+Pl+Dat:%>en # ;!Dat
-+Msc+Pl+Gen+Indef:%>en # ;!
-+Msc+Pl+Nom+Indef:%>en # ;!
-+Msc+Pl+Gen+Indef+NoArt:%>er # ;!
++Pl+Acc+Indef+NoArt:%>e # ;!
++Pl+Nom+Indef+NoArt:%>e # ;!
++Pl+Acc+Indef:%>en # ;!
++Pl+Dat:%>en # ;!Dat
++Pl+Gen+Indef:%>en # ;!
++Pl+Nom+Indef:%>en # ;!
++Pl+Gen+Indef+NoArt:%>er # ;!
 
 +Fem+Sg:%>e # ;!Acc
 +Fem+Sg:%>e # ;!Nom
@@ -410,13 +410,16 @@ LEXICON A_gr/oß__adj
 +A+Superl:%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
 LEXICON A_h/och__adj
-+A: #;
++A+Pos+Pred:ch # ;
++A+Pos:h A_abenteuerlich__adj-positive  ;
++A+Comp:h%^Umlaut%>er A_abenteuerlich__adj-positive ;
++A+Superl:ch%^Umlaut%>st A_abenteuerlich__adj-positive ;
 LEXICON A_minde/r__adj !!= * @CODE@ minder:minde
 +A+Comp:%>r A_abenteuerlich__adj-positive ;
 +A+Superl:%>st A_abenteuerlich__adj-positive ;
 
 LEXICON A_n/ah__adj !!= * @CODE@ nah:na
-+A+Pos: A_abenteuerlich__adj-positive ;
++A+Pos:h A_abenteuerlich__adj-positive ;
 +A+Comp:h%^Umlaut%>er A_abenteuerlich__adj-positive ;
 +A+Superl:ch%^Umlaut%>st A_abenteuerlich__adj-positive ;
 
