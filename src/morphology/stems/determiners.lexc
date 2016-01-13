@@ -11,6 +11,7 @@ mehrere:mehrere DET_manche__det ;
 viele:viele DET_manche__det ;
 genügend:genügend DET_genügend__det ;
 was:was DET_was__det ;
+selbe:selbe DET_selbe__det ;
 
 der:d DET_d/er__det ;
 ein:ein DET_ein__det ;
@@ -86,20 +87,20 @@ LEXICON DET_jede__det_01
 +Neu+Sg+Gen:%>s # ;
 +Neu+Sg+Nom:%>s # ;
 
-+Msc+Pl+Acc: # ;
-+Msc+Pl+Dat:%>n # ;
-+Msc+Pl+Gen:%>r # ;
-+Msc+Pl+Nom: # ;
++Pl+Acc: # ;
++Pl+Dat:%>n # ;
++Pl+Gen:%>r # ;
++Pl+Nom: # ;
 
-+Fem+Pl+Acc: # ;
-+Fem+Pl+Dat:%>n # ;
-+Fem+Pl+Gen:%>r # ;
-+Fem+Pl+Nom: # ;
+!+Fem+Pl+Acc: # ;
+!+Fem+Pl+Dat:%>n # ;
+!+Fem+Pl+Gen:%>r # ;
+!+Fem+Pl+Nom: # ;
 
-+Neu+Pl+Acc: # ;
-+Neu+Pl+Dat:%>n # ;
-+Neu+Pl+Gen:%>r # ;
-+Neu+Pl+Nom: # ;
+!+Neu+Pl+Acc: # ;
+!+Neu+Pl+Dat:%>n # ;
+!+Neu+Pl+Gen:%>r # ;
+!+Neu+Pl+Nom: # ;
 
 LEXICON DET_genügend__det
 +Det+Qnt: DET_genügend__det_01 ;
@@ -120,20 +121,20 @@ LEXICON DET_genügend__det_01
 +Neu+Sg+Gen: # ;
 +Neu+Sg+Nom: # ;
 
-+Msc+Pl+Acc: # ;
-+Msc+Pl+Dat: # ;
-+Msc+Pl+Gen: # ;
-+Msc+Pl+Nom: # ;
++Pl+Acc: # ;
++Pl+Dat: # ;
++Pl+Gen: # ;
++Pl+Nom: # ;
 
-+Fem+Pl+Acc: # ;
-+Fem+Pl+Dat: # ;
-+Fem+Pl+Gen: # ;
-+Fem+Pl+Nom: # ;
+!+Fem+Pl+Acc: # ;
+!+Fem+Pl+Dat: # ;
+!+Fem+Pl+Gen: # ;
+!+Fem+Pl+Nom: # ;
 
-+Neu+Pl+Acc: # ;
-+Neu+Pl+Dat: # ;
-+Neu+Pl+Gen: # ;
-+Neu+Pl+Nom: # ;
+!+Neu+Pl+Acc: # ;
+!+Neu+Pl+Dat: # ;
+!+Neu+Pl+Gen: # ;
+!+Neu+Pl+Nom: # ;
 
 LEXICON DET_dies/er__det
 +Det+Dem+Msc+Sg+Acc:en # ;
@@ -151,20 +152,41 @@ LEXICON DET_dies/er__det
 +Det+Dem+Neu+Sg+Gen:es # ;
 +Det+Dem+Neu+Sg+Nom:es # ;
 
-+Det+Dem+Msc+Pl+Acc:e # ;
-+Det+Dem+Msc+Pl+Dat:en # ;
-+Det+Dem+Msc+Pl+Gen:er # ;
-+Det+Dem+Msc+Pl+Nom:e # ;
++Det+Dem+Pl+Acc:e # ;
++Det+Dem+Pl+Dat:en # ;
++Det+Dem+Pl+Gen:er # ;
++Det+Dem+Pl+Nom:e # ;
 
-+Det+Dem+Fem+Pl+Acc:e # ;
-+Det+Dem+Fem+Pl+Dat:en # ;
-+Det+Dem+Fem+Pl+Gen:er # ;
-+Det+Dem+Fem+Pl+Nom:e # ;
+!+Det+Dem+Fem+Pl+Acc:e # ;
+!+Det+Dem+Fem+Pl+Dat:en # ;
+!+Det+Dem+Fem+Pl+Gen:er # ;
+!+Det+Dem+Fem+Pl+Nom:e # ;
 
-+Det+Dem+Neu+Pl+Acc:e # ;
-+Det+Dem+Neu+Pl+Dat:en # ;
-+Det+Dem+Neu+Pl+Gen:er # ;
-+Det+Dem+Neu+Pl+Nom:e # ;
+!+Det+Dem+Neu+Pl+Acc:e # ;
+!+Det+Dem+Neu+Pl+Dat:en # ;
+!+Det+Dem+Neu+Pl+Gen:er # ;
+!+Det+Dem+Neu+Pl+Nom:e # ;
+
+LEXICON DET_selbe__det
++Det+Dem+Msc+Sg+Acc:n # ;
++Det+Dem+Msc+Sg+Dat:n # ;
++Det+Dem+Msc+Sg+Gen:n # ;
++Det+Dem+Msc+Sg+Nom: # ;
+
++Det+Dem+Fem+Sg+Acc: # ;
++Det+Dem+Fem+Sg+Dat:n # ;
++Det+Dem+Fem+Sg+Gen:n # ;
++Det+Dem+Fem+Sg+Nom: # ;
+
++Det+Dem+Neu+Sg+Acc: # ;
++Det+Dem+Neu+Sg+Dat:n # ;
++Det+Dem+Neu+Sg+Gen:n # ;
++Det+Dem+Neu+Sg+Nom: # ;
+
++Det+Dem+Pl+Acc:n # ;
++Det+Dem+Pl+Dat:n # ;
++Det+Dem+Pl+Gen:n # ;
++Det+Dem+Pl+Nom:n # ;
 
 LEXICON DET_ein__det
 
