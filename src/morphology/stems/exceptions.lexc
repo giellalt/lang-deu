@@ -17,6 +17,6 @@ sein+V+Ind+Prs+Pl3:sind # ;
 sein+V:war IND-PRT_SEIN ;
 sein+V:sei SUBJ-PRS_SEIN ;
 
-sein+V:war%^Umlaut SUBJ-PRT ;
+sein+V:war%^Umlaut SUBJ-PRT_SEIN ;
 sein+V+Imprt+Sg2:sei # ;
 sein+V+Imprt+Pl2:sei%>d # ;
