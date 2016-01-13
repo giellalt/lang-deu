@@ -297,7 +297,7 @@ LEXICON Abgr/und__n_m
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe/GENes ;
 
-LEXICON Abhilfe__n_f 
+LEXICON Abhilfe__n_f !!= * @CODE@ This was used in Apertium as FEM SG-only
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
