@@ -260,7 +260,6 @@ Derivation
 
 
 
-
 Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
  * +%<acc%> case tags
@@ -290,6 +289,25 @@ TRIGGER
  * %^Pen	 penultimate syllable
  * %^RmVow remove vowel
  * %^Umlaut umlaut a:ä, o:ö, u:ü
+
+
+!!Escaped symbols
+
+Symbols that need to be escaped on the lower side (towards twolc):
+* »
+* «
+* >
+* <
+
+The Usage extents are marked using following tags:
+
+ *  +Err/Orth      
+ * __ +Use/Marg        __ marginal (?)
+ * __ +Use/-Spell      __ Excluded in speller
+ * __ +Use/SpellNoSugg __ recognized but not suggested in speller
+
+
+
 
 COMPOUNDING
  * +Cmp compound

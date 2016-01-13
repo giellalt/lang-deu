@@ -97,11 +97,12 @@ o:e <=>
 
 "vowel change a:e "
 a:e <=>
- Cns: _ Cns:+ %^A2E: ;
+ Cns: _ (:0) Cns:+  %^A2E: ;
 
 !! geben+V+Ind+Prs+Sg1
 !!€ gab%^A2E%>e
 !!€ geb0%>e
+
 
 "vowel change a:i "
 a:i <=>
