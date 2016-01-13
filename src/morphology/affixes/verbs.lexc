@@ -543,7 +543,8 @@ LEXICON V_k/ennen__vb_01
 +Imprt+Pl2:%^A2E%>t POST-V_01 ;
 !!
 LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
-+V:en  Praf_ST ;    ! ge-formen akseptiert.
++V:%>t  Praf ;    ! ge-formen akseptiert.
++V:%^A2E%>et  Praf ;    ! ge-formen akseptiert.
 +V@D.PTC@:%^A2E@D.PTC@ V_s/enden__vb_01 ;
 +V@D.PTC@:%^A2E@D.PTC@ Inf ;
 LEXICON V_s/enden__vb_01
@@ -811,6 +812,25 @@ LEXICON V_f/inden__vb_01
 :%^Umlaut SUBJ-PRT_SEIN ;
 +Imprt+Sg2:%^A2I POST-V_01 ;
 +Imprt+Pl2:%^A2It POST-V_01 ;
+
+!!
+LEXICON V_s/itzen__vblex !!= * @CODE@ sitzen:s
++V:ess%>en  Praf_ST ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_s/itzen__vb_01 ;
++V000@D.PTC@:itz@D.PTC@ Inf ;
+LEXICON V_s/itzen__vb_01
+:itz  IND-PRS-SG1 ;
++Ind+Prs+Sg2:itzt POST-V_01 ;
+:itz  IND-PRS-SG3 ;
+:itz IND-PRS-PL1 ;
+:itz%>e  IND-PRS-PL2 ;
+:itz IND-PRS-PL3 ;
+
+:aß IND-PRT_SEIN ;
+:itz SUBJ-PRS ;
+:aß%^Umlaut SUBJ-PRT_SEIN ;
++Imprt+Sg2:itz POST-V_01 ;
++Imprt+Pl2:itz%>et POST-V_01 ;
 
 !!
 LEXICON V_bew/egen__vblex !!= * @CODE@ bewegen:bew

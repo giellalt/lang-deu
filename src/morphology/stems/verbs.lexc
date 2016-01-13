@@ -370,6 +370,51 @@ ge:ge« Verbs_Dge ;
 ver:ver« Verbs_Dge ;
 zer:zer« Verbs_Dge ;
 
+!! This is where we put BE/EMP/ENT/ER words that are loners
+!!
+beginnen:begann V_schw/immen__vblex ; !i-i-a-ä-o
+bewegen:bew V_bew/egen__vblex ; !e-e-o-ö-e
+erschrecken:erschrack V_schr/ecken__vblex ; !e-i-a:-ä:-e
+gebieten:gebot V_fr/ieren__vblex ;
+gefrieren:gefror V_fr/ieren__vblex ; !ie-ie-o-ö-o
+obliegen:oblag V_l/iegen__vblex ;
+verlieren:verlor V_fr/ieren__vblex ;
+überblicken:überblick W_OHNE-GE ;
+überbrücken:überbrück W_OHNE-GE ;
+überdecken:überdeck W_OHNE-GE ;
+überführen:überführ W_OHNE-GE ;
+überfüllen:überfüll W_OHNE-GE ;
+überhäufen:überhäuf W_OHNE-GE ;
+überholen:überhol W_OHNE-GE ;
+überhören:überhör W_OHNE-GE ;
+überlasten:überlaste W_OHNE-GE ;
+überleben:überleb W_OHNE-GE ;
+überlegen:überleg W_OHNE-GE ;
+überlisten:überliste W_OHNE-GE ;
+übernachten:übernachte W_OHNE-GE ;
+überprüfen:überprüf W_OHNE-GE ;
+überqueren:überquer W_OHNE-GE ;
+überragen:überrag W_OHNE-GE ;
+überraschen:überrasch W_OHNE-GE ;
+überreden:überrede W_OHNE-GE ;
+überreichen:überreich W_OHNE-GE ;
+überrollen:überroll W_OHNE-GE ;
+übersäen:übersä W_OHNE-GE ;
+überschatten:überschatte W_OHNE-GE ;
+überschäumen:überschäum W_OHNE-GE ;
+überschwemmen:überschwemm W_OHNE-GE ;
+überspannen:überspann W_OHNE-GE ;
+überspielen:überspiel W_OHNE-GE ;
+überstellen:überstell W_OHNE-GE ;
+überstimmen:überstimm W_OHNE-GE ;
+überstreifen:überstreif W_OHNE-GE ;
+übertönen:übertön W_OHNE-GE ;
+übertrumpfen:übertrumpf W_OHNE-GE ;
+überwältigen:überwältig W_OHNE-GE ;
+überzeichnen:überzeichne W_OHNE-GE ;
+überzeugen:überzeug W_OHNE-GE ;
+
+
 LEXICON Verbs_Dge
 
  VERBS_01 ;
@@ -394,32 +439,11 @@ LEXICON VERBS_01
 !2016-01-13A!
 !2016-01-13A!
 !2016-01-13A!LEXICON Prafixe
-befahren:befahr V_f/ahren__vblex ;
-befallen:befall V_l/assen__vblex ; 
-beschlagen:beschlag V_f/ahren__vblex ;
-betreffen:betraff V_schr/ecken__vblex ;
-betreiben:betreib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
-bewegen:bew V_bew/egen__vblex ; !e-e-o-ö-e
-beziehen:bez V_z/iehen__vblex ; !ie-ie-o-ö-o
 
-entreißen:entreiss V_r/eißen__vblex ;
-erfrieren:erfror V_fr/ieren__vblex ; !ie-ie-o-ö-o
-erschrecken:erschrack V_schr/ecken__vblex ; !e-i-a:-ä:-e
-gebieten:gebot V_fr/ieren__vblex ;
-gefrieren:gefror V_fr/ieren__vblex ; !ie-ie-o-ö-o
-
-verschieben:verschob V_fr/ieren__vblex ;
-verlieren:verlor V_fr/ieren__vblex ;
-vertreiben:vertreib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
-
-zerbrechen:zerbrach V_g/eben__vblex ;
-zerreißen:zerreiss V_r/eißen__vblex ;
-!bekommen:bek V_/kommen__vblex ;
 herausbekommen:herausbek V_/kommen__vblex ;
 wegbekommen:wegbek V_/kommen__vblex ;
 wiederbekommen:wiederbek V_/kommen__vblex ;
 zurückbekommen:zurückbek V_/kommen__vblex ;
-obliegen:oblag V_l/iegen__vblex ;
 gelingen:gelang V_f/inden__vblex ; !i-i-a-ä-u
 
 
@@ -497,6 +521,8 @@ raten:rat V_h/alten__vblex ;
 reißen:reiss V_r/eißen__vblex ;
 ringen:rang V_f/inden__vblex ; !i-i-a-ä-u
 schaffen:schaff W_OHNE-GE ;
+scheiden:scheid V_bl/eiben__vblex ;
+scheinen:schein V_bl/eiben__vblex ;
 schleichen:schleich V_gl/eichen__vblex ;
 schließen:schloss V_sch/ießen__vblex ;
 schreiben:schreib V_bl/eiben__vblex ;
@@ -505,6 +531,7 @@ sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
 senden:sand V_s/enden__vblex ;
 singen:sang V_f/inden__vblex ; !i-i-a-ä-u
 sinken:sank V_f/inden__vblex ;
+sitzen:s V_s/itzen__vblex ; !i-i-a-ä-e
 sprechen:sprach V_spr/echen__vblex ;
 springen:sprang V_f/inden__vblex ;
 stehen:st V_st/ehen__vblex ;
@@ -557,11 +584,12 @@ stehen:st V_st/ehen__vblex ; !e-e-a-ä-a
 finden:fand V_f/inden__vblex ; !i-i-a-ä-u
 springen:sprang V_f/inden__vblex ; !i-i-a-ä-u
 schwingen:schwang V_f/inden__vblex ; !i-i-a-ä-u
-beginnen:begann V_schw/immen__vblex ; !i-i-a-ä-o
 fangen:fang V_f/angen__vblex ; !a-ä-i-i-a
 stoßen:stoß V_st/oßen__vblex ; !o-ö-ie-ie-o
 schießen:schoss V_sch/ießen__vblex ; !ieß-ieß-oss-öss-oss
 genießen:genoss V_sch/ießen__vblex ;
+wiegen:wog V_fr/ieren__vblex ;
+
 !2016-01-13A!@P.PREFIX.FOR-MOTION-VERBS@ MOTION-VERBS ;
 
 !2016-01-13A!LEXICON MOTION-VERBS
@@ -592,6 +620,7 @@ treiben:treib V_bl/eiben__vblex ; ! ei-ei-ie-ie-ei
 treten:tratt V_tr/eten__vblex ; !e-i-a-ä-e
 weichen:weich V_gl/eichen__vblex ;
 werfen:warf V_w/erfen__vblex ; ! e-i-a-ü-o
+winnen:wann V_schw/immen__vblex ;
 frieren:fror V_fr/ieren__vblex ; !ie-ie-o-ö-o
 ziehen:z V_z/iehen__vblex ; !ie-ie-o-ö-o
 !!
@@ -657,12 +686,10 @@ schminken:schmink W ;
 
 !! APERTIUM
 
-belieben:belieb W_OHNE-GE ;
-verlieben:verlieb W_OHNE-GE ;
+lieben:lieb W ;
 beleben:beleb W_OHNE-GE ;
 verkleben:verkleb W_OHNE-GE ;
 erleben:erleb W_OHNE-GE ;
-überleben:überleb W_OHNE-GE ;
 bestreben:bestreb W_OHNE-GE ;
 erstreben:erstreb W_OHNE-GE ;
 verweben:verweb W_OHNE-GE ;
@@ -689,11 +716,9 @@ verschiffen:verschiff W_OHNE-GE ;
 erhoffen:erhoff W_OHNE-GE ;
 verpuffen:verpuff W_OHNE-GE ;
 verblüffen:verblüff W_OHNE-GE ;
-überstreifen:überstreif W_OHNE-GE ;
 verdampfen:verdampf W_OHNE-GE ;
 beschimpfen:beschimpf W_OHNE-GE ;
 verunglimpfen:verunglimpf W_OHNE-GE ;
-übertrumpfen:übertrumpf W_OHNE-GE ;
 bekämpfen:bekämpf W_OHNE-GE ;
 umkämpfen:umkämpf W_OHNE-GE ;
 erkämpfen:erkämpf W_OHNE-GE ;
@@ -706,8 +731,6 @@ bedürfen:bedürf W_OHNE-GE ;
 erkaufen:erkauf W_OHNE-GE ;
 verkaufen:verkauf W_OHNE-GE ;
 verschnaufen:verschnauf W_OHNE-GE ;
-überhäufen:überhäuf W_OHNE-GE ;
-überprüfen:überprüf W_OHNE-GE ;
 behagen:behag W_OHNE-GE ;
 verjagen:verjag W_OHNE-GE ;
 veranschlagen:veranschlag W_OHNE-GE ;
@@ -716,7 +739,6 @@ verklagen:verklag W_OHNE-GE ;
 veranlagen:veranlag W_OHNE-GE ;
 befragen:befrag W_OHNE-GE ;
 erfragen:erfrag W_OHNE-GE ;
-überragen:überrag W_OHNE-GE ;
 beauftragen:beauftrag W_OHNE-GE ;
 beantragen:beantrag W_OHNE-GE ;
 besagen:besag W_OHNE-GE ;
@@ -726,12 +748,8 @@ vertagen:vertag W_OHNE-GE ;
 obsiegen:obsieg W_OHNE-GE ;
 besiegen:besieg W_OHNE-GE ;
 versiegen:versieg W_OHNE-GE ;
-belegen:beleg W_OHNE-GE ;
 verpflegen:verpfleg W_OHNE-GE ;
-erlegen:erleg W_OHNE-GE ;
-überlegen:überleg W_OHNE-GE ;
-verlegen:verleg W_OHNE-GE ;
-zerlegen:zerleg W_OHNE-GE ;
+legen:leg W ;
 erregen:erreg W_OHNE-GE ;
 begnadigen:begnadig W_OHNE-GE ;
 befriedigen:befriedig W_OHNE-GE ;
@@ -791,7 +809,6 @@ verflüchtigen:verflüchtig W_OHNE-GE ;
 beseitigen:beseitig W_OHNE-GE ;
 vergewaltigen:vergewaltig W_OHNE-GE ;
 bewältigen:bewältig W_OHNE-GE ;
-überwältigen:überwältig W_OHNE-GE ;
 vergegenwärtigen:vergegenwärtig W_OHNE-GE ;
 befestigen:befestig W_OHNE-GE ;
 verfestigen:verfestig W_OHNE-GE ;
@@ -815,8 +832,7 @@ erlangen:erlang W_OHNE-GE ;
 verlangen:verlang W_OHNE-GE ;
 vermengen:vermeng W_OHNE-GE ;
 verengen:vereng W_OHNE-GE ;
-erhängen:erhäng W_OHNE-GE ;
-verhängen:verhäng W_OHNE-GE ;
+hängen:häng W ;
 bedrängen:bedräng W_OHNE-GE ;
 verdrängen:verdräng W_OHNE-GE ;
 verjüngen:verjüng W_OHNE-GE ;
@@ -829,7 +845,6 @@ verbürgen:verbürg W_OHNE-GE ;
 erwürgen:erwürg W_OHNE-GE ;
 bezeugen:bezeug W_OHNE-GE ;
 erzeugen:erzeug W_OHNE-GE ;
-überzeugen:überzeug W_OHNE-GE ;
 bevorzugen:bevorzug W_OHNE-GE ;
 beäugen:beäug W_OHNE-GE ;
 verfügen:verfüg W_OHNE-GE ;
@@ -849,7 +864,6 @@ erwachen:erwach W_OHNE-GE ;
 verabreichen:verabreich W_OHNE-GE ;
 gereichen:gereich W_OHNE-GE ;
 erreichen:erreich W_OHNE-GE ;
-überreichen:überreich W_OHNE-GE ;
 ermöglichen:ermöglich W_OHNE-GE ;
 verwirklichen:verwirklich W_OHNE-GE ;
 verheimlichen:verheimlich W_OHNE-GE ;
@@ -861,7 +875,6 @@ veröffentlichen:veröffentlich W_OHNE-GE ;
 veranschaulichen:veranschaulich W_OHNE-GE ;
 gehorchen:gehorch W_OHNE-GE ;
 erhaschen:erhasch W_OHNE-GE ;
-überraschen:überrasch W_OHNE-GE ;
 vermischen:vermisch W_OHNE-GE ;
 erfrischen:erfrisch W_OHNE-GE ;
 erwischen:erwisch W_OHNE-GE ;
@@ -902,7 +915,6 @@ entzweien:entzwei W_OHNE-GE ;
 prophezeien:prophezei W_OHNE-GE ;
 verpacken:verpack W_OHNE-GE ;
 bedecken:bedeck W_OHNE-GE ;
-überdecken:überdeck W_OHNE-GE ;
 verdecken:verdeck W_OHNE-GE ;
 entdecken:entdeck W_OHNE-GE ;
 verschrecken:verschreck W_OHNE-GE ;
@@ -912,7 +924,6 @@ erwecken:erweck W_OHNE-GE ;
 bezwecken:bezweck W_OHNE-GE ;
 verschicken:verschick W_OHNE-GE ;
 erblicken:erblick W_OHNE-GE ;
-überblicken:überblick W_OHNE-GE ;
 verstricken:verstrick W_OHNE-GE ;
 ersticken:erstick W_OHNE-GE ;
 verquicken:verquick W_OHNE-GE ;
@@ -925,7 +936,6 @@ bedrucken:bedruck W_OHNE-GE ;
 beeindrucken:beeindruck W_OHNE-GE ;
 beglücken:beglück W_OHNE-GE ;
 verunglücken:verunglück W_OHNE-GE ;
-überbrücken:überbrück W_OHNE-GE ;
 bedrücken:bedrück W_OHNE-GE ;
 erdrücken:erdrück W_OHNE-GE ;
 unterdrücken:unterdrück W_OHNE-GE ;
@@ -951,10 +961,7 @@ bestärken:bestärk W_OHNE-GE ;
 verstärken:verstärk W_OHNE-GE ;
 bemalen:bemal W_OHNE-GE ;
 untermalen:untermal W_OHNE-GE ;
-bespielen:bespiel W_OHNE-GE ;
-erspielen:erspiel W_OHNE-GE ;
-überspielen:überspiel W_OHNE-GE ;
-verspielen:verspiel W_OHNE-GE ;
+spielen:spiel W ;
 erzielen:erziel W_OHNE-GE ;
 erstrahlen:erstrahl W_OHNE-GE ;
 bezahlen:bezahl W_OHNE-GE ;
@@ -975,18 +982,14 @@ verprellen:verprell W_OHNE-GE ;
 gesellen:gesell W_OHNE-GE ;
 bestellen:bestell W_OHNE-GE ;
 erstellen:erstell W_OHNE-GE ;
-überstellen:überstell W_OHNE-GE ;
 unterstellen:unterstell W_OHNE-GE ;
 verstellen:verstell W_OHNE-GE ;
 entstellen:entstell W_OHNE-GE ;
-überrollen:überroll W_OHNE-GE ;
 erfüllen:erfüll W_OHNE-GE ;
-überfüllen:überfüll W_OHNE-GE ;
 umhüllen:umhüll W_OHNE-GE ;
 verhüllen:verhüll W_OHNE-GE ;
 enthüllen:enthüll W_OHNE-GE ;
 erholen:erhol W_OHNE-GE ;
-überholen:überhol W_OHNE-GE ;
 vergraulen:vergraul W_OHNE-GE ;
 verlangsamen:verlangsam W_OHNE-GE ;
 erlahmen:erlahm W_OHNE-GE ;
@@ -997,9 +1000,7 @@ verfilmen:verfilm W_OHNE-GE ;
 verdammen:verdamm W_OHNE-GE ;
 entstammen:entstamm W_OHNE-GE ;
 beklemmen:beklemm W_OHNE-GE ;
-überschwemmen:überschwemm W_OHNE-GE ;
 bestimmen:bestimm W_OHNE-GE ;
-überstimmen:überstimm W_OHNE-GE ;
 verstimmen:verstimm W_OHNE-GE ;
 verstummen:verstumm W_OHNE-GE ;
 umarmen:umarm W_OHNE-GE ;
@@ -1007,7 +1008,6 @@ verarmen:verarm W_OHNE-GE ;
 erwärmen:erwärm W_OHNE-GE ;
 erstürmen:erstürm W_OHNE-GE ;
 beraumen:beraum W_OHNE-GE ;
-überschäumen:überschäum W_OHNE-GE ;
 versäumen:versäum W_OHNE-GE ;
 verströmen:verström W_OHNE-GE ;
 verplanen:verplan W_OHNE-GE ;
@@ -1029,7 +1029,6 @@ verwöhnen:verwöhn W_OHNE-GE ;
 verneinen:vernein W_OHNE-GE ;
 vereinen:verein W_OHNE-GE ;
 verbannen:verbann W_OHNE-GE ;
-überspannen:überspann W_OHNE-GE ;
 entspannen:entspann W_OHNE-GE ;
 vergönnen:vergönn W_OHNE-GE ;
 verschonen:verschon W_OHNE-GE ;
@@ -1043,7 +1042,6 @@ verlernen:verlern W_OHNE-GE ;
 erzürnen:erzürn W_OHNE-GE ;
 erstaunen:erstaun W_OHNE-GE ;
 ertönen:ertön W_OHNE-GE ;
-übertönen:übertön W_OHNE-GE ;
 begrünen:begrün W_OHNE-GE ;
 verknappen:verknapp W_OHNE-GE ;
 berappen:berapp W_OHNE-GE ;
@@ -1528,7 +1526,6 @@ reduzieren:reduzier W_OHNE-GE ;
 produzieren:produzier W_OHNE-GE ;
 reproduzieren:reproduzier W_OHNE-GE ;
 skizzieren:skizzier W_OHNE-GE ;
-überqueren:überquer W_OHNE-GE ;
 beschweren:beschwer W_OHNE-GE ;
 erschweren:erschwer W_OHNE-GE ;
 bewahren:bewahr W_OHNE-GE ;
@@ -1549,7 +1546,6 @@ bewähren:bewähr W_OHNE-GE ;
 gewähren:gewähr W_OHNE-GE ;
 gebühren:gebühr W_OHNE-GE ;
 vollführen:vollführ W_OHNE-GE ;
-überführen:überführ W_OHNE-GE ;
 verführen:verführ W_OHNE-GE ;
 entführen:entführ W_OHNE-GE ;
 berühren:berühr W_OHNE-GE ;
@@ -1566,7 +1562,6 @@ erklären:erklär W_OHNE-GE ;
 verklären:verklär W_OHNE-GE ;
 gehören:gehör W_OHNE-GE ;
 erhören:erhör W_OHNE-GE ;
-überhören:überhör W_OHNE-GE ;
 verhören:verhör W_OHNE-GE ;
 empören:empör W_OHNE-GE ;
 betören:betör W_OHNE-GE ;
@@ -1594,13 +1589,11 @@ zerstreuen:zerstreu W_OHNE-GE ;
 entlarven:entlarv W_OHNE-GE ;
 entnerven:entnerv W_OHNE-GE ;
 interviewen:interview W_OHNE-GE ;
-übersäen:übersä W_OHNE-GE ;
 !!
 begnaden:begnade W_OHNE-GE ;
 verabschieden:verabschiede W_OHNE-GE ;
 befrieden:befriede W_OHNE-GE ;
 verabreden:verabrede W_OHNE-GE ;
-überreden:überrede W_OHNE-GE ;
 bekleiden:bekleide W_OHNE-GE ;
 verkleiden:verkleide W_OHNE-GE ;
 beneiden:beneide W_OHNE-GE ;
@@ -1641,11 +1634,8 @@ entgegnen:entgegne W_OHNE-GE ;
 ereignen:ereigne W_OHNE-GE ;
 enteignen:enteigne W_OHNE-GE ;
 verleugnen:verleugne W_OHNE-GE ;
-berechnen:berechne W_OHNE-GE ;
-errechnen:errechne W_OHNE-GE ;
-verrechnen:verrechne W_OHNE-GE ;
+rechnen:rechne W ;
 bezeichnen:bezeichne W_OHNE-GE ;
-überzeichnen:überzeichne W_OHNE-GE ;
 unterzeichnen:unterzeichne W_OHNE-GE ;
 verzeichnen:verzeichne W_OHNE-GE ;
 verheiraten:verheirate W_OHNE-GE ;
@@ -1660,7 +1650,6 @@ entkräften:entkräfte W_OHNE-GE ;
 beobachten:beobachte W_OHNE-GE ;
 beachten:beachte W_OHNE-GE ;
 entmachten:entmachte W_OHNE-GE ;
-übernachten:übernachte W_OHNE-GE ;
 verpachten:verpachte W_OHNE-GE ;
 erachten:erachte W_OHNE-GE ;
 verachten:verachte W_OHNE-GE ;
@@ -1712,17 +1701,14 @@ verantworten:verantworte W_OHNE-GE ;
 erhärten:erhärte W_OHNE-GE ;
 verhärten:verhärte W_OHNE-GE ;
 belasten:belaste W_OHNE-GE ;
-überlasten:überlaste W_OHNE-GE ;
 entlasten:entlaste W_OHNE-GE ;
 gewährleisten:gewährleiste W_OHNE-GE ;
-überlisten:überliste W_OHNE-GE ;
 befristen:befriste W_OHNE-GE ;
 bediensten:bedienste W_OHNE-GE ;
 verkosten:verkoste W_OHNE-GE ;
 vertrösten:vertröste W_OHNE-GE ;
 entrüsten:entrüste W_OHNE-GE ;
 verwüsten:verwüste W_OHNE-GE ;
-überschatten:überschatte W_OHNE-GE ;
 bestatten:bestatte W_OHNE-GE ;
 gestatten:gestatte W_OHNE-GE ;
 erstatten:erstatte W_OHNE-GE ;
