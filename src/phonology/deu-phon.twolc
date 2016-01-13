@@ -38,7 +38,7 @@ Sets
  Cns = b c d f g h j k l m n p q r s t v w x z ß 
        B C D F G H J K L M N P Q R S T V W X Z;
  LNR = l n r ;
- Dummy = %^Umlaut %^LowerVow %^DeV %^Pen %^RmVow %^A2IE %^O2IE
+ Dummy = %^Umlaut %^LowerVow %^DeV %^Pen %^RmVow %^A2IE %^O2IE %^A2E 
  ;  ! %+ 
 
 

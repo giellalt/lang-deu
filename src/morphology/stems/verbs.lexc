@@ -603,7 +603,7 @@ reißen:reiss V_r/eißen__vblex ; ! ei-ei-i-i-i
 melden:melde W ;
 streichen:streich V_gl/eichen__vblex ;
 weisen:weis V_bl/eiben__vblex ; ! ei-ei-ie-ie-ie
-
+heißen:heiß V_bl/eiben__vblex ;
 
 !   4 <par n="sch/ießen__vblex"/></e>
 !   3 <par n="tr/eten__vblex"/></e>
