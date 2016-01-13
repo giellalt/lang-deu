@@ -45,7 +45,7 @@ Sets
 Rules
 
 "Umlaut"
- Vx:Vy <=>  Cns _ Cns:+ (0:) ( e LNR ) %^Umlaut:  ;
+ Vx:Vy <=>  [Cns|#] _ Cns:+ (0:) ( e LNR ) %^Umlaut:  ;
     where Vx in (u o U O)
           Vy in (ü ö Ü Ö)
           matched ;
@@ -67,14 +67,17 @@ Rules
 
 
 "Umlaut vor Vokal" 
- Vx:Vy <=>  Cns _ [ u | a: ] Cns:+ ( e LNR ) %^Umlaut:   ;
-            Cns _ Cns:+ ( e LNR ) %^Umlaut:   ;
+ Vx:Vy <=>  [Cns|#] _ [ u | a: ] Cns:+ ( e LNR ) %^Umlaut:   ;
+            [Cns|#] _ Cns:+ ( e LNR ) %^Umlaut:   ;
     where Vx in (a A)
           Vy in (ä Ä)
           matched ;         
  
 !€ Baum%^Umlaut%>e#
 !€ Bäum00e0
+
+!€ Apfel%^Umlaut
+!€ Äpfel0
 
 !€ Napf%^Umlaut%>e#
 !€ Näpf00e0
