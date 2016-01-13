@@ -2,9 +2,114 @@
 !! --------
 !! Prefixes in GERMAN language are bound to beginning of other words.
 
+LEXICON PREF-V_
+#;
+
 LEXICON Prefixes
-nounprefix-     Nouns   ;
-verbprefix-     Verbs   ;
+!nounprefix-     Nouns   ;
+!verbprefix-     Verbs   ;
+
+!!##
+ab+Pref/ab:0ab PREF-V_ ;
+abhande+Pref/abhande:0abhande PREF-V_ ;
+an+Pref/an:0an PREF-V_ ;
+auf+Pref/auf:0auf PREF-V_ ;
+aus+Pref/aus:0aus PREF-V_ ;
+auseinander+Pref/auseinander:0auseinander PREF-V_ ;
+bei+Pref/bei:0bei PREF-V_ ;
+dabei+Pref/dabei:0dabei PREF-V_ ;
+daher+Pref/daher:0daher PREF-V_ ;
+dahin+Pref/dahin:0dahin PREF-V_ ;
+daneben+Pref/daneben:0daneben PREF-V_ ;
+dar+Pref/dar:0dar PREF-V_ ;
+daran+Pref/daran:0daran PREF-V_ ;
+darauf+Pref/darauf:0darauf PREF-V_ ;
+davon+Pref/davon:0davon PREF-V_ ;
+dazwischen+Pref/dazwischen:0dazwischen PREF-V_ ;
+drauf+Pref/drauf:0drauf PREF-V_ ;
+durch+Pref/durch:0durch PREF-V_ ;
+durcheinander+Pref/durcheinander:0durcheinander PREF-V_ ;
+ein+Pref/ein:0ein PREF-V_ ;
+einher+Pref/einher:0einher PREF-V_ ;
+empor+Pref/empor:0empor PREF-V_ ;
+entgegen+Pref/entgegen:0entgegen PREF-V_ ;
+entlang+Pref/entlang:0entlang PREF-V_ ;
+entzwei+Pref/entzwei:0entzwei PREF-V_ ;
+fehl+Pref/fehl:0fehl PREF-V_ ;
+fertig+Pref/fertig:0fertig PREF-V_ ;
+fort+Pref/fort:0fort PREF-V_ ;
+fremd+Pref/fremd:0fremd PREF-V_ ;
+gut+Pref/gut:0gut PREF-V_ ;
+heim+Pref/heim:0heim PREF-V_ ;
+her+Pref/her:0her PREF-V_ ;
+herab+Pref/herab:0herab PREF-V_ ;
+heran+Pref/heran:0heran PREF-V_ ;
+herauf+Pref/herauf:0herauf PREF-V_ ;
+heraus+Pref/heraus:0heraus PREF-V_ ;
+herbei+Pref/herbei:0herbei PREF-V_ ;
+herein+Pref/herein:0herein PREF-V_ ;
+hernieder+Pref/hernieder:0hernieder PREF-V_ ;
+herum+Pref/herum:0herum PREF-V_ ;
+herunter+Pref/herunter:0herunter PREF-V_ ;
+hervor+Pref/hervor:0hervor PREF-V_ ;
+herzu+Pref/herzu:0herzu PREF-V_ ;
+herüber+Pref/herüber:0herüber PREF-V_ ;
+hin+Pref/hin:0hin PREF-V_ ;
+hinab+Pref/hinab:0hinab PREF-V_ ;
+hinan+Pref/hinan:0hinan PREF-V_ ;
+hinauf+Pref/hinauf:0hinauf PREF-V_ ;
+hinaus+Pref/hinaus:0hinaus PREF-V_ ;
+hinein+Pref/hinein:0hinein PREF-V_ ;
+hinfort+Pref/hinfort:0hinfort PREF-V_ ;
+hinter+Pref/hinter:0hinter PREF-V_ ;
+hinunter+Pref/hinunter:0hinunter PREF-V_ ;
+hinweg+Pref/hinweg:0hinweg PREF-V_ ;
+hinzu+Pref/hinzu:0hinzu PREF-V_ ;
+hinüber+Pref/hinüber:0hinüber PREF-V_ ;
+hoch+Pref/hoch:0hoch PREF-V_ ;
+irr+Pref/irr:0irr PREF-V_ ;
+kaputt+Pref/kaputt:0kaputt PREF-V_ ;
+klar+Pref/klar:0klar PREF-V_ ;
+lang+Pref/lang:0lang PREF-V_ ;
+los+Pref/los:0los PREF-V_ ;
+längs+Pref/längs:0längs PREF-V_ ;
+mit+Pref/mit:0mit PREF-V_ ;
+nach+Pref/nach:0nach PREF-V_ ;
+nahe+Pref/nahe:0nahe PREF-V_ ;
+nieder+Pref/nieder:0nieder PREF-V_ ;
+näher+Pref/näher:0näher PREF-V_ ;
+ran+Pref/ran:0ran PREF-V_ ;
+rauf+Pref/rauf:0rauf PREF-V_ ;
+raus+Pref/raus:0raus PREF-V_ ;
+rein+Pref/rein:0rein PREF-V_ ;
+rum+Pref/rum:0rum PREF-V_ ;
+runter+Pref/runter:0runter PREF-V_ ;
+rüber+Pref/rüber:0rüber PREF-V_ ;
+schief+Pref/schief:0schief PREF-V_ ;
+tot+Pref/tot:0tot PREF-V_ ;
+um+Pref/um:0um PREF-V_ ;
+unter+Pref/unter:0unter PREF-V_ ;
+voll+Pref/voll:0voll PREF-V_ ;
+vonstatten+Pref/vonstatten:0vonstatten PREF-V_ ;
+vor+Pref/vor:0vor PREF-V_ ;
+voran+Pref/voran:0voran PREF-V_ ;
+voraus+Pref/voraus:0voraus PREF-V_ ;
+vorbei+Pref/vorbei:0vorbei PREF-V_ ;
+vorwärts+Pref/vorwärts:0vorwärts PREF-V_ ;
+vorüber+Pref/vorüber:0vorüber PREF-V_ ;
+weg+Pref/weg:0weg PREF-V_ ;
+weiter+Pref/weiter:0weiter PREF-V_ ;
+wieder+Pref/wieder:0wieder PREF-V_ ;
+zu+Pref/zu:0zu PREF-V_ ;
+zugrunde+Pref/zugrunde:0zugrunde PREF-V_ ;
+zurecht+Pref/zurecht:0zurecht PREF-V_ ;
+zurück+Pref/zurück:0zurück PREF-V_ ;
+zusammen+Pref/zusammen:0zusammen PREF-V_ ;
+zustande+Pref/zustande:0zustande PREF-V_ ;
+zuvor+Pref/zuvor:0zuvor PREF-V_ ;
+über+Pref/über:0über PREF-V_ ;
+überein+Pref/überein:0überein PREF-V_ ;
+
 
 
 ! vim: set ft=xfst-lexc:
