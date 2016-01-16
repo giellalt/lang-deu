@@ -252,32 +252,38 @@ LEXICON Aberglauben__n_m
 +N+Msc+Use/NG: SG-DATe ;
 +N: 0s-SG-CMP-L ;
 
+!! N_MSC_PL-with-umlaut
 LEXICON Abf/all__n_m 
-+N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe/GENes ;
 +N: SG-CMP-L ;
 
 LEXICON Abfl/uss__n_m 
-+N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
 +N+Msc: SG-ACC/DAT/GENes/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
 LEXICON Abfl/uß__n_m
 !-- ß = ss --><!-- ß = ss -->
-+N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
++N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
 +N+Msc: SG-ACC/DAT/GENes/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
+LEXICON Abgr/und__n_m 
++N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N+Msc+Use/NG: SG-DATe/GENes ;
+
 LEXICON Abfolge__n_f 
-+N+Fem: PL-ACCn/DATn/GENn/NOMn ;
++N+Fem:%>n PL-ACC/DAT/GEN/NOM ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
 LEXICON Abfuhr__n_f 
-+N+Fem: PL-ACCen/DATen/GENen/NOMen ;
++N+Fem:%>en PL-ACC/DAT/GEN/NOM ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
@@ -291,11 +297,6 @@ LEXICON Abgas__n_nt
 +N+Neu: SG-ACC/DAT/GENes/NOM ;
 +N+Neu+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
-
-LEXICON Abgr/und__n_m 
-+N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
-+N+Msc: SG-ACC/DAT/GENs/NOM ;
-+N+Msc+Use/NG: SG-DATe/GENes ;
 
 LEXICON Abhilfe__n_f !!= * @CODE@ This was used in Apertium as FEM SG-only
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
@@ -432,8 +433,9 @@ LEXICON Affront__n_m
 +N+Msc: PL-ACCs/DATs/GENs/NOMs ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 
+!! N_F_PL-in-s
 LEXICON Ag__n_f 
-+N+Fem: PL-ACCs/DATs/GENs/NOMs ;
++N+Fem:%>s PL-ACC/DAT/GEN/NOM ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 
 LEXICON Aggregat__n_nt 
@@ -2359,14 +2361,29 @@ LEXICON UFO__n_nt !!= * @CODE@
 +N+Neu:%>S SG-GEN ;
 +N: SG-CMP-L ;
 
+LEXICON Vektor__n_m !!= * @CODE@ Vektor:vektor
++N+Msc:%>en PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
 LEXICON Vir/us__n_nt !!= * @CODE@ Virus:Vir
 +N+Neu:en PL-ACC/DAT/GEN/NOM ;
 +N+Neu:us SG-ACC/DAT/GEN/NOM ;
 
-LEXICON Volum/en__n_nt !!= * @CODE@ Volumen:Volum
+LEXICON Volum/en__n_nt !!= * @CODE@ Volumen:volum
 +N+Neu:ina PL-ACC/DAT/GEN/NOM ;
 +N+Neu:en SG-ACC/DAT/GENs/NOM ;
 +N: SG-CMP-L ;
+
+LEXICON Walr/oss__n_nt !!= * @CODE@ Walross:walross
++N+Neu:%>e PL-ACC/DATn/GEN/NOM ;
++N+Neu:%^Umlaut%>er PL-ACC/DATn/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
+
+LEXICON Xylophon__n_nt !!= * @CODE@ Xylophon:xylophon
++N+Neu:%>e PL-ACC/DATn/GEN/NOM ;
++N+Neu: SG-ACC/DAT/GENs/NOM ;
+
 
 LEXICON Kirmes__n_f !!= * @CODE@ 
 +N+Fem:sen PL-ACC/DAT/GEN/NOM ;

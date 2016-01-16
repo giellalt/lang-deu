@@ -880,6 +880,7 @@ zürnen:zürn W_OHNE-GE ;
 üben:üb W_OHNE-GE ;
 übrigen:übrig W_OHNE-GE ;
 binden:band V_f/inden__vblex ; !i-i-a-ä-u
+kommen:k V_/kommen__vblex ;
 leihen:leih V_bl/eiben__vblex ;
 scheinen:schein V_bl/eiben__vblex ;
 sitzen:s V_s/itzen__vblex ; !i-i-a-ä-e
@@ -887,6 +888,63 @@ steigen:steig V_bl/eiben__vblex ;
 treten:tratt V_tr/eten__vblex ;
 wenden:wand V_s/enden__vblex ; !e-e-a/e-e-a/e
 winnen:wann V_schw/immen__vblex ;
+brechen:brach V_g/eben__vblex ;
+brennen:brann V_k/ennen__vblex ; 
+bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
+dingen:dang V_f/inden__vblex ; !i-i-a-ä/i-i
+enden:ende W ;
+fahren:fahr V_f/ahren__vblex ;
+fallen:fall V_l/assen__vblex ;
+fangen:fang V_f/angen__vblex ;
+finden:fand V_f/inden__vblex ;
+fliegen:flog V_fr/ieren__vblex ;
+geben:gab V_g/eben__vblex ;
+gelten:galt V_g/elten__vblex ; !e-i-a-ä/ö-o
+gehen:g V_g/ehen__vblex ;
+gleichen:gleich V_gl/eichen__vblex ; ! ei-ei-i-i-i
+halten:halt V_h/alten__vblex ;
+helfen:half V_w/erfen__vblex ;
+kennen:kann V_k/ennen__vblex ;
+klingen:klang V_f/inden__vblex ; !i-i-a-ä-u
+kommen:k V_/kommen__vblex ;
+laden:lad V_f/ahren__vblex ;
+lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
+laufen:l V_/laufen__vblex ;
+liegen:lag V_l/iegen__vblex ;
+lingen:lang V_f/inden__vblex ; !i-i-a-ä-u
+melden:melde W ;
+nehmen:n V_/nehmen__vblex ;
+nennen:nann V_k/ennen__vblex ;
+raten:rat V_h/alten__vblex ;
+reißen:reiss V_r/eißen__vblex ;
+ringen:rang V_f/inden__vblex ; !i-i-a-ä-u
+schaffen:schaff W_OHNE-GE ;
+scheiden:scheid V_bl/eiben__vblex ;
+scheinen:schein V_bl/eiben__vblex ;
+schleichen:schleich V_gl/eichen__vblex ;
+schließen:schloss V_sch/ießen__vblex ;
+schreiben:schreib V_bl/eiben__vblex ;
+schwimmen:schwamm V_schw/immen__vblex ;
+sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
+senden:sand V_s/enden__vblex ;
+singen:sang V_f/inden__vblex ; !i-i-a-ä-u
+sinken:sank V_f/inden__vblex ;
+sitzen:s V_s/itzen__vblex ; !i-i-a-ä-e
+sprechen:sprach V_spr/echen__vblex ;
+springen:sprang V_f/inden__vblex ;
+stehen:st V_st/ehen__vblex ;
+stoßen:stoß V_st/oßen__vblex ;
+streichen:streich V_gl/eichen__vblex ;
+tragen:trag V_f/ahren__vblex ;
+treffen:traff V_schr/ecken__vblex ;
+treiben:treib V_bl/eiben__vblex ;
+treten:tratt V_tr/eten__vblex ;
+trinken:trank V_f/inden__vblex ;
+weichen:weich V_gl/eichen__vblex ;
+wenden:wand V_s/enden__vblex ; !e-e-a/e-e-a/e
+werfen:warf V_w/erfen__vblex ;
+ziehen:z V_z/iehen__vblex ;
+zwingen:zwang V_f/inden__vblex ; !i-i-a-ä-u
 
 
 
@@ -962,65 +1020,20 @@ holen:hol W ;
 !2016-01-13A!
 !2016-01-13A!
 !2016-01-13A!LEXICON  BE/ENT/ER/VER/ZER
-brechen:brach V_g/eben__vblex ;
-brennen:brann V_k/ennen__vblex ; 
-bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
 dingen:dang V_f/inden__vblex ; !i-i-a-ä/i-i
-enden:ende W ;
-fahren:fahr V_f/ahren__vblex ;
-fallen:fall V_l/assen__vblex ;
-fangen:fang V_f/angen__vblex ;
-finden:fand V_f/inden__vblex ;
-fliegen:flog V_fr/ieren__vblex ;
-geben:gab V_g/eben__vblex ;
-gelten:galt V_g/elten__vblex ; !e-i-a-ä/ö-o
-gehen:g V_g/ehen__vblex ;
 gleichen:gleich V_gl/eichen__vblex ; ! ei-ei-i-i-i
-halten:halt V_h/alten__vblex ;
-helfen:half V_w/erfen__vblex ;
-kennen:kann V_k/ennen__vblex ;
-kommen:k V_/kommen__vblex ;
-gehen:g V_g/ehen__vblex ;
-halten:halt V_h/alten__vblex ;
 klingen:klang V_f/inden__vblex ; !i-i-a-ä-u
-kommen:k V_/kommen__vblex ;
-laden:lad V_f/ahren__vblex ;
-lassen:lass V_l/assen__vblex ; !a-a-ie-ie-a
-laufen:l V_/laufen__vblex ;
-liegen:lag V_l/iegen__vblex ;
 lingen:lang V_f/inden__vblex ; !i-i-a-ä-u
-melden:melde W ;
-nehmen:n V_/nehmen__vblex ;
-nennen:nann V_k/ennen__vblex ;
-raten:rat V_h/alten__vblex ;
-reißen:reiss V_r/eißen__vblex ;
 ringen:rang V_f/inden__vblex ; !i-i-a-ä-u
 schaffen:schaff W_OHNE-GE ;
 scheiden:scheid V_bl/eiben__vblex ;
 scheinen:schein V_bl/eiben__vblex ;
 schleichen:schleich V_gl/eichen__vblex ;
 schließen:schloss V_sch/ießen__vblex ;
-schreiben:schreib V_bl/eiben__vblex ;
-schwimmen:schwamm V_schw/immen__vblex ;
-sehen:sah V_s/ehen__vblex ; !e-ie-a-ä-e
-senden:sand V_s/enden__vblex ;
 singen:sang V_f/inden__vblex ; !i-i-a-ä-u
-sinken:sank V_f/inden__vblex ;
 sitzen:s V_s/itzen__vblex ; !i-i-a-ä-e
-sprechen:sprach V_spr/echen__vblex ;
-springen:sprang V_f/inden__vblex ;
-stehen:st V_st/ehen__vblex ;
-stoßen:stoß V_st/oßen__vblex ;
-streichen:streich V_gl/eichen__vblex ;
-tragen:trag V_f/ahren__vblex ;
-treffen:traff V_schr/ecken__vblex ;
-treiben:treib V_bl/eiben__vblex ;
-treten:tratt V_tr/eten__vblex ;
 trinken:trank V_f/inden__vblex ;
-weichen:weich V_gl/eichen__vblex ;
 wenden:wand V_s/enden__vblex ; !e-e-a/e-e-a/e
-werfen:warf V_w/erfen__vblex ;
-ziehen:z V_z/iehen__vblex ;
 zwingen:zwang V_f/inden__vblex ; !i-i-a-ä-u
 
 !LEXICON Irregularew
