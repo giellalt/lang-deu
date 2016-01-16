@@ -833,6 +833,25 @@ LEXICON V_s/itzen__vb_01
 +Imprt+Pl2:itz%>et POST-V_01 ;
 
 !!
+LEXICON V_d/enken__vblex !!= * @CODE@ denken:d
++V:acht  Praf ;    ! ge-formen akseptiert.
++V@D.PTC@:0@D.PTC@ V_d/enken__vb_01 ;
++V00@D.PTC@:enk@D.PTC@ Inf ;
+LEXICON V_d/enken__vb_01
+:enk  IND-PRS-SG1 ;
+:enk IND-PRS-SG2 ;
+:enk  IND-PRS-SG3 ;
+:enk IND-PRS-PL1 ;
+:enk  IND-PRS-PL2 ;
+:enk IND-PRS-PL3 ;
+
+:acht IND-PRT ;
+:enk SUBJ-PRS ;
+:acht%^Umlaut SUBJ-PRT ;
++Imprt+Sg2:enk POST-V_01 ;
++Imprt+Pl2:enk%>t POST-V_01 ;
+
+!!
 LEXICON V_bew/egen__vblex !!= * @CODE@ bewegen:bew
 +V:egt  Praf ;    ! ge-formen akseptiert.
 +V@D.PTC@:0@D.PTC@ V_bew/egen__vb_01 ;

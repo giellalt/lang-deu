@@ -86,6 +86,17 @@ LEXICON DEM_der
 LEXICON Indefinite
 man+Pron+Indef+Msc+Sg+Nom:man # ;
 man+Pron+Indef+Fem+Sg+Nom:man # ;
+niemand+Pron+Indef:niemand INDEF_niemand ;
+jemand+Pron+Indef:jemand INDEF_niemand ;
+
+LEXICON INDEF_niemand
++Sg+Acc:%>en # ;
++Sg+Acc: # ;
++Sg+Dat:%>em # ;
++Sg+Dat: # ;
++Sg+Gen:%>s # ;
++Sg+Gen:%>es # ;
++Sg+Nom: # ;
 
 LEXICON Interrogative
 welcher:welch INTERR_welcher ;

@@ -891,6 +891,7 @@ winnen:wann V_schw/immen__vblex ;
 brechen:brach V_g/eben__vblex ;
 brennen:brann V_k/ennen__vblex ; 
 bringen:br V_br/ingen__vblex ; !i-i-a-ä-a
+denken:d V_d/enken__vblex ; !e-e-a-ä-a
 dingen:dang V_f/inden__vblex ; !i-i-a-ä/i-i
 enden:ende W ;
 fahren:fahr V_f/ahren__vblex ;
@@ -1035,6 +1036,7 @@ sitzen:s V_s/itzen__vblex ; !i-i-a-ä-e
 trinken:trank V_f/inden__vblex ;
 wenden:wand V_s/enden__vblex ; !e-e-a/e-e-a/e
 zwingen:zwang V_f/inden__vblex ; !i-i-a-ä-u
+denken:d V_d/enken__vblex ; !e-e-a-ä-a
 
 !LEXICON Irregularew
 
