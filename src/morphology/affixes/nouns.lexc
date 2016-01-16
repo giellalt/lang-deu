@@ -254,26 +254,26 @@ LEXICON Aberglauben__n_m
 
 !! N_MSC_PL-with-umlaut
 LEXICON Abf/all__n_m 
-+N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe/GENes ;
 +N: SG-CMP-L ;
 
 LEXICON Abfl/uss__n_m 
-+N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENes/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
 LEXICON Abfl/uß__n_m
 !-- ß = ss --><!-- ß = ss -->
-+N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENes/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
 LEXICON Abgr/und__n_m 
-+N+Msc:%>%^Umlaut%>e PL-ACC/DATn/GEN/NOM ;
++N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe/GENes ;
 
@@ -1114,27 +1114,19 @@ LEXICON Gl/as__n_nt
 +N+Neu+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
-LEXICON Gr/aben__n_m 
-+N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
-+N+Msc: SG-ACC/DAT/GENs/NOM ;
-+N: SG-CMP-L ;
-
 LEXICON Gr/ab__n_nt 
 +N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Neu+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
-LEXICON Großv/ater__n_m 
-+N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
-+N+Msc: SG-ACC/DAT/GENs/NOM ;
-+N: SG-CMP-L ;
-
+!! N_Neu_PL-in-umlaut-plus-er
 LEXICON G/ut__n_nt 
 +N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Neu: SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Neu+Use/NG: SG-DATe ;
 
+!! N_Msc_PL-in-umlaut-plus-e
 LEXICON H/ahn__n_m 
 +N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
@@ -1144,6 +1136,17 @@ LEXICON H/als__n_m
 +N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENes/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
++N: SG-CMP-L ;
+
+!! N_Msc_PL-in-umlaut
+LEXICON Gr/aben__n_m 
++N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Großv/ater__n_m 
++N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N: SG-CMP-L ;
 
 LEXICON H/ammer__n_m 
@@ -2162,7 +2165,7 @@ LEXICON Kakt/us__n_m !!= * @CODE@ Kaktus:Kakt
 
 LEXICON Kauf/mann__n_m !!= * @CODE@ Kaufmann:Kauf
 +N+Msc:leute PL-ACC/DAT/GEN/NOM ;
-+N+Msc:mann%^Umlaut%>er PL-ACC/DATn/GEN/NOM ;
++N+Msc:mann PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Msc:mann SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Msc+Use/NG:mann SG-DATe ;
 
@@ -2246,7 +2249,7 @@ LEXICON Mark__n_f !!= * @CODE@
 !-- FIXME split meanings -->
 +N+Fem: PL-ACC/DAT/GEN/NOM ;
 +N+Fem:en PL-ACC/DAT/GEN/NOM ;
-+N+Fem+Use/NG:%^Umlaut%>er PL-ACC/DATn/GEN/NOM ; !scherzhaft
++N+Fem+Use/NG: PL-ACCQer/DATQern/GENQer/NOMQer ; !scherzhaft
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 
 LEXICON Matri/x__n_f !!= * @CODE@ Matrix:Matri
@@ -2349,10 +2352,10 @@ LEXICON Städteatla/s__n_m !!= * @CODE@ Städteatlas:Städteatla
 LEXICON Tr/opf__n_m !!= * @CODE@ 
 !-- FIXME -->
 +N+Msc:en PL-ACC/DAT/GEN/NOM ;
-+N+Msc:%^Umlaut%>en PL-ACC/DAT/GEN/NOM ;
++N+Msc: PL-ACCQen/DATQen/GENQen/NOMQen ;
 +N+Msc: SG-ACCen/DATen/GENen/NOM ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
-+N+Msc+Use/NG:%^Umlaut%>e PL-ACC/DAT/GEN/NOM ;
++N+Msc+Use/NG: PL-ACCQe/DATQe/GENQe/NOMQe ;
 +N: SG-CMP-L ;
 
 LEXICON UFO__n_nt !!= * @CODE@ 
@@ -2376,7 +2379,7 @@ LEXICON Volum/en__n_nt !!= * @CODE@ Volumen:volum
 
 LEXICON Walr/oss__n_nt !!= * @CODE@ Walross:walross
 +N+Neu:%>e PL-ACC/DATn/GEN/NOM ;
-+N+Neu:%^Umlaut%>er PL-ACC/DATn/GEN/NOM ;
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Neu: SG-ACC/DAT/GENes/NOM ;
 +N+Neu+Use/NG: SG-DATe ;
 
