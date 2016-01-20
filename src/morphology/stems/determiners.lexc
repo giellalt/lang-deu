@@ -195,7 +195,7 @@ LEXICON DET_ein__det
 +Det+Indef+Msc+Sg+Gen:%>es # ;
 +Det+Indef+Msc+Sg+Nom:%> # ;
 
-+Det+Indef+Neu+Sg+Acc+Sw:%> # ;
++Det+Indef+Neu+Sg+Acc:%> # ;
 +Det+Indef+Neu+Sg+Dat:%>em # ;
 +Det+Indef+Neu+Sg+Gen:%>es # ;
 +Det+Indef+Neu+Sg+Nom:%> # ;
@@ -214,7 +214,7 @@ LEXICON DET_dein__det_01
 +Msc+Sg+Gen:%>es # ;
 +Msc+Sg+Nom:%> # ;
 
-+Neu+Sg+Acc+Sw:%> # ;
++Neu+Sg+Acc:%> # ;
 +Neu+Sg+Dat:%>em # ;
 +Neu+Sg+Gen:%>es # ;
 +Neu+Sg+Nom:%> # ;
