@@ -216,11 +216,11 @@ LEXICON Aal__n_m
 +N+Msc+Use/NG: SG-DATe/GENes ;
 +N: SG-CMP-L ;
 
-LEXICON /Aas__n_m 
-+N+Msc: PL-ACCe/DATen/GENe/NOMe ;
-+N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
-+N+Msc: SG-ACC/DAT/GENes/NOM ;
-+N+Msc+Use/NG: SG-DATe ;
+LEXICON /Aas__n_nt 
++N+Neu: PL-ACCe/DATen/GENe/NOMe ;
++N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
++N+Neu: SG-ACC/DAT/GENes/NOM ;
++N+Neu+Use/NG: SG-DATe ;
 +N: SG-CMP-L ;
 
 LEXICON Abc__n_nt 
@@ -2510,7 +2510,7 @@ LEXICON SG-ACC/DAT/GENes/GEN/NOM
  SG-GENes ;
 
 LEXICON SG-ACC/DAT/GENes/GENs/NOM 
-+Sg: SG-ACC/DAT/NOM ;
+ SG-ACC/DAT/NOM ;
 SG-GENes/GENs ;
 
 LEXICON SG-ACC/DAT/GENes/NOM 
