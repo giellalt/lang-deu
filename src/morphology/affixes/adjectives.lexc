@@ -6,31 +6,7 @@ LEXICON A_zweite__adj_ord
 +A+Ord: A_zweite_adj_ord-positive ;
 
 LEXICON A_zweite_adj_ord-positive
-+Msc+Sg+Acc+Indef+NoArt:%>n # ;!
-+Msc+Sg+Acc+Def:%>n # ;!
-+Msc+Sg+Acc+Indef:%>n # ;!
-+Msc+Sg+Dat+Indef+NoArt:%>m # ;!st
-+Msc+Sg+Dat+Def:%>n # ;!sw
-+Msc+Sg+Dat+Indef:%>n # ;!mix
-+Msc+Sg+Gen+Indef+NoArt:%>n # ;!
-+Msc+Sg+Gen+Def:%>n # ;!
-+Msc+Sg+Gen+Indef:%>n # ;!
-+Msc+Sg+Nom+Indef+NoArt:%>r # ;!st
-+Msc+Sg+Nom+Def:%> # ;!sw
-+Msc+Sg+Nom+Indef:%>r # ;!mix
-
-+Msc+Pl+Acc+Indef+NoArt:%> # ;!st
-+Msc+Pl+Acc+Def:%>n # ;!sw
-+Msc+Pl+Acc+Indef:%>n # ;!mix
-+Msc+Pl+Dat+Indef+NoArt:%>n # ;!
-+Msc+Pl+Dat+Def:%>n # ;!
-+Msc+Pl+Dat+Indef:%>n # ;!
-+Msc+Pl+Gen+Indef+NoArt:%>r # ;!st
-+Msc+Pl+Gen+Def:%>n # ;!sw
-+Msc+Pl+Gen+Indef:%>n # ;!mix
-+Msc+Pl+Nom+Indef+NoArt:%> # ;!st
-+Msc+Pl+Nom+Def:%>n # ;!sw
-+Msc+Pl+Nom+Indef:%>n # ;!mix
+MSC-PRFPRC_BEAMTER ; !!= * @CODE@ Beamter:beamte
 
 +Neu+Sg+Acc+Indef+NoArt:%>s # ;!st
 +Neu+Sg+Acc+Def:%> # ;!sw
@@ -58,6 +34,38 @@ LEXICON A_zweite_adj_ord-positive
 +Neu+Pl+Nom+Def:%>n # ;!sw
 +Neu+Pl+Nom+Indef:%>n # ;!mix
 
+FEM-PRFPRC_ANGESTELLTE ; !!= * @CODE@ see also Angestellte__n_f
+
++Attr: # ;
++Pred: # ;
+
+LEXICON MSC-PRFPRC_BEAMTER
++Msc+Sg+Acc+Indef+NoArt:%>n # ;!
++Msc+Sg+Acc+Def:%>n # ;!
++Msc+Sg+Acc+Indef:%>n # ;!
++Msc+Sg+Dat+Indef+NoArt:%>m # ;!st
++Msc+Sg+Dat+Def:%>n # ;!sw
++Msc+Sg+Dat+Indef:%>n # ;!mix
++Msc+Sg+Gen+Indef+NoArt:%>n # ;!
++Msc+Sg+Gen+Def:%>n # ;!
++Msc+Sg+Gen+Indef:%>n # ;!
++Msc+Sg+Nom+Indef+NoArt:%>r # ;!st
++Msc+Sg+Nom+Def:%> # ;!sw
++Msc+Sg+Nom+Indef:%>r # ;!mix
++Msc+Pl+Acc+Indef+NoArt:%> # ;!st
++Msc+Pl+Acc+Def:%>n # ;!sw
++Msc+Pl+Acc+Indef:%>n # ;!mix
++Msc+Pl+Dat+Indef+NoArt:%>n # ;!
++Msc+Pl+Dat+Def:%>n # ;!
++Msc+Pl+Dat+Indef:%>n # ;!
++Msc+Pl+Gen+Indef+NoArt:%>r # ;!st
++Msc+Pl+Gen+Def:%>n # ;!sw
++Msc+Pl+Gen+Indef:%>n # ;!mix
++Msc+Pl+Nom+Indef+NoArt:%> # ;!st
++Msc+Pl+Nom+Def:%>n # ;!sw
++Msc+Pl+Nom+Indef:%>n # ;!mix
+
+LEXICON FEM-PRFPRC_ANGESTELLTE
 +Fem+Sg+Acc+Indef+NoArt:%> # ;!
 +Fem+Sg+Acc+Def:%> # ;!
 +Fem+Sg+Acc+Indef:%> # ;!
@@ -83,9 +91,6 @@ LEXICON A_zweite_adj_ord-positive
 +Fem+Pl+Nom+Indef+NoArt:%> # ;!st
 +Fem+Pl+Nom+Def:%>n # ;!sw
 +Fem+Pl+Nom+Indef:%>n # ;!mix
-+Attr: # ;
-+Pred: # ;
-
 
 
 LEXICON A_nipt__adj
