@@ -282,7 +282,20 @@ LEXICON Abfolge__n_f
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
+LEXICON AbfuhrSG__n_f
+!! These nouns were previously given a dummy Abhilfe__n_f to indicate
+!! they tended to be singular -heit, -keit
+Abfuhr__n_f ;
+
 LEXICON Abfuhr__n_f 
++N+Fem:%>en PL-ACC/DAT/GEN/NOM ;
++N+Fem: SG-ACC/DAT/GEN/NOM ;
++N: SG-CMP-L ;
+
+LEXICON Milch__n_f
+!! This new
+!! also in SG Abhilfe__n_f
++N+Fem:%>e PL-ACC/DATn/GEN/NOM ;
 +N+Fem:%>en PL-ACC/DAT/GEN/NOM ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
@@ -315,6 +328,11 @@ LEXICON Abiturient__n_m
 +N+Msc: PL-ACCen/DATen/GENen/NOMen ;
 +N+Msc: SG-ACCen/DATen/GENen/NOM ;
 +N: 0en-PL-CMP-L ;
+
+LEXICON Felsen__n_m
++N+Msc: PL-ACC/DAT/GEN/NOM ;
++N+Msc: SG-ACC/DAT/GENs/NOM ;
++N: SG-CMP-L ;
 
 LEXICON Abkommen__n_nt 
 +N+Neu: PL-ACC/DAT/GEN/NOM ;
@@ -629,6 +647,13 @@ LEXICON B/ausch__n_m
 +N+Msc: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Beamte/r__n_m !!= * @CODE@ Beamter:beamte
++N: MSC-PRFPRC_BEAMTER ;
+
+LEXICON Angestellte__n_f
++N: FEM-PRFPRC_ANGESTELLTE ;
+
 
 LEXICON Bedrängnis__n_f 
 +N+Fem: PL-ACCse/DATsen/GENse/NOMse ;
@@ -1154,6 +1179,11 @@ LEXICON H/ammer__n_m
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
 +N: SG-CMP-L ;
 
+LEXICON Warenh/andel__n_m
+!! Let's check this out
+!! Is this just H/andelSG__n_m
++N+Msc: SG-ACC/DAT/GENs/NOM ;
+
 LEXICON H/andel__n_m 
 +N+Msc: PL-ACCQ/DATQn/GENQ/NOMQ ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
@@ -1241,6 +1271,10 @@ LEXICON Irrt/um__n_m
 +N+Msc: PL-ACCQer/DATQern/GENQer/NOMQer ;
 +N+Msc: SG-ACC/DAT/GENes/GENs/NOM ;
 +N+Msc+Use/NG: SG-DATe ;
+
+LEXICON Jahresgeh/alt__n_nt
+!! the same as K/alb__n_nt
+K/alb__n_nt ;
 
 LEXICON K/alb__n_nt 
 +N+Neu: PL-ACCQer/DATQern/GENQer/NOMQer ;
@@ -1349,6 +1383,9 @@ LEXICON Kr/aut__n_nt
 +N+Neu+Use/NG: SG-DATe/GENes ;
 +N: SG-CMP-L ;
 
+LEXICON B/ank__n_f
+!! same as K/uh__n_f
+K/uh__n_f ;
 LEXICON K/uh__n_f 
 +N+Fem: PL-ACCQe/DATQen/GENQe/NOMQe ;
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
@@ -1505,6 +1542,11 @@ LEXICON N/uß__n_f
 +N+Fem: SG-ACC/DAT/GEN/NOM ;
 +N: SG-CMP-L ;
 
+LEXICON Neon__n_nt
++N+Neu: SG-ACC/DAT/GEN/NOM ;
++N+Neu+Sg:%>e DAT ;
++N: SG-CMP-L ;
+
 LEXICON /Ofen__n_m 
 +N+Msc: PL-ACCQ/DATQ/GENQ/NOMQ ;
 +N+Msc: SG-ACC/DAT/GENs/NOM ;
@@ -1581,6 +1623,7 @@ LEXICON Ren__n_nt
 
 LEXICON Ren__n_m 
 +N+Msc: PL-ACCes/DATes/GENes/NOMes ;
+!! THis needs some tending to
 
 LEXICON R/ock__n_m 
 +N+Msc: PL-ACCs/DATs/GENs/NOMs ;
