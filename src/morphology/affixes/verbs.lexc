@@ -70,6 +70,7 @@ LEXICON Inf
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
 +PrsPrc+Pos00@D.SUP@:%>end@D.SUP@ A_abenteuerlich__adj-positive ;
++Der/ung00@U.Cap.Obl@:ung@U.Cap.Obl@ Abfuhr__n_f ;
 
 LEXICON Inf_ACKERN
 +Inf:%>n POST-V_01 ;
