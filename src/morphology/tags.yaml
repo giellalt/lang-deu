@@ -1,0 +1,174 @@
+!!python/object/apply:collections.defaultdict
+args:
+- !!python/name:__builtin__.set ''
+dictitems:
+  Hom: !!set
+    !!python/unicode 'Hom1': null
+    !!python/unicode 'Hom2': null
+  Pref: !!set
+    !!python/unicode 'Pref/ab': null
+    !!python/unicode 'Pref/abhande': null
+    !!python/unicode 'Pref/an': null
+    !!python/unicode 'Pref/auf': null
+    !!python/unicode 'Pref/aus': null
+    !!python/unicode 'Pref/auseinander': null
+    !!python/unicode 'Pref/bei': null
+    !!python/unicode 'Pref/dabei': null
+    !!python/unicode 'Pref/daher': null
+    !!python/unicode 'Pref/dahin': null
+    !!python/unicode 'Pref/daneben': null
+    !!python/unicode 'Pref/dar': null
+    !!python/unicode 'Pref/daran': null
+    !!python/unicode 'Pref/darauf': null
+    !!python/unicode 'Pref/davon': null
+    !!python/unicode 'Pref/dazwischen': null
+    !!python/unicode 'Pref/drauf': null
+    !!python/unicode 'Pref/durch': null
+    !!python/unicode 'Pref/durcheinander': null
+    !!python/unicode 'Pref/ein': null
+    !!python/unicode 'Pref/einher': null
+    !!python/unicode 'Pref/empor': null
+    !!python/unicode 'Pref/entgegen': null
+    !!python/unicode 'Pref/entlang': null
+    !!python/unicode 'Pref/entzwei': null
+    !!python/unicode 'Pref/fehl': null
+    !!python/unicode 'Pref/fertig': null
+    !!python/unicode 'Pref/fort': null
+    !!python/unicode 'Pref/fremd': null
+    !!python/unicode 'Pref/gut': null
+    !!python/unicode 'Pref/heim': null
+    !!python/unicode 'Pref/her': null
+    !!python/unicode 'Pref/herab': null
+    !!python/unicode 'Pref/heran': null
+    !!python/unicode 'Pref/herauf': null
+    !!python/unicode 'Pref/heraus': null
+    !!python/unicode 'Pref/herbei': null
+    !!python/unicode 'Pref/herein': null
+    !!python/unicode 'Pref/hernieder': null
+    !!python/unicode 'Pref/herum': null
+    !!python/unicode 'Pref/herunter': null
+    !!python/unicode 'Pref/hervor': null
+    !!python/unicode 'Pref/herzu': null
+    "Pref/her\xFCber": null
+    !!python/unicode 'Pref/hin': null
+    !!python/unicode 'Pref/hinab': null
+    !!python/unicode 'Pref/hinan': null
+    !!python/unicode 'Pref/hinauf': null
+    !!python/unicode 'Pref/hinaus': null
+    !!python/unicode 'Pref/hinein': null
+    !!python/unicode 'Pref/hinfort': null
+    !!python/unicode 'Pref/hinter': null
+    !!python/unicode 'Pref/hinunter': null
+    !!python/unicode 'Pref/hinweg': null
+    !!python/unicode 'Pref/hinzu': null
+    "Pref/hin\xFCber": null
+    !!python/unicode 'Pref/hoch': null
+    !!python/unicode 'Pref/irr': null
+    !!python/unicode 'Pref/kaputt': null
+    !!python/unicode 'Pref/klar': null
+    !!python/unicode 'Pref/lang': null
+    !!python/unicode 'Pref/los': null
+    "Pref/l\xE4ngs": null
+    !!python/unicode 'Pref/mit': null
+    !!python/unicode 'Pref/nach': null
+    !!python/unicode 'Pref/nahe': null
+    !!python/unicode 'Pref/nieder': null
+    "Pref/n\xE4her": null
+    !!python/unicode 'Pref/ran': null
+    !!python/unicode 'Pref/rauf': null
+    !!python/unicode 'Pref/raus': null
+    !!python/unicode 'Pref/rein': null
+    !!python/unicode 'Pref/rum': null
+    !!python/unicode 'Pref/runter': null
+    "Pref/r\xFCber": null
+    !!python/unicode 'Pref/schief': null
+    !!python/unicode 'Pref/tot': null
+    !!python/unicode 'Pref/um': null
+    !!python/unicode 'Pref/unter': null
+    !!python/unicode 'Pref/voll': null
+    !!python/unicode 'Pref/vonstatten': null
+    !!python/unicode 'Pref/vor': null
+    !!python/unicode 'Pref/voran': null
+    !!python/unicode 'Pref/voraus': null
+    !!python/unicode 'Pref/vorbei': null
+    "Pref/vorw\xE4rts": null
+    "Pref/vor\xFCber": null
+    !!python/unicode 'Pref/weg': null
+    !!python/unicode 'Pref/weiter': null
+    !!python/unicode 'Pref/wieder': null
+    !!python/unicode 'Pref/zu': null
+    !!python/unicode 'Pref/zugrunde': null
+    !!python/unicode 'Pref/zurecht': null
+    "Pref/zur\xFCck": null
+    !!python/unicode 'Pref/zusammen': null
+    !!python/unicode 'Pref/zustande': null
+    !!python/unicode 'Pref/zuvor': null
+    "Pref/\xFCber": null
+    "Pref/\xFCberein": null
+  Sem: !!set
+    !!python/unicode 'Sem/Ant_Fem': null
+    !!python/unicode 'Sem/Ant_Mal': null
+    !!python/unicode 'Sem/Dummy': null
+    !!python/unicode 'Sem/Obj': null
+    !!python/unicode 'Sem/Org': null
+    !!python/unicode 'Sem/Plc': null
+  Use: !!set
+    !!python/unicode 'Use/Circ': null
+  resten: !!set
+    ? !!python/unicode ''
+    : null
+    !!python/unicode '/-': null
+    !!python/unicode 'A': null
+    !!python/unicode 'ABBR': null
+    !!python/unicode 'Acc': null
+    !!python/unicode 'Adv': null
+    !!python/unicode 'CC': null
+    !!python/unicode 'CLB': null
+    !!python/unicode 'CS': null
+    !!python/unicode 'Dat': null
+    !!python/unicode 'Def': null
+    !!python/unicode 'Dem': null
+    !!python/unicode 'Det': null
+    !!python/unicode 'Fem': null
+    !!python/unicode 'Gen': null
+    !!python/unicode 'Imprt': null
+    !!python/unicode 'Ind': null
+    !!python/unicode 'Indef': null
+    !!python/unicode 'Inf00': null
+    !!python/unicode 'Interj': null
+    !!python/unicode 'Interr': null
+    !!python/unicode 'LEFT': null
+    !!python/unicode 'Msc': null
+    !!python/unicode 'N': null
+    !!python/unicode 'Neu': null
+    !!python/unicode 'Nom': null
+    !!python/unicode 'Num': null
+    !!python/unicode 'Ord': null
+    !!python/unicode 'PUNCT': null
+    !!python/unicode 'Pers': null
+    !!python/unicode 'Pl': null
+    !!python/unicode 'Pl1': null
+    !!python/unicode 'Pl2': null
+    !!python/unicode 'Pl3': null
+    !!python/unicode 'Pos': null
+    !!python/unicode 'Pr': null
+    !!python/unicode 'Prf': null
+    !!python/unicode 'Pron': null
+    !!python/unicode 'Prs': null
+    !!python/unicode 'PrsPrc': null
+    !!python/unicode 'PxPl1': null
+    !!python/unicode 'PxPl2': null
+    !!python/unicode 'PxPl3': null
+    !!python/unicode 'PxSg1': null
+    !!python/unicode 'PxSg2': null
+    !!python/unicode 'PxSg3': null
+    !!python/unicode 'Qnt': null
+    !!python/unicode 'RIGHT': null
+    !!python/unicode 'Refl': null
+    !!python/unicode 'Rel': null
+    !!python/unicode 'SP2': null
+    !!python/unicode 'Sg': null
+    !!python/unicode 'Sg1': null
+    !!python/unicode 'Sg2': null
+    !!python/unicode 'Sg3': null
+    !!python/unicode 'V': null
