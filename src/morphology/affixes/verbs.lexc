@@ -7,11 +7,11 @@
 ! Schwache Verben
 ! ===============
 
-LEXICON W_OHNE-GE
+LEXICON W_OHNE_GE
 +V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
 +V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
-LEXICON W_OHNE-GE_ACKERN
+LEXICON W_OHNE_GE_ACKERN
 +V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
 +V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
 
