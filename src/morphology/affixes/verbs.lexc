@@ -8,20 +8,20 @@
 ! ===============
 
 LEXICON W_OHNE_GE
-+V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
-+V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
+@D.PTC@+V:@D.PTC@%>t  Praf ;    ! keine ge-formen akseptiert.
 
 LEXICON W_OHNE_GE_ACKERN
-+V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
-+V0@D.PTC@:%>t@D.PTC@  Praf ;    ! keine ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
+@D.PTC@+V:@D.PTC@%>t  Praf ;    ! keine ge-formen akseptiert.
 
 LEXICON W
-+V@D.PTC@:0@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
-+V0@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@         KeinPraf ;    ! Alle ge- formen wegnehmen.
+@R.PTC.ON@+V:@R.PTC.ON@%>t  Praf ;    ! ge-formen akseptiert.
 
 LEXICON W_ACKERN
-+V@D.PTC@:0@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
-+V0@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@         KeinPraf_ACKERN ;    ! Alle ge- formen wegnehmen.
+@R.PTC.ON@+V:@R.PTC.ON@%>t  Praf ;    ! ge-formen akseptiert.
 
 
 
@@ -46,8 +46,8 @@ LEXICON PRAF_01
 LEXICON Praf_ST
  PRAF_ST_01 ;
 LEXICON PRAF_ST_01
-+Prf@R.PTC.ON@:0@R.PTC.ON@     POST-V_01 ;
-+Prf@R.PTC.OFF@:0@R.PTC.OFF@     POST-V_01 ;
+@R.PTC.ON@+Prf:@R.PTC.ON@     POST-V_01 ;
+@R.PTC.OFF@+Prf:@R.PTC.OFF@     POST-V_01 ;
 !!A_abendfüllend__adj ;
 +PrfPrc+Pos: A_abenteuerlich__adj-positive ;
 +PrfPrc:  A_abenteuerlich__adj-comp ;
@@ -69,8 +69,8 @@ LEXICON Inf
 +PrsPrc:%>end POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrc+Pos00@D.SUP@:%>end@D.SUP@ A_abenteuerlich__adj-positive ;
-+Der/ung00@U.Cap.Obl@:ung@U.Cap.Obl@ Abfuhr__n_f ;
+@D.SUP@+PrsPrc+Pos:@D.SUP@%>end A_abenteuerlich__adj-positive ;
+@U.Cap.Obl@+Der/ung:@U.Cap.Obl@ung Abfuhr__n_f ;
 
 LEXICON Inf_ACKERN
 +Inf:%>n POST-V_01 ;
@@ -78,7 +78,7 @@ LEXICON Inf_ACKERN
 +PrsPrc:%>nd POST-V_01 ;
 !!A_abendfüllend__adj
 !! CHECKME, should there be +Comp and +Superl
-+PrsPrc+Pos0@D.SUP@:%>nd@D.SUP@ A_abenteuerlich__adj-positive ;
+@D.SUP@+PrsPrc+Pos:@D.SUP@%>nd A_abenteuerlich__adj-positive ;
 
 LEXICON Sup
 @R.SUP.ON@ POST-V_02 ;
@@ -169,9 +169,9 @@ LEXICON SUBJ-PRS_ACKERN
 ! ===============
 
 LEXICON V_haben__vbhaver !!= * @CODE@ haben:ha
-+V00@R.PTC.ON@:b%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_haben__vbhaver_01 ;
-+V@D.PTC@:b@D.PTC@ Inf ;
+@R.PTC.ON@+V:@R.PTC.ON@b%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@ V_haben__vbhaver_01 ;
+@D.PTC@+V:@D.PTC@b Inf ;
 LEXICON V_haben__vbhaver_01
 +Ind+Prs+Sg1:b%>e  POST-V_01 ;
 IND-PRS-SG2 ;
@@ -188,9 +188,9 @@ IND-PRS-SG3 ;
 +Imprt+Pl2:b%>t POST-V_01 ;
 
 LEXICON V_/müssen__vbmod !!= * @CODE@ müssen:muss
-+V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/müssen__vb_01 ;
-+V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+@R.PTC.ON@+V+Mod:@R.PTC.ON@%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Mod:@D.PTC@ V_/müssen__vb_01 ;
+@D.PTC@+V+Mod:@D.PTC@%^Umlaut Inf ;
 LEXICON V_/müssen__vb_01
 +Ind+Prs+Sg1:  POST-V_01 ;
 IND-PRS-SG2 ;
@@ -204,9 +204,9 @@ IND-PRS-SG2 ;
 :%^Umlaut SUBJ-PRT ;
 
 LEXICON V_/dürfen__vbmod !!= * @CODE@ dürfen:darf
-+V+Mod@R.PTC.ON@:%^A2U%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/dürfen__vb_01 ;
-+V+Mod@D.PTC@:%^A2Ü0@D.PTC@ Inf ;
+@R.PTC.ON@+V+Mod:@R.PTC.ON@%^A2U%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Mod:@D.PTC@ V_/dürfen__vb_01 ;
+@D.PTC@+V+Mod:@D.PTC@%^A2Ü Inf ;
 LEXICON V_/dürfen__vb_01
 +Ind+Prs+Sg1:  POST-V_01 ;
 IND-PRS-SG2 ;
@@ -220,9 +220,9 @@ IND-PRS-SG2 ;
 :%^A2Ü SUBJ-PRT ;
 
 LEXICON V_/können__vbmod !!= * @CODE@ können:konn
-+V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/können__vb_01 ;
-+V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+@R.PTC.ON@+V+Mod:@R.PTC.ON@%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Mod:@D.PTC@ V_/können__vb_01 ;
+@D.PTC@+V+Mod:@D.PTC@%^Umlaut Inf ;
 LEXICON V_/können__vb_01
 +Ind+Prs+Sg1:%^LowerVow  POST-V_01 ;
 +Ind+Prs+Sg2:%^LowerVow%>st POST-V_01 ;
@@ -236,9 +236,9 @@ LEXICON V_/können__vb_01
 :%^Umlaut SUBJ-PRT ;
 
 LEXICON V_/mögen__vbmod !!= * @CODE@ mögen:mog
-+V+Mod@R.PTC.ON@:%^DeV%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/mögen__vb_01 ;
-+V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+@R.PTC.ON@+V+Mod:@R.PTC.ON@%^DeV%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Mod:@D.PTC@ V_/mögen__vb_01 ;
+@D.PTC@+V+Mod:@D.PTC@%^Umlaut Inf ;
 LEXICON V_/mögen__vb_01
 +Ind+Prs+Sg1:%^LowerVow  POST-V_01 ;
 +Ind+Prs+Sg2:%^LowerVow%>st POST-V_01 ;
@@ -252,9 +252,9 @@ LEXICON V_/mögen__vb_01
 :%^Umlaut%^DeV SUBJ-PRT ;
 
 LEXICON V_/sollen__vbmod !!= * @CODE@ sollen:soll
-+V+Mod@R.PTC.ON@:%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Mod@D.PTC@:00@D.PTC@ V_/sollen__vb_01 ;
-+V+Mod@D.PTC@:%^Umlaut0@D.PTC@ Inf ;
+@R.PTC.ON@+V+Mod:@R.PTC.ON@%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Mod:@D.PTC@ V_/sollen__vb_01 ;
+@D.PTC@+V+Mod:@D.PTC@%^Umlaut Inf ;
 LEXICON V_/sollen__vb_01
 +Ind+Prs+Sg1:  POST-V_01 ;
 IND-PRS-SG2 ;
@@ -269,9 +269,9 @@ IND-PRS-PL3 ;
 
 
 LEXICON V_/werden__vaux !!= * @CODE@ werden:w
-+V+Aux@D.PTC@:orden@D.PTC@  Praf_ST ;    ! ge-formen nicht akseptiert.
-+V+Aux@D.PTC@:00@D.PTC@ V_/werden__vaux_01 ;
-+V+Aux0@D.PTC@:erd@D.PTC@ Inf ;
+@D.PTC@+V+Aux:@D.PTC@orden  Praf_ST ;    ! ge-formen nicht akseptiert.
+@D.PTC@+V+Aux:@D.PTC@ V_/werden__vaux_01 ;
+@D.PTC@+V+Aux:@D.PTC@erd Inf ;
 LEXICON V_/werden__vaux_01
 +Ind+Prs+Sg1:erde  POST-V_01 ;
 +Ind+Prs+Sg2:ir%>st POST-V_01 ;
@@ -285,9 +285,9 @@ LEXICON V_/werden__vaux_01
 :urd%^Umlaut SUBJ-PRT ;
 
 LEXICON V_/wollen__vaux !!= * @CODE@ wollen:w
-+V+Aux@R.PTC.ON@:oll%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V+Aux@D.PTC@:00@D.PTC@ V_/wollen__vaux_01 ;
-+V+Aux0@D.PTC@:oll@D.PTC@ Inf ;
+@R.PTC.ON@+V+Aux:@R.PTC.ON@oll%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V+Aux:@D.PTC@ V_/wollen__vaux_01 ;
+@D.PTC@+V+Aux:@D.PTC@oll Inf ;
 LEXICON V_/wollen__vaux_01
 +Ind+Prs+Sg1:ill  POST-V_01 ;
 +Ind+Prs+Sg2:ill%>st POST-V_01 ;
@@ -303,9 +303,9 @@ LEXICON V_/wollen__vaux_01
 
 
 LEXICON V_/werden__vblex !!= * @CODE@ werden:w
-+V@R.PTC.ON@:orden@R.PTC.ON@  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:00@D.PTC@ V_/werden__vb_01 ;
-+V0@D.PTC@:erd@D.PTC@ Inf ;
+@R.PTC.ON@+V:@R.PTC.ON@orden  Praf_ST ;    ! ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@ V_/werden__vb_01 ;
+@D.PTC@+V:@D.PTC@erd Inf ;
 LEXICON V_/werden__vb_01
 +Ind+Prs+Sg1:erde  POST-V_01 ;
 +Ind+Prs+Sg2:ir%>st POST-V_01 ;
@@ -322,8 +322,8 @@ LEXICON V_/werden__vb_01
 
 LEXICON V_/kommen__vblex !!= * @CODE@ kommen:k
 +V:ommen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/kommen__vb_01 ;
-+V000@D.PTC@:omm@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_/kommen__vb_01 ;
+@D.PTC@+V:@D.PTC@omm Inf ;
 LEXICON V_/kommen__vb_01
 +Ind+Prs+Sg1:omme  POST-V_01 ;
 +Ind+Prs+Sg2:omm%>st POST-V_01 ;
@@ -341,8 +341,8 @@ LEXICON V_/kommen__vb_01
 !!
 LEXICON V_g/eben__vblex !!= * @CODE@ geben:gab
 +V:%^A2E%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_g/eben__vb_01 ;
-+V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_g/eben__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_g/eben__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -360,8 +360,8 @@ LEXICON V_g/eben__vb_01
 !!
 LEXICON V_spr/echen__vblex !!= * @CODE@ geben:gab
 +V:%^A2O%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_spr/echen__vb_01 ;
-+V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_spr/echen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_spr/echen__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -379,8 +379,8 @@ LEXICON V_spr/echen__vb_01
 !!
 LEXICON V_g/elten__vblex !!= * @CODE@ gelten:galt
 +V:%^A2O%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_g/elten__vb_01 ;
-+V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_g/elten__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_g/elten__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -399,8 +399,8 @@ LEXICON V_g/elten__vb_01
 !!
 LEXICON V_tr/eten__vblex !!= * @CODE@ treten:tratt
 +V:%^A2E%^CC2C%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_tr/eten__vb_01 ;
-+V000@D.PTC@:%^A2E%^CC2C@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_tr/eten__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E%^CC2C Inf ;
 LEXICON V_tr/eten__vb_01
 :%^A2E%^CC2C  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -417,8 +417,8 @@ LEXICON V_tr/eten__vb_01
 
 LEXICON V_g/ehen__vblex !!= * @CODE@ gehen:g
 +V:angen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_g/ehen__vb_01 ;
-+V000@D.PTC@:eh@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_g/ehen__vb_01 ;
+@D.PTC@+V:@D.PTC@eh Inf ;
 LEXICON V_g/ehen__vb_01
 +Ind+Prs+Sg1:eh%>e  POST-V_01 ;
 +Ind+Prs+Sg2:eh%>st POST-V_01 ;
@@ -435,8 +435,8 @@ LEXICON V_g/ehen__vb_01
 
 LEXICON V_st/ehen__vblex !!= * @CODE@ stehen:st
 +V:anden  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_st/ehen__vb_01 ;
-+V000@D.PTC@:eh@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_st/ehen__vb_01 ;
+@D.PTC@+V:@D.PTC@eh Inf ;
 LEXICON V_st/ehen__vb_01
 :eh  IND-PRS-SG1 ;
 :eh IND-PRS-SG2 ;
@@ -454,8 +454,8 @@ LEXICON V_st/ehen__vb_01
 !!
 LEXICON V_s/ehen__vblex !!= * @CODE@ sehen:sah
 +V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_s/ehen__vb_01 ;
-+V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_s/ehen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_s/ehen__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2IE IND-PRS-SG2 ;
@@ -472,8 +472,8 @@ LEXICON V_s/ehen__vb_01
 !!
 LEXICON V_schr/ecken__vblex !!= * @CODE@ schrecken:schrack
 +V:%^A2Een  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_schr/ecken__vb_01 ;
-+V000@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_schr/ecken__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_schr/ecken__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -491,8 +491,8 @@ LEXICON V_schr/ecken__vb_01
 !!
 LEXICON V_w/erfen__vblex !!= * @CODE@ werfen:warf
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_w/erfen__vb_01 ;
-+V@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_w/erfen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_w/erfen__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -509,8 +509,8 @@ LEXICON V_w/erfen__vb_01
 !!
 LEXICON V_b/ersten__vblex !!= * @CODE@ bersten:barst
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_b/ersten__vb_01 ;
-+V@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_b/ersten__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_b/ersten__vb_01
 :%^A2E  IND-PRS-SG1 ;
 +Ind+Prs+Sg2:%^A2I POST-V_01 ; !! birst
@@ -527,8 +527,8 @@ LEXICON V_b/ersten__vb_01
 !!
 LEXICON V_k/ennen__vblex !!= * @CODE@ kennen:kann
 +V:%>t  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_k/ennen__vb_01 ;
-+V@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_k/ennen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_k/ennen__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2E IND-PRS-SG2 ;
@@ -546,8 +546,8 @@ LEXICON V_k/ennen__vb_01
 LEXICON V_s/enden__vblex !!= * @CODE@ senden:sand
 +V:%>t  Praf ;    ! ge-formen akseptiert.
 +V:%^A2E%>et  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:%^A2E@D.PTC@ V_s/enden__vb_01 ;
-+V@D.PTC@:%^A2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@%^A2E V_s/enden__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2E Inf ;
 LEXICON V_s/enden__vb_01
 :%^A2E  IND-PRS-SG1 ;
 :%^A2E IND-PRS-SG2 ;
@@ -566,8 +566,8 @@ LEXICON V_s/enden__vb_01
 !!
 LEXICON V_/nehmen__vblex !!= * @CODE@ nehmen:n
 +V:ommen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/nehmen__vb_01 ;
-+V000@D.PTC@:ehm@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_/nehmen__vb_01 ;
+@D.PTC@+V:@D.PTC@ehm Inf ;
 LEXICON V_/nehmen__vb_01
 :ehm  IND-PRS-SG1 ;
 :imm IND-PRS-SG2 ;
@@ -586,8 +586,8 @@ LEXICON V_/nehmen__vb_01
 LEXICON V_dr/eschen__vblex !!= * @CODE@ dreschen:drosch
 +V:%^O2E%>en  Praf_ST ;    ! ge-formen akseptiert.
 +V:%^O2E%>t  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_dr/eschen__vb_01 ;
-+V000@D.PTC@:%^O2E@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_dr/eschen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^O2E Inf ;
 LEXICON V_dr/eschen__vb_01
 :%^O2E  IND-PRS-SG1 ;
 :%^O2I IND-PRS-SG2 ;
@@ -609,8 +609,8 @@ LEXICON V_dr/eschen__vb_01
 !!
 LEXICON V_/laufen__vblex !!= * @CODE@ laufen:l
 +V:aufen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/laufen__vb_01 ;
-+V000@D.PTC@:lauf@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_/laufen__vb_01 ;
+@D.PTC@+V:@D.PTC@lauf Inf ;
 LEXICON V_/laufen__vb_01
 :auf  IND-PRS-SG1 ;
 :auf%^Umlaut IND-PRS-SG2 ;
@@ -627,8 +627,8 @@ LEXICON V_/laufen__vb_01
 
 LEXICON V_h/alten__vblex !!= * @CODE@ halten:halt
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_h/alten__vb_01 ;
-+V000@D.PTC@:@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_h/alten__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_h/alten__vb_01
 :  IND-PRS-SG1 ;
 :%^Umlaut IND-PRS-SG2 ;
@@ -645,8 +645,8 @@ LEXICON V_h/alten__vb_01
 
 LEXICON V_l/assen__vblex !!= * @CODE@ lassen:l
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_l/assen__vb_01 ;
-+V000@D.PTC@:@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_l/assen__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_l/assen__vb_01
 :  IND-PRS-SG1 ;
 :%^Umlaut IND-PRS-SG2 ;
@@ -664,8 +664,8 @@ LEXICON V_l/assen__vb_01
 !!
 LEXICON V_st/oßen__vblex !!= * @CODE@ stoßen:stoß
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_st/oßen__vb_01 ;
-+V000@D.PTC@:@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_st/oßen__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_st/oßen__vb_01
 :  IND-PRS-SG1 ;
 :%^Umlaut%>e IND-PRS-SG2 ;
@@ -683,8 +683,8 @@ LEXICON V_st/oßen__vb_01
 !!
 LEXICON V_bl/eiben__vblex !!= * @CODE@ bleiben:bleib
 +V:%^EI2IE%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_bl/eiben__vb_01 ;
-+V000@D.PTC@:@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_bl/eiben__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_bl/eiben__vb_01
 :  IND-PRS-SG1 ;
 : IND-PRS-SG2 ;
@@ -702,8 +702,8 @@ LEXICON V_bl/eiben__vb_01
 !!
 LEXICON V_r/eißen__vblex !!= * @CODE@ reißen:reiss
 +V:%^EI2Ien  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_r/eißen__vb_01 ;
-+V@D.PTC@:%^CC2C@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_r/eißen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^CC2C Inf ;
 LEXICON V_r/eißen__vb_01
 :%^CC2C  IND-PRS-SG1 ;
 :%^CC2C%>e IND-PRS-SG2 ;
@@ -721,8 +721,8 @@ LEXICON V_r/eißen__vb_01
 !!
 LEXICON V_gl/eichen__vblex !!= * @CODE@ gleichen:gleich
 +V:%^EI2Ien  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_gl/eichen__vb_01 ;
-+V@D.PTC@:@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_gl/eichen__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_gl/eichen__vb_01
 :  IND-PRS-SG1 ;
 :%>e IND-PRS-SG2 ;
@@ -740,8 +740,8 @@ LEXICON V_gl/eichen__vb_01
 !!
 LEXICON V_schw/immen__vblex !!= * @CODE@ schwimmen:schwamm
 +V:%^A2Oen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_schw/immen__vb_01 ;
-+V000@D.PTC@:%^A2I@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_schw/immen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2I Inf ;
 LEXICON V_schw/immen__vb_01
 :%^A2I  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -759,8 +759,8 @@ LEXICON V_schw/immen__vb_01
 !!
 LEXICON V_br/ingen__vblex !!= * @CODE@ bringen:br
 +V:acht  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_br/ingen__vb_01 ;
-+V00@D.PTC@:ing@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_br/ingen__vb_01 ;
+@D.PTC@+V:@D.PTC@ing Inf ;
 LEXICON V_br/ingen__vb_01
 :ing  IND-PRS-SG1 ;
 :ing IND-PRS-SG2 ;
@@ -778,8 +778,8 @@ LEXICON V_br/ingen__vb_01
 !!
 LEXICON V_d/ingen__vblex !!= * @CODE@ dingen:dang
 +V:%>t  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_d/ingen__vb_01 ;
-+V00@D.PTC@:%^A2I@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_d/ingen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2I Inf ;
 LEXICON V_d/ingen__vb_01
 :%^A2I  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -798,8 +798,8 @@ LEXICON V_d/ingen__vb_01
 !!
 LEXICON V_f/inden__vblex !!= * @CODE@ finden:fand
 +V:%^A2Uen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_f/inden__vb_01 ;
-+V000@D.PTC@:%^A2I@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_f/inden__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2I Inf ;
 LEXICON V_f/inden__vb_01
 :%^A2I  IND-PRS-SG1 ;
 :%^A2I IND-PRS-SG2 ;
@@ -817,8 +817,8 @@ LEXICON V_f/inden__vb_01
 !!
 LEXICON V_s/itzen__vblex !!= * @CODE@ sitzen:s
 +V:ess%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_s/itzen__vb_01 ;
-+V000@D.PTC@:itz@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_s/itzen__vb_01 ;
+@D.PTC@+V:@D.PTC@itz Inf ;
 LEXICON V_s/itzen__vb_01
 :itz  IND-PRS-SG1 ;
 +Ind+Prs+Sg2:itzt POST-V_01 ;
@@ -836,8 +836,8 @@ LEXICON V_s/itzen__vb_01
 !!
 LEXICON V_d/enken__vblex !!= * @CODE@ denken:d
 +V:acht  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_d/enken__vb_01 ;
-+V00@D.PTC@:enk@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_d/enken__vb_01 ;
+@D.PTC@+V:@D.PTC@enk Inf ;
 LEXICON V_d/enken__vb_01
 :enk  IND-PRS-SG1 ;
 :enk IND-PRS-SG2 ;
@@ -855,8 +855,8 @@ LEXICON V_d/enken__vb_01
 !!
 LEXICON V_bew/egen__vblex !!= * @CODE@ bewegen:bew
 +V:egt  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_bew/egen__vb_01 ;
-+V000@D.PTC@:eg@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_bew/egen__vb_01 ;
+@D.PTC@+V:@D.PTC@eg Inf ;
 LEXICON V_bew/egen__vb_01
 :eg  IND-PRS-SG1 ;
 :eg IND-PRS-SG2 ;
@@ -874,7 +874,7 @@ LEXICON V_bew/egen__vb_01
 !!
 LEXICON V_pfl/egen__vblex !!= * @CODE@ pflegen:pfl
 V_bew/egen__vblex ;
-+V@D.PTC@:0@D.PTC@ V_pfl/egen__vb_01 ;
+@D.PTC@+V:@D.PTC@ V_pfl/egen__vb_01 ;
 LEXICON V_pfl/egen__vb_01
 :eg IND-PRT ;
 :eg SUBJ-PRT ;
@@ -882,8 +882,8 @@ LEXICON V_pfl/egen__vb_01
 !!
 LEXICON V_z/iehen__vblex !!= * @CODE@ ziehen:z
 +V:ogen  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_z/iehen__vb_01 ;
-+V000@D.PTC@:ieh@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_z/iehen__vb_01 ;
+@D.PTC@+V:@D.PTC@ieh Inf ;
 LEXICON V_z/iehen__vb_01
 :ieh  IND-PRS-SG1 ;
 :ieh IND-PRS-SG2 ;
@@ -901,8 +901,8 @@ LEXICON V_z/iehen__vb_01
 !!
 LEXICON V_fr/ieren__vblex !!= * @CODE@ frieren:fror
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_fr/ieren__vb_01 ;
-+V000@D.PTC@:%^O2IE@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_fr/ieren__vb_01 ;
+@D.PTC@+V:@D.PTC@%^O2IE Inf ;
 LEXICON V_fr/ieren__vb_01
 :%^O2IE  IND-PRS-SG1 ;
 :%^O2IE IND-PRS-SG2 ;
@@ -919,8 +919,8 @@ LEXICON V_fr/ieren__vb_01
 
 LEXICON V_sch/ießen__vblex !!= * @CODE@ schießen:schoss
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_sch/ießen__vb_01 ;
-+V000@D.PTC@:%^O2IE%^CC2C@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_sch/ießen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^O2IE%^CC2C Inf ;
 LEXICON V_sch/ießen__vb_01
 :%^O2IE%^CC2C  IND-PRS-SG1 ;
 :%^O2IE%^CC2C IND-PRS-SG2 ;
@@ -938,8 +938,8 @@ LEXICON V_sch/ießen__vb_01
 !!
 LEXICON V_f/ahren__vblex !!= * @CODE@ fahren:fahr
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_f/ahren__vb_01 ;
-+V@D.PTC@:0@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_f/ahren__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_f/ahren__vb_01
 IND-PRS-SG1 ;
 :%^Umlaut IND-PRS-SG2 ;
@@ -957,8 +957,8 @@ IND-PRS-PL3 ;
 !!
 LEXICON V_f/angen__vblex !!= * @CODE@ fangen:fang
 +V:en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_f/angen__vb_01 ;
-+V@D.PTC@:0@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_f/angen__vb_01 ;
+@D.PTC@+V:@D.PTC@ Inf ;
 LEXICON V_f/angen__vb_01
 IND-PRS-SG1 ;
 :%^Umlaut IND-PRS-SG2 ;
@@ -975,15 +975,15 @@ IND-PRS-PL3 ;
 
 !!
 LEXICON V_/dürfen__vblex !!= * @CODE@ dürfen:darf
-+V00@R.PTC.ON@:%^A2U%>t@R.PTC.ON@  Praf ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_/dürfen__vb_01 ;
-+V@D.PTC@:%^A2Ü@D.PTC@ Inf ;
+@R.PTC.ON@+V:@R.PTC.ON@%^A2U%>t  Praf ;    ! ge-formen akseptiert.
+@D.PTC@+V:@D.PTC@ V_/dürfen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2Ü Inf ;
 
 !!
 LEXICON V_l/iegen__vblex !!= * @CODE@ liegen:lag
 +V:%^A2E%>en  Praf_ST ;    ! ge-formen akseptiert.
-+V@D.PTC@:0@D.PTC@ V_l/iegen__vb_01 ;
-+V000@D.PTC@:%^A2IE@D.PTC@ Inf ;
+@D.PTC@+V:@D.PTC@ V_l/iegen__vb_01 ;
+@D.PTC@+V:@D.PTC@%^A2IE Inf ;
 LEXICON V_l/iegen__vb_01
 :%^A2IE  IND-PRS-SG1 ;
 :%^A2IE IND-PRS-SG2 ;
