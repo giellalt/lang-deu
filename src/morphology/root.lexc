@@ -37,6 +37,7 @@ Multichar_Symbols
  !! gemischt Indef
 
 +PUNCT +CLB +HYPH +LEFT +RIGHT
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 !! Homonyms
 +Hom1
