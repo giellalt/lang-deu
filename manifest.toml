@@ -1,0 +1,9 @@
+name = "German"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.de"
+
+[windows]
+system_product_code = "B8037872-FCFA-4C20-8D4F-B1627BD100C9"
+msoffice_product_code = "58029E28-E423-4AED-8691-61F1E1701B81"
