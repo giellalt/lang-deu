@@ -133,27 +133,27 @@ undneunzig:undneunzig NUM_END ;
 LEXICON NUM_END
 +Num: # ;
 
-LEXICON ROMAN   !!= * __@CODE@__  roman numerals
+LEXICON ROMAN   !!= * **@CODE@**  roman numerals
  +Use/Circ: ROM-THOUSAND ; !
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ; !
 
-LEXICON ROM-THOUSAND   !!= * __@CODE@__ 
+LEXICON ROM-THOUSAND   !!= * **@CODE@** 
  M+Use/Circ:M ROM-THOUSAND-TAG; !
  MM+Use/Circ:MM ROM-THOUSAND-TAG; !
  MMM+Use/Circ:MMM ROM-THOUSAND-TAG; !
  MMMM+Use/Circ:MMMM ROM-THOUSAND-TAG; !
  MMMMM+Use/Circ:MMMMM ROM-THOUSAND-TAG; !
 
-LEXICON ROM-THOUSAND-TAG   !!= * __@CODE@__ 
+LEXICON ROM-THOUSAND-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ;                           !
  +Use/Circ: ROM-ONE ;                           !
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-HUNDRED   !!= * __@CODE@__ 
+LEXICON ROM-HUNDRED   !!= * **@CODE@** 
  C+Use/Circ:C ROM-HUNDRED-TAG; !
  CC+Use/Circ:CC ROM-HUNDRED-TAG; !
  CCC+Use/Circ:CCC ROM-HUNDRED-TAG; !
@@ -164,13 +164,13 @@ LEXICON ROM-HUNDRED   !!= * __@CODE@__
  DCCC+Use/Circ:DCCC ROM-HUNDRED-TAG; !
  CM+Use/Circ:CM ROM-HUNDRED-TAG; !
 
-LEXICON ROM-HUNDRED-TAG   !!= * __@CODE@__ 
+LEXICON ROM-HUNDRED-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ;                           !
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-TEN   !!= * __@CODE@__ 
+LEXICON ROM-TEN   !!= * **@CODE@** 
  X+Use/Circ:X ROM-TEN-TAG; !
  XX+Use/Circ:XX ROM-TEN-TAG; !
  XXX+Use/Circ:XXX ROM-TEN-TAG; !
@@ -181,12 +181,12 @@ LEXICON ROM-TEN   !!= * __@CODE@__
  LXXX+Use/Circ:LXXX ROM-TEN-TAG; !
  XC+Use/Circ:XC ROM-TEN-TAG; !
 
-LEXICON ROM-TEN-TAG   !!= * __@CODE@__ 
+LEXICON ROM-TEN-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-ONE ; !
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-ONE   !!= * __@CODE@__ 
+LEXICON ROM-ONE   !!= * **@CODE@** 
  I+Use/Circ:I ROM-ONE-TAG; !
  II+Use/Circ:II ROM-ONE-TAG; !
  III+Use/Circ:III ROM-ONE-TAG; !
@@ -197,7 +197,7 @@ LEXICON ROM-ONE   !!= * __@CODE@__
  VIII+Use/Circ:VIII ROM-ONE-TAG; !
  IX+Use/Circ:IX ROM-ONE-TAG; !
 
-LEXICON ROM-ONE-TAG   !!= * __@CODE@__ 
+LEXICON ROM-ONE-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
 ! +N: ROMNUMTAG ; ! !The Olav viđeš fix (Roman V now gets A)
  +Use/Circ: ROM-SPLIT ; !
@@ -209,32 +209,32 @@ LEXICON ROM-ONE-TAG   !!= * __@CODE@__
 ! like "II-IV-VI-VII-IX". If that should turn out to be a good idea, a loop would do the
 ! trick.
 
-LEXICON ROM-SPLIT   !!= * __@CODE@__ 
+LEXICON ROM-SPLIT   !!= * **@CODE@** 
  +Use/Circ:%- 2ROMAN ; ! II-VI, etc. !
 
 
 ! Here goes loop 2.
 
-LEXICON 2ROMAN   !!= * __@CODE@__ 
+LEXICON 2ROMAN   !!= * **@CODE@** 
  +Use/Circ: 2ROM-THOUSAND ; !
  +Use/Circ: 2ROM-HUNDRED ; !
  +Use/Circ: 2ROM-TEN ; !
  +Use/Circ: 2ROM-ONE ; !
 
-LEXICON 2ROM-THOUSAND   !!= * __@CODE@__ 
+LEXICON 2ROM-THOUSAND   !!= * **@CODE@** 
  M+Use/Circ:M 2ROM-THOUSAND-TAG; !
  MM+Use/Circ:MM 2ROM-THOUSAND-TAG; !
  MMM+Use/Circ:MMM 2ROM-THOUSAND-TAG; !
  MMMM+Use/Circ:MMMM 2ROM-THOUSAND-TAG; !
  MMMMM+Use/Circ:MMMMM 2ROM-THOUSAND-TAG; !
 
-LEXICON 2ROM-THOUSAND-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-THOUSAND-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-HUNDRED ; !
  +Use/Circ: 2ROM-TEN ;                           !
  +Use/Circ: 2ROM-ONE ;                          !
 
-LEXICON 2ROM-HUNDRED   !!= * __@CODE@__ 
+LEXICON 2ROM-HUNDRED   !!= * **@CODE@** 
  C+Use/Circ:C 2ROM-HUNDRED-TAG; !
  CC+Use/Circ:CC 2ROM-HUNDRED-TAG; !
  CCC+Use/Circ:CCC 2ROM-HUNDRED-TAG; !
@@ -245,11 +245,11 @@ LEXICON 2ROM-HUNDRED   !!= * __@CODE@__
  DCCC+Use/Circ:DCCC 2ROM-HUNDRED-TAG; !
  CM+Use/Circ:CM 2ROM-HUNDRED-TAG; !
 
-LEXICON 2ROM-HUNDRED-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-HUNDRED-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-TEN ; !
  +Use/Circ: 2ROM-ONE ;                          !
-LEXICON 2ROM-TEN   !!= * __@CODE@__ 
+LEXICON 2ROM-TEN   !!= * **@CODE@** 
  X+Use/Circ:X 2ROM-TEN-TAG; !
  XX+Use/Circ:XX 2ROM-TEN-TAG; !
  XXX+Use/Circ:XXX 2ROM-TEN-TAG; !
@@ -260,11 +260,11 @@ LEXICON 2ROM-TEN   !!= * __@CODE@__
  LXXX+Use/Circ:LXXX 2ROM-TEN-TAG; !
  XC+Use/Circ:XC 2ROM-TEN-TAG; !
 
-LEXICON 2ROM-TEN-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-TEN-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-ONE ; !
 
-LEXICON 2ROM-ONE   !!= * __@CODE@__ 
+LEXICON 2ROM-ONE   !!= * **@CODE@** 
  I+Use/Circ:I 2ROM-ONE-TAG; !
  II+Use/Circ:II 2ROM-ONE-TAG; !
  III+Use/Circ:III 2ROM-ONE-TAG; !
@@ -275,10 +275,10 @@ LEXICON 2ROM-ONE   !!= * __@CODE@__
  VIII+Use/Circ:VIII 2ROM-ONE-TAG; !
  IX+Use/Circ:IX 2ROM-ONE-TAG; !
 
-LEXICON 2ROM-ONE-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-ONE-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
 
-LEXICON ROMNUMTAG   !!= * __@CODE@__
+LEXICON ROMNUMTAG   !!= * **@CODE@**
  +Num+Nom+Use/Circ:%> # ; !
  +Num+Gen+Use/Circ:%> # ; !
  +Num+Acc+Use/Circ:%> # ; !
