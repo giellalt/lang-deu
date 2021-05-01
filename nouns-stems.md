@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
+ * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
+ * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
+
+
+
+
+
+
+FROM APERTIUM and beyond
+
+
+
+ *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
+ * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
+2016-01-25
+
+
