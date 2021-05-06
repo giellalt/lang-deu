@@ -1,5 +1,388 @@
 
 
+Verbs
+
+
+
+Work: the -X_ should be developed to convey part of speech, e.g. 
+eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
+
+
+
+
+
+
+FROM APERTIUM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
+ * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
+ * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
+
+
+
+
+
+
+FROM APERTIUM and beyond
+
+
+
+ *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
+ * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
+2016-01-25
+
+
+Numerals
+Numerals in GERMAN language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON ROMAN   **  roman numerals
+
+ * **LEXICON ROM-THOUSAND   ** 
+
+ * **LEXICON ROM-THOUSAND-TAG   ** 
+
+ * **LEXICON ROM-HUNDRED   ** 
+
+ * **LEXICON ROM-HUNDRED-TAG   ** 
+
+ * **LEXICON ROM-TEN   ** 
+
+ * **LEXICON ROM-TEN-TAG   ** 
+
+ * **LEXICON ROM-ONE   ** 
+
+ * **LEXICON ROM-ONE-TAG   ** 
+
+
+ * **LEXICON ROM-SPLIT   ** 
+
+
+
+ * **LEXICON 2ROMAN   ** 
+
+ * **LEXICON 2ROM-THOUSAND   ** 
+
+ * **LEXICON 2ROM-THOUSAND-TAG   ** 
+
+ * **LEXICON 2ROM-HUNDRED   ** 
+
+ * **LEXICON 2ROM-HUNDRED-TAG   ** 
+ * **LEXICON 2ROM-TEN   ** 
+
+ * **LEXICON 2ROM-TEN-TAG   ** 
+
+ * **LEXICON 2ROM-ONE   ** 
+
+ * **LEXICON 2ROM-ONE-TAG   ** 
+
+ * **LEXICON ROMNUMTAG   **
+
+
+
+
+Adverbs
+Adverbs in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+
+FROM APERTIUM
+
+
+
+
+
+FROM APERTIUM
+
+
+
+
+
+
+
+wiederherangekommen
+
+
+
+
+
+
+
+This is where we put BE/EMP/ENT/ER words that are loners
+
+The verbs below can take BE/ENT/ER/VER/ZER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+auxillary and modal verbs
+other verbs
+
+
+
+
+
+
+
+APERTIUM
+
+
+Prefixes
+Prefixes in GERMAN language are bound to beginning of other words.
+
+
+
+
+
+
+Adjectives
+Adjectives in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+
+
+
+
+
+
+
+TRIGGER
+ * %^A2E:0 
+ * %^A2I:0 
+ * %^A2O:0 
+ * %^A2Ö:0 
+ * %^A2U:0 
+ * %^A2Ü:0 
+ * %^A2IE:0 
+ * %^O2E:0 
+ * %^O2I:0 
+ * %^O2IE:0 
+ * %^EI2IE:0 
+ * %^EI2I:0 
+ * %^CC2C:0 mm:m0 kommen kommst kamst
+ * %^DeV:0 g0:ch
+ * %^LowerVow:0 o:a 
+ * %^Pen:0 penultimate syllable
+ * %^RmVow:0 remove vowel
+ * %^Umlaut:0 umlaut a:ä, o:ö, u:ü
+
+
+
+
+
+
+* *Boden%^Umlaut%>#*
+* *Böden000*
+
+* ★*Boden%^Umlaut%>#* (is not standard language)
+* ★*Boden000* (is not standard language)
+
+* *konn%^LowerVow*
+* *kann0*
+
+
+
+* *Baum%^Umlaut%>e#*
+* *Bäum00e0*
+
+* *Apfel%^Umlaut*
+* *Äpfel0*
+
+* *Napf%^Umlaut%>e#*
+* *Näpf00e0*
+
+* ★*Napf%^Umlaut%>e#* (is not standard language)
+* ★*Napf00e0* (is not standard language)
+
+
+
+dreschen+V+Ind+Prs+Pl1
+* *drosch%^O2E%>en*
+* *dresch0%>en*
+
+
+
+geben+V+Ind+Prs+Sg1
+* *gab%^A2E%>e*
+* *geb0%>e*
+
+
+geben+V+Ind+Prs+Sg2
+* *gab%^A2I%>st*
+* *gib0%>st*
+halten+V+Ind+Prt+Sg2
+* *ha0lt%^A2IE%>e%>st*
+* *hielt0%>e%>st*
+fallen+V+Ind+Prt+Pl1
+* *fa0ll%^A2IE%^CC2C%>en*
+* *fiel00%>en*
+
+
+
+schwimmen+V+Ind+Prs+Sg2
+* *schwamm%^A2I%>st*
+* *schwimm0%>st*
+
+
+fahren+V+Ind+Prt+Sg2
+* *fahr%^A2U%>st*
+* *fuhr0%>st*
+
+fahren+V+Ind+Prt+Sg2
+* *fahr%^A2Ü%>st*
+* *führ0%>st*
+
+gelten+V+Subj+Prt+Sg1
+* *galt%^A2Ö%>e*
+* *gölt0%>e*
+
+stoßen+V+Ind+Prt+Sg2
+* *sto0ß%^O2IE%>e%>st*
+* *stieß0%>e%>st*
+dreschen+V+Ind+Prs+Sg3
+* *drosch%^O2I%>t*
+* *drisch0%>t*
+
+
+* *Saal%^Umlaut%>e#*
+* *Sä0l00e0*
+
+Salto
+* *Salto%^RmVow*
+* *Salt00*
+
+reißen
+* *reiss%^CC2C%>en*
+* *rei0ß0%>en*
+
+treffen+V+Subj+Prt+Pl1
+* *traff%^Umlaut%^CC2C%>en*
+* *trä0f00%>en*
+
+
+
+
+aasen+V+Ind+Prs+Sg2
+* *aas%>st*
+* *aas%>0t*
+groß+A+Superl+Fem+Sg+Acc+Def
+* *groß%^Umlaut%>st%>e*
+* *größ0%>0t%>e*
+
+reißen
+* *reiss%^CC2C%>en*
+* *rei0ß0%>en*
+
+fallen+V+Ind+Prt+Pl1
+* *fa0ll%^A2IE%^CC2C%>en*
+* *fie0l0%>en*
+
+schrecken+V+Subj+Prt+Pl1
+* *schrack%^Umlaut%^CC2C%>en*
+* *schrä0k00%>en*
+
+
+* *Nomade%>en#*
+* *Nomad00en0*
+
+* ★*Nomade%>en#* (is not standard language)
+* ★*Nomade0en0* (is not standard language)
+ackern+V+Ind+Prs+Sg1
+* *acker%^Pen%^RmVow%>e*
+* *ack0r00%>e*
+bleiben+V+Ind+Prt+Sg1
+* *blei0b%^EI2IE*
+* *bl0ieb0*
+reißen
+* *reiss%^EI2I*
+* *r0iss0*
+
+
+mögen+V+Mod+Ind+Prt+Sg1
+* *mog0%^DeV%>te*
+* *moch0%>te*
+
+
+mögen+V+Mod+Ind+Prt+Sg1
+* *mog0%^DeV%>te*
+* *moch0%>te*
+
+stoßen+V+Ind+Prt+Sg2
+* *sto0ß%^O2IE%>e%>st*
+* *stieß0%>e%>st*
+halten+V+Ind+Prt+Sg2
+* *ha0lt%^A2IE%>e%>st*
+* *hielt0%>e%>st*
+bleiben+V+Ind+Prt+Sg1
+* *blei0b%^EI2IE*
+* *bl0ieb0*
+
+# Symbol affixes
+
+
+
+
+
+
+
 
 
 
@@ -641,6 +1024,26 @@ CHECKME ʼ
 
 
 
+Prepositions
+The GERMAN language prepositions
+
+
+
+
+
+Not definite
+
+
+
+
+
+Adverbs
+The GERMAN language adverbs
+
+
+
+
+
 Proper noun inflection
 The GERMAN language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
@@ -687,99 +1090,6 @@ CHECKME ʼ
 FIXME
 CHECKME ʼ
 CHECKME ʼ
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Prepositions
-The GERMAN language prepositions
-
-
-
-
-
-Not definite
-
-
-
-
-
-Adverbs
-The GERMAN language adverbs
-
-
-
-
-
-Adjective inflection
-The GERMAN language adjectives compare.
-
-
- * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
-
-
-
- * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_/viel__adj  viel:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_minde/r__adj  minder:minde
-
- * LEXICON A_n/ah__adj  nah:na
-
-
-
-
 
 
 
@@ -971,182 +1281,72 @@ birst
 
 
 
+Adjective inflection
+The GERMAN language adjectives compare.
+
+
+ * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+
+
+
+ * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
 
 
 
 
 
 
-TRIGGER
- * %^A2E:0 
- * %^A2I:0 
- * %^A2O:0 
- * %^A2Ö:0 
- * %^A2U:0 
- * %^A2Ü:0 
- * %^A2IE:0 
- * %^O2E:0 
- * %^O2I:0 
- * %^O2IE:0 
- * %^EI2IE:0 
- * %^EI2I:0 
- * %^CC2C:0 mm:m0 kommen kommst kamst
- * %^DeV:0 g0:ch
- * %^LowerVow:0 o:a 
- * %^Pen:0 penultimate syllable
- * %^RmVow:0 remove vowel
- * %^Umlaut:0 umlaut a:ä, o:ö, u:ü
 
 
 
 
 
 
-* *Boden%^Umlaut%>#*
-* *Böden000*
-
-* ★*Boden%^Umlaut%>#* (is not standard language)
-* ★*Boden000* (is not standard language)
-
-* *konn%^LowerVow*
-* *kann0*
-
-
-
-* *Baum%^Umlaut%>e#*
-* *Bäum00e0*
-
-* *Apfel%^Umlaut*
-* *Äpfel0*
-
-* *Napf%^Umlaut%>e#*
-* *Näpf00e0*
-
-* ★*Napf%^Umlaut%>e#* (is not standard language)
-* ★*Napf00e0* (is not standard language)
-
-
-
-dreschen+V+Ind+Prs+Pl1
-* *drosch%^O2E%>en*
-* *dresch0%>en*
-
-
-
-geben+V+Ind+Prs+Sg1
-* *gab%^A2E%>e*
-* *geb0%>e*
-
-
-geben+V+Ind+Prs+Sg2
-* *gab%^A2I%>st*
-* *gib0%>st*
-halten+V+Ind+Prt+Sg2
-* *ha0lt%^A2IE%>e%>st*
-* *hielt0%>e%>st*
-fallen+V+Ind+Prt+Pl1
-* *fa0ll%^A2IE%^CC2C%>en*
-* *fiel00%>en*
-
-
-
-schwimmen+V+Ind+Prs+Sg2
-* *schwamm%^A2I%>st*
-* *schwimm0%>st*
-
-
-fahren+V+Ind+Prt+Sg2
-* *fahr%^A2U%>st*
-* *fuhr0%>st*
-
-fahren+V+Ind+Prt+Sg2
-* *fahr%^A2Ü%>st*
-* *führ0%>st*
-
-gelten+V+Subj+Prt+Sg1
-* *galt%^A2Ö%>e*
-* *gölt0%>e*
-
-stoßen+V+Ind+Prt+Sg2
-* *sto0ß%^O2IE%>e%>st*
-* *stieß0%>e%>st*
-dreschen+V+Ind+Prs+Sg3
-* *drosch%^O2I%>t*
-* *drisch0%>t*
-
-
-* *Saal%^Umlaut%>e#*
-* *Sä0l00e0*
-
-Salto
-* *Salto%^RmVow*
-* *Salt00*
-
-reißen
-* *reiss%^CC2C%>en*
-* *rei0ß0%>en*
-
-treffen+V+Subj+Prt+Pl1
-* *traff%^Umlaut%^CC2C%>en*
-* *trä0f00%>en*
 
 
 
 
-aasen+V+Ind+Prs+Sg2
-* *aas%>st*
-* *aas%>0t*
-groß+A+Superl+Fem+Sg+Acc+Def
-* *groß%^Umlaut%>st%>e*
-* *größ0%>0t%>e*
-
-reißen
-* *reiss%^CC2C%>en*
-* *rei0ß0%>en*
-
-fallen+V+Ind+Prt+Pl1
-* *fa0ll%^A2IE%^CC2C%>en*
-* *fie0l0%>en*
-
-schrecken+V+Subj+Prt+Pl1
-* *schrack%^Umlaut%^CC2C%>en*
-* *schrä0k00%>en*
 
 
-* *Nomade%>en#*
-* *Nomad00en0*
-
-* ★*Nomade%>en#* (is not standard language)
-* ★*Nomade0en0* (is not standard language)
-ackern+V+Ind+Prs+Sg1
-* *acker%^Pen%^RmVow%>e*
-* *ack0r00%>e*
-bleiben+V+Ind+Prt+Sg1
-* *blei0b%^EI2IE*
-* *bl0ieb0*
-reißen
-* *reiss%^EI2I*
-* *r0iss0*
 
 
-mögen+V+Mod+Ind+Prt+Sg1
-* *mog0%^DeV%>te*
-* *moch0%>te*
 
 
-mögen+V+Mod+Ind+Prt+Sg1
-* *mog0%^DeV%>te*
-* *moch0%>te*
 
-stoßen+V+Ind+Prt+Sg2
-* *sto0ß%^O2IE%>e%>st*
-* *stieß0%>e%>st*
-halten+V+Ind+Prt+Sg2
-* *ha0lt%^A2IE%>e%>st*
-* *hielt0%>e%>st*
-bleiben+V+Ind+Prt+Sg1
-* *blei0b%^EI2IE*
-* *bl0ieb0*
+
+
+
+
+
+
+
+ * LEXICON A_/viel__adj  viel:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_minde/r__adj  minder:minde
+
+ * LEXICON A_n/ah__adj  nah:na
+
+
+
+
+
+
+
+
 German language
 
 
@@ -1501,201 +1701,17 @@ given the proper use of these flags.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
- * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
- * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
-
-
-
-
-
-
-FROM APERTIUM and beyond
-
-
-
- *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
- * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
-2016-01-25
-
-
-
-FROM APERTIUM
-
-
-
-
-Prefixes
-Prefixes in GERMAN language are bound to beginning of other words.
-
-
-
-
-
-
-
-FROM APERTIUM
-
-Work: the -X_ should be developed to convey part of speech, e.g. 
-eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
-
-
-
-
-
-
-FROM APERTIUM
-Adverbs
-Adverbs in GERMAN language describe things.
-
-FROM APERTIUM
-
-
-Adjectives
-Adjectives in GERMAN language describe things.
-
-FROM APERTIUM
-
-
-
-
-
-
-
-
-
-wiederherangekommen
-
-
-
-
-
-
-
-This is where we put BE/EMP/ENT/ER words that are loners
-
-The verbs below can take BE/ENT/ER/VER/ZER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-auxillary and modal verbs
-other verbs
-
-
-
-
-
-
-
-APERTIUM
-
-
-
-
-Verbs
-
-
-
-Numerals
-Numerals in GERMAN language are numbers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ROMAN   **  roman numerals
-
- * **LEXICON ROM-THOUSAND   ** 
-
- * **LEXICON ROM-THOUSAND-TAG   ** 
-
- * **LEXICON ROM-HUNDRED   ** 
-
- * **LEXICON ROM-HUNDRED-TAG   ** 
-
- * **LEXICON ROM-TEN   ** 
-
- * **LEXICON ROM-TEN-TAG   ** 
-
- * **LEXICON ROM-ONE   ** 
-
- * **LEXICON ROM-ONE-TAG   ** 
-
-
- * **LEXICON ROM-SPLIT   ** 
-
-
-
- * **LEXICON 2ROMAN   ** 
-
- * **LEXICON 2ROM-THOUSAND   ** 
-
- * **LEXICON 2ROM-THOUSAND-TAG   ** 
-
- * **LEXICON 2ROM-HUNDRED   ** 
-
- * **LEXICON 2ROM-HUNDRED-TAG   ** 
- * **LEXICON 2ROM-TEN   ** 
-
- * **LEXICON 2ROM-TEN-TAG   ** 
-
- * **LEXICON 2ROM-ONE   ** 
-
- * **LEXICON 2ROM-ONE-TAG   ** 
-
- * **LEXICON ROMNUMTAG   **
-
-
+We describe here how abbreviations are in German are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -1751,20 +1767,4 @@ Numerals in GERMAN language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in German are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
