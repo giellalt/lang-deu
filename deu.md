@@ -1971,7 +1971,12 @@ Homonyms
 
 
 
+
+
+
+
 Semantic tags to help disambiguation & synt. analysis: (before POS)
+
 
  *  +Sem/Act          = Activity
  *  +Sem/Adr          = Webadr
