@@ -45,7 +45,80 @@ Multichar_Symbols
 
 
 
++ABBR
++Arab
++Attr
++CLBfinal
++CmpNP/First
++CmpNP/None
++Coll
++Com
++Comp
++Det
++Ela
++Err/Hyph
++Err/Lex
++Err/MissingSpace
++Err/SpaceCmp
++Ess
++Ill
++Ine
++Inf00
++Interr
++MWE
++OLang/ENG
++OLang/FIN
++OLang/NNO
++OLang/NOB
++OLang/RUS
++OLang/SMA
++OLang/SME
++OLang/SWE
++OLang/UND
++Pos
++Pr
++Pred
++Prop
++PxPl1
++PxPl2
++PxPl3
++PxSg1
++PxSg2
++PxSg3
++Qnt
++Refl
++Rel
++Rom
++Sup
++Superl
++Use/-PLX
++Use/-PMatch
++Use/GC
++Use/NG
++Use/PMatch
++cmp
++pos
++sup
++v1
++v2
+
+@P.ErrOrth.ON
+@R.PTC.OFF
+
+
+
 !! Semantic tags to help disambiguation & synt. analysis: (before POS)
+
++Sem/Build-room
++Sem/Date
++Sem/Domain_Hum
++Sem/Dummy
++Sem/Edu_Hum
++Sem/ID
++Sem/Org_Prod-audio
++Sem/Org_Prod-vis
++Sem/Time-clock
++Sem/Year
 
  +Sem/Act         !!= * @CODE@ = Activity
  +Sem/Adr         !!= * @CODE@ = Webadr
