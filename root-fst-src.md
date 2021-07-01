@@ -354,3 +354,5 @@ given the proper use of these flags.
  * @U.Cap.Obl@ Nouns ;  This is stated once since R also leads directly to Nouns
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>

@@ -37,3 +37,5 @@ FROM APERTIUM and beyond
 2016-01-25
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>

@@ -63,3 +63,5 @@ Numerals in GERMAN language are numbers.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>

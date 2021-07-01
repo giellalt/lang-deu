@@ -174,3 +174,5 @@ halten+V+Ind+Prt+Sg2
 bleiben+V+Ind+Prt+Sg1
 * *blei0b%^EI2IE*
 * *bl0ieb0*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
