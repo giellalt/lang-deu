@@ -3,7 +3,7 @@ The German morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/issues)
 [![Build Status](https://github.com/giellalt/lang-deu/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-deu/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-deu)](https://raw.githubusercontent.com/giellalt/lang-deu/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/blob/main/LICENSE)
 
 This repository contains finite state source files for the German language,
 for building morphological analysers, proofing tools
