@@ -612,6 +612,216 @@ These were the set types.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
+ * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
+ * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
+
+
+
+
+
+
+FROM APERTIUM and beyond
+
+
+
+ *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
+ * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
+2016-01-25
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+Verbs
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
+eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
+
+
+
+
+
+
+FROM APERTIUM
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>
+FROM APERTIUM
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>Prefixes
+Prefixes in GERMAN language are bound to beginning of other words.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>Adverbs
+Adverbs in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>Adjectives
+Adjectives in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>
+
+
+
+
+
+wiederherangekommen
+
+
+
+
+
+
+
+This is where we put BE/EMP/ENT/ER words that are loners
+
+The verbs below can take BE/ENT/ER/VER/ZER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+auxillary and modal verbs
+other verbs
+
+
+
+
+
+
+
+APERTIUM
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in GERMAN language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON ROMAN   **  roman numerals
+
+ * **LEXICON ROM-THOUSAND   ** 
+
+ * **LEXICON ROM-THOUSAND-TAG   ** 
+
+ * **LEXICON ROM-HUNDRED   ** 
+
+ * **LEXICON ROM-HUNDRED-TAG   ** 
+
+ * **LEXICON ROM-TEN   ** 
+
+ * **LEXICON ROM-TEN-TAG   ** 
+
+ * **LEXICON ROM-ONE   ** 
+
+ * **LEXICON ROM-ONE-TAG   ** 
+
+
+ * **LEXICON ROM-SPLIT   ** 
+
+
+
+ * **LEXICON 2ROMAN   ** 
+
+ * **LEXICON 2ROM-THOUSAND   ** 
+
+ * **LEXICON 2ROM-THOUSAND-TAG   ** 
+
+ * **LEXICON 2ROM-HUNDRED   ** 
+
+ * **LEXICON 2ROM-HUNDRED-TAG   ** 
+ * **LEXICON 2ROM-TEN   ** 
+
+ * **LEXICON 2ROM-TEN-TAG   ** 
+
+ * **LEXICON 2ROM-ONE   ** 
+
+ * **LEXICON 2ROM-ONE-TAG   ** 
+
+ * **LEXICON ROMNUMTAG   **
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+FROM APERTIUM
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>
+
+
+
+
+
 TRIGGER
  * %^A2E:0 
  * %^A2I:0 
@@ -783,15 +993,7 @@ bleiben+V+Ind+Prt+Sg1
 * *blei0b%^EI2IE*
 * *bl0ieb0*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>Adverbs
-The GERMAN language adverbs
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -1435,58 +1637,90 @@ CHECKME ʼ
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>Proper noun inflection
-The GERMAN language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
 
-CHECKME ʼ
-
-
-CHECKME ʼ
-
-
-
-
-
-
-
-
-
-CHECKME ʼ
-
-CHECKME ʼ
-
-FIXME
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-FIXME
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>Adverbs
+The GERMAN language adverbs
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Adjective inflection
+The GERMAN language adjectives compare.
+
+
+ * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+
+
+
+ * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_/viel__adj  viel:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_minde/r__adj  minder:minde
+
+ * LEXICON A_n/ah__adj  nah:na
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
 
 
@@ -1674,74 +1908,7 @@ birst
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
-The GERMAN language adjectives compare.
-
-
- * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
-
-
-
- * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_/viel__adj  viel:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_minde/r__adj  minder:minde
-
- * LEXICON A_n/ah__adj  nah:na
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>Prepositions
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>Prepositions
 The GERMAN language prepositions
 
 
@@ -1755,15 +1922,58 @@ Not definite
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>
-# Symbol affixes
+<small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>Proper noun inflection
+The GERMAN language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
+CHECKME ʼ
+
+
+CHECKME ʼ
+
+
+
+
+
+
+
+
+
+CHECKME ʼ
+
+CHECKME ʼ
+
+FIXME
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
+
+FIXME
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>German language
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>German language
 
 
 
@@ -2120,217 +2330,24 @@ given the proper use of these flags.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>Adverbs
-Adverbs in GERMAN language describe things.
-
-FROM APERTIUM
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>
 
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>
+We describe here how abbreviations are in German are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
- * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
- * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
-
-
-
-
-
-
-FROM APERTIUM and beyond
-
-
-
- *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
- * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
-2016-01-25
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>
-FROM APERTIUM
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>
-FROM APERTIUM
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>
-
-
-
-
-
-wiederherangekommen
-
-
-
-
-
-
-
-This is where we put BE/EMP/ENT/ER words that are loners
-
-The verbs below can take BE/ENT/ER/VER/ZER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-auxillary and modal verbs
-other verbs
-
-
-
-
-
-
-
-APERTIUM
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
-Adjectives in GERMAN language describe things.
-
-FROM APERTIUM
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>
-
-Verbs
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
-eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
-
-
-
-
-
-
-FROM APERTIUM
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>Numerals
-Numerals in GERMAN language are numbers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ROMAN   **  roman numerals
-
- * **LEXICON ROM-THOUSAND   ** 
-
- * **LEXICON ROM-THOUSAND-TAG   ** 
-
- * **LEXICON ROM-HUNDRED   ** 
-
- * **LEXICON ROM-HUNDRED-TAG   ** 
-
- * **LEXICON ROM-TEN   ** 
-
- * **LEXICON ROM-TEN-TAG   ** 
-
- * **LEXICON ROM-ONE   ** 
-
- * **LEXICON ROM-ONE-TAG   ** 
-
-
- * **LEXICON ROM-SPLIT   ** 
-
-
-
- * **LEXICON 2ROMAN   ** 
-
- * **LEXICON 2ROM-THOUSAND   ** 
-
- * **LEXICON 2ROM-THOUSAND-TAG   ** 
-
- * **LEXICON 2ROM-HUNDRED   ** 
-
- * **LEXICON 2ROM-HUNDRED-TAG   ** 
- * **LEXICON 2ROM-TEN   ** 
-
- * **LEXICON 2ROM-TEN-TAG   ** 
-
- * **LEXICON 2ROM-ONE   ** 
-
- * **LEXICON 2ROM-ONE-TAG   ** 
-
- * **LEXICON ROMNUMTAG   **
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>Prefixes
-Prefixes in GERMAN language are bound to beginning of other words.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -2386,23 +2403,6 @@ Prefixes in GERMAN language are bound to beginning of other words.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in German are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
