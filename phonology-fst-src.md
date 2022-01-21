@@ -17,12 +17,12 @@ TRIGGER
 * %^O2IE:0 
 * %^EI2IE:0 
 * %^EI2I:0 
-* %^CC2C:0kamst mm:m0 kommen kommst kamst
-* %^DeV:0g0:ch g0:ch
+* %^CC2C:0 mm:m0 kommen kommst kamst
+* %^DeV:0 g0:ch
 * %^LowerVow:0 o:a 
-* %^Pen:0syllable penultimate syllable
-* %^RmVow:0vowel remove vowel
-* %^Umlaut:0u:ü umlaut a:ä, o:ö, u:ü
+* %^Pen:0 penultimate syllable
+* %^RmVow:0 remove vowel
+* %^Umlaut:0 umlaut a:ä, o:ö, u:ü
 
 
 

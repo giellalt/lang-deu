@@ -2,15 +2,11 @@ Adjective inflection
 The GERMAN language adjectives compare.
 
 
- * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+* MSC-PRFPRC_BEAMTER ;  Beamter:beamte
 
 
 
- * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
-
-
-
-
+* FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
 
 
 
@@ -37,7 +33,11 @@ The GERMAN language adjectives compare.
 
 
 
- * LEXICON A_/viel__adj  viel:
+
+
+
+
+* LEXICON A_/viel__adj  viel:
 
 
 
@@ -53,9 +53,9 @@ The GERMAN language adjectives compare.
 
 
 
- * LEXICON A_minde/r__adj  minder:minde
+* LEXICON A_minde/r__adj  minder:minde
 
- * LEXICON A_n/ah__adj  nah:na
+* LEXICON A_n/ah__adj  nah:na
 
 
 
