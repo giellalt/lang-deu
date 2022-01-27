@@ -606,7 +606,184 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-deu/blob/main/../src/cg3/functions.cg3)</small>German language
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-deu/blob/main/../src/cg3/functions.cg3)</small>
+
+
+
+
+
+TRIGGER
+* %^A2E:0 
+* %^A2I:0 
+* %^A2O:0 
+* %^A2Ö:0 
+* %^A2U:0 
+* %^A2Ü:0 
+* %^A2IE:0 
+* %^O2E:0 
+* %^O2I:0 
+* %^O2IE:0 
+* %^EI2IE:0 
+* %^EI2I:0 
+* %^CC2C:0 mm:m0 kommen kommst kamst
+* %^DeV:0 g0:ch
+* %^LowerVow:0 o:a 
+* %^Pen:0 penultimate syllable
+* %^RmVow:0 remove vowel
+* %^Umlaut:0 umlaut a:ä, o:ö, u:ü
+
+
+
+
+
+
+* *Boden%^Umlaut%>#*
+* *Böden000*
+
+* ★*Boden%^Umlaut%>#* (is not standard language)
+* ★*Boden000* (is not standard language)
+
+* *konn%^LowerVow*
+* *kann0*
+
+
+
+* *Baum%^Umlaut%>e#*
+* *Bäum00e0*
+
+* *Apfel%^Umlaut*
+* *Äpfel0*
+
+* *Napf%^Umlaut%>e#*
+* *Näpf00e0*
+
+* ★*Napf%^Umlaut%>e#* (is not standard language)
+* ★*Napf00e0* (is not standard language)
+
+
+
+dreschen+V+Ind+Prs+Pl1
+* *drosch%^O2E%>en*
+* *dresch0%>en*
+
+
+
+geben+V+Ind+Prs+Sg1
+* *gab%^A2E%>e*
+* *geb0%>e*
+
+
+geben+V+Ind+Prs+Sg2
+* *gab%^A2I%>st*
+* *gib0%>st*
+halten+V+Ind+Prt+Sg2
+* *ha0lt%^A2IE%>e%>st*
+* *hielt0%>e%>st*
+fallen+V+Ind+Prt+Pl1
+* *fa0ll%^A2IE%^CC2C%>en*
+* *fiel00%>en*
+
+
+
+schwimmen+V+Ind+Prs+Sg2
+* *schwamm%^A2I%>st*
+* *schwimm0%>st*
+
+
+fahren+V+Ind+Prt+Sg2
+* *fahr%^A2U%>st*
+* *fuhr0%>st*
+
+fahren+V+Ind+Prt+Sg2
+* *fahr%^A2Ü%>st*
+* *führ0%>st*
+
+gelten+V+Subj+Prt+Sg1
+* *galt%^A2Ö%>e*
+* *gölt0%>e*
+
+stoßen+V+Ind+Prt+Sg2
+* *sto0ß%^O2IE%>e%>st*
+* *stieß0%>e%>st*
+dreschen+V+Ind+Prs+Sg3
+* *drosch%^O2I%>t*
+* *drisch0%>t*
+
+
+* *Saal%^Umlaut%>e#*
+* *Sä0l00e0*
+
+Salto
+* *Salto%^RmVow*
+* *Salt00*
+
+reißen
+* *reiss%^CC2C%>en*
+* *rei0ß0%>en*
+
+treffen+V+Subj+Prt+Pl1
+* *traff%^Umlaut%^CC2C%>en*
+* *trä0f00%>en*
+
+
+
+
+aasen+V+Ind+Prs+Sg2
+* *aas%>st*
+* *aas%>0t*
+groß+A+Superl+Fem+Sg+Acc+Def
+* *groß%^Umlaut%>st%>e*
+* *größ0%>0t%>e*
+
+reißen
+* *reiss%^CC2C%>en*
+* *rei0ß0%>en*
+
+fallen+V+Ind+Prt+Pl1
+* *fa0ll%^A2IE%^CC2C%>en*
+* *fie0l0%>en*
+
+schrecken+V+Subj+Prt+Pl1
+* *schrack%^Umlaut%^CC2C%>en*
+* *schrä0k00%>en*
+
+
+* *Nomade%>en#*
+* *Nomad00en0*
+
+* ★*Nomade%>en#* (is not standard language)
+* ★*Nomade0en0* (is not standard language)
+ackern+V+Ind+Prs+Sg1
+* *acker%^Pen%^RmVow%>e*
+* *ack0r00%>e*
+bleiben+V+Ind+Prt+Sg1
+* *blei0b%^EI2IE*
+* *bl0ieb0*
+reißen
+* *reiss%^EI2I*
+* *r0iss0*
+
+
+mögen+V+Mod+Ind+Prt+Sg1
+* *mog0%^DeV%>te*
+* *moch0%>te*
+
+
+mögen+V+Mod+Ind+Prt+Sg1
+* *mog0%^DeV%>te*
+* *moch0%>te*
+
+stoßen+V+Ind+Prt+Sg2
+* *sto0ß%^O2IE%>e%>st*
+* *stieß0%>e%>st*
+halten+V+Ind+Prt+Sg2
+* *ha0lt%^A2IE%>e%>st*
+* *hielt0%>e%>st*
+bleiben+V+Ind+Prt+Sg1
+* *blei0b%^EI2IE*
+* *bl0ieb0*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>German language
 
 
 
@@ -963,15 +1140,7 @@ given the proper use of these flags.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>Prepositions
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>Prepositions
 The GERMAN language prepositions
 
 
@@ -986,6 +1155,320 @@ Not definite
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
+The GERMAN language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+CHECKME ʼ
+
+
+CHECKME ʼ
+
+
+
+
+
+
+
+
+
+CHECKME ʼ
+
+CHECKME ʼ
+
+FIXME
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
+
+FIXME
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
+
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHECKME, should there be +Comp and +Superl
+
+CHECKME, should there be +Comp and +Superl
+
+
+
+
+
+
+
+
+
+
+
+
+* +Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;  works with ackern
+
+
+
+
+
+
+
+* LEXICON V_haben__vbhaver  haben:ha
+
+
+
+* LEXICON V_/müssen__vbmod  müssen:muss
+
+
+* LEXICON V_/dürfen__vbmod  dürfen:darf
+
+
+* LEXICON V_/können__vbmod  können:konn
+
+
+* LEXICON V_/mögen__vbmod  mögen:mog
+
+
+* LEXICON V_/sollen__vbmod  sollen:soll
+
+
+
+* LEXICON V_/werden__vaux  werden:w
+
+
+* LEXICON V_/wollen__vaux  wollen:w
+
+
+
+
+* LEXICON V_/werden__vblex  werden:w
+
+
+* LEXICON V_/kommen__vblex  kommen:k
+
+
+* LEXICON V_g/eben__vblex  geben:gab
+
+
+* LEXICON V_spr/echen__vblex  geben:gab
+
+
+* LEXICON V_g/elten__vblex  gelten:galt
+
+
+* LEXICON V_tr/eten__vblex  treten:tratt
+
+
+* LEXICON V_g/ehen__vblex  gehen:g
+
+
+* LEXICON V_st/ehen__vblex  stehen:st
+
+
+* LEXICON V_s/ehen__vblex  sehen:sah
+
+* LEXICON V_schr/ecken__vblex  schrecken:schrack
+
+
+* LEXICON V_w/erfen__vblex  werfen:warf
+
+* LEXICON V_b/ersten__vblex  bersten:barst
+birst
+
+* LEXICON V_k/ennen__vblex  kennen:kann
+
+* LEXICON V_s/enden__vblex  senden:sand
+
+
+* LEXICON V_/nehmen__vblex  nehmen:n
+
+
+* LEXICON V_dr/eschen__vblex  dreschen:drosch
+
+
+* LEXICON V_/laufen__vblex  laufen:l
+
+
+* LEXICON V_h/alten__vblex  halten:halt
+
+
+* LEXICON V_l/assen__vblex  lassen:l
+
+
+* LEXICON V_st/oßen__vblex  stoßen:stoß
+
+
+* LEXICON V_bl/eiben__vblex  bleiben:bleib
+
+
+* LEXICON V_r/eißen__vblex  reißen:reiss
+
+
+* LEXICON V_gl/eichen__vblex  gleichen:gleich
+
+
+* LEXICON V_schw/immen__vblex  schwimmen:schwamm
+
+
+* LEXICON V_br/ingen__vblex  bringen:br
+
+
+* LEXICON V_d/ingen__vblex  dingen:dang
+
+
+* LEXICON V_f/inden__vblex  finden:fand
+
+
+* LEXICON V_s/itzen__vblex  sitzen:s
+
+
+* LEXICON V_d/enken__vblex  denken:d
+
+
+* LEXICON V_bew/egen__vblex  bewegen:bew
+
+
+* LEXICON V_pfl/egen__vblex  pflegen:pfl
+
+* LEXICON V_z/iehen__vblex  ziehen:z
+
+
+* LEXICON V_fr/ieren__vblex  frieren:fror
+
+
+* LEXICON V_sch/ießen__vblex  schießen:schoss
+
+
+* LEXICON V_f/ahren__vblex  fahren:fahr
+
+
+* LEXICON V_f/angen__vblex  fangen:fang
+
+
+* LEXICON V_/dürfen__vblex  dürfen:darf
+
+* LEXICON V_l/iegen__vblex  liegen:lag
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
+The GERMAN language adjectives compare.
+
+
+* MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+
+
+
+* FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON A_/viel__adj  viel:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON A_minde/r__adj  minder:minde
+
+* LEXICON A_n/ah__adj  nah:na
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
 
 
@@ -1629,262 +2112,7 @@ CHECKME ʼ
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
-The GERMAN language adjectives compare.
-
-
-* MSC-PRFPRC_BEAMTER ;  Beamter:beamte
-
-
-
-* FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON A_/viel__adj  viel:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* LEXICON A_minde/r__adj  minder:minde
-
-* LEXICON A_n/ah__adj  nah:na
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CHECKME, should there be +Comp and +Superl
-
-CHECKME, should there be +Comp and +Superl
-
-
-
-
-
-
-
-
-
-
-
-
-* +Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;  works with ackern
-
-
-
-
-
-
-
-* LEXICON V_haben__vbhaver  haben:ha
-
-
-
-* LEXICON V_/müssen__vbmod  müssen:muss
-
-
-* LEXICON V_/dürfen__vbmod  dürfen:darf
-
-
-* LEXICON V_/können__vbmod  können:konn
-
-
-* LEXICON V_/mögen__vbmod  mögen:mog
-
-
-* LEXICON V_/sollen__vbmod  sollen:soll
-
-
-
-* LEXICON V_/werden__vaux  werden:w
-
-
-* LEXICON V_/wollen__vaux  wollen:w
-
-
-
-
-* LEXICON V_/werden__vblex  werden:w
-
-
-* LEXICON V_/kommen__vblex  kommen:k
-
-
-* LEXICON V_g/eben__vblex  geben:gab
-
-
-* LEXICON V_spr/echen__vblex  geben:gab
-
-
-* LEXICON V_g/elten__vblex  gelten:galt
-
-
-* LEXICON V_tr/eten__vblex  treten:tratt
-
-
-* LEXICON V_g/ehen__vblex  gehen:g
-
-
-* LEXICON V_st/ehen__vblex  stehen:st
-
-
-* LEXICON V_s/ehen__vblex  sehen:sah
-
-* LEXICON V_schr/ecken__vblex  schrecken:schrack
-
-
-* LEXICON V_w/erfen__vblex  werfen:warf
-
-* LEXICON V_b/ersten__vblex  bersten:barst
-birst
-
-* LEXICON V_k/ennen__vblex  kennen:kann
-
-* LEXICON V_s/enden__vblex  senden:sand
-
-
-* LEXICON V_/nehmen__vblex  nehmen:n
-
-
-* LEXICON V_dr/eschen__vblex  dreschen:drosch
-
-
-* LEXICON V_/laufen__vblex  laufen:l
-
-
-* LEXICON V_h/alten__vblex  halten:halt
-
-
-* LEXICON V_l/assen__vblex  lassen:l
-
-
-* LEXICON V_st/oßen__vblex  stoßen:stoß
-
-
-* LEXICON V_bl/eiben__vblex  bleiben:bleib
-
-
-* LEXICON V_r/eißen__vblex  reißen:reiss
-
-
-* LEXICON V_gl/eichen__vblex  gleichen:gleich
-
-
-* LEXICON V_schw/immen__vblex  schwimmen:schwamm
-
-
-* LEXICON V_br/ingen__vblex  bringen:br
-
-
-* LEXICON V_d/ingen__vblex  dingen:dang
-
-
-* LEXICON V_f/inden__vblex  finden:fand
-
-
-* LEXICON V_s/itzen__vblex  sitzen:s
-
-
-* LEXICON V_d/enken__vblex  denken:d
-
-
-* LEXICON V_bew/egen__vblex  bewegen:bew
-
-
-* LEXICON V_pfl/egen__vblex  pflegen:pfl
-
-* LEXICON V_z/iehen__vblex  ziehen:z
-
-
-* LEXICON V_fr/ieren__vblex  frieren:fror
-
-
-* LEXICON V_sch/ießen__vblex  schießen:schoss
-
-
-* LEXICON V_f/ahren__vblex  fahren:fahr
-
-
-* LEXICON V_f/angen__vblex  fangen:fang
-
-
-* LEXICON V_/dürfen__vblex  dürfen:darf
-
-* LEXICON V_l/iegen__vblex  liegen:lag
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>Adverbs
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverbs
 The GERMAN language adverbs
 
 
@@ -1892,313 +2120,18 @@ The GERMAN language adverbs
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Proper noun inflection
-The GERMAN language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-CHECKME ʼ
-
-
-CHECKME ʼ
-
-
-
-
-
-
-
-
-
-CHECKME ʼ
-
-CHECKME ʼ
-
-FIXME
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-FIXME
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>
-
-
-
-
-
-TRIGGER
-* %^A2E:0 
-* %^A2I:0 
-* %^A2O:0 
-* %^A2Ö:0 
-* %^A2U:0 
-* %^A2Ü:0 
-* %^A2IE:0 
-* %^O2E:0 
-* %^O2I:0 
-* %^O2IE:0 
-* %^EI2IE:0 
-* %^EI2I:0 
-* %^CC2C:0 mm:m0 kommen kommst kamst
-* %^DeV:0 g0:ch
-* %^LowerVow:0 o:a 
-* %^Pen:0 penultimate syllable
-* %^RmVow:0 remove vowel
-* %^Umlaut:0 umlaut a:ä, o:ö, u:ü
-
-
-
-
-
-
-* *Boden%^Umlaut%>#*
-* *Böden000*
-
-* ★*Boden%^Umlaut%>#* (is not standard language)
-* ★*Boden000* (is not standard language)
-
-* *konn%^LowerVow*
-* *kann0*
-
-
-
-* *Baum%^Umlaut%>e#*
-* *Bäum00e0*
-
-* *Apfel%^Umlaut*
-* *Äpfel0*
-
-* *Napf%^Umlaut%>e#*
-* *Näpf00e0*
-
-* ★*Napf%^Umlaut%>e#* (is not standard language)
-* ★*Napf00e0* (is not standard language)
-
-
-
-dreschen+V+Ind+Prs+Pl1
-* *drosch%^O2E%>en*
-* *dresch0%>en*
-
-
-
-geben+V+Ind+Prs+Sg1
-* *gab%^A2E%>e*
-* *geb0%>e*
-
-
-geben+V+Ind+Prs+Sg2
-* *gab%^A2I%>st*
-* *gib0%>st*
-halten+V+Ind+Prt+Sg2
-* *ha0lt%^A2IE%>e%>st*
-* *hielt0%>e%>st*
-fallen+V+Ind+Prt+Pl1
-* *fa0ll%^A2IE%^CC2C%>en*
-* *fiel00%>en*
-
-
-
-schwimmen+V+Ind+Prs+Sg2
-* *schwamm%^A2I%>st*
-* *schwimm0%>st*
-
-
-fahren+V+Ind+Prt+Sg2
-* *fahr%^A2U%>st*
-* *fuhr0%>st*
-
-fahren+V+Ind+Prt+Sg2
-* *fahr%^A2Ü%>st*
-* *führ0%>st*
-
-gelten+V+Subj+Prt+Sg1
-* *galt%^A2Ö%>e*
-* *gölt0%>e*
-
-stoßen+V+Ind+Prt+Sg2
-* *sto0ß%^O2IE%>e%>st*
-* *stieß0%>e%>st*
-dreschen+V+Ind+Prs+Sg3
-* *drosch%^O2I%>t*
-* *drisch0%>t*
-
-
-* *Saal%^Umlaut%>e#*
-* *Sä0l00e0*
-
-Salto
-* *Salto%^RmVow*
-* *Salt00*
-
-reißen
-* *reiss%^CC2C%>en*
-* *rei0ß0%>en*
-
-treffen+V+Subj+Prt+Pl1
-* *traff%^Umlaut%^CC2C%>en*
-* *trä0f00%>en*
-
-
-
-
-aasen+V+Ind+Prs+Sg2
-* *aas%>st*
-* *aas%>0t*
-groß+A+Superl+Fem+Sg+Acc+Def
-* *groß%^Umlaut%>st%>e*
-* *größ0%>0t%>e*
-
-reißen
-* *reiss%^CC2C%>en*
-* *rei0ß0%>en*
-
-fallen+V+Ind+Prt+Pl1
-* *fa0ll%^A2IE%^CC2C%>en*
-* *fie0l0%>en*
-
-schrecken+V+Subj+Prt+Pl1
-* *schrack%^Umlaut%^CC2C%>en*
-* *schrä0k00%>en*
-
-
-* *Nomade%>en#*
-* *Nomad00en0*
-
-* ★*Nomade%>en#* (is not standard language)
-* ★*Nomade0en0* (is not standard language)
-ackern+V+Ind+Prs+Sg1
-* *acker%^Pen%^RmVow%>e*
-* *ack0r00%>e*
-bleiben+V+Ind+Prt+Sg1
-* *blei0b%^EI2IE*
-* *bl0ieb0*
-reißen
-* *reiss%^EI2I*
-* *r0iss0*
-
-
-mögen+V+Mod+Ind+Prt+Sg1
-* *mog0%^DeV%>te*
-* *moch0%>te*
-
-
-mögen+V+Mod+Ind+Prt+Sg1
-* *mog0%^DeV%>te*
-* *moch0%>te*
-
-stoßen+V+Ind+Prt+Sg2
-* *sto0ß%^O2IE%>e%>st*
-* *stieß0%>e%>st*
-halten+V+Ind+Prt+Sg2
-* *ha0lt%^A2IE%>e%>st*
-* *hielt0%>e%>st*
-bleiben+V+Ind+Prt+Sg1
-* *blei0b%^EI2IE*
-* *bl0ieb0*
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>
 FROM APERTIUM
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>Prefixes
-Prefixes in GERMAN language are bound to beginning of other words.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
-eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
-
-
-
-
-
-
-FROM APERTIUM
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
-* Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
-* Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
-
-
-
-
-
-
-FROM APERTIUM and beyond
-
-
-
-*	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
-* Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
-2016-01-25
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
-Adjectives in GERMAN language describe things.
-
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>
 FROM APERTIUM
 
 
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>
-
-Verbs
-
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>
 
 
 
@@ -2250,7 +2183,15 @@ APERTIUM
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+Adjectives in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
 Numerals in GERMAN language are numbers.
 
 
@@ -2316,7 +2257,57 @@ Numerals in GERMAN language are numbers.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>Adverbs
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
+* Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
+* Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
+
+
+
+
+
+
+FROM APERTIUM and beyond
+
+
+
+*	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
+* Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
+2016-01-25
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
+eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
+
+
+
+
+
+
+FROM APERTIUM
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>Adverbs
 Adverbs in GERMAN language describe things.
 
 FROM APERTIUM
@@ -2324,13 +2315,22 @@ FROM APERTIUM
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>
-FROM APERTIUM
+
+Verbs
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Prefixes
+Prefixes in GERMAN language are bound to beginning of other words.
+
+
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 We describe here how abbreviations are in German are read out, e.g.
