@@ -783,255 +783,7 @@ bleiben+V+Ind+Prt+Sg1
 * *blei0b%^EI2IE*
 * *bl0ieb0*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>German language
-
-
-
-* +SP2 	   singular or plural Formal
-
-
-*  +NoArt	 Stark accompanied preceding Indef
-Schwach Def
-gemischt Indef
-
-* +Symbol = independent symbols in the text stream, like £, €, ©
-
-Homonyms
-
-
-
-
-
-
-
-Semantic tags to help disambiguation & synt. analysis: (before POS)
-
-
-*  +Sem/Act          = Activity
-*  +Sem/Adr          = Webadr
-*  +Sem/Amount       = Amount
-*  +Sem/Ani          = Animate
-*  +Sem/Aniprod      = Animal Product
-*  +Sem/Body         = Bodypart
-*  +Sem/Body-abstr   = siellu, vuoig?a, jierbmi
-*  +Sem/Build        = Building
-*  +Sem/Build-part   = Part of Bulding, like the closet
-*  +Sem/Cat              = Category
-*  +Sem/Clth         = Clothes
-*  +Sem/Clth-jewl    = Jewelery
-*  +Sem/Clth-part    = part of clothes, boallu, sávdnji...
-*  +Sem/Ctain        = Container
-*  +Sem/Ctain-abstr  = Abstract container like bank account
-*  +Sem/Ctain-clth   = Soft container, like a rucksack
-*  +Sem/Curr         = Currency like dollár, Not Money
-*  +Sem/Dance        = Dance
-*  +Sem/Dir              = Direction like GPS-kursa
-*  +Sem/Domain       = Domain like politics, reindeerherding (a system of actions)
-*  +Sem/Drink        = Drink
-*  +Sem/Dummytag     = Dummytag
-*  +Sem/Edu          = Educational event
-*  +Sem/Event        = Event
-*  +Sem/Feat                 = Feature, like Árvu
-*  +Sem/Feat-phys    = Physiological feature, ivdni, fárda
-*  +Sem/Feat-psych   = Psychological feauture
-*  +Sem/Feat-measr   = Psychological feauture
-*  +Sem/Fem          = Female name
-*  +Sem/Food         = Food
-*  +Sem/Food-med     = Medicine
-*  +Sem/Furn         = Furniture
-*  +Sem/Game         = Game
-*  +Sem/Geom         = Geometrical object
-*  +Sem/Group        = Animal or Human Group
-*  +Sem/Hum          = Human
-*  +Sem/Hum-abstr    = Human abstract
-*  +Sem/Ideol        = Ideology
-*  +Sem/Lang         = Language
-*  +Sem/Mal          = Male name
-*  +Sem/Mat          = Material for producing things
-*  +Sem/Measr        = Measure
-*  +Sem/Money        = Has to do with money, like wages, not Curr(ency)
-*  +Sem/Obj          = Object
-*  +Sem/Obj-clo      = Cloth
-*  +Sem/Obj-cogn      = Cloth
-*  +Sem/Obj-el       = (Electrical) machine or apparatus
-*  +Sem/Obj-ling     = Object with something written on it
-*  +Sem/Obj-rope     = flexible ropelike object
-*  +Sem/Obj-surfc    = Surface object
-*  +Sem/Org          = Organisation
-*  +Sem/Part                 = Feature, oassi, bealli
-*  +Sem/Perc-cogn      = Cloth
-*  +Sem/Perc-emo     = Emotional perception
-*  +Sem/Perc-phys    = Physical perception
-*  +Sem/Perc-psych           = Physical perception
-*  +Sem/Plant        = Plant
-*  +Sem/Plant-part   = Plant part
-*  +Sem/Plc          = Place
-*  +Sem/Plc-abstr         = Abstract place
-*  +Sem/Plc-elevate       = Place
-*  +Sem/Plc-line          = Place
-*  +Sem/Plc-water         = Place
-*  +Sem/Pos                  = Position (as in social position job)
-*  +Sem/Process      = Process
-*  +Sem/Prod                 = Product
-*  +Sem/Prod-audio   = Audio product
-*  +Sem/Prod-cogn    = Cognition product
-*  +Sem/Prod-ling    = Linguistic product
-*  +Sem/Prod-vis     = Visual product
-*  +Sem/Rel                  = Relation
-*  +Sem/Route        = Route
-*  +Sem/Rule         = Rule or convention
-*  +Sem/Semcon       = Semantic concept
-*  +Sem/Sign             = Sign (e.g. numbers, punctuation) 
-*  +Sem/Sport       = Sport
-*  +Sem/State                = 
-*  +Sem/State-sick   = Illness
-*  +Sem/Substnc      = Substance, like Air and Water
-*  +Sem/Sur          = Surname
-*  +Sem/Symbol       = Symbol
-*  +Sem/Time         = Time
-*  +Sem/Tool                 = Prototypical tool for repairing things
-*  +Sem/Tool-catch   = Tool used for catching (e.g. fish)
-*  +Sem/Tool-clean   = Tool used for cleaning
-*  +Sem/Tool-it      = Tool used in IT
-*  +Sem/Tool-measr   = Tool used for measuring
-*  +Sem/Tool-music   = Music instrument
-*  +Sem/Tool-write   = Writing tool
-*  +Sem/Txt          = Text (girji, lávlla...)
-*  +Sem/Veh          = Vehicle
-*  +Sem/Wpn          = Weapon
-*  +Sem/Wthr         = The Weather or the state of ground
-
-
-Multiple Semantic tags:
-* +Sem/Act_Group Activity and Group
-* +Sem/Act_Plc   A persons job is an activity, and a place as well
-* +Sem/Act_Route Activity and Route, ie johtolat
-* +Sem/Amount_Build   Amount and Building
-* +Sem/Amount_Semcon
-* +Sem/Ani_Body-abstr_Hum
-* +Sem/Ani_Build
-* +Sem/Ani_Build-part
-* +Sem/Ani_Build_Hum_Txt
-* +Sem/Ani_Group
-* +Sem/Ani_Group_Hum
-* +Sem/Ani_Hum
-* +Sem/Ani_Hum_Plc
-* +Sem/Ani_Hum_Time
-* +Sem/Ani_Plc
-* +Sem/Ani_Plc_Txt
-* +Sem/Ani_Time
-* +Sem/Ani_Veh
-* +Sem/Aniprod_Hum
-* +Sem/Aniprod_Obj-clo
-* +Sem/Aniprod_Perc-phys
-* +Sem/Aniprod_Plc
-* +Sem/Ant_Fem Anthtroponym Female
-* +Sem/Ant_Mal Anthtroponym Male
-* +Sem/Body-abstr_Prod-audio_Semcon
-* +Sem/Body_Body-abstr
-* +Sem/Body_Clth
-* +Sem/Body_Food
-* +Sem/Body_Group_Hum
-* +Sem/Body_Hum
-* +Sem/Body_Mat
-* +Sem/Body_Measr
-* +Sem/Body_Obj_Tool-catch
-* +Sem/Body_Plc
-* +Sem/Body_Time
-* +Sem/Build-part_Plc
-* +Sem/Build_Build-part
-* +Sem/Build_Clth-part
-* +Sem/Build_Edu_Org
-* +Sem/Build_Event_Org
-* +Sem/Build_Org
-* +Sem/Build_Route
-* +Sem/Clth-jewl_Curr
-* +Sem/Clth-jewl_Money
-* +Sem/Clth-jewl_Plant
-* +Sem/Clth_Hum
-* +Sem/Ctain-abstr_Org
-* +Sem/Ctain-clth_Plant
-* +Sem/Ctain-clth_Veh
-* +Sem/Ctain_Feat-phys
-* +Sem/Ctain_Furn
-* +Sem/Ctain_Tool
-* +Sem/Ctain_Tool-measr
-* +Sem/Curr_Org
-* +Sem/Dance_Org
-* +Sem/Dance_Prod-audio
-* +Sem/Domain_Food-med
-* +Sem/Domain_Prod-audio
-* +Sem/Edu_Event
-* +Sem/Edu_Group_Hum
-* +Sem/Edu_Mat
-* +Sem/Edu_Org
-* +Sem/Event_Food
-* +Sem/Event_Hum
-* +Sem/Event_Plc
-* +Sem/Event_Time
-* +Sem/Feat-measr_Plc
-* +Sem/Feat-phys_Tool-write
-* +Sem/Feat-phys_Veh
-* +Sem/Feat-phys_Wthr
-* +Sem/Feat-psych_Hum
-* +Sem/Feat_Plant
-* +Sem/Food_Perc-phys
-* +Sem/Food_Plant
-* +Sem/Game_Obj-play
-* +Sem/Geom_Obj
-* +Sem/Group_Hum
-* +Sem/Group_Hum_Org
-* +Sem/Group_Hum_Plc
-* +Sem/Group_Hum_Prod-vis
-* +Sem/Group_Org
-* +Sem/Group_Sign
-* +Sem/Group_Txt
-* +Sem/Hum_Lang
-* +Sem/Hum_Lang_Plc
-* +Sem/Hum_Lang_Time
-* +Sem/Hum_Obj
-* +Sem/Hum_Org
-* +Sem/Hum_Plant
-* +Sem/Hum_Plc
-* +Sem/Hum_Tool
-* +Sem/Hum_Veh
-* +Sem/Hum_Wthr
-* +Sem/Lang_Tool
-* +Sem/Mat_Plant
-* +Sem/Mat_Txt
-* +Sem/Measr_Time
-* +Sem/Money_Obj
-* +Sem/Money_Txt
-* +Sem/Obj-play
-* +Sem/Obj-play_Sport
-* +Sem/Obj_Semcon
-* +Sem/Clth-jewl_Org
-* +Sem/Org_Rule
-* +Sem/Org_Txt
-* +Sem/Org_Veh
-* +Sem/Part_Prod-cogn
-* +Sem/Perc-emo_Wthr
-* +Sem/Plant_Plant-part
-* +Sem/Plant_Tool
-* +Sem/Plant_Tool-measr
-* +Sem/Plc-abstr_Rel_State
-* +Sem/Plc-abstr_Route
-* +Sem/Plc_Pos
-* +Sem/Plc_Route
-* +Sem/Plc_Substnc
-* +Sem/Plc_Substnc_Wthr
-* +Sem/Plc_Time
-* +Sem/Plc_Tool-catch
-* +Sem/Plc_Wthr
-* +Sem/Prod-audio_Txt
-* +Sem/Prod-cogn_Txt
-* +Sem/Semcon_Txt
-* +Sem/Obj_State
-* +Sem/Substnc_Wthr
-* +Sem/Time_Wthr
-
-
-Derivation
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -1051,349 +803,127 @@ Derivation
 
 
 
-Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
-* +%<acc%> case tags
-* +%<dat%> case tags
-* +%<gen%> case tags
-* +%<nom%> case tags
+* Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
+* Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
+* Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
 
 
 
 
-TRIGGER
-* %^A2E 
-* %^A2I 
-* %^A2O 
-* %^A2Ö 
-* %^A2U 
-* %^A2Ü 
-* %^A2IE 
-* %^O2E 
-* %^O2I 
-* %^O2IE 
-* %^EI2IE 
-* %^EI2I 
-* %^CC2C mm:m0 kommen kommst kamst
-* %^DeV g0:ch
-* %^LowerVow o:a
-* %^Pen penultimate syllable
-* %^RmVow remove vowel
-* %^Umlaut umlaut a:ä, o:ö, u:ü
 
 
-## Escaped symbols
-
-Symbols that need to be escaped on the lower side (towards twolc):
-* »
-* «
-* >
-* <
-
-The Usage extents are marked using following tags:
-
-*  +Err/Orth      
-* ** +Use/Marg        ** marginal (?)
-* ** +Use/-Spell      ** Excluded in speller
-* ** +Use/SpellNoSugg ** recognized but not suggested in speller
+FROM APERTIUM and beyond
 
 
 
-
-COMPOUNDING
-* +Cmp compound
-* +Use/Circ FIXME, (where I am)
-
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@ | Block these words from making further compounds
-|  @D.CmpLast.TRUE@ | Block such words from entering R
-|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-
-
-* @U.Cap.Obl@ Nouns ;  This is stated once since R also leads directly to Nouns
+*	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
+* Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
+2016-01-25
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>Prepositions
-The GERMAN language prepositions
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>Adverbs
+Adverbs in GERMAN language describe things.
+
+FROM APERTIUM
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>
+FROM APERTIUM
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>
+
+Verbs
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Numerals
+Numerals in GERMAN language are numbers.
 
 
 
 
 
-Not definite
 
+
+
+
+
+
+
+
+
+
+
+
+
+* **LEXICON ROMAN   **  roman numerals
+
+* **LEXICON ROM-THOUSAND   ** 
+
+* **LEXICON ROM-THOUSAND-TAG   ** 
+
+* **LEXICON ROM-HUNDRED   ** 
+
+* **LEXICON ROM-HUNDRED-TAG   ** 
+
+* **LEXICON ROM-TEN   ** 
+
+* **LEXICON ROM-TEN-TAG   ** 
+
+* **LEXICON ROM-ONE   ** 
+
+* **LEXICON ROM-ONE-TAG   ** 
+
+
+* **LEXICON ROM-SPLIT   ** 
+
+
+
+* **LEXICON 2ROMAN   ** 
+
+* **LEXICON 2ROM-THOUSAND   ** 
+
+* **LEXICON 2ROM-THOUSAND-TAG   ** 
+
+* **LEXICON 2ROM-HUNDRED   ** 
+
+* **LEXICON 2ROM-HUNDRED-TAG   ** 
+* **LEXICON 2ROM-TEN   ** 
+
+* **LEXICON 2ROM-TEN-TAG   ** 
+
+* **LEXICON 2ROM-ONE   ** 
+
+* **LEXICON 2ROM-ONE-TAG   ** 
+
+* **LEXICON ROMNUMTAG   **
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
-The GERMAN language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-CHECKME ʼ
-
-
-CHECKME ʼ
-
-
-
-
-
-
-
-
-
-CHECKME ʼ
-
-CHECKME ʼ
-
-FIXME
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-FIXME
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
-
-CHECKME ʼ
-FIXME
-CHECKME ʼ
-CHECKME ʼ
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+FROM APERTIUM
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>Adjectives
+Adjectives in GERMAN language describe things.
 
+FROM APERTIUM
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-CHECKME, should there be +Comp and +Superl
-
-CHECKME, should there be +Comp and +Superl
-
-
-
-
-
-
-
-
-
-
-
-
-* +Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;  works with ackern
-
-
-
-
-
-
-
-* LEXICON V_haben__vbhaver  haben:ha
-
-
-
-* LEXICON V_/müssen__vbmod  müssen:muss
-
-
-* LEXICON V_/dürfen__vbmod  dürfen:darf
-
-
-* LEXICON V_/können__vbmod  können:konn
-
-
-* LEXICON V_/mögen__vbmod  mögen:mog
-
-
-* LEXICON V_/sollen__vbmod  sollen:soll
-
-
-
-* LEXICON V_/werden__vaux  werden:w
-
-
-* LEXICON V_/wollen__vaux  wollen:w
-
-
-
-
-* LEXICON V_/werden__vblex  werden:w
-
-
-* LEXICON V_/kommen__vblex  kommen:k
-
-
-* LEXICON V_g/eben__vblex  geben:gab
-
-
-* LEXICON V_spr/echen__vblex  geben:gab
-
-
-* LEXICON V_g/elten__vblex  gelten:galt
-
-
-* LEXICON V_tr/eten__vblex  treten:tratt
-
-
-* LEXICON V_g/ehen__vblex  gehen:g
-
-
-* LEXICON V_st/ehen__vblex  stehen:st
-
-
-* LEXICON V_s/ehen__vblex  sehen:sah
-
-* LEXICON V_schr/ecken__vblex  schrecken:schrack
-
-
-* LEXICON V_w/erfen__vblex  werfen:warf
-
-* LEXICON V_b/ersten__vblex  bersten:barst
-birst
-
-* LEXICON V_k/ennen__vblex  kennen:kann
-
-* LEXICON V_s/enden__vblex  senden:sand
-
-
-* LEXICON V_/nehmen__vblex  nehmen:n
-
-
-* LEXICON V_dr/eschen__vblex  dreschen:drosch
-
-
-* LEXICON V_/laufen__vblex  laufen:l
-
-
-* LEXICON V_h/alten__vblex  halten:halt
-
-
-* LEXICON V_l/assen__vblex  lassen:l
-
-
-* LEXICON V_st/oßen__vblex  stoßen:stoß
-
-
-* LEXICON V_bl/eiben__vblex  bleiben:bleib
-
-
-* LEXICON V_r/eißen__vblex  reißen:reiss
-
-
-* LEXICON V_gl/eichen__vblex  gleichen:gleich
-
-
-* LEXICON V_schw/immen__vblex  schwimmen:schwamm
-
-
-* LEXICON V_br/ingen__vblex  bringen:br
-
-
-* LEXICON V_d/ingen__vblex  dingen:dang
-
-
-* LEXICON V_f/inden__vblex  finden:fand
-
-
-* LEXICON V_s/itzen__vblex  sitzen:s
-
-
-* LEXICON V_d/enken__vblex  denken:d
-
-
-* LEXICON V_bew/egen__vblex  bewegen:bew
-
-
-* LEXICON V_pfl/egen__vblex  pflegen:pfl
-
-* LEXICON V_z/iehen__vblex  ziehen:z
-
-
-* LEXICON V_fr/ieren__vblex  frieren:fror
-
-
-* LEXICON V_sch/ießen__vblex  schießen:schoss
-
-
-* LEXICON V_f/ahren__vblex  fahren:fahr
-
-
-* LEXICON V_f/angen__vblex  fangen:fang
-
-
-* LEXICON V_/dürfen__vblex  dürfen:darf
-
-* LEXICON V_l/iegen__vblex  liegen:lag
-
-
-
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>Prefixes
+Prefixes in GERMAN language are bound to beginning of other words.
 
 
 
@@ -1401,16 +931,13 @@ birst
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
-The GERMAN language adjectives compare.
-
-
-* MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 
-* FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
 
+
+wiederherangekommen
 
 
 
@@ -1418,9 +945,9 @@ The GERMAN language adjectives compare.
 
 
 
+This is where we put BE/EMP/ENT/ER words that are loners
 
-
-
+The verbs below can take BE/ENT/ER/VER/ZER
 
 
 
@@ -1440,7 +967,11 @@ The GERMAN language adjectives compare.
 
 
 
-* LEXICON A_/viel__adj  viel:
+
+
+
+auxillary and modal verbs
+other verbs
 
 
 
@@ -1448,27 +979,21 @@ The GERMAN language adjectives compare.
 
 
 
-
-
-
-
-
-
-
-
-* LEXICON A_minde/r__adj  minder:minde
-
-* LEXICON A_n/ah__adj  nah:na
-
-
-
-
-
-
+APERTIUM
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
+eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
+
+
+
+
+
+
+FROM APERTIUM
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>
 
 
 
@@ -2120,144 +1645,28 @@ The GERMAN language adverbs
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>
-FROM APERTIUM
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Prepositions
+The GERMAN language prepositions
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>
-FROM APERTIUM
 
 
 
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>
+Not definite
 
-
-
-
-
-wiederherangekommen
-
-
-
-
-
-
-
-This is where we put BE/EMP/ENT/ER words that are loners
-
-The verbs below can take BE/ENT/ER/VER/ZER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-auxillary and modal verbs
-other verbs
-
-
-
-
-
-
-
-APERTIUM
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
-Adjectives in GERMAN language describe things.
-
-FROM APERTIUM
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
-Numerals in GERMAN language are numbers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **LEXICON ROMAN   **  roman numerals
-
-* **LEXICON ROM-THOUSAND   ** 
-
-* **LEXICON ROM-THOUSAND-TAG   ** 
-
-* **LEXICON ROM-HUNDRED   ** 
-
-* **LEXICON ROM-HUNDRED-TAG   ** 
-
-* **LEXICON ROM-TEN   ** 
-
-* **LEXICON ROM-TEN-TAG   ** 
-
-* **LEXICON ROM-ONE   ** 
-
-* **LEXICON ROM-ONE-TAG   ** 
-
-
-* **LEXICON ROM-SPLIT   ** 
-
-
-
-* **LEXICON 2ROMAN   ** 
-
-* **LEXICON 2ROM-THOUSAND   ** 
-
-* **LEXICON 2ROM-THOUSAND-TAG   ** 
-
-* **LEXICON 2ROM-HUNDRED   ** 
-
-* **LEXICON 2ROM-HUNDRED-TAG   ** 
-* **LEXICON 2ROM-TEN   ** 
-
-* **LEXICON 2ROM-TEN-TAG   ** 
-
-* **LEXICON 2ROM-ONE   ** 
-
-* **LEXICON 2ROM-ONE-TAG   ** 
-
-* **LEXICON ROMNUMTAG   **
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>Proper noun inflection
+The GERMAN language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+CHECKME ʼ
+
+
+CHECKME ʼ
 
 
 
@@ -2267,62 +1676,100 @@ Numerals in GERMAN language are numbers.
 
 
 
+CHECKME ʼ
 
+CHECKME ʼ
 
+FIXME
+CHECKME ʼ
+FIXME
+CHECKME ʼ
 
+CHECKME ʼ
+FIXME
+CHECKME ʼ
 
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
 
+FIXME
 
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
 
+CHECKME ʼ
+FIXME
+CHECKME ʼ
+CHECKME ʼ
 
-
-
-
-* Uhr w2f "(eng) clock" ;  Uhr+N+Pl+Nom: Uhren
-* Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
-* Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
-
-
-
-
-
-
-FROM APERTIUM and beyond
-
-
-
-*	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
-* Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
-2016-01-25
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
-eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
-
-
-
-
-
-
-FROM APERTIUM
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>Adverbs
-Adverbs in GERMAN language describe things.
-
-FROM APERTIUM
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>
-
-Verbs
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Prefixes
-Prefixes in GERMAN language are bound to beginning of other words.
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>Adjective inflection
+The GERMAN language adjectives compare.
+
+
+* MSC-PRFPRC_BEAMTER ;  Beamter:beamte
+
+
+
+* FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON A_/viel__adj  viel:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* LEXICON A_minde/r__adj  minder:minde
+
+* LEXICON A_n/ah__adj  nah:na
+
+
 
 
 
@@ -2330,24 +1777,785 @@ Prefixes in GERMAN language are bound to beginning of other words.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
 
-We describe here how abbreviations are in German are read out, e.g.
-for text-to-speech systems.
 
-For example:
 
-* s.:syntynyt # ;  
-* os.:omaa% sukua # ;  
-* v.:vuosi # ;  
-* v.:vuonna # ;  
-* esim.:esimerkki # ; 
-* esim.:esimerkiksi # ; 
+
+
+
+
+
+
+
+
+
+
+
+CHECKME, should there be +Comp and +Superl
+
+CHECKME, should there be +Comp and +Superl
+
+
+
+
+
+
+
+
+
+
+
+
+* +Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;  works with ackern
+
+
+
+
+
+
+
+* LEXICON V_haben__vbhaver  haben:ha
+
+
+
+* LEXICON V_/müssen__vbmod  müssen:muss
+
+
+* LEXICON V_/dürfen__vbmod  dürfen:darf
+
+
+* LEXICON V_/können__vbmod  können:konn
+
+
+* LEXICON V_/mögen__vbmod  mögen:mog
+
+
+* LEXICON V_/sollen__vbmod  sollen:soll
+
+
+
+* LEXICON V_/werden__vaux  werden:w
+
+
+* LEXICON V_/wollen__vaux  wollen:w
+
+
+
+
+* LEXICON V_/werden__vblex  werden:w
+
+
+* LEXICON V_/kommen__vblex  kommen:k
+
+
+* LEXICON V_g/eben__vblex  geben:gab
+
+
+* LEXICON V_spr/echen__vblex  geben:gab
+
+
+* LEXICON V_g/elten__vblex  gelten:galt
+
+
+* LEXICON V_tr/eten__vblex  treten:tratt
+
+
+* LEXICON V_g/ehen__vblex  gehen:g
+
+
+* LEXICON V_st/ehen__vblex  stehen:st
+
+
+* LEXICON V_s/ehen__vblex  sehen:sah
+
+* LEXICON V_schr/ecken__vblex  schrecken:schrack
+
+
+* LEXICON V_w/erfen__vblex  werfen:warf
+
+* LEXICON V_b/ersten__vblex  bersten:barst
+birst
+
+* LEXICON V_k/ennen__vblex  kennen:kann
+
+* LEXICON V_s/enden__vblex  senden:sand
+
+
+* LEXICON V_/nehmen__vblex  nehmen:n
+
+
+* LEXICON V_dr/eschen__vblex  dreschen:drosch
+
+
+* LEXICON V_/laufen__vblex  laufen:l
+
+
+* LEXICON V_h/alten__vblex  halten:halt
+
+
+* LEXICON V_l/assen__vblex  lassen:l
+
+
+* LEXICON V_st/oßen__vblex  stoßen:stoß
+
+
+* LEXICON V_bl/eiben__vblex  bleiben:bleib
+
+
+* LEXICON V_r/eißen__vblex  reißen:reiss
+
+
+* LEXICON V_gl/eichen__vblex  gleichen:gleich
+
+
+* LEXICON V_schw/immen__vblex  schwimmen:schwamm
+
+
+* LEXICON V_br/ingen__vblex  bringen:br
+
+
+* LEXICON V_d/ingen__vblex  dingen:dang
+
+
+* LEXICON V_f/inden__vblex  finden:fand
+
+
+* LEXICON V_s/itzen__vblex  sitzen:s
+
+
+* LEXICON V_d/enken__vblex  denken:d
+
+
+* LEXICON V_bew/egen__vblex  bewegen:bew
+
+
+* LEXICON V_pfl/egen__vblex  pflegen:pfl
+
+* LEXICON V_z/iehen__vblex  ziehen:z
+
+
+* LEXICON V_fr/ieren__vblex  frieren:fror
+
+
+* LEXICON V_sch/ießen__vblex  schießen:schoss
+
+
+* LEXICON V_f/ahren__vblex  fahren:fahr
+
+
+* LEXICON V_f/angen__vblex  fangen:fang
+
+
+* LEXICON V_/dürfen__vblex  dürfen:darf
+
+* LEXICON V_l/iegen__vblex  liegen:lag
+
+
+
+
+
+
+
+
+
+
+
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>German language
+
+
+
+* +SP2 	   singular or plural Formal
+
+
+*  +NoArt	 Stark accompanied preceding Indef
+Schwach Def
+gemischt Indef
+
+* +Symbol = independent symbols in the text stream, like £, €, ©
+
+Homonyms
+
+
+
+
+
+
+
+Semantic tags to help disambiguation & synt. analysis: (before POS)
+
+
+*  +Sem/Act          = Activity
+*  +Sem/Adr          = Webadr
+*  +Sem/Amount       = Amount
+*  +Sem/Ani          = Animate
+*  +Sem/Aniprod      = Animal Product
+*  +Sem/Body         = Bodypart
+*  +Sem/Body-abstr   = siellu, vuoig?a, jierbmi
+*  +Sem/Build        = Building
+*  +Sem/Build-part   = Part of Bulding, like the closet
+*  +Sem/Cat              = Category
+*  +Sem/Clth         = Clothes
+*  +Sem/Clth-jewl    = Jewelery
+*  +Sem/Clth-part    = part of clothes, boallu, sávdnji...
+*  +Sem/Ctain        = Container
+*  +Sem/Ctain-abstr  = Abstract container like bank account
+*  +Sem/Ctain-clth   = Soft container, like a rucksack
+*  +Sem/Curr         = Currency like dollár, Not Money
+*  +Sem/Dance        = Dance
+*  +Sem/Dir              = Direction like GPS-kursa
+*  +Sem/Domain       = Domain like politics, reindeerherding (a system of actions)
+*  +Sem/Drink        = Drink
+*  +Sem/Dummytag     = Dummytag
+*  +Sem/Edu          = Educational event
+*  +Sem/Event        = Event
+*  +Sem/Feat                 = Feature, like Árvu
+*  +Sem/Feat-phys    = Physiological feature, ivdni, fárda
+*  +Sem/Feat-psych   = Psychological feauture
+*  +Sem/Feat-measr   = Psychological feauture
+*  +Sem/Fem          = Female name
+*  +Sem/Food         = Food
+*  +Sem/Food-med     = Medicine
+*  +Sem/Furn         = Furniture
+*  +Sem/Game         = Game
+*  +Sem/Geom         = Geometrical object
+*  +Sem/Group        = Animal or Human Group
+*  +Sem/Hum          = Human
+*  +Sem/Hum-abstr    = Human abstract
+*  +Sem/Ideol        = Ideology
+*  +Sem/Lang         = Language
+*  +Sem/Mal          = Male name
+*  +Sem/Mat          = Material for producing things
+*  +Sem/Measr        = Measure
+*  +Sem/Money        = Has to do with money, like wages, not Curr(ency)
+*  +Sem/Obj          = Object
+*  +Sem/Obj-clo      = Cloth
+*  +Sem/Obj-cogn      = Cloth
+*  +Sem/Obj-el       = (Electrical) machine or apparatus
+*  +Sem/Obj-ling     = Object with something written on it
+*  +Sem/Obj-rope     = flexible ropelike object
+*  +Sem/Obj-surfc    = Surface object
+*  +Sem/Org          = Organisation
+*  +Sem/Part                 = Feature, oassi, bealli
+*  +Sem/Perc-cogn      = Cloth
+*  +Sem/Perc-emo     = Emotional perception
+*  +Sem/Perc-phys    = Physical perception
+*  +Sem/Perc-psych           = Physical perception
+*  +Sem/Plant        = Plant
+*  +Sem/Plant-part   = Plant part
+*  +Sem/Plc          = Place
+*  +Sem/Plc-abstr         = Abstract place
+*  +Sem/Plc-elevate       = Place
+*  +Sem/Plc-line          = Place
+*  +Sem/Plc-water         = Place
+*  +Sem/Pos                  = Position (as in social position job)
+*  +Sem/Process      = Process
+*  +Sem/Prod                 = Product
+*  +Sem/Prod-audio   = Audio product
+*  +Sem/Prod-cogn    = Cognition product
+*  +Sem/Prod-ling    = Linguistic product
+*  +Sem/Prod-vis     = Visual product
+*  +Sem/Rel                  = Relation
+*  +Sem/Route        = Route
+*  +Sem/Rule         = Rule or convention
+*  +Sem/Semcon       = Semantic concept
+*  +Sem/Sign             = Sign (e.g. numbers, punctuation) 
+*  +Sem/Sport       = Sport
+*  +Sem/State                = 
+*  +Sem/State-sick   = Illness
+*  +Sem/Substnc      = Substance, like Air and Water
+*  +Sem/Sur          = Surname
+*  +Sem/Symbol       = Symbol
+*  +Sem/Time         = Time
+*  +Sem/Tool                 = Prototypical tool for repairing things
+*  +Sem/Tool-catch   = Tool used for catching (e.g. fish)
+*  +Sem/Tool-clean   = Tool used for cleaning
+*  +Sem/Tool-it      = Tool used in IT
+*  +Sem/Tool-measr   = Tool used for measuring
+*  +Sem/Tool-music   = Music instrument
+*  +Sem/Tool-write   = Writing tool
+*  +Sem/Txt          = Text (girji, lávlla...)
+*  +Sem/Veh          = Vehicle
+*  +Sem/Wpn          = Weapon
+*  +Sem/Wthr         = The Weather or the state of ground
+
+
+Multiple Semantic tags:
+* +Sem/Act_Group Activity and Group
+* +Sem/Act_Plc   A persons job is an activity, and a place as well
+* +Sem/Act_Route Activity and Route, ie johtolat
+* +Sem/Amount_Build   Amount and Building
+* +Sem/Amount_Semcon
+* +Sem/Ani_Body-abstr_Hum
+* +Sem/Ani_Build
+* +Sem/Ani_Build-part
+* +Sem/Ani_Build_Hum_Txt
+* +Sem/Ani_Group
+* +Sem/Ani_Group_Hum
+* +Sem/Ani_Hum
+* +Sem/Ani_Hum_Plc
+* +Sem/Ani_Hum_Time
+* +Sem/Ani_Plc
+* +Sem/Ani_Plc_Txt
+* +Sem/Ani_Time
+* +Sem/Ani_Veh
+* +Sem/Aniprod_Hum
+* +Sem/Aniprod_Obj-clo
+* +Sem/Aniprod_Perc-phys
+* +Sem/Aniprod_Plc
+* +Sem/Ant_Fem Anthtroponym Female
+* +Sem/Ant_Mal Anthtroponym Male
+* +Sem/Body-abstr_Prod-audio_Semcon
+* +Sem/Body_Body-abstr
+* +Sem/Body_Clth
+* +Sem/Body_Food
+* +Sem/Body_Group_Hum
+* +Sem/Body_Hum
+* +Sem/Body_Mat
+* +Sem/Body_Measr
+* +Sem/Body_Obj_Tool-catch
+* +Sem/Body_Plc
+* +Sem/Body_Time
+* +Sem/Build-part_Plc
+* +Sem/Build_Build-part
+* +Sem/Build_Clth-part
+* +Sem/Build_Edu_Org
+* +Sem/Build_Event_Org
+* +Sem/Build_Org
+* +Sem/Build_Route
+* +Sem/Clth-jewl_Curr
+* +Sem/Clth-jewl_Money
+* +Sem/Clth-jewl_Plant
+* +Sem/Clth_Hum
+* +Sem/Ctain-abstr_Org
+* +Sem/Ctain-clth_Plant
+* +Sem/Ctain-clth_Veh
+* +Sem/Ctain_Feat-phys
+* +Sem/Ctain_Furn
+* +Sem/Ctain_Tool
+* +Sem/Ctain_Tool-measr
+* +Sem/Curr_Org
+* +Sem/Dance_Org
+* +Sem/Dance_Prod-audio
+* +Sem/Domain_Food-med
+* +Sem/Domain_Prod-audio
+* +Sem/Edu_Event
+* +Sem/Edu_Group_Hum
+* +Sem/Edu_Mat
+* +Sem/Edu_Org
+* +Sem/Event_Food
+* +Sem/Event_Hum
+* +Sem/Event_Plc
+* +Sem/Event_Time
+* +Sem/Feat-measr_Plc
+* +Sem/Feat-phys_Tool-write
+* +Sem/Feat-phys_Veh
+* +Sem/Feat-phys_Wthr
+* +Sem/Feat-psych_Hum
+* +Sem/Feat_Plant
+* +Sem/Food_Perc-phys
+* +Sem/Food_Plant
+* +Sem/Game_Obj-play
+* +Sem/Geom_Obj
+* +Sem/Group_Hum
+* +Sem/Group_Hum_Org
+* +Sem/Group_Hum_Plc
+* +Sem/Group_Hum_Prod-vis
+* +Sem/Group_Org
+* +Sem/Group_Sign
+* +Sem/Group_Txt
+* +Sem/Hum_Lang
+* +Sem/Hum_Lang_Plc
+* +Sem/Hum_Lang_Time
+* +Sem/Hum_Obj
+* +Sem/Hum_Org
+* +Sem/Hum_Plant
+* +Sem/Hum_Plc
+* +Sem/Hum_Tool
+* +Sem/Hum_Veh
+* +Sem/Hum_Wthr
+* +Sem/Lang_Tool
+* +Sem/Mat_Plant
+* +Sem/Mat_Txt
+* +Sem/Measr_Time
+* +Sem/Money_Obj
+* +Sem/Money_Txt
+* +Sem/Obj-play
+* +Sem/Obj-play_Sport
+* +Sem/Obj_Semcon
+* +Sem/Clth-jewl_Org
+* +Sem/Org_Rule
+* +Sem/Org_Txt
+* +Sem/Org_Veh
+* +Sem/Part_Prod-cogn
+* +Sem/Perc-emo_Wthr
+* +Sem/Plant_Plant-part
+* +Sem/Plant_Tool
+* +Sem/Plant_Tool-measr
+* +Sem/Plc-abstr_Rel_State
+* +Sem/Plc-abstr_Route
+* +Sem/Plc_Pos
+* +Sem/Plc_Route
+* +Sem/Plc_Substnc
+* +Sem/Plc_Substnc_Wthr
+* +Sem/Plc_Time
+* +Sem/Plc_Tool-catch
+* +Sem/Plc_Wthr
+* +Sem/Prod-audio_Txt
+* +Sem/Prod-cogn_Txt
+* +Sem/Semcon_Txt
+* +Sem/Obj_State
+* +Sem/Substnc_Wthr
+* +Sem/Time_Wthr
+
+
+Derivation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
+
+* +%<acc%> case tags
+* +%<dat%> case tags
+* +%<gen%> case tags
+* +%<nom%> case tags
+
+
+
+
+TRIGGER
+* %^A2E 
+* %^A2I 
+* %^A2O 
+* %^A2Ö 
+* %^A2U 
+* %^A2Ü 
+* %^A2IE 
+* %^O2E 
+* %^O2I 
+* %^O2IE 
+* %^EI2IE 
+* %^EI2I 
+* %^CC2C mm:m0 kommen kommst kamst
+* %^DeV g0:ch
+* %^LowerVow o:a
+* %^Pen penultimate syllable
+* %^RmVow remove vowel
+* %^Umlaut umlaut a:ä, o:ö, u:ü
+
+
+## Escaped symbols
+
+Symbols that need to be escaped on the lower side (towards twolc):
+* »
+* «
+* >
+* <
+
+The Usage extents are marked using following tags:
+
+*  +Err/Orth      
+* ** +Use/Marg        ** marginal (?)
+* ** +Use/-Spell      ** Excluded in speller
+* ** +Use/SpellNoSugg ** recognized but not suggested in speller
+
+
+
+
+COMPOUNDING
+* +Cmp compound
+* +Use/Circ FIXME, (where I am)
+
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+
+* @U.Cap.Obl@ Nouns ;  This is stated once since R also leads directly to Nouns
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
+retroflex plosive, voiced			d`	ɖ		0256, 598
+labiodental nasal					F 	ɱ		0271, 625
+retroflex nasal						n` 	ɳ		0273, 627
+palatal nasal						J 	ɲ		0272, 626
+velar nasal							N 	ŋ		014B, 331
+uvular nasal							N\	ɴ		0274, 628
+	
+bilabial trill						B\ 	ʙ		0299, 665
+uvular trill							R\ 	ʀ		0280, 640
+alveolar tap							4	ɾ		027E, 638
+retroflex flap						r` 	ɽ		027D, 637
+bilabial fricative, voiceless		p\ 	ɸ		0278, 632
+bilabial fricative, voiced			B 	β		03B2, 946
+dental fricative, voiceless			T 	θ		03B8, 952
+dental fricative, voiced				D 	ð		00F0, 240
+postalveolar fricative, voiceless	S	ʃ		0283, 643
+postalveolar fricative, voiced		Z 	ʒ		0292, 658
+retroflex fricative, voiceless		s` 	ʂ		0282, 642
+retroflex fricative, voiced			z` 	ʐ		0290, 656
+palatal fricative, voiceless			C 	ç		00E7, 231
+palatal fricative, voiced			j\ 	ʝ		029D, 669
+velar fricative, voiced	        	G 	ɣ		0263, 611
+uvular fricative, voiceless			X	χ		03C7, 967
+uvular fricative, voiced				R 	ʁ		0281, 641
+pharyngeal fricative, voiceless		X\ 	ħ		0127, 295
+pharyngeal fricative, voiced			?\ 	ʕ		0295, 661
+glottal fricative, voiced			h\	ɦ		0266, 614
+
+alveolar lateral fricative, vl.		K 
+alveolar lateral fricative, vd.		K\
+
+labiodental approximant				P (or v\) 
+alveolar approximant					r\ 
+retroflex approximant				r\` 
+velar approximant					M\
+
+retroflex lateral approximant		l` 
+palatal lateral approximant			L 
+velar lateral approximant			L\
+Clicks
+
+bilabial								O\	(O = capital letter) 
+dental								|\
+(post)alveolar						!\ 
+palatoalveolar						=\ 
+alveolar lateral						|\|\
+Ejectives, implosives
+
+ejective								_>	e.g. ejective p		p_>
+implosive							_<	e.g. implosive b	b_<
+Vowels
+
+close back unrounded					M
+close central unrounded 				1 
+close central rounded				} 
+lax i								I 
+lax y								Y 
+lax u								U
+
+close-mid front rounded				2 
+close-mid central unrounded			@\ 
+close-mid central rounded			8 
+close-mid back unrounded				7
+
+schwa	ə							@
+
+open-mid front unrounded				E 
+open-mid front rounded				9
+open-mid central unrounded			3 
+open-mid central rounded				3\ 
+open-mid back unrounded				V 
+open-mid back rounded				O
+
+ash (ae digraph)						{ 
+open schwa (turned a)				6
+
+open front rounded					& 
+open back unrounded	        		A 
+open back rounded					Q
+Other symbols
+
+voiceless labial-velar fricative		W 
+voiced labial-palatal approx.		H 
+voiceless epiglottal fricative		H\ 
+voiced epiglottal fricative			<\ 
+epiglottal plosive					>\
+
+alveolo-palatal fricative, vl. 		s\ 
+alveolo-palatal fricative, voiced	z\ 
+alveolar lateral flap				l\ 
+simultaneous S and x					x\ 
+tie bar								_
+Suprasegmentals
+
+primary stress						" 
+secondary stress						% 
+long									: 
+half-long							:\ 
+extra-short							_X 
+linking mark							-\
+Tones and word accents
+
+level extra high						_T 
+level high							_H
+level mid							_M 
+level low							_L 
+level extra low						_B
+downstep								! 
+upstep								^	(caret, circumflex)
+
+contour, rising						 
+contour, falling						_F 
+contour, high rising					_H_T 
+contour, low rising					_B_L 
+
+contour, rising-falling				_R_F 
+(NB Instead of being written as diacritics with _, all prosodic 
+marks can alternatively be placed in a separate tier, set off 
+by < >, as recommended for the next two symbols.)
+global rise						<R> 
+global fall						<F>
+Diacritics						
+									
+voiceless						_0	(0 = figure), e.g. n_0
+voiced							_v 
+aspirated						_h 
+more rounded						_O	(O = letter) 
+less rounded						_c 
+advanced							_+
+retracted						_-
+centralized						_" 
+syllabic							=	(or _=) e.g. n= (or n_=) 
+non-syllabic						_^ 
+rhoticity						`
+									
+breathy voiced					_t 
+creaky voiced					_k
+linguolabial						_N 
+labialized						_w 
+palatalized						'	(or _j) e.g. t' (or t_j) 
+velarized						_G 
+pharyngealized					_?\
+									
+dental							_d 
+apical							_a 
+laminal							_m
+nasalized						~	(or _~) e.g. A~ (or A_~) 
+nasal release					_n
+lateral release					_l 
+no audible release				_}
+
+velarized or pharyngealized		_e 
+velarized l, alternatively		5 
+raised							_r 
+lowered							_o 
+advanced tongue root				_A 
+retracted tongue root			_q
+* * *
+<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-deu/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
 
 
@@ -2403,6 +2611,23 @@ For example:
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+
+We describe here how abbreviations are in German are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
@@ -2814,4 +3039,158 @@ expression **WORD - premodifiers**.
 
 
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-deu/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-deu/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Issues:
+- [X] Ambiguous input
+- Seems to work fine
+- [X] Ambiguous multiword expessions with ambiguous tokenisation
+- Seems to work – represented within lexc now; hfst-tokenise also
+supports forms on the analyses now
+- [X] Ambiguous multiword expessions need reorganising after CG
+- The module cg-mwesplit takes wordforms from readings and turns them into
+new cohorts
+- [X] Unknown words
+- The set-difference method only works for words without
+flag diacritics (even though we should be working only on the form-side?)
+and leads to binary blow-up: With only lower unknowns, we get 45M;
+lower+upper gives 67M, while no unknowns gives 27M
+- Fixed instead by treating empty analyses as unknown-tokens in
+hfst-tokenise, and outputting unmatched strings with a prefix
+- [ ] Treat input that's within superblanks as unmatched
+- probably requires a change in hfst-tokenise itself
+- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
+- [ ] Try set-difference-unknowns method with regular hfst commands?
+
+More usage examples:
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* select extended latin symbols
+* select symbols
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-deu/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for deu
+
+Usage:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
+
+
+
+
+
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+
+
+
+Apart from what's in our morphology, there are
+1. unknown word-like forms, and
+2. unmatched strings
+We want to give 1) a match, but let 2) be treated specially by
+`hfst-tokenise -a`
+Unknowns are made of:
+* lower-case ASCII
+* upper-case ASCII
+* select extended latin symbols
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+
+
+## Unknown handling
+Unknowns are tagged ?? and treated specially with `hfst-tokenise`
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-deu/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
