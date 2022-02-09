@@ -1,225 +1,24 @@
+# German description 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All documents in one file
 
 
 
 * Sets for POS sub-categories
 
-
-
-
-
 * Sets for Semantic tags
-
-
-
-
 
 * Sets for Morphosyntactic properties
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for verbs
-
 
 - V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
-
-
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -227,90 +26,30 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
 * Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Border sets and their complements
 
-
-
-
-
-
-
-
-
-
-
-
-
 * Syntactic sets
-
-
-
 
 These were the set types.
 
-
-
 ## HABITIVE MAPPING
 
-
 * **hab1** 
-
 
 * **hab2** 
 
 * **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 
-
-
 * **habNomLeft** 
 
-
 * **hab4** 	
-
-
 
 * **hab6** 
 
@@ -319,90 +58,11 @@ These were the set types.
 * **hab8** This is not HAB
 * **hab5**  This is not HAB
 
-
-
 * **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
-
-
-
 
 * **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
-
 
 * **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 
@@ -414,14 +74,11 @@ These were the set types.
 
 * **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
 
-
 * **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
 
 * **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
 
 * **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
-
-
 
 * **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
 
@@ -430,7 +87,6 @@ These were the set types.
 * **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
 
 * **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-
 
 * **NumTime** (@<SPRED) for A Nom
 
@@ -452,22 +108,13 @@ These were the set types.
 
 * **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
-
-
 * **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
 
 * **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
 
-
-
 * **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
 * **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
-
-
-
-
-
 
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
 
@@ -476,139 +123,57 @@ These were the set types.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
 
-
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
 
 * **f<advl** (@-F<ADVL) for infinite adverbials
-
-
 
 * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
-
-
-
 
 * **-fobj>** (@-FOBJ>) for Acc 
 
 * **-fobj>** (@-FOBJ>) for Acc
 
-
-
-
 * **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
 
-
 * **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
-
-
-
 
 * **<advlPoPr** (@<ADVL) if mainverb to the left.
 * **advlPoPr>** (@<ADVL) if mainverb to the right.
 
-
-
 * **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
-
-
-
-
-
 
 * **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
 
 * **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
 
-
-
 * **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
-
 
 * **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
 
-
-
 * **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-
-
-
-
-
-
-
-
-
-
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-
 ### sma object
-
-
-
-
-
-
-
-
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
-
-
-
-
 
 ## SUBJ MAPPING - leftovers
 
 ## OBJ MAPPING - leftovers
 
-
 ## HNOUN MAPPING
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-deu/blob/main/../src/cg3/functions.cg3)</small>
 
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-deu/blob/main/src/cg3/functions.cg3)</small>
 
+---
 
 
 
@@ -632,11 +197,6 @@ TRIGGER
 * %^RmVow:0 remove vowel
 * %^Umlaut:0 umlaut a:ä, o:ö, u:ü
 
-
-
-
-
-
 * *Boden%^Umlaut%>#*
 * *Böden000*
 
@@ -645,8 +205,6 @@ TRIGGER
 
 * *konn%^LowerVow*
 * *kann0*
-
-
 
 * *Baum%^Umlaut%>e#*
 * *Bäum00e0*
@@ -660,18 +218,13 @@ TRIGGER
 * ★*Napf%^Umlaut%>e#* (is not standard language)
 * ★*Napf00e0* (is not standard language)
 
-
-
 dreschen+V+Ind+Prs+Pl1
 * *drosch%^O2E%>en*
 * *dresch0%>en*
 
-
-
 geben+V+Ind+Prs+Sg1
 * *gab%^A2E%>e*
 * *geb0%>e*
-
 
 geben+V+Ind+Prs+Sg2
 * *gab%^A2I%>st*
@@ -683,12 +236,9 @@ fallen+V+Ind+Prt+Pl1
 * *fa0ll%^A2IE%^CC2C%>en*
 * *fiel00%>en*
 
-
-
 schwimmen+V+Ind+Prs+Sg2
 * *schwamm%^A2I%>st*
 * *schwimm0%>st*
-
 
 fahren+V+Ind+Prt+Sg2
 * *fahr%^A2U%>st*
@@ -709,7 +259,6 @@ dreschen+V+Ind+Prs+Sg3
 * *drosch%^O2I%>t*
 * *drisch0%>t*
 
-
 * *Saal%^Umlaut%>e#*
 * *Sä0l00e0*
 
@@ -724,9 +273,6 @@ reißen
 treffen+V+Subj+Prt+Pl1
 * *traff%^Umlaut%^CC2C%>en*
 * *trä0f00%>en*
-
-
-
 
 aasen+V+Ind+Prs+Sg2
 * *aas%>st*
@@ -747,7 +293,6 @@ schrecken+V+Subj+Prt+Pl1
 * *schrack%^Umlaut%^CC2C%>en*
 * *schrä0k00%>en*
 
-
 * *Nomade%>en#*
 * *Nomad00en0*
 
@@ -763,11 +308,9 @@ reißen
 * *reiss%^EI2I*
 * *r0iss0*
 
-
 mögen+V+Mod+Ind+Prt+Sg1
 * *mog0%^DeV%>te*
 * *moch0%>te*
-
 
 mögen+V+Mod+Ind+Prt+Sg1
 * *mog0%^DeV%>te*
@@ -782,25 +325,12 @@ halten+V+Ind+Prt+Sg2
 bleiben+V+Ind+Prt+Sg1
 * *blei0b%^EI2IE*
 * *bl0ieb0*
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/phonology.twolc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -808,58 +338,50 @@ bleiben+V+Ind+Prt+Sg1
 * Ammer w2f "(eng) bunting" ;  Ammer+N+Pl+Nom: Ammern
 * Karbonade w2f ;   Karbonade+N+Pl+Nom: Karbonaden
 
-
-
-
-
-
 FROM APERTIUM and beyond
-
-
 
 *	Bank+Hom1:bank K/uh__n_f "(eng) bench" ;  Bank+N+Pl+Nom: Bänke B/ank__n_f
 * Bank+Hom2:bank Abfuhr__n_f "(eng) bank" ;  Bank+N+Pl+Nom: Banken
 2016-01-25
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/nouns.lexc)</small>Adverbs
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+Adverbs
 Adverbs in GERMAN language describe things.
 
 FROM APERTIUM
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adverbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+
 FROM APERTIUM
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/interjections.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+
 
 Verbs
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/exceptions.lexc)</small>Numerals
+
+<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/exceptions.lexc)</small>
+
+---
+
+Numerals
 Numerals in GERMAN language are numbers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON ROMAN   **  roman numerals
 
@@ -879,10 +401,7 @@ Numerals in GERMAN language are numbers.
 
 * **LEXICON ROM-ONE-TAG   ** 
 
-
 * **LEXICON ROM-SPLIT   ** 
-
-
 
 * **LEXICON 2ROMAN   ** 
 
@@ -903,104 +422,70 @@ Numerals in GERMAN language are numbers.
 
 * **LEXICON ROMNUMTAG   **
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+
 FROM APERTIUM
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/propernouns.lexc)</small>Adjectives
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/propernouns.lexc)</small>
+
+---
+
+Adjectives
 Adjectives in GERMAN language describe things.
 
 FROM APERTIUM
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/adjectives.lexc)</small>Prefixes
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+Prefixes
 Prefixes in GERMAN language are bound to beginning of other words.
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/prefixes.lexc)</small>
 
+---
 
 
 
 wiederherangekommen
 
-
-
-
-
-
-
 This is where we put BE/EMP/ENT/ER words that are loners
 
 The verbs below can take BE/ENT/ER/VER/ZER
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 auxillary and modal verbs
 other verbs
 
-
-
-
-
-
-
 APERTIUM
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/verbs.lexc)</small>Work: the -X_ should be developed to convey part of speech, e.g. 
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+
+Work: the -X_ should be developed to convey part of speech, e.g. 
 eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
 
-
-
-
-
-
 FROM APERTIUM
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/abbreviations.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/abbreviations.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/abbreviations.lexc)</small>
 
-
-
-
-
-
+---
 
 
 
@@ -1008,408 +493,43 @@ Boden
 
 Bruder, Apfel
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CHECKME
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 these are from Apertium
 
-
-
-
-
-
-
-
 N_MSC_PL-with-umlaut
-
-
-
-
 
 These nouns were previously given a dummy Abhilfe__n_f to indicate
 they tended to be singular -heit, -keit
 
-
 This new
 also in SG Abhilfe__n_f
 
-
-
 * LEXICON Abhilfe__n_f  This was used in Apertium as FEM SG-only
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 N_F_PL-in-s
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 mit Artikel
 ohne Artikel
 
-
-
-
-
-
-
-
-
-
-
 * LEXICON Beamte/r__n_m  Beamter:beamte
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 N_Neu_PL-in-umlaut-plus-er
 
 N_Msc_PL-in-umlaut-plus-e
 
-
 N_Msc_PL-in-umlaut
-
-
 
 Let's check this out
 Is this just H/andelSG__n_m
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 the same as K/alb__n_nt
-
-
-
 
 * LEXICON Kapl/an__n_m  Kaplan:kaplan
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 same as K/uh__n_f
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 THis needs some tending to
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON Absurd/um__n_nt  Absurdum:Absurd
 
@@ -1431,7 +551,6 @@ THis needs some tending to
 
 * LEXICON Ausdr/uck__n_m 
 
-
 * LEXICON Bab/y__n_nt  Baby:Bab
 
 * LEXICON Bas/is__n_f  Basis:Bas
@@ -1445,7 +564,6 @@ THis needs some tending to
 * LEXICON Business__n_nt 
 
 * LEXICON Unverständnis__n_nt  Kein Mehrzahl
-
 
 * LEXICON Camp/us__n_m  Campus:Camp
 
@@ -1490,7 +608,6 @@ THis needs some tending to
 * LEXICON Herz__n_nt 
 
 * LEXICON Johanniter__n_f 
-
 
 * LEXICON Kakt/us__n_m  Kaktus:Kakt
 
@@ -1580,101 +697,44 @@ THis needs some tending to
 
 * LEXICON Xylophon__n_nt  Xylophon:xylophon
 
-
 * LEXICON Kirmes__n_f 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CHECKME ʼ
 CHECKME ʼ
-
-
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>Adverbs
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+Adverbs
 The GERMAN language adverbs
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adverbs.lexc)</small>Prepositions
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/adverbs.lexc)</small>
+
+---
+
+Prepositions
 The GERMAN language prepositions
-
-
-
-
 
 Not definite
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prepositions.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/prepositions.lexc)</small>Proper noun inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/prepositions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/prepositions.lexc)</small>
+
+---
+
+Proper noun inflection
 The GERMAN language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 CHECKME ʼ
 
-
 CHECKME ʼ
-
-
-
-
-
-
-
-
 
 CHECKME ʼ
 
@@ -1705,173 +765,75 @@ CHECKME ʼ
 FIXME
 CHECKME ʼ
 CHECKME ʼ
-
-
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/propernouns.lexc)</small>Adjective inflection
-The GERMAN language adjectives compare.
 
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+Adjective inflection
+The GERMAN language adjectives compare.
 
 * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
 
-
-
 * FEM-PRFPRC_ANGESTELLTE ;  see also Angestellte__n_f
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * LEXICON A_/viel__adj  viel:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON A_minde/r__adj  minder:minde
 
 * LEXICON A_n/ah__adj  nah:na
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/adjectives.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
 CHECKME, should there be +Comp and +Superl
 
 CHECKME, should there be +Comp and +Superl
-
-
-
-
-
-
-
-
-
-
-
 
 * +Ind+Prs+Sg1:%^Pen%^RmVow%>e  POST-V_01 ;  works with ackern
 
-
-
-
-
-
-
 * LEXICON V_haben__vbhaver  haben:ha
-
-
 
 * LEXICON V_/müssen__vbmod  müssen:muss
 
-
 * LEXICON V_/dürfen__vbmod  dürfen:darf
-
 
 * LEXICON V_/können__vbmod  können:konn
 
-
 * LEXICON V_/mögen__vbmod  mögen:mog
-
 
 * LEXICON V_/sollen__vbmod  sollen:soll
 
-
-
 * LEXICON V_/werden__vaux  werden:w
-
 
 * LEXICON V_/wollen__vaux  wollen:w
 
-
-
-
 * LEXICON V_/werden__vblex  werden:w
-
 
 * LEXICON V_/kommen__vblex  kommen:k
 
-
 * LEXICON V_g/eben__vblex  geben:gab
-
 
 * LEXICON V_spr/echen__vblex  geben:gab
 
-
 * LEXICON V_g/elten__vblex  gelten:galt
-
 
 * LEXICON V_tr/eten__vblex  treten:tratt
 
-
 * LEXICON V_g/ehen__vblex  gehen:g
 
-
 * LEXICON V_st/ehen__vblex  stehen:st
-
 
 * LEXICON V_s/ehen__vblex  sehen:sah
 
 * LEXICON V_schr/ecken__vblex  schrecken:schrack
-
 
 * LEXICON V_w/erfen__vblex  werfen:warf
 
@@ -1882,103 +844,72 @@ birst
 
 * LEXICON V_s/enden__vblex  senden:sand
 
-
 * LEXICON V_/nehmen__vblex  nehmen:n
-
 
 * LEXICON V_dr/eschen__vblex  dreschen:drosch
 
-
 * LEXICON V_/laufen__vblex  laufen:l
-
 
 * LEXICON V_h/alten__vblex  halten:halt
 
-
 * LEXICON V_l/assen__vblex  lassen:l
-
 
 * LEXICON V_st/oßen__vblex  stoßen:stoß
 
-
 * LEXICON V_bl/eiben__vblex  bleiben:bleib
-
 
 * LEXICON V_r/eißen__vblex  reißen:reiss
 
-
 * LEXICON V_gl/eichen__vblex  gleichen:gleich
-
 
 * LEXICON V_schw/immen__vblex  schwimmen:schwamm
 
-
 * LEXICON V_br/ingen__vblex  bringen:br
-
 
 * LEXICON V_d/ingen__vblex  dingen:dang
 
-
 * LEXICON V_f/inden__vblex  finden:fand
-
 
 * LEXICON V_s/itzen__vblex  sitzen:s
 
-
 * LEXICON V_d/enken__vblex  denken:d
 
-
 * LEXICON V_bew/egen__vblex  bewegen:bew
-
 
 * LEXICON V_pfl/egen__vblex  pflegen:pfl
 
 * LEXICON V_z/iehen__vblex  ziehen:z
 
-
 * LEXICON V_fr/ieren__vblex  frieren:fror
-
 
 * LEXICON V_sch/ießen__vblex  schießen:schoss
 
-
 * LEXICON V_f/ahren__vblex  fahren:fahr
 
-
 * LEXICON V_f/angen__vblex  fangen:fang
-
 
 * LEXICON V_/dürfen__vblex  dürfen:darf
 
 * LEXICON V_l/iegen__vblex  liegen:lag
 
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/symbols.lexc)</small>German language
 
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/symbols.lexc)</small>
 
+---
+
+German language
 
 * +SP2 	   singular or plural Formal
-
 
 *  +NoArt	 Stark accompanied preceding Indef
 Schwach Def
@@ -1988,14 +919,7 @@ gemischt Indef
 
 Homonyms
 
-
-
-
-
-
-
 Semantic tags to help disambiguation & synt. analysis: (before POS)
-
 
 *  +Sem/Act          = Activity
 *  +Sem/Adr          = Webadr
@@ -2090,7 +1014,6 @@ Semantic tags to help disambiguation & synt. analysis: (before POS)
 *  +Sem/Veh          = Vehicle
 *  +Sem/Wpn          = Weapon
 *  +Sem/Wthr         = The Weather or the state of ground
-
 
 Multiple Semantic tags:
 * +Sem/Act_Group Activity and Group
@@ -2220,26 +1143,7 @@ Multiple Semantic tags:
 * +Sem/Substnc_Wthr
 * +Sem/Time_Wthr
 
-
 Derivation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
@@ -2247,9 +1151,6 @@ Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arg
 * +%<dat%> case tags
 * +%<gen%> case tags
 * +%<nom%> case tags
-
-
-
 
 TRIGGER
 * %^A2E 
@@ -2271,7 +1172,6 @@ TRIGGER
 * %^RmVow remove vowel
 * %^Umlaut umlaut a:ä, o:ö, u:ü
 
-
 ## Escaped symbols
 
 Symbols that need to be escaped on the lower side (towards twolc):
@@ -2287,13 +1187,9 @@ The Usage extents are marked using following tags:
 * ** +Use/-Spell      ** Excluded in speller
 * ** +Use/SpellNoSugg ** recognized but not suggested in speller
 
-
-
-
 COMPOUNDING
 * +Cmp compound
 * +Use/Circ FIXME, (where I am)
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -2323,76 +1219,13 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
 * @U.Cap.Obl@ Nouns ;  This is stated once since R also leads directly to Nouns
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2554,52 +1387,12 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-deu/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-deu/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2610,7 +1403,11 @@ retracted tongue root			_q
 % násti% :%*     Root ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in German are read out, e.g.
@@ -2625,41 +1422,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -2689,8 +1473,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -2706,7 +1488,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -2769,11 +1550,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -2806,14 +1583,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -2885,22 +1658,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -2908,7 +1674,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -2923,7 +1688,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -2933,7 +1697,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -2947,49 +1710,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -2997,86 +1726,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-deu/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-deu/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for deu
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -3091,9 +1768,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -3107,14 +1781,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -3123,7 +1794,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-deu/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for deu
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-deu/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for deu
 
 Usage:
 ```
@@ -3135,12 +1811,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -3155,9 +1826,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -3175,16 +1843,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -3193,4 +1857,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-deu/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-deu/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

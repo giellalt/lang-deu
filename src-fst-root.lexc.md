@@ -1,9 +1,6 @@
 German language
 
-
-
 * +SP2 	   singular or plural Formal
-
 
 *  +NoArt	 Stark accompanied preceding Indef
 Schwach Def
@@ -13,14 +10,7 @@ gemischt Indef
 
 Homonyms
 
-
-
-
-
-
-
 Semantic tags to help disambiguation & synt. analysis: (before POS)
-
 
 *  +Sem/Act          = Activity
 *  +Sem/Adr          = Webadr
@@ -115,7 +105,6 @@ Semantic tags to help disambiguation & synt. analysis: (before POS)
 *  +Sem/Veh          = Vehicle
 *  +Sem/Wpn          = Weapon
 *  +Sem/Wthr         = The Weather or the state of ground
-
 
 Multiple Semantic tags:
 * +Sem/Act_Group Activity and Group
@@ -245,26 +234,7 @@ Multiple Semantic tags:
 * +Sem/Substnc_Wthr
 * +Sem/Time_Wthr
 
-
 Derivation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arguments
 
@@ -272,9 +242,6 @@ Valency tags, i.e. tags assigned to verbs or prepositions for denoting their arg
 * +%<dat%> case tags
 * +%<gen%> case tags
 * +%<nom%> case tags
-
-
-
 
 TRIGGER
 * %^A2E 
@@ -296,7 +263,6 @@ TRIGGER
 * %^RmVow remove vowel
 * %^Umlaut umlaut a:ä, o:ö, u:ü
 
-
 ## Escaped symbols
 
 Symbols that need to be escaped on the lower side (towards twolc):
@@ -312,13 +278,9 @@ The Usage extents are marked using following tags:
 * ** +Use/-Spell      ** Excluded in speller
 * ** +Use/SpellNoSugg ** recognized but not suggested in speller
 
-
-
-
 COMPOUNDING
 * +Cmp compound
 * +Use/Circ FIXME, (where I am)
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -348,11 +310,11 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
 * @U.Cap.Obl@ Nouns ;  This is stated once since R also leads directly to Nouns
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/root.lexc)</small>
+
+---
+

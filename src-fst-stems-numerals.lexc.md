@@ -1,23 +1,6 @@
 Numerals
 Numerals in GERMAN language are numbers.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON ROMAN   **  roman numerals
 
 * **LEXICON ROM-THOUSAND   ** 
@@ -36,10 +19,7 @@ Numerals in GERMAN language are numbers.
 
 * **LEXICON ROM-ONE-TAG   ** 
 
-
 * **LEXICON ROM-SPLIT   ** 
-
-
 
 * **LEXICON 2ROMAN   ** 
 
@@ -60,8 +40,9 @@ Numerals in GERMAN language are numbers.
 
 * **LEXICON ROMNUMTAG   **
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+

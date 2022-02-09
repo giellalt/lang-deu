@@ -1,9 +1,5 @@
 
 
-
-
-
-
 TRIGGER
 * %^A2E:0 
 * %^A2I:0 
@@ -24,11 +20,6 @@ TRIGGER
 * %^RmVow:0 remove vowel
 * %^Umlaut:0 umlaut a:ä, o:ö, u:ü
 
-
-
-
-
-
 * *Boden%^Umlaut%>#*
 * *Böden000*
 
@@ -37,8 +28,6 @@ TRIGGER
 
 * *konn%^LowerVow*
 * *kann0*
-
-
 
 * *Baum%^Umlaut%>e#*
 * *Bäum00e0*
@@ -52,18 +41,13 @@ TRIGGER
 * ★*Napf%^Umlaut%>e#* (is not standard language)
 * ★*Napf00e0* (is not standard language)
 
-
-
 dreschen+V+Ind+Prs+Pl1
 * *drosch%^O2E%>en*
 * *dresch0%>en*
 
-
-
 geben+V+Ind+Prs+Sg1
 * *gab%^A2E%>e*
 * *geb0%>e*
-
 
 geben+V+Ind+Prs+Sg2
 * *gab%^A2I%>st*
@@ -75,12 +59,9 @@ fallen+V+Ind+Prt+Pl1
 * *fa0ll%^A2IE%^CC2C%>en*
 * *fiel00%>en*
 
-
-
 schwimmen+V+Ind+Prs+Sg2
 * *schwamm%^A2I%>st*
 * *schwimm0%>st*
-
 
 fahren+V+Ind+Prt+Sg2
 * *fahr%^A2U%>st*
@@ -101,7 +82,6 @@ dreschen+V+Ind+Prs+Sg3
 * *drosch%^O2I%>t*
 * *drisch0%>t*
 
-
 * *Saal%^Umlaut%>e#*
 * *Sä0l00e0*
 
@@ -116,9 +96,6 @@ reißen
 treffen+V+Subj+Prt+Pl1
 * *traff%^Umlaut%^CC2C%>en*
 * *trä0f00%>en*
-
-
-
 
 aasen+V+Ind+Prs+Sg2
 * *aas%>st*
@@ -139,7 +116,6 @@ schrecken+V+Subj+Prt+Pl1
 * *schrack%^Umlaut%^CC2C%>en*
 * *schrä0k00%>en*
 
-
 * *Nomade%>en#*
 * *Nomad00en0*
 
@@ -155,11 +131,9 @@ reißen
 * *reiss%^EI2I*
 * *r0iss0*
 
-
 mögen+V+Mod+Ind+Prt+Sg1
 * *mog0%^DeV%>te*
 * *moch0%>te*
-
 
 mögen+V+Mod+Ind+Prt+Sg1
 * *mog0%^DeV%>te*
@@ -174,5 +148,10 @@ halten+V+Ind+Prt+Sg2
 bleiben+V+Ind+Prt+Sg1
 * *blei0b%^EI2IE*
 * *bl0ieb0*
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

@@ -1,420 +1,46 @@
 
 
-
-
-
-
-
-
-
-
-
 Boden
 
 Bruder, Apfel
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CHECKME
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 these are from Apertium
 
-
-
-
-
-
-
-
 N_MSC_PL-with-umlaut
-
-
-
-
 
 These nouns were previously given a dummy Abhilfe__n_f to indicate
 they tended to be singular -heit, -keit
 
-
 This new
 also in SG Abhilfe__n_f
 
-
-
 * LEXICON Abhilfe__n_f  This was used in Apertium as FEM SG-only
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 N_F_PL-in-s
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 mit Artikel
 ohne Artikel
 
-
-
-
-
-
-
-
-
-
-
 * LEXICON Beamte/r__n_m  Beamter:beamte
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 N_Neu_PL-in-umlaut-plus-er
 
 N_Msc_PL-in-umlaut-plus-e
 
-
 N_Msc_PL-in-umlaut
-
-
 
 Let's check this out
 Is this just H/andelSG__n_m
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 the same as K/alb__n_nt
-
-
-
 
 * LEXICON Kapl/an__n_m  Kaplan:kaplan
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 same as K/uh__n_f
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 THis needs some tending to
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * LEXICON Absurd/um__n_nt  Absurdum:Absurd
 
@@ -436,7 +62,6 @@ THis needs some tending to
 
 * LEXICON Ausdr/uck__n_m 
 
-
 * LEXICON Bab/y__n_nt  Baby:Bab
 
 * LEXICON Bas/is__n_f  Basis:Bas
@@ -450,7 +75,6 @@ THis needs some tending to
 * LEXICON Business__n_nt 
 
 * LEXICON Unverständnis__n_nt  Kein Mehrzahl
-
 
 * LEXICON Camp/us__n_m  Campus:Camp
 
@@ -495,7 +119,6 @@ THis needs some tending to
 * LEXICON Herz__n_nt 
 
 * LEXICON Johanniter__n_f 
-
 
 * LEXICON Kakt/us__n_m  Kaktus:Kakt
 
@@ -585,61 +208,14 @@ THis needs some tending to
 
 * LEXICON Xylophon__n_nt  Xylophon:xylophon
 
-
 * LEXICON Kirmes__n_f 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CHECKME ʼ
 CHECKME ʼ
-
-
-
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-deu/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
