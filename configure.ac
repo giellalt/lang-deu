@@ -205,8 +205,8 @@ gt_CONFIG_FILES
 ##### BEGIN: Add language-specific list of files to ######
 ########## be processed by autoconf below here: ##########
 
-AC_CONFIG_FILES([src/orthography/upcase-initial-noun_compound-noun-strings.xfstscript], \
-      [chmod a+x src/orthography/upcase-initial-noun_compound-noun-strings.xfstscript])
+AC_CONFIG_FILES([src/fst/orthography/upcase-initial-noun_compound-noun-strings.xfstscript], \
+      [chmod a+x src/fst/orthography/upcase-initial-noun_compound-noun-strings.xfstscript])
 
 ############ END: Language-specific scripts. #############
 
