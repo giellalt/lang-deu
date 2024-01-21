@@ -185,7 +185,7 @@ The GERMAN language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -194,7 +194,7 @@ The GERMAN language adverbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -415,7 +415,7 @@ CHECKME ʼ
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -426,7 +426,7 @@ Not definite
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/prepositions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/prepositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prepositions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/prepositions.lexc)</small>
 
 ---
 
@@ -470,7 +470,7 @@ CHECKME ʼ
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -479,7 +479,7 @@ CHECKME ʼ
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -586,7 +586,7 @@ birst
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -743,7 +743,7 @@ bleiben+V+Ind+Prt+Sg1
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -1063,7 +1063,7 @@ given the proper use of these flags.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -1074,7 +1074,7 @@ FROM APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/abbreviations.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/abbreviations.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/abbreviations.lexc)</small>
 
 ---
 
@@ -1085,7 +1085,7 @@ FROM APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -1096,7 +1096,7 @@ FROM APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -1106,7 +1106,7 @@ Verbs
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -1115,7 +1115,7 @@ FROM APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
 
@@ -1133,7 +1133,7 @@ FROM APERTIUM and beyond
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -1181,7 +1181,7 @@ Numerals in GERMAN language are numbers.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -1190,7 +1190,7 @@ Prefixes in GERMAN language are bound to beginning of other words.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
@@ -1199,7 +1199,7 @@ FROM APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
 
@@ -1218,7 +1218,7 @@ APERTIUM
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -1385,7 +1385,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-deu/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-deu/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1405,7 +1405,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1419,7 +1419,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
