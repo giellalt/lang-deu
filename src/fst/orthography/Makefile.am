@@ -14,7 +14,8 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
-		downcase-derived_proper-strings.xfscript \
+		downcase-derived_proper-strings.xfscript	\
+		upcase-initial-noun_compound-noun-strings.xfstscript \
 		spellrelax-with-tags.xfscript
 
 # Add extra targets here:
