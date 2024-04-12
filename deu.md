@@ -1,6 +1,10 @@
-# German description 
+# German language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-deu/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-deu/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The GERMAN language adjectives compare.
 
 * MSC-PRFPRC_BEAMTER ;  Beamter:beamte
@@ -189,6 +200,8 @@ The GERMAN language adjectives compare.
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 Adverbs
 The GERMAN language adverbs
 
@@ -197,6 +210,8 @@ The GERMAN language adverbs
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 
 
@@ -419,6 +434,8 @@ CHECKME ʼ
 
 ---
 
+# src-fst-morphology-affixes-prepositions.lexc.md 
+
 Prepositions
 The GERMAN language prepositions
 
@@ -429,6 +446,8 @@ Not definite
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/prepositions.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/prepositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The GERMAN language proper nouns inflect in the same cases as regular
@@ -474,6 +493,8 @@ CHECKME ʼ
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -482,6 +503,8 @@ CHECKME ʼ
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 
 
@@ -589,6 +612,8 @@ birst
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 
 
@@ -746,6 +771,8 @@ bleiben+V+Ind+Prt+Sg1
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 German language
 
@@ -1067,6 +1094,8 @@ given the proper use of these flags.
 
 ---
 
+# src-fst-morphology-stems-abbreviations.lexc.md 
+
 Work: the -X_ should be developed to convey part of speech, e.g. 
 eigtl.:eigtl. AB-DOT-X_ ; >> eigtl.:eigtl AB-DOT-ADV_ ;
 
@@ -1077,6 +1106,8 @@ FROM APERTIUM
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/abbreviations.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/abbreviations.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives.lexc.md 
 
 Adjectives
 Adjectives in GERMAN language describe things.
@@ -1089,6 +1120,8 @@ FROM APERTIUM
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
 Adverbs
 Adverbs in GERMAN language describe things.
 
@@ -1100,6 +1133,8 @@ FROM APERTIUM
 
 ---
 
+# src-fst-morphology-stems-exceptions.lexc.md 
+
 
 
 Verbs
@@ -1110,6 +1145,8 @@ Verbs
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 
 FROM APERTIUM
 
@@ -1118,6 +1155,8 @@ FROM APERTIUM
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 
 
@@ -1136,6 +1175,8 @@ FROM APERTIUM and beyond
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-numerals.lexc.md 
 
 Numerals
 Numerals in GERMAN language are numbers.
@@ -1185,6 +1226,8 @@ Numerals in GERMAN language are numbers.
 
 ---
 
+# src-fst-morphology-stems-prefixes.lexc.md 
+
 Prefixes
 Prefixes in GERMAN language are bound to beginning of other words.
 
@@ -1194,6 +1237,8 @@ Prefixes in GERMAN language are bound to beginning of other words.
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 
 FROM APERTIUM
 
@@ -1202,6 +1247,8 @@ FROM APERTIUM
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 
 
@@ -1221,6 +1268,8 @@ APERTIUM
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1389,6 +1438,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in German are read out, e.g.
@@ -1409,6 +1460,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -1422,6 +1475,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-deu/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1720,7 +1775,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-deu/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for deu
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-deu/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for deu
 
 Usage:
 ```
@@ -1782,6 +1844,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-deu/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for deu
 
@@ -1846,6 +1910,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1907,6 +1973,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-deu/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

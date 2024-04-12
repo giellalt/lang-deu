@@ -152,6 +152,3 @@ bleiben+V+Ind+Prt+Sg1
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-
