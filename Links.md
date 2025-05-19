@@ -7,6 +7,7 @@
                 * [adjectives.lexc](src-fst-morphology-affixes-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/adjectives.lexc))
                 * [adverbs.lexc](src-fst-morphology-affixes-adverbs.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/adverbs.lexc))
                 * [nouns.lexc](src-fst-morphology-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/nouns.lexc))
+                * [prefixes.lexc](src-fst-morphology-affixes-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/prefixes.lexc))
                 * [prepositions.lexc](src-fst-morphology-affixes-prepositions.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/prepositions.lexc))
                 * [propernouns.lexc](src-fst-morphology-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/propernouns.lexc))
                 * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/affixes/symbols.lexc))
@@ -21,7 +22,6 @@
                 * [interjections.lexc](src-fst-morphology-stems-interjections.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/interjections.lexc))
                 * [nouns.lexc](src-fst-morphology-stems-nouns.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/nouns.lexc))
                 * [numerals.lexc](src-fst-morphology-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/numerals.lexc))
-                * [prefixes.lexc](src-fst-morphology-stems-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/prefixes.lexc))
                 * [propernouns.lexc](src-fst-morphology-stems-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/propernouns.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-deu/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
