@@ -36,7 +36,7 @@ Multichar_Symbols
  !! Schwach Def
  !! gemischt Indef
 
-+PUNCT +CLB +HYPH +LEFT +RIGHT
++PUNCT +CLB +HYPH +LEFT +RIGHT +MIDDLE
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 !! Homonyms
