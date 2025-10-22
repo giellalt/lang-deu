@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-deu?label=CI)](https://builds.giellalt.org/pipelines/lang-deu/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/stan1295)
 
 This page documents the work on the **German language model**. 
 
