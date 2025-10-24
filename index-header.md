@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-deu%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-deu)](https://github.com/giellalt/lang-deu/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-deu/main/badge.svg)](https://github.com/giellalt/lang-deu/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-deu?label=CI)](https://builds.giellalt.org/pipelines/lang-deu/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/stan1295)
 
 This page documents the work on the **German language model**. 
 
